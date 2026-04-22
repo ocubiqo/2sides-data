@@ -1,6 +1,6 @@
 /**
  * Hourly military data updater for the 2 Sides app.
- * Fetches stats for all 30 countries in one Claude call and writes military/all.json.
+ * Fetches stats for active conflict countries in one Claude call and writes military/all.json.
  *
  * Env vars:
  *   ANTHROPIC_API_KEY  — required
@@ -35,32 +35,15 @@ const COUNTRIES = [
 // ── Prompt ────────────────────────────────────────────────────
 function buildPrompt() {
   const countryList = COUNTRIES.map(c => `${c.name} (${c.code})`).join(', ');
-  return `You are a military analyst. Provide current military statistics as of 2026 for all 30 of these countries: ${countryList}.
+  const n = COUNTRIES.length;
+  return `You are a military analyst. Using the latest available data from Global Firepower and IISS Military Balance, provide military statistics for these ${n} countries: ${countryList}.
 
 Return ONLY a valid JSON object keyed by country code with no markdown or prose:
-{
-  "US": {
-    "troops": <active personnel>,
-    "reserves": <reserve personnel>,
-    "tanks": <main battle tanks>,
-    "fighters": <fighter/multirole aircraft>,
-    "bombers": <bombers>,
-    "carriers": <aircraft carriers>,
-    "destroyers": <destroyers and frigates>,
-    "subs": <submarines>,
-    "ballisticMissiles": <count>,
-    "drones": <armed/combat drones>,
-    "airDefense": <1-10 capability score>,
-    "proxies": <1-10 proxy/asymmetric capability>,
-    "gdp": <GDP in billion USD>,
-    "nukes": <true or false>
-  },
-  "RU": { ...same fields... },
-  ... all 30 countries ...
-}
+{"US":{"troops":0,"reserves":0,"tanks":0,"fighters":0,"bombers":0,"carriers":0,"destroyers":0,"subs":0,"ballisticMissiles":0,"drones":0,"airDefense":5,"proxies":3,"gdp":0,"nukes":false},...}
 
-Use Global Firepower 2025/2026 and IISS Military Balance as primary sources.
-Include ALL 30 country codes. Output ONLY the JSON object with NO whitespace or newlines (compact/minified).`;
+Fields: troops/reserves (active+reserve personnel), tanks (MBTs), fighters (fighter/multirole), bombers, carriers (aircraft carriers), destroyers (destroyers+frigates), subs (submarines), ballisticMissiles, drones (armed/combat), airDefense (1-10 score), proxies (1-10 asymmetric score), gdp (billion USD), nukes (boolean).
+Include all ${n} country codes: ${COUNTRIES.map(c => c.code).join(', ')}.
+Output ONLY the compact JSON object, no whitespace.`;
 }
 
 // ── Parser ────────────────────────────────────────────────────
@@ -98,7 +81,8 @@ function parseResponse(text) {
         countries[code] = parseStats(parsed[code]);
       }
     }
-    return Object.keys(countries).length >= 20 ? countries : null;
+    const minExpected = Math.floor(COUNTRIES.length * 0.8);
+    return Object.keys(countries).length >= minExpected ? countries : null;
   } catch {
     return null;
   }
@@ -132,7 +116,7 @@ async function main() {
 
   const client = new Anthropic({ apiKey });
 
-  console.log('[update-military] Fetching stats for all 30 countries...');
+  console.log(`[update-military] Fetching stats for ${COUNTRIES.length} active conflict countries...`);
 
   const message = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
