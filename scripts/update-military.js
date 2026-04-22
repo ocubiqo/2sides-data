@@ -17,38 +17,19 @@ const MILITARY_DIR = join(ROOT, 'military');
 const ALL_FILE     = join(MILITARY_DIR, 'all.json');
 const MANIFEST_FILE = join(ROOT, 'manifest.json');
 
-// ── Country list (mirrors mobile app's dataService.ts) ────────
+// ── Active conflict countries only (covers all 7 CONFLICT_DEFS) ─
+// Non-state actors (Houthi, Hamas, RSF) and countries not in the
+// app's roster fall back to offline presets in the mobile app.
 const COUNTRIES = [
-  { code: 'US', name: 'United States' },
-  { code: 'RU', name: 'Russia' },
-  { code: 'CN', name: 'China' },
-  { code: 'IR', name: 'Iran' },
-  { code: 'IN', name: 'India' },
-  { code: 'PK', name: 'Pakistan' },
-  { code: 'IL', name: 'Israel' },
-  { code: 'KP', name: 'North Korea' },
-  { code: 'TR', name: 'Turkey' },
-  { code: 'SA', name: 'Saudi Arabia' },
-  { code: 'UA', name: 'Ukraine' },
-  { code: 'FR', name: 'France' },
-  { code: 'GB', name: 'United Kingdom' },
-  { code: 'DE', name: 'Germany' },
-  { code: 'JP', name: 'Japan' },
-  { code: 'KR', name: 'South Korea' },
-  { code: 'BR', name: 'Brazil' },
-  { code: 'EG', name: 'Egypt' },
-  { code: 'TW', name: 'Taiwan' },
-  { code: 'AU', name: 'Australia' },
-  { code: 'IT', name: 'Italy' },
-  { code: 'PL', name: 'Poland' },
-  { code: 'SE', name: 'Sweden' },
-  { code: 'SY', name: 'Syria' },
-  { code: 'IQ', name: 'Iraq' },
-  { code: 'VN', name: 'Vietnam' },
-  { code: 'TH', name: 'Thailand' },
-  { code: 'MY', name: 'Malaysia' },
-  { code: 'ID', name: 'Indonesia' },
-  { code: 'NG', name: 'Nigeria' },
+  { code: 'US', name: 'United States' },   // Iran–US, Red Sea
+  { code: 'IR', name: 'Iran' },             // Iran–US
+  { code: 'IL', name: 'Israel' },           // Iran–US, Israel–Gaza
+  { code: 'RU', name: 'Russia' },           // Ukraine–Russia
+  { code: 'UA', name: 'Ukraine' },          // Ukraine–Russia
+  { code: 'CN', name: 'China' },            // China–Taiwan
+  { code: 'TW', name: 'Taiwan' },           // China–Taiwan
+  { code: 'IN', name: 'India' },            // India–Pakistan
+  { code: 'PK', name: 'Pakistan' },         // India–Pakistan
 ];
 
 // ── Prompt ────────────────────────────────────────────────────
@@ -155,7 +136,7 @@ async function main() {
 
   const message = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
-    max_tokens: 8096,
+    max_tokens: 2048,
     messages:   [{ role: 'user', content: buildPrompt() }],
   });
 
