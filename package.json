@@ -1,0 +1,14 @@
+{
+  "name": "2sides-data",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Scheduled news data store for the 2 Sides app — updated hourly by Claude AI",
+  "scripts": {
+    "update": "node scripts/update-news.js",
+    "update:conflict": "node scripts/update-news.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

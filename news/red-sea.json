@@ -1,0 +1,8 @@
+{
+  "conflictId": "red-sea",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "generatedAtMs": 0,
+  "schemaVersion": 1,
+  "sideA": { "label": "", "articles": [] },
+  "sideB": { "label": "", "articles": [] }
+}

@@ -1,0 +1,44 @@
+name: Update News Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Every hour at :00 UTC — change to '0 */2 * * *' for every 2h, etc.
+  workflow_dispatch:
+    inputs:
+      conflict_id:
+        description: 'Specific conflict ID to update (leave blank for all 7 conflicts)'
+        required: false
+        default: ''
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run news updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONFLICT_ID: ${{ github.event.inputs.conflict_id }}
+        run: node scripts/update-news.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@2sides-data"
+          git add news/ manifest.json
+          git diff --staged --quiet || git commit -m "chore: update news $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
