@@ -79,7 +79,7 @@ Return ONLY a valid JSON object keyed by country code with no markdown or prose:
 }
 
 Use Global Firepower 2025/2026 and IISS Military Balance as primary sources.
-Include ALL 30 country codes. Output only the JSON object.`;
+Include ALL 30 country codes. Output ONLY the JSON object with NO whitespace or newlines (compact/minified).`;
 }
 
 // ── Parser ────────────────────────────────────────────────────
@@ -155,7 +155,7 @@ async function main() {
 
   const message = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
-    max_tokens: 4096,
+    max_tokens: 8096,
     messages:   [{ role: 'user', content: buildPrompt() }],
   });
 
