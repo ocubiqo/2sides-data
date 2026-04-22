@@ -1,4 +1,4 @@
-name: Update News Data
+name: Update News & Military Data
 
 on:
   schedule:
@@ -9,6 +9,14 @@ on:
         description: 'Specific conflict ID to update (leave blank for all 7 conflicts)'
         required: false
         default: ''
+      skip_news:
+        description: 'Skip news update (true/false)'
+        required: false
+        default: 'false'
+      skip_military:
+        description: 'Skip military data update (true/false)'
+        required: false
+        default: 'false'
 
 jobs:
   update:
@@ -28,16 +36,23 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run news updater
+      - name: Update news data
+        if: ${{ github.event.inputs.skip_news != 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CONFLICT_ID: ${{ github.event.inputs.conflict_id }}
         run: node scripts/update-news.js
 
+      - name: Update military data
+        if: ${{ github.event.inputs.skip_military != 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/update-military.js
+
       - name: Commit updated data
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@2sides-data"
-          git add news/ manifest.json
-          git diff --staged --quiet || git commit -m "chore: update news $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git add news/ military/ manifest.json
+          git diff --staged --quiet || git commit -m "chore: update data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push
