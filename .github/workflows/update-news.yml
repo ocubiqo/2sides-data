@@ -2,7 +2,7 @@ name: Update News Data
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # Every 2 hours
+    - cron: '0 0 * * *'   # Every 24 hours at midnight UTC
   workflow_dispatch:
     inputs:
       conflict_id:
