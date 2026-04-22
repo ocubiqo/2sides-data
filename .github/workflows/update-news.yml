@@ -1,8 +1,11 @@
 name: Update News Data
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # Every 24 hours at midnight UTC
+  # PAUSED — re-enable schedule block below when app goes live
+  # schedule:
+  #   - cron: '0 0 * * *'     # Every 24 hours at midnight UTC
+  #   - cron: '0 */2 * * *'   # Every 2 hours (higher frequency option)
+  #   - cron: '0 */6 * * *'   # Every 6 hours (medium frequency option)
   workflow_dispatch:
     inputs:
       conflict_id:

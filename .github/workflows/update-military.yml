@@ -1,8 +1,10 @@
 name: Update Military Data
 
 on:
-  schedule:
-    - cron: '0 0 * * 0'   # Every 7 days — Sundays at midnight UTC
+  # PAUSED — re-enable schedule block below when app goes live
+  # schedule:
+  #   - cron: '0 0 * * 0'   # Every 7 days — Sundays at midnight UTC
+  #   - cron: '0 0 * * *'   # Every 24 hours option
   workflow_dispatch:
 
 env:
