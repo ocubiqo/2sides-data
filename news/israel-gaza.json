@@ -1,8 +1,106 @@
 {
   "conflictId": "israel-gaza",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:11:58.490Z",
+  "generatedAtMs": 1776834718490,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "Israel",
+    "articles": [
+      {
+        "id": "0",
+        "title": "IDF eliminates two Hamas terrorists in central Gaza strikes",
+        "source": "JNS.org - Jewish News Syndicate",
+        "sourceType": "newswire",
+        "description": "The IDF confirmed elimination of Anas Khaled Safi, a Hamas terrorist planning attack against troops, and Ayman Housna, who manufactured weapons for Hamas. Both were described as posing immediate threats and eliminated in precise aerial strikes.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.jns.org/news/israel-news/idf-eliminates-two-hamas-terrorists-in-central-gaza-strikes"
+      },
+      {
+        "id": "1",
+        "title": "Netanyahu remarks at state memorial ceremony for fallen of Israel's wars",
+        "source": "JNS.org - Jewish News Syndicate",
+        "sourceType": "official",
+        "description": "Israeli Prime Minister Benjamin Netanyahu delivered remarks at the state memorial ceremony on Mount Herzl on April 21, 2026, marking Yom Hazikaron (Memorial Day) for fallen soldiers and terror victims.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.jns.org/news/israel-news/idf-eliminates-two-hamas-terrorists-in-central-gaza-strikes"
+      },
+      {
+        "id": "2",
+        "title": "Israeli forces raid Beit Duqqu, shoot 17-year-old and others",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "On April 16, Israeli forces staged a raid on Beit Duqqu northwest of Jerusalem, killing 17-year-old Mohammed Rayan and shooting four others with live fire. Soldiers reportedly prevented ambulances from treating the youth.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.aljazeera.com/news/2026/4/21/palestine-weekly-wrap-coordinated-attacks-and-evictions-in-gaza-west-bank"
+      },
+      {
+        "id": "3",
+        "title": "Israeli airstrikes kill 11 Palestinians in Gaza including two children",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "On April 14-15, Israeli attacks killed at least 11 Palestinians including a three-year-old and 14-year-old in separate strikes on Gaza City and Shati refugee camp, continuing violations of October ceasefire.",
+        "publishedAt": "2026-04-15",
+        "url": "https://www.aljazeera.com/news/2026/4/15/israeli-attacks-kill-11-including-two-children-in-day-of-strikes-on-gaza"
+      },
+      {
+        "id": "4",
+        "title": "Israeli forces kill civilians accessing water in Gaza City",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "On April 17, brothers Mahmoud and Eid Abu Warda were killed by Israeli drone while attempting to get water in Gaza City's Shujayea neighborhood; another drone struck water desalination facility killing one more.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.aljazeera.com/news/2026/4/21/palestine-weekly-wrap-coordinated-attacks-and-evictions-in-gaza-west-bank"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "Palestine & Allies",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Hamas rejects disarmament plan, demands Israel fulfill Phase I obligations",
+        "source": "The Jerusalem Post",
+        "sourceType": "newswire",
+        "description": "On April 15, Hamas rejected the US-led Board of Peace's disarmament plan and requested modifications. A senior Hamas official told BBC they are waiting for clear timeline for Israel to fulfill Phase I ceasefire obligations before Phase II negotiations.",
+        "publishedAt": "2026-04-15",
+        "url": "https://www.jpost.com/middle-east/article-893098"
+      },
+      {
+        "id": "1",
+        "title": "Palestinian Islamic Jihad releases death notices for killed commanders",
+        "source": "Live UA Map",
+        "sourceType": "newswire",
+        "description": "On April 21, Palestinian Islamic Jihad released batch of death notices for commanders killed during the Gaza war, reflecting ongoing casualties among the militant organization.",
+        "publishedAt": "2026-04-21",
+        "url": "https://israelpalestine.liveuamap.com/"
+      },
+      {
+        "id": "2",
+        "title": "Hamas official killed in Israeli airstrike near Khan Younis",
+        "source": "Live UA Map",
+        "sourceType": "newswire",
+        "description": "On April 21, a Palestinian identified as Khamees Al-Qassas was killed in an Israeli airstrike near Sheikh Nasser area east of Khan Younis in southern Gaza Strip.",
+        "publishedAt": "2026-04-21",
+        "url": "https://israelpalestine.liveuamap.com/"
+      },
+      {
+        "id": "3",
+        "title": "Hamas spokesman Abu Obeida rejects disarmament demands as continuation of genocide",
+        "source": "Al Jazeera",
+        "sourceType": "official",
+        "description": "On April 5, Hamas armed wing spokesperson Abu Obeida stated that disarmament demands amount to attempt to continue Israel's genocide. The group rejected calls to disarm before Israel fully implements ceasefire phase one.",
+        "publishedAt": "2026-04-05",
+        "url": "https://www.aljazeera.com/news/2026/4/5/hamas-armed-wing-says-disarmament-demands-not-acceptable"
+      },
+      {
+        "id": "4",
+        "title": "Hamas clashes with Israeli-backed militia amid ceasefire violations",
+        "source": "New Arab",
+        "sourceType": "newswire",
+        "description": "On April 21, Hamas fighters clashed with gunmen from an Israeli-backed militia, while Israeli strikes killed at least two Palestinians in separate incidents in Bureij camp and Gaza City.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.newarab.com/news/israel-kills-2-gaza-hamas-clashes-israel-backed-militia"
+      }
+    ]
+  }
 }

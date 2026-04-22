@@ -1,13 +1,55 @@
 {
-  "lastUpdatedAt": "1970-01-01T00:00:00.000Z",
-  "lastUpdatedAtMs": 0,
+  "lastUpdatedAt": "2026-04-22T05:14:54.386Z",
+  "lastUpdatedAtMs": 1776834894386,
   "conflicts": {
-    "iran-us":        { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "ukraine-russia": { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "israel-gaza":    { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "red-sea":        { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "taiwan-china":   { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "india-pakistan": { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } },
-    "sudan":          { "generatedAtMs": 0, "articleCount": { "a": 0, "b": 0 } }
+    "iran-us": {
+      "generatedAtMs": 1776834682943,
+      "articleCount": {
+        "a": 5,
+        "b": 5
+      }
+    },
+    "ukraine-russia": {
+      "generatedAtMs": 1776834699856,
+      "articleCount": {
+        "a": 5,
+        "b": 5
+      }
+    },
+    "israel-gaza": {
+      "generatedAtMs": 1776834718490,
+      "articleCount": {
+        "a": 5,
+        "b": 5
+      }
+    },
+    "red-sea": {
+      "generatedAtMs": 1776834760212,
+      "articleCount": {
+        "a": 5,
+        "b": 4
+      }
+    },
+    "taiwan-china": {
+      "generatedAtMs": 1776834801105,
+      "articleCount": {
+        "a": 5,
+        "b": 3
+      }
+    },
+    "india-pakistan": {
+      "generatedAtMs": 1776834851061,
+      "articleCount": {
+        "a": 4,
+        "b": 4
+      }
+    },
+    "sudan": {
+      "generatedAtMs": 1776834894386,
+      "articleCount": {
+        "a": 5,
+        "b": 4
+      }
+    }
   }
 }

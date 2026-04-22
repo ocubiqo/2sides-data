@@ -1,8 +1,88 @@
 {
   "conflictId": "taiwan-china",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:13:21.105Z",
+  "generatedAtMs": 1776834801105,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "Taiwan & US",
+    "articles": [
+      {
+        "id": "0",
+        "title": "PLA Liaoning Aircraft Carrier Transits Taiwan Strait",
+        "source": "Taiwan Ministry of National Defense",
+        "sourceType": "official",
+        "description": "Chinese aircraft carrier Liaoning transited the Taiwan Strait on April 20, marking the first carrier passage since the Fujian's December 2025 transit.",
+        "publishedAt": "2026-04-20",
+        "url": "https://www.stripes.com/theaters/asia_pacific/2026-04-21/china-aircraft-carrier-taiwan-strait-21440494.html"
+      },
+      {
+        "id": "1",
+        "title": "PLA Type 076 Amphibious Assault Ship Conducts Training Exercises",
+        "source": "PLA Navy Official Weibo",
+        "sourceType": "official",
+        "description": "The Sichuan, China's first Type 076 amphibious assault ship, set sail from Shanghai for South China Sea training missions to test onboard systems and platforms.",
+        "publishedAt": "2026-04-22",
+        "url": "https://www.scmp.com/news/china/military/article/3350932/chinas-new-type-076-drone-carrier-take-part-south-china-sea-training-drills"
+      },
+      {
+        "id": "2",
+        "title": "Eastern Theater Command Monitors Japanese Destroyer Transit",
+        "source": "China Defense Ministry",
+        "sourceType": "official",
+        "description": "Eastern Theater Command deployed naval and air assets to track and monitor Japanese destroyer JS Ikazuchi's April 17 Taiwan Strait transit, maintaining effective control of the situation.",
+        "publishedAt": "2026-04-18",
+        "url": "https://www.chinadaily.com.cn/a/202604/21/WS69e6ba48a310d6866eb4481c.html"
+      },
+      {
+        "id": "3",
+        "title": "Defense Ministry Warns Against Taiwan Independence and External Interference",
+        "source": "Chinese Defense Ministry Spokesman Zhang Xiaogang",
+        "sourceType": "official",
+        "description": "Senior Colonel Zhang Xiaogang warned \"relevant countries\" to abandon illusions of using Taiwan to contain China, stating the military remains on high alert to counter any external interference.",
+        "publishedAt": "2026-04-18",
+        "url": "https://www.chinadaily.com.cn/a/202604/21/WS69e6ba48a310d6866eb4481c.html"
+      },
+      {
+        "id": "4",
+        "title": "PLA Daily Issues Warning to Japan on Taiwan Strait Militarism",
+        "source": "PLA Daily",
+        "sourceType": "official",
+        "description": "PLA's official military newspaper warned Japan that its Taiwan Strait military activities constitute more than 'grey zone' tactics and represent dangerous new militarism with unbearable consequences.",
+        "publishedAt": "2026-04-19",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3350646/japans-treaty-day-taiwan-strait-warship-transit-new-flashpoint-china"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "China / PLA",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Taiwan Ministry of Defense Monitors PLA Military Drills and Aircraft Activities",
+        "source": "Taiwan Ministry of National Defense",
+        "sourceType": "official",
+        "description": "Taiwan's MND confirmed tracking of PLA Type 076 amphibious assault ship departure from Shanghai and continued monitoring of Chinese military aircraft and naval activities around the strait.",
+        "publishedAt": "2026-04-22",
+        "url": "https://www.scmp.com/news/china/military/article/3350932/chinas-new-type-076-drone-carrier-take-part-south-china-sea-training-drills"
+      },
+      {
+        "id": "1",
+        "title": "Taiwan Partners with France for Missile Frigate Upgrades",
+        "source": "Taiwan Ministry of National Defense",
+        "sourceType": "official",
+        "description": "Taiwan is upgrading six Kang Ding-class guided missile frigates with French military expertise, including BAE System's Type 997 ARTISAN radar to improve air defense capabilities.",
+        "publishedAt": "2026-04-01",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-10-2026/"
+      },
+      {
+        "id": "2",
+        "title": "Taiwan Delays Critical Military Procurement Due to Budget Deadlock",
+        "source": "Taiwan Defense Ministry / US Government",
+        "sourceType": "official",
+        "description": "Taiwan's acquisition of HIMARS, M109A7 self-propelled howitzers, and TOW/Javelin ATGMs faces delays; US approved deferral of payment until May 2026 as legislative deadlock continues.",
+        "publishedAt": "2026-03-30",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-3-2026/"
+      }
+    ]
+  }
 }

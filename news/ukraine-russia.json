@@ -1,8 +1,106 @@
 {
   "conflictId": "ukraine-russia",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:11:39.856Z",
+  "generatedAtMs": 1776834699856,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "Ukraine & NATO",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Ukraine's GUR claims strike on Russian landing ships in Sevastopol Bay",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Ukraine's military intelligence unit claimed attacks on two Russian landing ships and a radar station in Sevastopol Bay in Russian-occupied Crimea on April 20.",
+        "publishedAt": "2026-04-20",
+        "url": "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks"
+      },
+      {
+        "id": "1",
+        "title": "Ukraine strikes Tuapse oil refinery for second time in three days",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Ukrainian drones targeted the port of Tuapse, killing at least one person and damaging transport infrastructure. The strike was the second on the port in three days.",
+        "publishedAt": "2026-04-20",
+        "url": "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks"
+      },
+      {
+        "id": "2",
+        "title": "Russian attacks kill 6, injure 59 across Ukraine in 24 hours",
+        "source": "Kyiv Independent",
+        "sourceType": "newswire",
+        "description": "Russian attacks killed six people and injured 59 others across Ukraine over the past day as of April 21, according to local authorities.",
+        "publishedAt": "2026-04-21",
+        "url": "https://kyivindependent.com"
+      },
+      {
+        "id": "3",
+        "title": "Ukrainian drone strike hits Samara oil hub overnight",
+        "source": "Kyiv Independent",
+        "sourceType": "newswire",
+        "description": "Ukraine says drones struck a key oil distribution hub in Russia's Samara Oblast overnight, sparking a fire. President Zelensky warned that sanctions relief is fueling Russia's war ambitions.",
+        "publishedAt": "2026-04-21",
+        "url": "https://kyivindependent.com"
+      },
+      {
+        "id": "4",
+        "title": "Zelensky expresses doubts about peace talks in Moscow-Kyiv meeting",
+        "source": "Kyiv Independent",
+        "sourceType": "official",
+        "description": "President Volodymyr Zelensky voiced doubts about peace talks, stating it would be disrespectful to meet in Moscow without visiting Kyiv first, as expected U.S. meetings with Witkoff and Kushner approach.",
+        "publishedAt": "2026-04-20",
+        "url": "https://kyivindependent.com"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "Russia",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Russian Defense Ministry reports control of Veterinary village in Kharkiv",
+        "source": "Pravda Ukraine",
+        "sourceType": "state",
+        "description": "Russian Defense Ministry reported that Group of troops North established control over the village of Veterinary in Kharkiv region as of April 21, 2026.",
+        "publishedAt": "2026-04-21",
+        "url": "https://usa.news-pravda.com/world/2026/04/21/751639.html"
+      },
+      {
+        "id": "1",
+        "title": "Russian forces advance in Kursk Oblast",
+        "source": "Kyiv Post",
+        "sourceType": "analysis",
+        "description": "Russian forces recently advanced in Kursk Oblast. Russian forces also launched 236 drones against Ukraine on April 19, 2026.",
+        "publishedAt": "2026-04-19",
+        "url": "https://www.kyivpost.com/post/74278"
+      },
+      {
+        "id": "2",
+        "title": "Russian Defense Ministry claims territorial gains near Donetsk",
+        "source": "Wikipedia/Russian Military Sources",
+        "sourceType": "state",
+        "description": "Russian milbloggers claimed Russian forces seized Viroliubivka north of Kostiantynivka and villages of Dobropillia and Svyatopetrivka north of Huliaipole in mid-April 2026.",
+        "publishedAt": "2026-04-15",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2026_%E2%80%93_present)"
+      },
+      {
+        "id": "3",
+        "title": "Russia deploys new Geran-5 jet-powered drone with 1,000 km range",
+        "source": "Wikipedia/HUR",
+        "sourceType": "analysis",
+        "description": "Russia deployed a new jet-powered drone called Geran-5 carrying a 90 kg warhead with 1,000 km strike range, air-launched by Su-25 aircraft, according to Ukrainian military intelligence.",
+        "publishedAt": "2026-04-16",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2026_%E2%80%93_present)"
+      },
+      {
+        "id": "4",
+        "title": "Russian forces conduct recruitment decree with mandatory quotas",
+        "source": "Wikipedia/Russian Regional Authority",
+        "sourceType": "state",
+        "description": "Ryazan Oblast governor signed decree requiring companies to nominate military service candidates: 300-employee firms nominate 2 candidates, 500-employee firms nominate 5 candidates by September 20, 2026.",
+        "publishedAt": "2026-04-12",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2026_%E2%80%93_present)"
+      }
+    ]
+  }
 }

@@ -1,8 +1,97 @@
 {
   "conflictId": "red-sea",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:12:40.212Z",
+  "generatedAtMs": 1776834760212,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "US-led Coalition",
+    "articles": [
+      {
+        "id": "0",
+        "title": "USS Gerald R. Ford Returns to Red Sea Operations",
+        "source": "Zona Militar",
+        "sourceType": "newswire",
+        "description": "Nuclear-powered carrier USS Gerald R. Ford resumed Red Sea operations after maintenance, now supporting Operation Epic Fury alongside USS Abraham Lincoln and USS Tripoli Strike Group.",
+        "publishedAt": "2026-04-20",
+        "url": "https://www.zona-militar.com/en/2026/04/20/the-nuclear-powered-aircraft-carrier-uss-gerald-r-ford-resumes-operations-in-the-red-sea-under-u-s-central-commands-area-of-responsibility/"
+      },
+      {
+        "id": "1",
+        "title": "CENTCOM Hormus Blockade Operations and Mine Clearance Staging",
+        "source": "Naval News",
+        "sourceType": "newswire",
+        "description": "U.S. Navy repositioning 10,000+ personnel, destroyers, and minesweepers to clear Strait of Hormuz; USS George H.W. Bush diverted around Cape of Good Hope due to Houthi threats in Bab el-Mandeb.",
+        "publishedAt": "2026-04-16",
+        "url": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-stages-for-mine-clearance-as-hormuz-blockade-begins-showing-strain/"
+      },
+      {
+        "id": "2",
+        "title": "Experts Warn on Bab el-Mandeb Vulnerability Despite Hormuz Focus",
+        "source": "Military Times",
+        "sourceType": "analysis",
+        "description": "CSIS and Pentagon experts warn Houthis could close Bab el-Mandeb Strait amid fragile US-Iran ceasefire; CENTCOM refined blockade scope to Iranian-bound vessels only.",
+        "publishedAt": "2026-04-14",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/"
+      },
+      {
+        "id": "3",
+        "title": "USS George H.W. Bush Forced to Detour Around Africa",
+        "source": "Defence Security Asia",
+        "sourceType": "analysis",
+        "description": "Supercarrier diverted 6,000 miles around Cape of Good Hope due to sustained Houthi missile, drone, and small-boat threats in Bab el-Mandeb corridor.",
+        "publishedAt": "2026-04-16",
+        "url": "https://defencesecurityasia.com/en/uss-george-hw-bush-red-sea-detour-houthi-threat-africa-bab-el-mandeb-2026/"
+      },
+      {
+        "id": "4",
+        "title": "Red Sea Crisis: Wikipedia Update on Recent Military Operations",
+        "source": "Wikipedia",
+        "sourceType": "analysis",
+        "description": "Summary of Red Sea escalation timeline through April 2026, including March 15 US strikes in Yemen killing 53 and April 17 Ras Issa strike killing 74.",
+        "publishedAt": "2026-04-15",
+        "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "Houthi / Ansar Allah",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Houthis Claim Ben Gurion Airport Strike",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Yahya Saree claims responsibility for cluster missile and drone attack on Israel's Ben Gurion airport in Jaffa.",
+        "publishedAt": "2026-04-05",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/5/yemens-houthis-claim-cluster-missile-attack-on-israels-ben-gurion-airport"
+      },
+      {
+        "id": "2",
+        "title": "Houthis Resume Missile Attacks on Israel",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Brigadier-General Yahya Saree announced barrage of ballistic missiles targeting Israeli military sites; warned operations continue until aggression against resistance fronts ceases.",
+        "publishedAt": "2026-03-29",
+        "url": "https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2"
+      },
+      {
+        "id": "3",
+        "title": "Houthis Signal Blockade of Bab al-Mandeb as Strategic Option",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Deputy Information Minister Mohammed Mansour stated closing Bab al-Mandeb strait is among Houthi options; 30% of Israeli imports pass through waterway.",
+        "publishedAt": "2026-03-29",
+        "url": "https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2"
+      },
+      {
+        "id": "4",
+        "title": "Red Sea Crisis: Wikipedia Update on Recent Houthi Operations",
+        "source": "Wikipedia",
+        "sourceType": "analysis",
+        "description": "Timeline confirms Houthis resumed attacks on Israel March 28, 2026 amid 2026 Iran war; previously paused attacks from November 2025 after Gaza ceasefire.",
+        "publishedAt": "2026-04-15",
+        "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
+      }
+    ]
+  }
 }

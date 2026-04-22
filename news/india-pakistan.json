@@ -1,8 +1,88 @@
 {
   "conflictId": "india-pakistan",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:14:11.061Z",
+  "generatedAtMs": 1776834851061,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "India",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Chief of Defence Staff General Anil Chauhan in London for India-UK Military Talks",
+        "source": "Indian Defence Research Wing",
+        "sourceType": "official",
+        "description": "Chief of Defence Staff General Anil Chauhan arrived in London on April 19, 2026, for a three-day visit to discuss military training, operations, and defence industry partnerships between India and the United Kingdom.",
+        "publishedAt": "2026-04-21",
+        "url": "https://idrw.org/"
+      },
+      {
+        "id": "1",
+        "title": "Indian Army Issues New Air-to-Air Missile Requirement for Attack Helicopters",
+        "source": "Indian Defence Research Wing",
+        "sourceType": "official",
+        "description": "The Indian Army issued fresh requirements in April 2026 for a new generation air-to-air missile for attack helicopters including LCH Prachand and armed Rudra, seeking heat-seeking infrared-guided munitions with minimum 7km engagement range.",
+        "publishedAt": "2026-04-22",
+        "url": "https://idrw.org/"
+      },
+      {
+        "id": "2",
+        "title": "India Postpones Mock Border Drills Citing Administrative Reasons",
+        "source": "Kashmir Media Service",
+        "sourceType": "analysis",
+        "description": "India postponed military mock drills planned in border states and occupied Jammu and Kashmir due to administrative reasons amid evolving regional and global dynamics, according to political observers.",
+        "publishedAt": "2026-04-20",
+        "url": "https://kmsnews.org/kms/2026/04/20/analysts-contrast-indias-posture-with-pakistans-global-peace-efforts.html"
+      },
+      {
+        "id": "3",
+        "title": "India-Pakistan May 2025 Military Conflict: Five-Day Escalation and Ceasefire",
+        "source": "House of Commons Library",
+        "sourceType": "official",
+        "description": "From May 6-10, 2025, India and Pakistan conducted military strikes against each other following the April 22, 2025 Pahalgam attack that killed 26 people, resulting in a declared ceasefire on May 10.",
+        "publishedAt": "2026-04-21",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10264/"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "Pakistan",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Pakistan Air Chief Urges India to Take Mature Stance on Kashmir at PMA Ceremony",
+        "source": "Photonews/Official PAF Statement",
+        "sourceType": "official",
+        "description": "Air Chief Marshal Zaheer Ahmed Baber Sidhu addressed Pakistan Military Academy passing-out parade on April 18, 2026, calling for India to adopt mature position on Kashmir and highlighting PAF's May 2025 operations success.",
+        "publishedAt": "2026-04-18",
+        "url": "https://photonews.com.pk/pakistan-air-chief-urges-india-to-take-mature-kashmir-stance/"
+      },
+      {
+        "id": "1",
+        "title": "Pakistan Extends Airspace Closure for Indian Aircraft Until May 24, 2026",
+        "source": "Bol News / Pakistan Airports Authority",
+        "sourceType": "official",
+        "description": "Pakistan Airports Authority issued fresh NOTAM extending closure of airspace to all Indian civilian and military aircraft until May 24, 2026, citing Kashmir tensions and maintaining the ban imposed in April 2025.",
+        "publishedAt": "2026-04-21",
+        "url": "https://www.bolnews.com/pakistan/pakistan-extends-airspace-ban-for-indian-aircrafts/"
+      },
+      {
+        "id": "2",
+        "title": "Pakistan Air Chief Highlights May 2025 Operations Success and Two-Front Challenge",
+        "source": "The Nation / Official PAF Statement",
+        "sourceType": "official",
+        "description": "Air Chief Marshal Zaheer Ahmad Babar Sidhu cited May 2025 operations 'Marka-e-Haq' and 'Bunyan-um-Marsoos' as evidence of Pakistan's military capability and warned of preparedness against two-front challenge from India and Afghanistan.",
+        "publishedAt": "2026-04-19",
+        "url": "https://www.nation.com.pk/19-Apr-2026/pakistan-s-military-capability-surprised-adversary-may-conflict"
+      },
+      {
+        "id": "3",
+        "title": "Pakistan Navy Conducts Live-Weapon Firing Test of Indigenous Weapons System",
+        "source": "Defence for Peace / ISPR",
+        "sourceType": "official",
+        "description": "On April 16, 2026, Pakistan Navy successfully conducted live-weapon firing test of a locally developed weapons system, demonstrating indigenous defence capabilities.",
+        "publishedAt": "2026-04-16",
+        "url": "https://defenceforpeace.com/pakistan-army-news-updates/"
+      }
+    ]
+  }
 }

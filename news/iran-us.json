@@ -1,8 +1,106 @@
 {
   "conflictId": "iran-us",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:11:22.943Z",
+  "generatedAtMs": 1776834682943,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "US & Allies",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Trump Extends Ceasefire with Iran at Pakistan's Request",
+        "source": "AP News",
+        "sourceType": "newswire",
+        "description": "US President Donald Trump announced extension of the two-week ceasefire with Iran, originally set to expire April 22, citing Pakistan's request for extended talks.",
+        "publishedAt": "2026-04-21T19:47:00Z",
+        "url": "https://www.britannica.com/event/2026-Iran-war"
+      },
+      {
+        "id": "1",
+        "title": "US Forces Board Sanctioned Oil Tanker in Indian Ocean",
+        "source": "AP News",
+        "sourceType": "newswire",
+        "description": "Pentagon announced US forces boarded a sanctioned oil tanker in the Indian Ocean as part of naval operations enforcing blockade on Iran.",
+        "publishedAt": "2026-04-21T16:47:00Z",
+        "url": "https://www.britannica.com/event/2026-Iran-war"
+      },
+      {
+        "id": "2",
+        "title": "US Military Pushes for 2027 Spending Boost on Drones and Air Defenses",
+        "source": "AP News",
+        "sourceType": "newswire",
+        "description": "US military leadership requested increased 2027 budget allocations for drone and air defense systems deployed during Iran war operations.",
+        "publishedAt": "2026-04-21T18:00:00Z",
+        "url": "https://www.britannica.com/event/2026-Iran-war"
+      },
+      {
+        "id": "3",
+        "title": "Trump Says Ceasefire Extension Highly Unlikely Without Deal",
+        "source": "CNN",
+        "sourceType": "newswire",
+        "description": "President Trump stated ceasefire will likely end April 23 if Iran deal not reached, with Vice President JD Vance preparing departure for Islamabad talks.",
+        "publishedAt": "2026-04-21T06:18:00Z",
+        "url": "https://www.cnn.com/2026/04/20/world/live-news/iran-war-us-trump-israel"
+      },
+      {
+        "id": "4",
+        "title": "Pakistan Mediates Second Round of US-Iran Peace Talks",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Second phase of US-Iran negotiations scheduled in Islamabad April 23 with VP Vance, envoy Witkoff, and Jared Kushner on US side; Iran's Ghalibaf expected to lead Iranian delegation.",
+        "publishedAt": "2026-04-21T17:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-united-states-military-strike-war-2026"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "Iran & Allies",
+    "articles": [
+      {
+        "id": "0",
+        "title": "Iran Reopens Major Airports After War-Related Closures",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Iran reopened Imam Khomeini and Mehrabad airports after weeks of closures, signaling partial normalization as ceasefire holds.",
+        "publishedAt": "2026-04-21T10:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-war-what-is-happening-on-day-53-of-the-us-israel-conflict"
+      },
+      {
+        "id": "1",
+        "title": "Iran Rejects US Demands Under Threat, Conditions Remain Unchanged",
+        "source": "Iranian Ministry of Foreign Affairs",
+        "sourceType": "official",
+        "description": "Iranian Foreign Ministry spokesman Esmaeil Baghaei stated US is not learning from experience, rejecting ceasefire terms and insisting Iran will not negotiate under shadow of US naval blockade.",
+        "publishedAt": "2026-04-21T15:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-united-states-military-strike-war-2026"
+      },
+      {
+        "id": "2",
+        "title": "Iran Threatens Response to US Naval Blockade",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Tehran called US seizure of sanctioned ships 'piracy' and threatened retribution; IRGC Navy warned military vessels approaching Strait would trigger 'severe response.'",
+        "publishedAt": "2026-04-20T22:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-united-states-military-strike-war-2026"
+      },
+      {
+        "id": "3",
+        "title": "Iran Delegates Uncertain About Islamabad Talks Attendance",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Pakistan's information minister reported Iran's decision on delegation attendance for April 23 Islamabad talks still pending; sources indicate possible participation by Ghalibaf and Araghchi.",
+        "publishedAt": "2026-04-21T14:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-war-what-is-happening-on-day-53-of-the-us-israel-conflict"
+      },
+      {
+        "id": "4",
+        "title": "Iran Proposes 10-Point Peace Plan Rejected by Pakistan",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "Iran rejected Pakistan's draft ceasefire framework and issued own 10-point plan including sanctions relief, war reparations, and restoration of Iranian Strait of Hormuz sovereignty.",
+        "publishedAt": "2026-04-18T12:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/4/21/iran-united-states-military-strike-war-2026"
+      }
+    ]
+  }
 }

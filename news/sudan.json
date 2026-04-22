@@ -1,8 +1,97 @@
 {
   "conflictId": "sudan",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "generatedAtMs": 0,
+  "generatedAt": "2026-04-22T05:14:54.386Z",
+  "generatedAtMs": 1776834894386,
   "schemaVersion": 1,
-  "sideA": { "label": "", "articles": [] },
-  "sideB": { "label": "", "articles": [] }
+  "sideA": {
+    "label": "SAF (Government)",
+    "articles": [
+      {
+        "id": "0",
+        "title": "SAF Continues Field Operations in North Kordofan Axis",
+        "source": "SUNA (Sudan News Agency)",
+        "sourceType": "official",
+        "description": "The Sudanese Armed Forces reported on Saturday, April 18, 2026, that they are carrying out wide-scale clearing operations in North Kordofan, covering Kazgail, Shawaya, Al-Hamadi, and Al-Dibeibat. The operations inflicted heavy losses on RSF with destruction of combat vehicles.",
+        "publishedAt": "2026-04-18",
+        "url": "https://allafrica.com/stories/202604200206.html"
+      },
+      {
+        "id": "1",
+        "title": "Sudan Army Launches Major Ground Offensive in Kordofan",
+        "source": "Sudan Tribune",
+        "sourceType": "newswire",
+        "description": "The Sudanese army announced extensive clearing operations across North and South Kordofan states, claiming destruction of four RSF combat groups and seizure of 57 combat vehicles, with the goal of cutting supply lines to RSF and allied forces.",
+        "publishedAt": "2026-04-18",
+        "url": "https://sudantribune.com/article/312946"
+      },
+      {
+        "id": "2",
+        "title": "Sudan's Civil War Enters Fourth Year with Military Impasse",
+        "source": "Al Jazeera",
+        "sourceType": "analysis",
+        "description": "Sudan's conflict has created territorial division with SAF controlling northern, central, eastern states and capital Khartoum, while the military deadlock persists in Kordofan region and humanitarian crisis worsens in Darfur.",
+        "publishedAt": "2026-04-16",
+        "url": "https://www.aljazeera.com/news/2026/4/16/after-three-years-of-war-sudan-army-and-rsf-locked-in-military-impasse"
+      },
+      {
+        "id": "3",
+        "title": "SAF Controls Eastern and Northern Regions After Recapturing Khartoum",
+        "source": "Council on Foreign Relations",
+        "sourceType": "analysis",
+        "description": "One year after SAF regained control of Khartoum from RSF, the armed forces maintain control of northern, central and eastern states, though western Darfur remains under RSF control with UN identifying genocide hallmarks.",
+        "publishedAt": "2026-04-22",
+        "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+      },
+      {
+        "id": "4",
+        "title": "SAF Recaptured Bara in North Kordofan in March",
+        "source": "Al Jazeera",
+        "sourceType": "newswire",
+        "description": "The Sudanese army recaptured Bara, the second-largest city in North Kordofan, in March 2026, continuing its push to control strategic areas in the Kordofan region.",
+        "publishedAt": "2026-04-16",
+        "url": "https://www.aljazeera.com/news/2026/4/16/after-three-years-of-war-sudan-army-and-rsf-locked-in-military-impasse"
+      }
+    ]
+  },
+  "sideB": {
+    "label": "RSF",
+    "articles": [
+      {
+        "id": "0",
+        "title": "RSF Repels SAF Attack on Kazgail and Al-Hammadi Axes",
+        "source": "Rapid Support Forces Official Website",
+        "sourceType": "official",
+        "description": "The RSF announced on April 20, 2026, that it repelled an attack launched by SAF militias and mercenary movements along the Kazgail and Al-Hammadi axes, engaging in fierce battle against the forces.",
+        "publishedAt": "2026-04-20",
+        "url": "https://rapidsupportforce.com/en"
+      },
+      {
+        "id": "1",
+        "title": "Kutum Town in North Darfur Subjected to SAF Drone Attack",
+        "source": "Rapid Support Forces Official Website",
+        "sourceType": "official",
+        "description": "RSF reported that Kutum in North Darfur was subjected to a drone attack on the evening of April 8, 2026, as part of what they describe as a systematic pattern of targeting innocent civilians by SAF.",
+        "publishedAt": "2026-04-08",
+        "url": "https://rapidsupportforce.com/en"
+      },
+      {
+        "id": "2",
+        "title": "RSF Members Injured in Convoy Attack Near South Sudan Border",
+        "source": "Darfur24",
+        "sourceType": "newswire",
+        "description": "Two RSF members were seriously injured and their weapons stolen after gunmen attacked commercial trucks traveling from Al-Raqibat border crossing with South Sudan toward Darfur on April 20, 2026.",
+        "publishedAt": "2026-04-20",
+        "url": "https://www.darfur24.com/en/2026/04/20/gunmen-attack-convoy-near-south-sudan-border-injure-rsf-members-in-east-darfur/"
+      },
+      {
+        "id": "3",
+        "title": "RSF Controls Most of Darfur After Fall of El-Fasher",
+        "source": "Al Jazeera",
+        "sourceType": "analysis",
+        "description": "RSF captured el-Fasher, the capital of North Darfur, on October 26, 2025, after a two-year siege, allowing consolidation of control over most of Darfur region except three northern areas held by army and joint forces.",
+        "publishedAt": "2026-04-16",
+        "url": "https://www.aljazeera.com/news/2026/4/16/after-three-years-of-war-sudan-army-and-rsf-locked-in-military-impasse"
+      }
+    ]
+  }
 }
