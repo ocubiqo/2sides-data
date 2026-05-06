@@ -1,57 +1,55 @@
 {
-  "lastUpdatedAt": "2026-04-22T05:14:54.386Z",
-  "lastUpdatedAtMs": 1776834894386,
+  "lastUpdatedAt": "2026-05-06T11:38:08.811Z",
+  "lastUpdatedAtMs": 1778067488811,
   "conflicts": {
     "iran-us": {
-      "generatedAtMs": 1776834682943,
+      "generatedAtMs": 1778067270246,
       "articleCount": {
         "a": 5,
         "b": 5
       }
     },
     "ukraine-russia": {
-      "generatedAtMs": 1776834699856,
+      "generatedAtMs": 1778067288932,
       "articleCount": {
         "a": 5,
         "b": 5
       }
     },
     "israel-gaza": {
-      "generatedAtMs": 1776834718490,
+      "generatedAtMs": 1778067307823,
       "articleCount": {
         "a": 5,
         "b": 5
       }
     },
     "red-sea": {
-      "generatedAtMs": 1776834760212,
+      "generatedAtMs": 1778067350304,
       "articleCount": {
-        "a": 5,
-        "b": 4
+        "a": 0,
+        "b": 0
       }
     },
     "taiwan-china": {
-      "generatedAtMs": 1776834801105,
+      "generatedAtMs": 1778067389477,
       "articleCount": {
-        "a": 5,
-        "b": 3
+        "a": 4,
+        "b": 5
       }
     },
     "india-pakistan": {
-      "generatedAtMs": 1776834851061,
+      "generatedAtMs": 1778067441525,
       "articleCount": {
         "a": 4,
         "b": 4
       }
     },
     "sudan": {
-      "generatedAtMs": 1776834894386,
+      "generatedAtMs": 1778067488811,
       "articleCount": {
         "a": 5,
-        "b": 4
+        "b": 5
       }
     }
-  },
-  "militaryUpdatedAtMs": 1776836142412,
-  "militaryUpdatedAt": "2026-04-22T05:35:42.412Z"
+  }
 }
