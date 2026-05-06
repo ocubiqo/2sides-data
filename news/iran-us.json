@@ -1,55 +1,55 @@
 {
   "conflictId": "iran-us",
-  "generatedAt": "2026-05-06T11:34:30.246Z",
-  "generatedAtMs": 1778067270246,
+  "generatedAt": "2026-05-06T14:46:43.043Z",
+  "generatedAtMs": 1778078803043,
   "schemaVersion": 1,
   "sideA": {
     "label": "US & Allies",
     "articles": [
       {
         "id": "0",
-        "title": "Defense Secretary Hegseth: Ceasefire Not Over Despite Gulf Exchanges",
-        "source": "U.S. News & World Report / Reuters",
+        "title": "Trump Pauses Project Freedom Hormuz Operation",
+        "source": "NPR",
         "sourceType": "newswire",
-        "description": "Defense Secretary Pete Hegseth stated the ceasefire with Iran remains intact despite US-Iran exchanges of fire over Strait of Hormuz control, noting CENTCOM communicated with hundreds of ships and companies.",
-        "publishedAt": "2026-05-05",
-        "url": "https://www.usnews.com/news/world/articles/2026-05-05/us-not-looking-for-a-fight-with-temporary-operation-to-protect-ships-from-iran-pentagon-chief-says"
+        "description": "President Trump announced Tuesday evening he was pausing the U.S. effort to guide stranded vessels out of the Strait of Hormuz to allow time for a deal to end the Iran war, while maintaining the American naval blockade of Iranian ports.",
+        "publishedAt": "2026-05-05T00:00:00Z",
+        "url": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates"
       },
       {
         "id": "1",
-        "title": "Project Freedom Launch: US Escorts Stranded Ships Through Hormuz",
-        "source": "Al Jazeera",
+        "title": "U.S. Military Denies Iranian Missile Strike Claims on Warship",
+        "source": "CNBC",
         "sourceType": "newswire",
-        "description": "CENTCOM launched Operation Project Freedom on May 4, deploying guided-missile destroyers and 100+ aircraft with 15,000 service members to escort commercial vessels through the blocked Strait of Hormuz.",
-        "publishedAt": "2026-05-05",
-        "url": "https://www.aljazeera.com/news/2026/5/5/centcom-says-project-freedom-has-just-2"
+        "description": "U.S. Central Command denied Iran's claim that a U.S. warship transiting the Strait of Hormuz was struck by two missiles and forced to retreat during Project Freedom operations.",
+        "publishedAt": "2026-05-04T09:08:00Z",
+        "url": "https://www.cnbc.com/2026/05/04/iran-war-trump-strait-of-hormuz.html"
       },
       {
         "id": "2",
-        "title": "CENTCOM Denies Iranian Missile Strike on US Navy Ship",
-        "source": "RedState/CENTCOM",
-        "sourceType": "official",
-        "description": "CENTCOM confirmed no US Navy ships were struck and reiterated that US forces are supporting Project Freedom while enforcing the naval blockade on Iranian ports.",
-        "publishedAt": "2026-05-04",
-        "url": "https://redstate.com/nick-arama/2026/05/04/centcom-weighs-in-on-action-in-strait-n2201969"
+        "title": "U.S. Forces Fire on Iranian Boats in Hormuz Strait",
+        "source": "NPR",
+        "sourceType": "newswire",
+        "description": "The U.S. military said it fired on Iranian forces and sank six small boats as it moved to reopen the Strait of Hormuz on Monday during Project Freedom operations.",
+        "publishedAt": "2026-05-04T00:00:00Z",
+        "url": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates"
       },
       {
         "id": "3",
-        "title": "US Helicopters Destroy Six Iranian Boats in Strait of Hormuz",
-        "source": "Wikipedia / CENTCOM",
-        "sourceType": "official",
-        "description": "CENTCOM reported that US helicopters destroyed six Iranian small boats attacking ships in the Strait of Hormuz on May 4-5.",
-        "publishedAt": "2026-05-05",
-        "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        "title": "Pentagon and Joint Chiefs Brief Trump on Iran Strike Options",
+        "source": "Axios",
+        "sourceType": "analysis",
+        "description": "CENTCOM prepared a plan for a 'short and powerful' wave of strikes on Iran likely including infrastructure targets to break the negotiating deadlock, with Defense Secretary Hegseth and Joint Chiefs Chairman Caine briefing Trump on May 1.",
+        "publishedAt": "2026-04-30T00:00:00Z",
+        "url": "https://www.axios.com/2026/04/30/trump-military-plans-iran-briefing-centcom"
       },
       {
         "id": "4",
-        "title": "Trump Claims Iran Military Reduced to Firing 'Peashooters'",
-        "source": "Al Jazeera",
-        "sourceType": "official",
-        "description": "President Trump stated Iran's military capability has been severely degraded and claimed Tehran wants to make a deal despite public rhetoric.",
-        "publishedAt": "2026-05-05",
-        "url": "https://www.aljazeera.com/news/2026/5/5/centcom-says-project-freedom-has-just-2"
+        "title": "CENTCOM Redirects 49 Commercial Vessels Under Blockade",
+        "source": "Stars and Stripes",
+        "sourceType": "newswire",
+        "description": "CENTCOM reported on May 3 that Admiral Brad Cooper visited U.S. guided-missile destroyers, with 49 commercial vessels redirected to comply with the American naval blockade of Iranian ports since April 13.",
+        "publishedAt": "2026-05-03T00:00:00Z",
+        "url": "https://www.stripes.com/theaters/middle_east/2026-05-03/hormuz-central-command-iran-blockade-21568091.html"
       }
     ]
   },
@@ -58,48 +58,48 @@
     "articles": [
       {
         "id": "0",
-        "title": "Iranian Military Warns US to Keep Out of Hormuz",
-        "source": "Wikipedia / Iranian Military",
+        "title": "Iranian Military Warns Against Hormuz Approach",
+        "source": "NPR",
         "sourceType": "official",
-        "description": "On May 4, Iranian military issued warning to US forces to stay out of the Strait of Hormuz as Project Freedom commenced.",
-        "publishedAt": "2026-05-04",
-        "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        "description": "Major General Ali Abdollahi warned that any foreign military force, especially the U.S. military, approaching the Strait of Hormuz will be targeted by Iranian forces.",
+        "publishedAt": "2026-05-04T00:00:00Z",
+        "url": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates"
       },
       {
         "id": "1",
-        "title": "IRGC Navy Claims Missile Strike on US Naval Frigate",
-        "source": "IRGC-aligned news agency/Wikipedia",
-        "sourceType": "official",
-        "description": "IRGC-aligned news agency claimed Iranian navy fired two missiles hitting an American naval frigate in Strait of Hormuz, though CENTCOM denied the strike.",
-        "publishedAt": "2026-05-04",
-        "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        "title": "Iran Claims Missile Strike on U.S. Frigate",
+        "source": "CNBC",
+        "sourceType": "newswire",
+        "description": "Iran's IRGC-aligned Fars News Agency claimed that Iranian navy fired two missiles and hit an American naval frigate in the Strait of Hormuz after it ignored warnings, though CENTCOM denied the strike.",
+        "publishedAt": "2026-05-04T00:00:00Z",
+        "url": "https://www.cnbc.com/2026/05/04/iran-war-trump-strait-of-hormuz.html"
       },
       {
         "id": "2",
-        "title": "Iran Responds to Project Freedom with Military Action Near Jask",
-        "source": "Global Security / Iranian State Media",
-        "sourceType": "official",
-        "description": "Iranian state media reported IRGCN missile attack on US Navy warship near Jask on May 4 after vessel ignored Revolutionary Guard warnings to halt.",
-        "publishedAt": "2026-05-04",
-        "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+        "title": "Iran Strikes UAE with Cruise Missiles and Drones",
+        "source": "CNN",
+        "sourceType": "newswire",
+        "description": "Iran launched multiple cruise missiles, drones and small boats at UAE targets on May 4, with the emirate's air defenses engaging 19 Iranian missiles and drones, and fires breaking out at oil facilities in Fujairah.",
+        "publishedAt": "2026-05-04T00:00:00Z",
+        "url": "https://www.cnbc.com/2026/05/04/iran-war-trump-strait-of-hormuz.html"
       },
       {
         "id": "3",
-        "title": "Iran Denies Responsibility for UAE Drone Strike on Oil Plant",
-        "source": "Wikipedia / Iranian Government",
-        "sourceType": "official",
-        "description": "Iran stated it had no pre-planned programme to attack UAE and characterized the drone strike on Fujairah oil processing plant as product of US military adventurism.",
-        "publishedAt": "2026-05-04",
+        "title": "Iran Denies Pre-Planned UAE Attacks",
+        "source": "Wikipedia 2026 Iran war",
+        "sourceType": "analysis",
+        "description": "Iran stated it had 'no pre-planned programme' to attack the UAE, characterizing incidents as products of 'U.S. military adventurism,' while an anonymous military official attributed the oil facility incident to U.S. efforts to create illegal passage.",
+        "publishedAt": "2026-05-04T00:00:00Z",
         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
       },
       {
         "id": "4",
-        "title": "Houthi Movement Warns Against Escalation in Hormuz Campaign",
-        "source": "Wikipedia / Houthi Statements",
-        "sourceType": "official",
-        "description": "Houthi movement warned it would respond to escalation against Iran, specifically cautioning Bahrain and UAE they would be first to lose in battle.",
-        "publishedAt": "2026-05-04",
-        "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        "title": "Houthis Halt Attacks Under Ceasefire Agreement",
+        "source": "Wikipedia Red Sea crisis",
+        "sourceType": "newswire",
+        "description": "On May 6, 2026, the U.S. halted its attacks on the Houthis following a ceasefire agreement where the Houthis would no longer target American shipping after weeks of strikes on over 1,000 targets in Yemen.",
+        "publishedAt": "2026-05-06T00:00:00Z",
+        "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
       }
     ]
   }

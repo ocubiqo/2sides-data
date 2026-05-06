@@ -1,54 +1,54 @@
 {
   "conflictId": "sudan",
-  "generatedAt": "2026-05-06T11:38:08.811Z",
-  "generatedAtMs": 1778067488811,
+  "generatedAt": "2026-05-06T14:50:19.029Z",
+  "generatedAtMs": 1778079019029,
   "schemaVersion": 1,
   "sideA": {
     "label": "SAF (Government)",
     "articles": [
       {
         "id": "0",
-        "title": "SAF Repels Large-Scale RSF Attack on Wadi al-Hout",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "The SAF repelled a large scale RSF attack on Wadi al-Hout in North Kordofan, maintaining defensive positions in the region as fighting continues.",
-        "publishedAt": "May 2026",
-        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
+        "title": "SAF forces repositioned toward north amid major Kordofan mobilization",
+        "source": "Darfur24",
+        "sourceType": "newswire",
+        "description": "The Sudanese Armed Forces General Staff withdrew battalions from El Obeid and other regions, redeploying toward Omdurman and strategic northern routes in preparation for upcoming offensives in Kordofan.",
+        "publishedAt": "2026-05-04",
+        "url": "https://darfur24.com/en/2026/05/04/sudan-braces-for-major-kordofan-battle-as-army-and-rsf-mass-forces/"
       },
       {
         "id": "1",
-        "title": "Central Bank of Sudan Resumes Operations in Khartoum",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "The Central Bank of Sudan announced the resumption of its operations in Khartoum for the first time since the civil war began, signaling return of institutional functions.",
-        "publishedAt": "May 2026",
-        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
+        "title": "High-ranking RSF defector Al-Qubba recovers seized property in Khartoum",
+        "source": "Sudan Tribune",
+        "sourceType": "newswire",
+        "description": "Major General Al-Nour Ahmed Adam (Al-Qubba), a former RSF commander, recovered a multi-story property in Khartoum's Kafouri district after defecting to the SAF in April 2026. The return was part of a defection agreement brokered by General al-Burhan.",
+        "publishedAt": "2026-05-05",
+        "url": "https://sudantribune.com/article/313580"
       },
       {
         "id": "2",
-        "title": "SAF Drone Strike on Abu Zaima Market",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "Five people were killed in an SAF drone strike on a market in Abu Zaima, North Kordofan, as fighting continues in the region.",
-        "publishedAt": "May 2026",
+        "title": "Central Bank of Sudan resumes operations in Khartoum",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The Central Bank of Sudan announced the resumption of its operations in Khartoum for the first time since the civil war began in April 2023, signaling reconstruction efforts in the recaptured capital.",
+        "publishedAt": "2026-04-30",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       },
       {
         "id": "3",
-        "title": "SAF Retakes Habila and Breaks Siege of Dalang",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "The SAF retook Habila and broke the siege of Dalang in South Kordofan, advancing strategic positions against the RSF.",
-        "publishedAt": "May 2026",
+        "title": "SAF repelled large-scale RSF attack on Wadi al-Hout in North Kordofan",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The Sudanese Armed Forces successfully repelled a large-scale Rapid Support Forces attack on Wadi al-Hout in North Kordofan, one of several SAF defensive victories reported in late April.",
+        "publishedAt": "2026-04-28",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       },
       {
         "id": "4",
-        "title": "SAF Drone Strike on Dalang",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "Five people were killed in a drone strike on Dalang as SAF operations continue in contested areas of South Kordofan.",
-        "publishedAt": "May 2026",
+        "title": "SAF conducts strikes on RSF supply convoy in Blue Nile State",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The SAF conducted airstrikes on a Rapid Support Forces supply convoy in Yabus, Blue Nile State, near the Ethiopia-Sudan border, targeting RSF logistics capabilities.",
+        "publishedAt": "2026-04-24",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       }
     ]
@@ -58,47 +58,47 @@
     "articles": [
       {
         "id": "0",
-        "title": "RSF Concentrates Combat Vehicles in North Kordofan",
-        "source": "Darfur24 News",
+        "title": "RSF conducts drone strike killing 5 civilians near Khartoum",
+        "source": "ABC News",
         "sourceType": "newswire",
-        "description": "RSF forces concentrated more than 150 combat vehicles in Bara and Um Badr in North Kordofan as part of a major military buildup and repositioning strategy.",
-        "publishedAt": "2026-05-04",
-        "url": "https://darfur24.com/en/2026/05/04/sudan-braces-for-major-kordofan-battle-as-army-and-rsf-mass-forces/"
+        "description": "The Rapid Support Forces killed at least five people in a drone attack on a civilian vehicle traveling from White Nile province to Omdurman on May 3, 2026, reflecting continued targeting of civilian areas.",
+        "publishedAt": "2026-05-03",
+        "url": "https://abcnews.com/International/wireStory/paramilitary-forces-drone-strike-kills-5-sudan-capital-132610962"
       },
       {
         "id": "1",
-        "title": "RSF Redirects Forces from Darfur to Kordofan",
-        "source": "Darfur24 News",
+        "title": "RSF forces repositioned from Darfur to expand territorial control",
+        "source": "Darfur24",
         "sourceType": "newswire",
-        "description": "RSF sources confirmed forces were redirected from South and North Darfur during April to expand territorial control, pausing South Kordofan operations to reprioritize targets.",
+        "description": "RSF forces were redirected from South and North Darfur during April as part of a strategy to expand territorial control, with operations in South Kordofan paused to reprioritize targets.",
         "publishedAt": "2026-05-04",
         "url": "https://darfur24.com/en/2026/05/04/sudan-braces-for-major-kordofan-battle-as-army-and-rsf-mass-forces/"
       },
       {
         "id": "2",
-        "title": "RSF Drone Strike on Dalang",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "Two people were killed in an RSF drone strike on Dalang as RSF forces claimed to have shot down an SAF Bayraktar drone over the city.",
-        "publishedAt": "May 2026",
+        "title": "RSF detains 17 Zaghawas from East Darfur, including rural court head",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The Rapid Support Forces detained 17 Zaghawa individuals from Mahajeriya in East Darfur, including the head of the rural court, marking continued arrests in RSF-controlled areas.",
+        "publishedAt": "2026-04-30",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       },
       {
         "id": "3",
-        "title": "RSF Detained 17 Zaghawas in East Darfur",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "The RSF detained 17 Zaghawas from Mahajeriya in East Darfur, including the head of the rural court, in operations across North Darfur.",
-        "publishedAt": "May 2026",
+        "title": "RSF claims to have shot down SAF Bayraktar drone over Dalang",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The Rapid Support Forces claimed to have shot down a Sudanese Armed Forces Bayraktar drone over Dalang city, as part of ongoing aerial engagements in contested areas.",
+        "publishedAt": "2026-04-29",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       },
       {
         "id": "4",
-        "title": "RSF Retakes Bara and Karnoi in North Darfur",
-        "source": "Wikipedia Timeline of the Sudanese civil war (2026)",
-        "sourceType": "official",
-        "description": "The RSF retook Bara as well as Karnoi in North Darfur near the border with Chad, consolidating positions in the western region.",
-        "publishedAt": "May 2026",
+        "title": "RSF conducts drone strikes on El-Obeid and White Nile State",
+        "source": "Wikipedia",
+        "sourceType": "newswire",
+        "description": "The Rapid Support Forces carried out drone strikes on El-Obeid and White Nile State, with an airstrike against a power station in El-Obeid leaving the city without electricity.",
+        "publishedAt": "2026-04-19",
         "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
       }
     ]

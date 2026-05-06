@@ -1,55 +1,55 @@
 {
   "conflictId": "israel-gaza",
-  "generatedAt": "2026-05-06T11:35:07.823Z",
-  "generatedAtMs": 1778067307823,
+  "generatedAt": "2026-05-06T14:47:20.119Z",
+  "generatedAtMs": 1778078840119,
   "schemaVersion": 1,
   "sideA": {
     "label": "Israel",
     "articles": [
       {
         "id": "0",
-        "title": "Security cabinet discusses renewing Gaza war as Hamas refuses to disarm",
+        "title": "Security cabinet to discuss renewing Gaza war as Hamas refuses disarmament",
         "source": "The Times of Israel",
         "sourceType": "newswire",
-        "description": "Israeli security cabinet scheduled to discuss renewing the war in Gaza as negotiations to disarm Hamas and demilitarize the Strip stall. Israeli official states Hamas is not standing by the agreement on disarmament.",
+        "description": "Israeli security cabinet scheduled to discuss war resumption as Hamas rejects disarmament demands and negotiations stall over weapons surrender framework.",
         "publishedAt": "2026-05-02T23:54:00Z",
         "url": "https://www.timesofisrael.com/ministers-set-to-discuss-renewing-gaza-war-as-hamas-refuses-to-disarm-report/"
       },
       {
         "id": "1",
-        "title": "IDF reports 19 Gaza ceasefire violations between April 21 and May 5",
+        "title": "IDF reports 19 Gaza ceasefire violations between April 21-May 5",
         "source": "FDD's Long War Journal",
         "sourceType": "analysis",
-        "description": "Israeli military reports 19 ceasefire violations including eliminations of armed Palestinian Islamic Jihad members and Hamas militants operating in Gaza. Operations conducted across northern, central, and southern Gaza.",
+        "description": "Israeli military documented 19 ceasefire violations including elimination of Hamas and Palestinian Islamic Jihad members threatening IDF forces across Gaza.",
         "publishedAt": "2026-05-05T18:00:00Z",
         "url": "https://www.longwarjournal.org/archives/2026/05/negotiations-over-hamas-disarmament-stall-idf-reports-19-gaza-ceasefire-violations-april-21-may-5.php"
       },
       {
         "id": "2",
-        "title": "Netanyahu meets Board of Peace representative on Gaza negotiations",
-        "source": "The Times of Israel",
-        "sourceType": "newswire",
-        "description": "Prime Minister Netanyahu meets with Board of Peace pointman Nickolay Mladenov and US Ambassador Mike Huckabee on May 5 to discuss implementation of Trump's 20-Point Comprehensive Plan for Gaza.",
-        "publishedAt": "2026-05-05T12:00:00Z",
-        "url": "https://www.timesofisrael.com/liveblog-may-5-2026/"
-      },
-      {
-        "id": "3",
-        "title": "Israel threatens to resume Gaza fighting if Hamas continues refusing disarmament",
+        "title": "Israel threatens Gaza war resumption to force disarmament as truce frays",
         "source": "Al Jazeera",
         "sourceType": "newswire",
-        "description": "Israeli military official states additional round of fighting is 'almost inevitable' due to Hamas refusal to surrender weapons. IDF continues expanding territorial control beyond ceasefire limits.",
-        "publishedAt": "2026-05-03T00:00:00Z",
+        "description": "Israeli military officials state additional fighting is 'almost inevitable' and forces have expanded territorial control to 59% of Gaza Strip through systematic boundary expansion.",
+        "publishedAt": "2026-05-03T07:00:00Z",
         "url": "https://www.aljazeera.com/news/2026/5/3/israel-threatens-gaza-war-resumption-to-force-disarmament-as-truce-frays"
       },
       {
-        "id": "4",
-        "title": "IDF claims elimination of Hamas military intelligence head",
+        "id": "3",
+        "title": "Netanyahu meets Board of Peace envoy on Gaza disarmament deadlock",
         "source": "FDD's Long War Journal",
-        "sourceType": "analysis",
-        "description": "On April 28, IDF reports elimination of Ahmed Abd al Rahman Shambari, head of operations in Hamas's military intelligence headquarters. Part of ongoing ceasefire violation responses.",
-        "publishedAt": "2026-04-28T00:00:00Z",
+        "sourceType": "newswire",
+        "description": "Israeli PM Netanyahu met with Board of Peace representative Nickolay Mladenov on May 5 to discuss Hamas refusal to disarm and next steps in conflict.",
+        "publishedAt": "2026-05-05T20:00:00Z",
         "url": "https://www.fdd.org/analysis/2026/05/05/talks-over-hamas-disarmament-stall-idf-reports-19-gaza-ceasefire-violations-april-21-may-5/"
+      },
+      {
+        "id": "4",
+        "title": "Israel expands territorial control in Gaza beyond ceasefire boundaries",
+        "source": "GlobalSecurity.org",
+        "sourceType": "newswire",
+        "description": "Israeli forces have systematically expanded control from 53% to 62% of Gaza Strip by pushing Yellow Line westward, triggering fresh Palestinian displacement.",
+        "publishedAt": "2026-05-03T10:00:00Z",
+        "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260503-presstv02.htm"
       }
     ]
   },
@@ -58,48 +58,30 @@
     "articles": [
       {
         "id": "0",
-        "title": "Hamas rejects disarmament demands as continuation of genocide",
-        "source": "Al Jazeera",
-        "sourceType": "newswire",
-        "description": "Hamas armed wing spokesman Abu Obeida states that disarmament demands amount to an attempt to continue Israel's genocide. Hamas political bureau member demands IDF withdraw from Yellow Line before negotiations.",
-        "publishedAt": "2026-05-03T00:00:00Z",
-        "url": "https://www.aljazeera.com/news/2026/5/3/israel-threatens-gaza-war-resumption-to-force-disarmament-as-truce-frays"
-      },
-      {
-        "id": "1",
-        "title": "Hamas political bureau member Bassem Naim reports Israeli territorial expansion",
-        "source": "Global Security",
-        "sourceType": "newswire",
-        "description": "Senior Hamas official Bassem Naim states Israel has shifted an additional 8-9% of territory beyond ceasefire boundaries, increasing Israeli control to over 62% of Gaza and leaving Palestinians with roughly 38%.",
-        "publishedAt": "2026-05-03T00:00:00Z",
-        "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260503-presstv02.htm"
-      },
-      {
-        "id": "2",
-        "title": "Palestinian factions united in rejecting disarmament prerequisite",
-        "source": "Al Jazeera",
-        "sourceType": "newswire",
-        "description": "Hamas, Palestinian Islamic Jihad and Popular Front for the Liberation of Palestine form unified front rejecting disarmament demands. Groups insist on full implementation of ceasefire's first phase instead.",
-        "publishedAt": "2026-05-03T00:00:00Z",
-        "url": "https://www.aljazeera.com/news/2026/5/3/israel-threatens-gaza-war-resumption-to-force-disarmament-as-truce-frays"
+        "title": "Hamas condemns flotilla interception and activist detention",
+        "source": "PressTV/Spain News Pravda",
+        "sourceType": "official",
+        "description": "Hamas statement condemned Israeli forces' violent interception of Gaza-bound aid flotilla and detention of pro-Palestinian activists as 'moral decadence.'",
+        "publishedAt": "2026-05-02T14:00:00Z",
+        "url": "https://spain.news-pravda.com/en/spain/2026/05/03/17536.html"
       },
       {
         "id": "3",
-        "title": "Hamas demands IDF withdrawal before disarmament negotiations",
-        "source": "FDD's Long War Journal",
-        "sourceType": "analysis",
-        "description": "Hamas repeatedly demands Israel Defense Forces pull back from the Yellow Line dividing Hamas and Israeli-controlled territory in Gaza before any disarmament negotiations can proceed.",
-        "publishedAt": "2026-05-05T18:00:00Z",
-        "url": "https://www.longwarjournal.org/archives/2026/05/negotiations-over-hamas-disarmament-stall-idf-reports-19-gaza-ceasefire-violations-april-21-may-5.php"
+        "title": "Hamas rejects US disarmament framework, links weapons to Palestinian statehood",
+        "source": "Al Jazeera",
+        "sourceType": "official",
+        "description": "Hamas political bureau member Abdul Jabbar Said stated Hamas will only address disarmament within framework requiring Palestinian state establishment.",
+        "publishedAt": "2026-05-03T14:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/5/3/israel-threatens-gaza-war-resumption-to-force-disarmament-as-truce-frays"
       },
       {
         "id": "4",
-        "title": "Hamas disputes Israel's humanitarian aid claims and ceasefire compliance",
-        "source": "Times of Israel",
-        "sourceType": "newswire",
-        "description": "Hamas counters Israeli narrative on disarmament, accusing Israel of blocking agreed-upon entry of 600 aid trucks daily and violating first phase commitments. Hamas submits counter-offer linking weapons to Palestinian statehood.",
-        "publishedAt": "2026-05-02T23:54:00Z",
-        "url": "https://www.timesofisrael.com/ministers-set-to-discuss-renewing-gaza-war-as-hamas-refuses-to-disarm-report/"
+        "title": "Palestinian analysis: Hamas links security to comprehensive political rights",
+        "source": "Al Jazeera",
+        "sourceType": "analysis",
+        "description": "Gaza analyst Wissam Afifa noted Hamas navigating diplomatic pressure by linking disarmament directly to comprehensive Palestinian political rights and statehood.",
+        "publishedAt": "2026-05-03T14:00:00Z",
+        "url": "https://www.aljazeera.com/news/2026/5/3/israel-threatens-gaza-war-resumption-to-force-disarmament-as-truce-frays"
       }
     ]
   }

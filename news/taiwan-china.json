@@ -1,46 +1,46 @@
 {
   "conflictId": "taiwan-china",
-  "generatedAt": "2026-05-06T11:36:29.477Z",
-  "generatedAtMs": 1778067389477,
+  "generatedAt": "2026-05-06T14:48:44.129Z",
+  "generatedAtMs": 1778078924129,
   "schemaVersion": 1,
   "sideA": {
     "label": "Taiwan & US",
     "articles": [
       {
         "id": "0",
-        "title": "Taiwan Detects Chinese Naval and Air Operations - May 6, 2026",
+        "title": "Taiwan Detects 7 Chinese Naval Vessels, 1 Official Ship Around Its Waters",
         "source": "Ministry of National Defense, ROC (Taiwan)",
         "sourceType": "official",
-        "description": "",
+        "description": "Taiwan's MND reported detection of 7 PLAN vessels and 1 official ship operating around Taiwan up until 6 a.m. UTC+8 on May 6, 2026. ROC Armed Forces monitored the situation and responded accordingly.",
         "publishedAt": "2026-05-06",
         "url": "https://twitter.com/MoNDefense"
       },
       {
         "id": "1",
-        "title": "Taiwan Warns of China's Systematic Campaign and Increased Military Pressure",
-        "source": "Asianet Newsable / Taiwan Ministry of National Defense",
-        "sourceType": "official",
-        "description": "",
-        "publishedAt": "2026-05-05",
-        "url": "https://newsable.asianetnews.com/world/taiwan-warns-of-chinas-systematic-campaign-to-undermine-island-articleshow-i2c1a4d"
-      },
-      {
-        "id": "2",
-        "title": "Taiwan MND Reports Previous Day PLA Activity - May 5, 2026",
+        "title": "Taiwan Detects 1 PLA Aircraft Sortie and 6 PLAN Vessels",
         "source": "Ministry of National Defense, ROC (Taiwan)",
         "sourceType": "official",
-        "description": "",
+        "description": "Taiwan's MND detected 1 PLA aircraft sortie, 6 PLAN vessels and 1 official ship operating around Taiwan on May 5, 2026. One sortie entered Taiwan's northern ADIZ.",
         "publishedAt": "2026-05-05",
         "url": "https://twitter.com/MoNDefense"
       },
       {
-        "id": "4",
-        "title": "Taiwan Military Conducts Defense Exercises Against China Campaign",
-        "source": "Taiwan Ministry of National Defense",
+        "id": "2",
+        "title": "PLA Liaoning Carrier Transits Taiwan Strait",
+        "source": "Ministry of National Defense, ROC (Taiwan)",
         "sourceType": "official",
-        "description": "",
-        "publishedAt": "2026-05-05",
-        "url": "https://newsable.asianetnews.com/world/taiwan-warns-of-chinas-systematic-campaign-to-undermine-island-articleshow-i2c1a4d"
+        "description": "Taiwan's MND detected China's Liaoning aircraft carrier transiting the Taiwan Strait on April 20, 2026, moving southward as part of broader PLA operations.",
+        "publishedAt": "2026-04-20",
+        "url": "https://thediplomat.com/2026/04/chinas-liaoning-carrier-heads-south-more-than-a-routine-drill/"
+      },
+      {
+        "id": "3",
+        "title": "Taiwan Air Force Monitors and Responds to PLA Activity",
+        "source": "Taiwan Air Force",
+        "sourceType": "official",
+        "description": "Taiwan Air Force monitored PLA aircraft and naval operations around Taiwan in late April 2026 and deployed aircraft in response to detected military activity.",
+        "publishedAt": "2026-04-20",
+        "url": "https://thediplomat.com/2026/04/chinas-liaoning-carrier-heads-south-more-than-a-routine-drill/"
       }
     ]
   },
@@ -49,48 +49,30 @@
     "articles": [
       {
         "id": "0",
-        "title": "PLA Eastern Theater Command Announces Joint Exercises - April 29/30, 2026",
-        "source": "PLA Eastern Theater Command",
+        "title": "PLA Southern Theater Command Conducts Exercises East of Luzon Strait",
+        "source": "PLA Southern Theater Command",
         "sourceType": "official",
-        "description": "",
-        "publishedAt": "2026-04-29",
-        "url": "https://www.globaltimes.cn/page/202504/1331312.shtml"
-      },
-      {
-        "id": "1",
-        "title": "PLA Southern Theater Command Conducts South China Sea Exercise - April 24, 2026",
-        "source": "AEI China & Taiwan Update",
-        "sourceType": "analysis",
-        "description": "",
+        "description": "PLA STC announced on April 24 a surface task group exercise including Type 055 and Type 052D destroyers east of Luzon Strait in response to current regional situation, likely referring to Balikatan 2026 exercises.",
         "publishedAt": "2026-04-24",
         "url": "https://www.aei.org/articles/china-taiwan-update-may-1-2026/"
       },
       {
-        "id": "2",
-        "title": "PLAN Aircraft Carrier Liaoning Transits Taiwan Strait - April 20, 2026",
-        "source": "The Diplomat / Taiwan Ministry of National Defense",
-        "sourceType": "analysis",
-        "description": "",
+        "id": "1",
+        "title": "PLA Liaoning Aircraft Carrier Transits Taiwan Strait Southward",
+        "source": "PLA Eastern Theater Command",
+        "sourceType": "official",
+        "description": "PLA's Liaoning aircraft carrier transited the Taiwan Strait heading south on April 20, 2026, as part of broader strategic operations signaling resolve ahead of diplomatic engagements.",
         "publishedAt": "2026-04-20",
-        "url": "https://thediplomat.com/2026/04/chinas-liaoning-carrier-heads-south-more-than-a-routine-drill/"
+        "url": "https://www.aei.org/articles/china-taiwan-update-may-1-2026/"
       },
       {
-        "id": "3",
-        "title": "PLA Protests Japanese Destroyer Taiwan Strait Transit - April 21, 2026",
-        "source": "China Ministry of National Defense / PLA Eastern Theater Command",
+        "id": "2",
+        "title": "PLA Warns Japan After Strait Transit",
+        "source": "PLA Eastern Theater Command / Ministry of National Defense",
         "sourceType": "official",
-        "description": "",
+        "description": "PLA denounced Japanese destroyer transit through Taiwan Strait on April 21, 2026, deploying naval and air assets to track and monitor the vessel throughout the process.",
         "publishedAt": "2026-04-21",
         "url": "https://www.chinadaily.com.cn/a/202604/21/WS69e6ba48a310d6866eb4481c.html"
-      },
-      {
-        "id": "4",
-        "title": "PLA Maintains April Incursion Operations - April 2026",
-        "source": "AEI China & Taiwan Update",
-        "sourceType": "analysis",
-        "description": "",
-        "publishedAt": "2026-05-01",
-        "url": "https://www.aei.org/articles/china-taiwan-update-may-1-2026/"
       }
     ]
   }

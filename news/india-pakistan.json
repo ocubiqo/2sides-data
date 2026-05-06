@@ -1,88 +1,14 @@
 {
   "conflictId": "india-pakistan",
-  "generatedAt": "2026-05-06T11:37:21.525Z",
-  "generatedAtMs": 1778067441525,
+  "generatedAt": "2026-05-06T14:49:24.556Z",
+  "generatedAtMs": 1778078964556,
   "schemaVersion": 1,
   "sideA": {
     "label": "India",
-    "articles": [
-      {
-        "id": "0",
-        "title": "India Conducts Expanded Arabian Sea NOTAM Operations in April 2026",
-        "source": "Defence Security Asia",
-        "sourceType": "analysis",
-        "description": "India issues large maritime exclusion zones (up to 400 km offshore) for weapons testing in western approaches near Gujarat, Maharashtra, Goa, and Karnataka, with altitude restrictions reaching 70,000 feet, suggesting BrahMos cruise missile and naval aviation activity.",
-        "publishedAt": "2026-04-29",
-        "url": "https://defencesecurityasia.com/en/pakistan-navy-third-missile-notmar-april-arabian-sea-battle-of-notmar-india-ins-dhruv/"
-      },
-      {
-        "id": "1",
-        "title": "India Maintains Indus Waters Treaty Suspension - April 2026 Diplomatic Stance",
-        "source": "Raksha Anirveda",
-        "sourceType": "analysis",
-        "description": "Indian Permanent Representative P Harish reiterates at the UN that the Indus Waters Treaty remains in abeyance until Pakistan takes credible steps to end terrorism support. India's punitive deterrence policy continues under PM Modi.",
-        "publishedAt": "2026-04-30",
-        "url": "https://raksha-anirveda.com/india-pakistan-hostility-terrorism-water-leverage-and-the-china-factor/"
-      },
-      {
-        "id": "2",
-        "title": "India Reinforces Strategic Deterrence Despite Diplomatic Pressure - April 2026",
-        "source": "Good Authority/Chalkboard Politics",
-        "sourceType": "analysis",
-        "description": "As of April 2026, India faces US diplomatic pressure and tariffs (nearly 50%), while PM Modi maintains firm stance on terrorism conditions for normalization, reflecting continued strategic disengagement policy.",
-        "publishedAt": "2026-04-08",
-        "url": "https://goodauthority.org/news/how-did-the-2025-india-pakistan-conflict-change-global-politics/"
-      },
-      {
-        "id": "4",
-        "title": "India Acknowledges Fragile Ceasefire Holding But No Genuine Thaw - May 2026",
-        "source": "Raksha Anirveda",
-        "sourceType": "analysis",
-        "description": "As of late April 2026 (one year post-conflict), India maintains strict conditions for dialogue and treaty restoration, with ceasefire characterized as managed hostility rather than reconciliation.",
-        "publishedAt": "2026-04-30",
-        "url": "https://raksha-anirveda.com/india-pakistan-hostility-terrorism-water-leverage-and-the-china-factor/"
-      }
-    ]
+    "articles": []
   },
   "sideB": {
     "label": "Pakistan",
-    "articles": [
-      {
-        "id": "0",
-        "title": "Pakistan Navy Issues Third NOTMAR for Missile Testing in April 2026",
-        "source": "Defence Security Asia",
-        "sourceType": "analysis",
-        "description": "Pakistan Navy's third Notices to Airmen and Mariners (NOTMAR A0228/26) for live-fire missile tests on 28-29 April 2026 in North Arabian Sea (200+ km off Karachi), validating new naval strike systems for deterrence against Indian Navy.",
-        "publishedAt": "2026-04-28",
-        "url": "https://defencesecurityasia.com/en/pakistan-navy-third-missile-notmar-april-arabian-sea-battle-of-notams-india-ins-dhruv/"
-      },
-      {
-        "id": "1",
-        "title": "Pakistan Maintains Strategic Resolve - Defence Minister Asif Warns of Swift Response",
-        "source": "Raksha Anirveda",
-        "sourceType": "analysis",
-        "description": "Defence Minister Khawaja Asif warns of swift, calibrated, and decisive response to any future Indian action. Pakistan continues to call for unconditional dialogue on Kashmir while rejecting terrorism allegations.",
-        "publishedAt": "2026-04-30",
-        "url": "https://raksha-anirveda.com/india-pakistan-hostility-terrorism-water-leverage-and-the-china-factor/"
-      },
-      {
-        "id": "3",
-        "title": "Pakistan Celebrates One-Year Anniversary of May 2025 Conflict - Operational Success",
-        "source": "Dawn/Capital News Point",
-        "sourceType": "state",
-        "description": "Pakistani Information Minister Uzma Bukhari states Operation Bunyan-un-Marsoos has become case study for military forces worldwide. Pakistan Army praised as professional force; Operation credited with crushing India's arrogance.",
-        "publishedAt": "2026-05-05",
-        "url": "https://english.capitalnewspoint.com/2026/05/05/india-defeated-in-may-2025-conflict-pakistan-army-shattered-enemys-pride-uzma-bukhari/"
-      },
-      {
-        "id": "4",
-        "title": "Pakistan-China Deepening Cooperation Against India Pressure - April 2026",
-        "source": "Raksha Anirveda",
-        "sourceType": "analysis",
-        "description": "China's multifaceted support—military, intelligence, economic, and diplomatic—enables Pakistan to withstand Indian pressure. Pakistani leaders including PM Shehbaz Sharif rely on Chinese alliance while calling for dialogue.",
-        "publishedAt": "2026-04-30",
-        "url": "https://raksha-anirveda.com/india-pakistan-hostility-terrorism-water-leverage-and-the-china-factor/"
-      }
-    ]
+    "articles": []
   }
 }
