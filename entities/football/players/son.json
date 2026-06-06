@@ -1,0 +1,51 @@
+{
+  "id": "son",
+  "name": "Son Heung-min",
+  "shortName": "Son",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇰🇷",
+  "stats": {
+    "age": 33,
+    "goals_international": 48,
+    "assists_international": 26,
+    "wc_goals": 2,
+    "player_wc_titles": 0,
+    "career_club_goals": 245,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 90,
+    "current_rating": 84,
+    "pace": 88,
+    "shooting": 88,
+    "passing": 80,
+    "dribbling": 88,
+    "defending": 48,
+    "physicality": 70,
+    "creativity": 82,
+    "big_game_goals": 6,
+    "conversion_rate_pct": 24,
+    "hat_tricks": 5,
+    "player_trophies_total": 4,
+    "market_value_m": 30,
+    "goals_per_game": 0.44,
+    "intl_caps": 127,
+    "free_kick_goals": 5,
+    "penalty_record_pct": 78
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Tottenham Hotspur",
+    "nationality": "South Korea",
+    "form": "WWWDW",
+    "key_stat": "48 international goals · Asia's best-ever striker"
+  },
+  "tags": [
+    "son",
+    "heung min",
+    "south korea",
+    "tottenham",
+    "forward",
+    "winger"
+  ]
+}

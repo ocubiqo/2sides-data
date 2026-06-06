@@ -1,0 +1,51 @@
+{
+  "id": "osimhen",
+  "name": "Victor Osimhen",
+  "shortName": "Osimhen",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇳🇬",
+  "stats": {
+    "age": 26,
+    "goals_international": 22,
+    "assists_international": 8,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 130,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 89,
+    "current_rating": 89,
+    "pace": 90,
+    "shooting": 88,
+    "passing": 68,
+    "dribbling": 82,
+    "defending": 38,
+    "physicality": 82,
+    "creativity": 75,
+    "big_game_goals": 6,
+    "conversion_rate_pct": 28,
+    "hat_tricks": 3,
+    "player_trophies_total": 4,
+    "market_value_m": 70,
+    "goals_per_game": 0.44,
+    "intl_caps": 52,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 74
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Galatasaray",
+    "nationality": "Nigeria",
+    "form": "WWWDW",
+    "key_stat": "Top African striker · 2023 Serie A top scorer"
+  },
+  "tags": [
+    "osimhen",
+    "victor",
+    "nigeria",
+    "galatasaray",
+    "striker",
+    "forward"
+  ]
+}

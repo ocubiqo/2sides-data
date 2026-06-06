@@ -1,0 +1,48 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "shortName": "AUS",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇦🇺",
+  "stats": {
+    "fifa_rank": 25,
+    "wc_titles": 0,
+    "wc_appearances": 6,
+    "win_rate_pct": 36,
+    "avg_goals_per_game": 1.2,
+    "avg_goals_conceded": 1.2,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 27.1,
+    "squad_market_value_m": 150,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 1,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 7,
+    "player_synergy": 6,
+    "youth_development": 6,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 33,
+    "penalty_shootout_wins": 1,
+    "wc_clean_sheets": 8,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 40,
+    "social_media_m": 14
+  },
+  "meta": {
+    "confederation": "AFC",
+    "coach": "Tony Popovic",
+    "wc_best": "Round of 16",
+    "form": "WDWLW",
+    "key_players": "M. Leckie, B. Irvine, J. Ramsay, A. Hrustic"
+  },
+  "tags": [
+    "australia",
+    "aus",
+    "socceroos",
+    "asia",
+    "afc"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "haaland",
+  "name": "Erling Haaland",
+  "shortName": "Haaland",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇳🇴",
+  "stats": {
+    "age": 25,
+    "goals_international": 34,
+    "assists_international": 9,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 258,
+    "ballon_dor": 1,
+    "ucl_titles": 1,
+    "peak_rating": 93,
+    "current_rating": 93,
+    "pace": 90,
+    "shooting": 96,
+    "passing": 62,
+    "dribbling": 75,
+    "defending": 45,
+    "physicality": 88,
+    "creativity": 70,
+    "big_game_goals": 12,
+    "conversion_rate_pct": 42,
+    "hat_tricks": 9,
+    "player_trophies_total": 12,
+    "market_value_m": 200,
+    "goals_per_game": 0.85,
+    "intl_caps": 50,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 91
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Manchester City",
+    "nationality": "Norway",
+    "form": "WWWDW",
+    "key_stat": "258 career club goals · 2023 UCL & Ballon d'Or winner"
+  },
+  "tags": [
+    "haaland",
+    "erling",
+    "norway",
+    "manchester city",
+    "forward",
+    "striker"
+  ]
+}

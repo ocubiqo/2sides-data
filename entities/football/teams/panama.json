@@ -1,0 +1,48 @@
+{
+  "id": "panama",
+  "name": "Panama",
+  "shortName": "PAN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇵🇦",
+  "stats": {
+    "fifa_rank": 78,
+    "wc_titles": 0,
+    "wc_appearances": 2,
+    "win_rate_pct": 28,
+    "avg_goals_per_game": 0.9,
+    "avg_goals_conceded": 1.4,
+    "unbeaten_streak": 2,
+    "squad_avg_age": 27.2,
+    "squad_market_value_m": 45,
+    "wc_finals_appearances": 0,
+    "continental_titles": 1,
+    "team_trophies_total": 1,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 5,
+    "player_synergy": 5,
+    "youth_development": 5,
+    "coach_rating": 5,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 0,
+    "biggest_win_margin": 2,
+    "global_fan_base_m": 15,
+    "social_media_m": 6
+  },
+  "meta": {
+    "confederation": "CONCACAF",
+    "coach": "Thomas Christiansen",
+    "wc_best": "Group stage",
+    "form": "WDLLW",
+    "key_players": "M. Fajardo, A. Torres, E. Davis, R. Murillo"
+  },
+  "tags": [
+    "panama",
+    "pan",
+    "canaleros",
+    "north america",
+    "concacaf"
+  ]
+}

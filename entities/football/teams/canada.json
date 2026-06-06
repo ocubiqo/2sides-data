@@ -1,0 +1,49 @@
+{
+  "id": "canada",
+  "name": "Canada",
+  "shortName": "CAN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇨🇦",
+  "stats": {
+    "fifa_rank": 47,
+    "wc_titles": 0,
+    "wc_appearances": 2,
+    "win_rate_pct": 38,
+    "avg_goals_per_game": 1.4,
+    "avg_goals_conceded": 1.2,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 25.1,
+    "squad_market_value_m": 230,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 7,
+    "player_synergy": 7,
+    "youth_development": 8,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 2,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 60,
+    "social_media_m": 22
+  },
+  "meta": {
+    "confederation": "CONCACAF",
+    "coach": "Jesse Marsch",
+    "wc_best": "Group stage",
+    "form": "WWDWW",
+    "key_players": "A. Davies, J. David, O. Kossounou, T. Hoilett"
+  },
+  "tags": [
+    "canada",
+    "can",
+    "north america",
+    "concacaf",
+    "host",
+    "davies"
+  ]
+}

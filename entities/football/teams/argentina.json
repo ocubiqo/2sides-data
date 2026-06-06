@@ -1,0 +1,49 @@
+{
+  "id": "argentina",
+  "name": "Argentina",
+  "shortName": "ARG",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇦🇷",
+  "stats": {
+    "fifa_rank": 1,
+    "wc_titles": 3,
+    "wc_appearances": 19,
+    "win_rate_pct": 62,
+    "avg_goals_per_game": 1.9,
+    "avg_goals_conceded": 0.9,
+    "unbeaten_streak": 24,
+    "squad_avg_age": 27.4,
+    "squad_market_value_m": 850,
+    "wc_finals_appearances": 6,
+    "continental_titles": 17,
+    "team_trophies_total": 20,
+    "wc_golden_boots": 3,
+    "pressing_intensity": 8,
+    "tactical_flexibility": 9,
+    "player_synergy": 9,
+    "youth_development": 7,
+    "coach_rating": 9,
+    "wc_knockout_win_rate_pct": 67,
+    "penalty_shootout_wins": 3,
+    "wc_clean_sheets": 52,
+    "biggest_win_margin": 6,
+    "global_fan_base_m": 900,
+    "social_media_m": 210
+  },
+  "meta": {
+    "confederation": "CONMEBOL",
+    "coach": "Lionel Scaloni",
+    "wc_best": "Winners",
+    "form": "WWWDW",
+    "key_players": "L. Messi, J. Álvarez, R. De Paul, E. Martínez"
+  },
+  "tags": [
+    "argentina",
+    "arg",
+    "albiceleste",
+    "south america",
+    "messi",
+    "conmebol"
+  ]
+}

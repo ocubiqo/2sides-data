@@ -1,0 +1,49 @@
+{
+  "id": "croatia",
+  "name": "Croatia",
+  "shortName": "CRO",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇭🇷",
+  "stats": {
+    "fifa_rank": 10,
+    "wc_titles": 0,
+    "wc_appearances": 7,
+    "win_rate_pct": 50,
+    "avg_goals_per_game": 1.5,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 4,
+    "squad_avg_age": 29.1,
+    "squad_market_value_m": 310,
+    "wc_finals_appearances": 2,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 1,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 8,
+    "player_synergy": 9,
+    "youth_development": 7,
+    "coach_rating": 8,
+    "wc_knockout_win_rate_pct": 67,
+    "penalty_shootout_wins": 3,
+    "wc_clean_sheets": 15,
+    "biggest_win_margin": 4,
+    "global_fan_base_m": 80,
+    "social_media_m": 25
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Zlatko Dalić",
+    "wc_best": "Runner-up",
+    "form": "WDLWW",
+    "key_players": "L. Modrić, M. Brozović, I. Perišić, M. Gvardiol"
+  },
+  "tags": [
+    "croatia",
+    "cro",
+    "vatreni",
+    "europe",
+    "modric",
+    "uefa"
+  ]
+}

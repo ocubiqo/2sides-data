@@ -1,0 +1,51 @@
+{
+  "id": "zirkzee",
+  "name": "Joshua Zirkzee",
+  "shortName": "Zirkzee",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇳🇱",
+  "stats": {
+    "age": 24,
+    "goals_international": 5,
+    "assists_international": 4,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 65,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 84,
+    "current_rating": 84,
+    "pace": 78,
+    "shooting": 78,
+    "passing": 74,
+    "dribbling": 78,
+    "defending": 42,
+    "physicality": 76,
+    "creativity": 75,
+    "big_game_goals": 2,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 0,
+    "player_trophies_total": 2,
+    "market_value_m": 45,
+    "goals_per_game": 0.21,
+    "intl_caps": 18,
+    "free_kick_goals": 1,
+    "penalty_record_pct": 68
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "AC Milan",
+    "nationality": "Netherlands",
+    "form": "WWDWW",
+    "key_stat": "Netherlands' next generation centre forward"
+  },
+  "tags": [
+    "zirkzee",
+    "joshua",
+    "netherlands",
+    "ac milan",
+    "striker",
+    "forward"
+  ]
+}

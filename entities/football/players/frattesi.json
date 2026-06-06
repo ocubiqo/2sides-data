@@ -1,0 +1,50 @@
+{
+  "id": "frattesi",
+  "name": "Davide Frattesi",
+  "shortName": "Frattesi",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇮🇹",
+  "stats": {
+    "age": 25,
+    "goals_international": 8,
+    "assists_international": 5,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 55,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 85,
+    "current_rating": 85,
+    "pace": 78,
+    "shooting": 76,
+    "passing": 78,
+    "dribbling": 78,
+    "defending": 72,
+    "physicality": 75,
+    "creativity": 78,
+    "big_game_goals": 2,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 0,
+    "player_trophies_total": 4,
+    "market_value_m": 45,
+    "goals_per_game": 0.19,
+    "intl_caps": 40,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 68
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Inter Milan",
+    "nationality": "Italy",
+    "form": "WWWWW",
+    "key_stat": "Italy's top Super Sub · 8 goals from bench in 2024"
+  },
+  "tags": [
+    "frattesi",
+    "davide",
+    "italy",
+    "inter milan",
+    "midfielder"
+  ]
+}

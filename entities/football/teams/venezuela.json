@@ -1,0 +1,48 @@
+{
+  "id": "venezuela",
+  "name": "Venezuela",
+  "shortName": "VEN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇻🇪",
+  "stats": {
+    "fifa_rank": 27,
+    "wc_titles": 0,
+    "wc_appearances": 0,
+    "win_rate_pct": 35,
+    "avg_goals_per_game": 1.2,
+    "avg_goals_conceded": 1.3,
+    "unbeaten_streak": 7,
+    "squad_avg_age": 24.8,
+    "squad_market_value_m": 165,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 6,
+    "player_synergy": 6,
+    "youth_development": 6,
+    "coach_rating": 6,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 0,
+    "biggest_win_margin": 0,
+    "global_fan_base_m": 25,
+    "social_media_m": 10
+  },
+  "meta": {
+    "confederation": "CONMEBOL",
+    "coach": "Fernando Batista",
+    "wc_best": "Group stage",
+    "form": "WDWWL",
+    "key_players": "Y. Bello, J. Martínez, S. Córdova, E. Herrera"
+  },
+  "tags": [
+    "venezuela",
+    "ven",
+    "vinotinto",
+    "south america",
+    "conmebol"
+  ]
+}

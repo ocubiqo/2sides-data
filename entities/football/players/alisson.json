@@ -1,0 +1,51 @@
+{
+  "id": "alisson",
+  "name": "Alisson Becker",
+  "shortName": "Alisson",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇷",
+  "stats": {
+    "age": 32,
+    "goals_international": 0,
+    "assists_international": 2,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 0,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 93,
+    "current_rating": 90,
+    "pace": 65,
+    "shooting": 20,
+    "passing": 80,
+    "dribbling": 55,
+    "defending": 92,
+    "physicality": 80,
+    "creativity": 60,
+    "big_game_goals": 0,
+    "conversion_rate_pct": 5,
+    "hat_tricks": 0,
+    "player_trophies_total": 8,
+    "market_value_m": 30,
+    "goals_per_game": 0.01,
+    "intl_caps": 80,
+    "free_kick_goals": 0,
+    "penalty_record_pct": 65
+  },
+  "meta": {
+    "position": "Goalkeeper",
+    "club": "Liverpool",
+    "nationality": "Brazil",
+    "form": "WWWWW",
+    "key_stat": "2019 UCL winner · 2022 FIFA Best Goalkeeper"
+  },
+  "tags": [
+    "alisson",
+    "alisson becker",
+    "brazil",
+    "liverpool",
+    "goalkeeper",
+    "gk"
+  ]
+}

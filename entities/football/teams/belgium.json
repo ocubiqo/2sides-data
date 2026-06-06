@@ -1,0 +1,49 @@
+{
+  "id": "belgium",
+  "name": "Belgium",
+  "shortName": "BEL",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇧🇪",
+  "stats": {
+    "fifa_rank": 4,
+    "wc_titles": 0,
+    "wc_appearances": 14,
+    "win_rate_pct": 55,
+    "avg_goals_per_game": 1.8,
+    "avg_goals_conceded": 0.9,
+    "unbeaten_streak": 5,
+    "squad_avg_age": 28.5,
+    "squad_market_value_m": 760,
+    "wc_finals_appearances": 1,
+    "continental_titles": 0,
+    "team_trophies_total": 1,
+    "wc_golden_boots": 1,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 7,
+    "player_synergy": 7,
+    "youth_development": 7,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 50,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 28,
+    "biggest_win_margin": 5,
+    "global_fan_base_m": 180,
+    "social_media_m": 50
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Domenico Tedesco",
+    "wc_best": "Quarter-final",
+    "form": "WDWWL",
+    "key_players": "K. De Bruyne, R. Lukaku, J. Doku, T. Courtois"
+  },
+  "tags": [
+    "belgium",
+    "bel",
+    "red devils",
+    "europe",
+    "de bruyne",
+    "uefa"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "valverde",
+  "name": "Federico Valverde",
+  "shortName": "Valverde",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇺🇾",
+  "stats": {
+    "age": 26,
+    "goals_international": 12,
+    "assists_international": 10,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 55,
+    "ballon_dor": 0,
+    "ucl_titles": 2,
+    "peak_rating": 90,
+    "current_rating": 90,
+    "pace": 85,
+    "shooting": 78,
+    "passing": 84,
+    "dribbling": 83,
+    "defending": 77,
+    "physicality": 80,
+    "creativity": 82,
+    "big_game_goals": 4,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 0,
+    "player_trophies_total": 8,
+    "market_value_m": 90,
+    "goals_per_game": 0.17,
+    "intl_caps": 62,
+    "free_kick_goals": 3,
+    "penalty_record_pct": 72
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Real Madrid",
+    "nationality": "Uruguay",
+    "form": "WWWWW",
+    "key_stat": "2× UCL winner · Uruguay's top midfielder"
+  },
+  "tags": [
+    "valverde",
+    "fede",
+    "federico",
+    "uruguay",
+    "real madrid",
+    "midfielder"
+  ]
+}

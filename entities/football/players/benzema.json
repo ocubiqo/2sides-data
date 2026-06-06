@@ -1,0 +1,52 @@
+{
+  "id": "benzema",
+  "name": "Karim Benzema",
+  "shortName": "Benzema",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇫🇷",
+  "stats": {
+    "age": 37,
+    "goals_international": 37,
+    "assists_international": 26,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 500,
+    "ballon_dor": 1,
+    "ucl_titles": 5,
+    "peak_rating": 96,
+    "current_rating": 78,
+    "pace": 75,
+    "shooting": 90,
+    "passing": 80,
+    "dribbling": 84,
+    "defending": 45,
+    "physicality": 75,
+    "creativity": 85,
+    "big_game_goals": 10,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 4,
+    "player_trophies_total": 26,
+    "market_value_m": 8,
+    "goals_per_game": 0.43,
+    "intl_caps": 97,
+    "free_kick_goals": 6,
+    "penalty_record_pct": 79
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Al Ittihad",
+    "nationality": "France",
+    "form": "WDWWW",
+    "key_stat": "2022 Ballon d'Or · 5× UCL winner with Real Madrid"
+  },
+  "tags": [
+    "benzema",
+    "karim",
+    "france",
+    "al ittihad",
+    "striker",
+    "retired international",
+    "ballon dor"
+  ]
+}

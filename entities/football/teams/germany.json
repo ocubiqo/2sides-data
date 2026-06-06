@@ -1,0 +1,49 @@
+{
+  "id": "germany",
+  "name": "Germany",
+  "shortName": "GER",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇩🇪",
+  "stats": {
+    "fifa_rank": 13,
+    "wc_titles": 4,
+    "wc_appearances": 20,
+    "win_rate_pct": 59,
+    "avg_goals_per_game": 2,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 6,
+    "squad_avg_age": 25.9,
+    "squad_market_value_m": 880,
+    "wc_finals_appearances": 8,
+    "continental_titles": 4,
+    "team_trophies_total": 8,
+    "wc_golden_boots": 6,
+    "pressing_intensity": 8,
+    "tactical_flexibility": 8,
+    "player_synergy": 7,
+    "youth_development": 8,
+    "coach_rating": 8,
+    "wc_knockout_win_rate_pct": 68,
+    "penalty_shootout_wins": 5,
+    "wc_clean_sheets": 58,
+    "biggest_win_margin": 7,
+    "global_fan_base_m": 600,
+    "social_media_m": 130
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Julian Nagelsmann",
+    "wc_best": "Winners",
+    "form": "WDWWW",
+    "key_players": "J. Musiala, F. Wirtz, K. Havertz, M. ter Stegen"
+  },
+  "tags": [
+    "germany",
+    "ger",
+    "die mannschaft",
+    "europe",
+    "ter stegen",
+    "uefa"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "richarlison",
+  "name": "Richarlison",
+  "shortName": "Richarlison",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇷",
+  "stats": {
+    "age": 28,
+    "goals_international": 26,
+    "assists_international": 8,
+    "wc_goals": 3,
+    "player_wc_titles": 0,
+    "career_club_goals": 140,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 86,
+    "current_rating": 84,
+    "pace": 84,
+    "shooting": 82,
+    "passing": 72,
+    "dribbling": 78,
+    "defending": 50,
+    "physicality": 78,
+    "creativity": 74,
+    "big_game_goals": 5,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 2,
+    "player_trophies_total": 5,
+    "market_value_m": 45,
+    "goals_per_game": 0.29,
+    "intl_caps": 68,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 78
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Tottenham Hotspur",
+    "nationality": "Brazil",
+    "form": "WWWDL",
+    "key_stat": "Olympic gold 2021 · Brazil's WC2022 top scorer"
+  },
+  "tags": [
+    "richarlison",
+    "brazil",
+    "tottenham",
+    "striker",
+    "forward"
+  ]
+}

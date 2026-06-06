@@ -1,0 +1,49 @@
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "shortName": "EGY",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇪🇬",
+  "stats": {
+    "fifa_rank": 35,
+    "wc_titles": 0,
+    "wc_appearances": 3,
+    "win_rate_pct": 36,
+    "avg_goals_per_game": 1.2,
+    "avg_goals_conceded": 1.1,
+    "unbeaten_streak": 4,
+    "squad_avg_age": 27.1,
+    "squad_market_value_m": 145,
+    "wc_finals_appearances": 0,
+    "continental_titles": 7,
+    "team_trophies_total": 8,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 6,
+    "player_synergy": 7,
+    "youth_development": 6,
+    "coach_rating": 6,
+    "wc_knockout_win_rate_pct": 20,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 4,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 100,
+    "social_media_m": 35
+  },
+  "meta": {
+    "confederation": "CAF",
+    "coach": "Hossam Hassan",
+    "wc_best": "Group stage",
+    "form": "WWDWL",
+    "key_players": "M. Salah, O. Kamal, T. Mohamed, M. El-Shenawy"
+  },
+  "tags": [
+    "egypt",
+    "egy",
+    "pharaohs",
+    "africa",
+    "salah",
+    "caf"
+  ]
+}

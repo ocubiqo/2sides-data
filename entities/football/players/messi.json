@@ -1,0 +1,52 @@
+{
+  "id": "messi",
+  "name": "Lionel Messi",
+  "shortName": "Messi",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇦🇷",
+  "stats": {
+    "age": 38,
+    "goals_international": 112,
+    "assists_international": 56,
+    "wc_goals": 13,
+    "player_wc_titles": 1,
+    "career_club_goals": 706,
+    "ballon_dor": 8,
+    "ucl_titles": 4,
+    "peak_rating": 99,
+    "current_rating": 90,
+    "pace": 85,
+    "shooting": 95,
+    "passing": 96,
+    "dribbling": 99,
+    "defending": 40,
+    "physicality": 65,
+    "creativity": 99,
+    "big_game_goals": 23,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 10,
+    "player_trophies_total": 44,
+    "market_value_m": 35,
+    "goals_per_game": 0.82,
+    "intl_caps": 191,
+    "free_kick_goals": 65,
+    "penalty_record_pct": 78
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Inter Miami",
+    "nationality": "Argentina",
+    "form": "WWWDW",
+    "key_stat": "8× Ballon d'Or · 2022 World Cup winner"
+  },
+  "tags": [
+    "messi",
+    "leo messi",
+    "goat",
+    "argentina",
+    "inter miami",
+    "forward",
+    "ballon dor"
+  ]
+}

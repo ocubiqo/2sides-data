@@ -1,0 +1,35 @@
+name: Update Football Entities
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs daily at 03:00 UTC — before the WC2026 matchday window
+    - cron: '0 3 * * *'
+  push:
+    paths:
+      - 'scripts/build_football_entities.js'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate football entity JSON files
+        run: node scripts/build_football_entities.js
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add entities/football/
+          git diff --staged --quiet || git commit -m "chore: update football entity CDN data [skip ci]"
+          git push

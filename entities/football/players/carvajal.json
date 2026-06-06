@@ -1,0 +1,51 @@
+{
+  "id": "carvajal",
+  "name": "Dani Carvajal",
+  "shortName": "Carvajal",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇪🇸",
+  "stats": {
+    "age": 33,
+    "goals_international": 6,
+    "assists_international": 14,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 20,
+    "ballon_dor": 0,
+    "ucl_titles": 5,
+    "peak_rating": 90,
+    "current_rating": 85,
+    "pace": 76,
+    "shooting": 60,
+    "passing": 77,
+    "dribbling": 76,
+    "defending": 86,
+    "physicality": 72,
+    "creativity": 72,
+    "big_game_goals": 3,
+    "conversion_rate_pct": 12,
+    "hat_tricks": 0,
+    "player_trophies_total": 18,
+    "market_value_m": 30,
+    "goals_per_game": 0.05,
+    "intl_caps": 80,
+    "free_kick_goals": 1,
+    "penalty_record_pct": 65
+  },
+  "meta": {
+    "position": "Defender",
+    "club": "Real Madrid",
+    "nationality": "Spain",
+    "form": "WWWDW",
+    "key_stat": "5× UCL winner · Euro 2024 Player of the Tournament"
+  },
+  "tags": [
+    "carvajal",
+    "dani",
+    "spain",
+    "real madrid",
+    "defender",
+    "right back"
+  ]
+}

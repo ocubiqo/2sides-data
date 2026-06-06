@@ -1,0 +1,49 @@
+{
+  "id": "netherlands",
+  "name": "Netherlands",
+  "shortName": "NED",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇳🇱",
+  "stats": {
+    "fifa_rank": 7,
+    "wc_titles": 0,
+    "wc_appearances": 11,
+    "win_rate_pct": 52,
+    "avg_goals_per_game": 1.7,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 6,
+    "squad_avg_age": 26.7,
+    "squad_market_value_m": 690,
+    "wc_finals_appearances": 3,
+    "continental_titles": 2,
+    "team_trophies_total": 3,
+    "wc_golden_boots": 3,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 8,
+    "player_synergy": 7,
+    "youth_development": 8,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 52,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 30,
+    "biggest_win_margin": 5,
+    "global_fan_base_m": 200,
+    "social_media_m": 55
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Ronald Koeman",
+    "wc_best": "Runner-up",
+    "form": "WWWDW",
+    "key_players": "V. van Dijk, X. Simons, C. Gakpo, T. Reijnders"
+  },
+  "tags": [
+    "netherlands",
+    "ned",
+    "holland",
+    "oranje",
+    "europe",
+    "uefa"
+  ]
+}

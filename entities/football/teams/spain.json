@@ -1,0 +1,50 @@
+{
+  "id": "spain",
+  "name": "Spain",
+  "shortName": "ESP",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇪🇸",
+  "stats": {
+    "fifa_rank": 3,
+    "wc_titles": 1,
+    "wc_appearances": 16,
+    "win_rate_pct": 60,
+    "avg_goals_per_game": 1.9,
+    "avg_goals_conceded": 0.7,
+    "unbeaten_streak": 15,
+    "squad_avg_age": 25.2,
+    "squad_market_value_m": 950,
+    "wc_finals_appearances": 2,
+    "continental_titles": 4,
+    "team_trophies_total": 6,
+    "wc_golden_boots": 2,
+    "pressing_intensity": 9,
+    "tactical_flexibility": 9,
+    "player_synergy": 9,
+    "youth_development": 9,
+    "coach_rating": 9,
+    "wc_knockout_win_rate_pct": 65,
+    "penalty_shootout_wins": 3,
+    "wc_clean_sheets": 45,
+    "biggest_win_margin": 8,
+    "global_fan_base_m": 500,
+    "social_media_m": 105
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Luis de la Fuente",
+    "wc_best": "Winners",
+    "form": "WWWWD",
+    "key_players": "L. Yamal, Pedri, Rodri, D. Olmo"
+  },
+  "tags": [
+    "spain",
+    "esp",
+    "la roja",
+    "europe",
+    "pedri",
+    "yamal",
+    "uefa"
+  ]
+}

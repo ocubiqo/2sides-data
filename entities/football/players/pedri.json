@@ -1,0 +1,50 @@
+{
+  "id": "pedri",
+  "name": "Pedri",
+  "shortName": "Pedri",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇪🇸",
+  "stats": {
+    "age": 23,
+    "goals_international": 12,
+    "assists_international": 15,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 55,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 89,
+    "current_rating": 89,
+    "pace": 75,
+    "shooting": 72,
+    "passing": 90,
+    "dribbling": 90,
+    "defending": 68,
+    "physicality": 65,
+    "creativity": 92,
+    "big_game_goals": 4,
+    "conversion_rate_pct": 15,
+    "hat_tricks": 0,
+    "player_trophies_total": 8,
+    "market_value_m": 90,
+    "goals_per_game": 0.18,
+    "intl_caps": 75,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 70
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Barcelona",
+    "nationality": "Spain",
+    "form": "WWWDW",
+    "key_stat": "Euro 2024 winner · Spain's creative heartbeat"
+  },
+  "tags": [
+    "pedri",
+    "spain",
+    "barcelona",
+    "midfielder",
+    "creative"
+  ]
+}

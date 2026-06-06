@@ -1,0 +1,49 @@
+{
+  "id": "brazil",
+  "name": "Brazil",
+  "shortName": "BRA",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇧🇷",
+  "stats": {
+    "fifa_rank": 5,
+    "wc_titles": 5,
+    "wc_appearances": 22,
+    "win_rate_pct": 64,
+    "avg_goals_per_game": 2.1,
+    "avg_goals_conceded": 0.8,
+    "unbeaten_streak": 7,
+    "squad_avg_age": 26.8,
+    "squad_market_value_m": 960,
+    "wc_finals_appearances": 7,
+    "continental_titles": 22,
+    "team_trophies_total": 28,
+    "wc_golden_boots": 5,
+    "pressing_intensity": 8,
+    "tactical_flexibility": 8,
+    "player_synergy": 8,
+    "youth_development": 9,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 72,
+    "penalty_shootout_wins": 1,
+    "wc_clean_sheets": 71,
+    "biggest_win_margin": 8,
+    "global_fan_base_m": 1200,
+    "social_media_m": 280
+  },
+  "meta": {
+    "confederation": "CONMEBOL",
+    "coach": "Dorival Júnior",
+    "wc_best": "Winners",
+    "form": "WDWWL",
+    "key_players": "Vinicius Jr., Rodrygo, L. Paquetá, Militão"
+  },
+  "tags": [
+    "brazil",
+    "bra",
+    "seleção",
+    "canarinha",
+    "south america",
+    "conmebol"
+  ]
+}

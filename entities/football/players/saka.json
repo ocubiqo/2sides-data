@@ -1,0 +1,51 @@
+{
+  "id": "saka",
+  "name": "Bukayo Saka",
+  "shortName": "Saka",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "age": 23,
+    "goals_international": 22,
+    "assists_international": 20,
+    "wc_goals": 3,
+    "player_wc_titles": 0,
+    "career_club_goals": 90,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 89,
+    "current_rating": 89,
+    "pace": 84,
+    "shooting": 83,
+    "passing": 82,
+    "dribbling": 85,
+    "defending": 60,
+    "physicality": 68,
+    "creativity": 85,
+    "big_game_goals": 5,
+    "conversion_rate_pct": 24,
+    "hat_tricks": 1,
+    "player_trophies_total": 3,
+    "market_value_m": 120,
+    "goals_per_game": 0.31,
+    "intl_caps": 68,
+    "free_kick_goals": 3,
+    "penalty_record_pct": 80
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Arsenal",
+    "nationality": "England",
+    "form": "WWWDW",
+    "key_stat": "22 int'l goals · England's most reliable winger"
+  },
+  "tags": [
+    "saka",
+    "bukayo",
+    "england",
+    "arsenal",
+    "forward",
+    "winger"
+  ]
+}

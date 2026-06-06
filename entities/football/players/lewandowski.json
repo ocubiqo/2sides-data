@@ -1,0 +1,51 @@
+{
+  "id": "lewandowski",
+  "name": "Robert Lewandowski",
+  "shortName": "Lewandowski",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇵🇱",
+  "stats": {
+    "age": 37,
+    "goals_international": 82,
+    "assists_international": 30,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 620,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 96,
+    "current_rating": 83,
+    "pace": 77,
+    "shooting": 96,
+    "passing": 80,
+    "dribbling": 80,
+    "defending": 42,
+    "physicality": 80,
+    "creativity": 78,
+    "big_game_goals": 12,
+    "conversion_rate_pct": 30,
+    "hat_tricks": 10,
+    "player_trophies_total": 22,
+    "market_value_m": 15,
+    "goals_per_game": 0.66,
+    "intl_caps": 148,
+    "free_kick_goals": 18,
+    "penalty_record_pct": 92
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Barcelona",
+    "nationality": "Poland",
+    "form": "WWWDW",
+    "key_stat": "82 international goals · 2021 FIFA Best Player"
+  },
+  "tags": [
+    "lewandowski",
+    "lewy",
+    "robert",
+    "poland",
+    "barcelona",
+    "striker"
+  ]
+}

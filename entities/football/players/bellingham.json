@@ -1,0 +1,50 @@
+{
+  "id": "bellingham",
+  "name": "Jude Bellingham",
+  "shortName": "Bellingham",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "age": 22,
+    "goals_international": 18,
+    "assists_international": 12,
+    "wc_goals": 3,
+    "player_wc_titles": 0,
+    "career_club_goals": 95,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 91,
+    "current_rating": 91,
+    "pace": 82,
+    "shooting": 85,
+    "passing": 86,
+    "dribbling": 87,
+    "defending": 75,
+    "physicality": 82,
+    "creativity": 88,
+    "big_game_goals": 8,
+    "conversion_rate_pct": 20,
+    "hat_tricks": 1,
+    "player_trophies_total": 5,
+    "market_value_m": 180,
+    "goals_per_game": 0.26,
+    "intl_caps": 75,
+    "free_kick_goals": 3,
+    "penalty_record_pct": 75
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Real Madrid",
+    "nationality": "England",
+    "form": "WWWWW",
+    "key_stat": "2024 UCL winner · 18 international goals by 22"
+  },
+  "tags": [
+    "bellingham",
+    "jude",
+    "england",
+    "real madrid",
+    "midfielder"
+  ]
+}

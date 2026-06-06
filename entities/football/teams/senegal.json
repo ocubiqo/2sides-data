@@ -1,0 +1,49 @@
+{
+  "id": "senegal",
+  "name": "Senegal",
+  "shortName": "SEN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇸🇳",
+  "stats": {
+    "fifa_rank": 18,
+    "wc_titles": 0,
+    "wc_appearances": 4,
+    "win_rate_pct": 43,
+    "avg_goals_per_game": 1.4,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 5,
+    "squad_avg_age": 26.3,
+    "squad_market_value_m": 255,
+    "wc_finals_appearances": 0,
+    "continental_titles": 2,
+    "team_trophies_total": 2,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 7,
+    "player_synergy": 7,
+    "youth_development": 7,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 42,
+    "penalty_shootout_wins": 2,
+    "wc_clean_sheets": 10,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 65,
+    "social_media_m": 22
+  },
+  "meta": {
+    "confederation": "CAF",
+    "coach": "Aliou Cissé",
+    "wc_best": "Quarter-final",
+    "form": "WWDWW",
+    "key_players": "S. Mané, I. Sarr, E. Mendy, K. Koulibaly"
+  },
+  "tags": [
+    "senegal",
+    "sen",
+    "lions of teranga",
+    "africa",
+    "mane",
+    "caf"
+  ]
+}

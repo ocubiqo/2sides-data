@@ -1,0 +1,50 @@
+{
+  "id": "brozovic",
+  "name": "Marcelo Brozović",
+  "shortName": "Brozović",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇭🇷",
+  "stats": {
+    "age": 32,
+    "goals_international": 12,
+    "assists_international": 22,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 65,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 88,
+    "current_rating": 83,
+    "pace": 70,
+    "shooting": 68,
+    "passing": 87,
+    "dribbling": 82,
+    "defending": 75,
+    "physicality": 72,
+    "creativity": 84,
+    "big_game_goals": 4,
+    "conversion_rate_pct": 12,
+    "hat_tricks": 0,
+    "player_trophies_total": 4,
+    "market_value_m": 8,
+    "goals_per_game": 0.1,
+    "intl_caps": 91,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 65
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Al Nassr",
+    "nationality": "Croatia",
+    "form": "WDWWL",
+    "key_stat": "Croatia's engine in 2018 WC run to final"
+  },
+  "tags": [
+    "brozovic",
+    "marcelo",
+    "croatia",
+    "al nassr",
+    "midfielder"
+  ]
+}

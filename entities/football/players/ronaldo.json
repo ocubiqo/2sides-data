@@ -1,0 +1,52 @@
+{
+  "id": "ronaldo",
+  "name": "Cristiano Ronaldo",
+  "shortName": "Ronaldo",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇵🇹",
+  "stats": {
+    "age": 41,
+    "goals_international": 130,
+    "assists_international": 43,
+    "wc_goals": 8,
+    "player_wc_titles": 0,
+    "career_club_goals": 895,
+    "ballon_dor": 5,
+    "ucl_titles": 5,
+    "peak_rating": 97,
+    "current_rating": 82,
+    "pace": 80,
+    "shooting": 97,
+    "passing": 79,
+    "dribbling": 88,
+    "defending": 35,
+    "physicality": 78,
+    "creativity": 84,
+    "big_game_goals": 18,
+    "conversion_rate_pct": 23,
+    "hat_tricks": 10,
+    "player_trophies_total": 34,
+    "market_value_m": 20,
+    "goals_per_game": 0.69,
+    "intl_caps": 219,
+    "free_kick_goals": 58,
+    "penalty_record_pct": 87
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Al Nassr",
+    "nationality": "Portugal",
+    "form": "WWWLW",
+    "key_stat": "All-time leading international scorer (130 goals)"
+  },
+  "tags": [
+    "ronaldo",
+    "cr7",
+    "cristiano",
+    "goat",
+    "portugal",
+    "al nassr",
+    "forward"
+  ]
+}

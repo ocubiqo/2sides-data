@@ -1,0 +1,52 @@
+{
+  "id": "de-bruyne",
+  "name": "Kevin De Bruyne",
+  "shortName": "De Bruyne",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇪",
+  "stats": {
+    "age": 34,
+    "goals_international": 28,
+    "assists_international": 52,
+    "wc_goals": 2,
+    "player_wc_titles": 0,
+    "career_club_goals": 165,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 96,
+    "current_rating": 86,
+    "pace": 76,
+    "shooting": 83,
+    "passing": 96,
+    "dribbling": 87,
+    "defending": 62,
+    "physicality": 72,
+    "creativity": 97,
+    "big_game_goals": 8,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 3,
+    "player_trophies_total": 22,
+    "market_value_m": 25,
+    "goals_per_game": 0.19,
+    "intl_caps": 104,
+    "free_kick_goals": 15,
+    "penalty_record_pct": 70
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Manchester City",
+    "nationality": "Belgium",
+    "form": "WWDWL",
+    "key_stat": "52 international assists · 6× PL title with Man City"
+  },
+  "tags": [
+    "de bruyne",
+    "kdb",
+    "kevin",
+    "belgium",
+    "manchester city",
+    "midfielder",
+    "assist king"
+  ]
+}

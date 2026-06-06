@@ -1,0 +1,48 @@
+{
+  "id": "colombia",
+  "name": "Colombia",
+  "shortName": "COL",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇨🇴",
+  "stats": {
+    "fifa_rank": 9,
+    "wc_titles": 0,
+    "wc_appearances": 7,
+    "win_rate_pct": 48,
+    "avg_goals_per_game": 1.6,
+    "avg_goals_conceded": 1.1,
+    "unbeaten_streak": 28,
+    "squad_avg_age": 26.2,
+    "squad_market_value_m": 420,
+    "wc_finals_appearances": 0,
+    "continental_titles": 2,
+    "team_trophies_total": 3,
+    "wc_golden_boots": 1,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 7,
+    "player_synergy": 8,
+    "youth_development": 7,
+    "coach_rating": 8,
+    "wc_knockout_win_rate_pct": 38,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 14,
+    "biggest_win_margin": 5,
+    "global_fan_base_m": 120,
+    "social_media_m": 40
+  },
+  "meta": {
+    "confederation": "CONMEBOL",
+    "coach": "Néstor Lorenzo",
+    "wc_best": "Quarter-final",
+    "form": "WWWWW",
+    "key_players": "L. Díaz, J. Cuadrado, R. Arias, J. Lerma"
+  },
+  "tags": [
+    "colombia",
+    "col",
+    "cafeteros",
+    "south america",
+    "conmebol"
+  ]
+}

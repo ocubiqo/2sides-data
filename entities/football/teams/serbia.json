@@ -1,0 +1,47 @@
+{
+  "id": "serbia",
+  "name": "Serbia",
+  "shortName": "SRB",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇷🇸",
+  "stats": {
+    "fifa_rank": 33,
+    "wc_titles": 0,
+    "wc_appearances": 13,
+    "win_rate_pct": 38,
+    "avg_goals_per_game": 1.4,
+    "avg_goals_conceded": 1.3,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 27.6,
+    "squad_market_value_m": 210,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 1,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 6,
+    "player_synergy": 6,
+    "youth_development": 6,
+    "coach_rating": 6,
+    "wc_knockout_win_rate_pct": 30,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 10,
+    "biggest_win_margin": 5,
+    "global_fan_base_m": 45,
+    "social_media_m": 14
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Dragan Stojković",
+    "wc_best": "Quarter-final",
+    "form": "WLWDW",
+    "key_players": "A. Mitrović, S. Milinković-Savić, D. Tadić, N. Gudelj"
+  },
+  "tags": [
+    "serbia",
+    "srb",
+    "europe",
+    "uefa"
+  ]
+}

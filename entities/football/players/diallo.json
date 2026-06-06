@@ -1,0 +1,50 @@
+{
+  "id": "diallo",
+  "name": "Serhou Guirassy",
+  "shortName": "Guirassy",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇬🇳",
+  "stats": {
+    "age": 29,
+    "goals_international": 16,
+    "assists_international": 4,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 115,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 86,
+    "current_rating": 86,
+    "pace": 82,
+    "shooting": 85,
+    "passing": 65,
+    "dribbling": 74,
+    "defending": 35,
+    "physicality": 80,
+    "creativity": 68,
+    "big_game_goals": 3,
+    "conversion_rate_pct": 26,
+    "hat_tricks": 2,
+    "player_trophies_total": 2,
+    "market_value_m": 60,
+    "goals_per_game": 0.42,
+    "intl_caps": 38,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 72
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Borussia Dortmund",
+    "nationality": "Guinea",
+    "form": "WWWWL",
+    "key_stat": "Bundesliga top scorer 2024 · Guinea's all-time leading scorer"
+  },
+  "tags": [
+    "guirassy",
+    "serhou",
+    "guinea",
+    "borussia dortmund",
+    "striker"
+  ]
+}

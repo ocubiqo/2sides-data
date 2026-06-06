@@ -1,0 +1,51 @@
+{
+  "id": "neymar",
+  "name": "Neymar Jr.",
+  "shortName": "Neymar",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇷",
+  "stats": {
+    "age": 34,
+    "goals_international": 79,
+    "assists_international": 56,
+    "wc_goals": 8,
+    "player_wc_titles": 0,
+    "career_club_goals": 380,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 95,
+    "current_rating": 78,
+    "pace": 88,
+    "shooting": 86,
+    "passing": 83,
+    "dribbling": 95,
+    "defending": 30,
+    "physicality": 65,
+    "creativity": 93,
+    "big_game_goals": 12,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 7,
+    "player_trophies_total": 20,
+    "market_value_m": 25,
+    "goals_per_game": 0.68,
+    "intl_caps": 128,
+    "free_kick_goals": 22,
+    "penalty_record_pct": 82
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Al Hilal",
+    "nationality": "Brazil",
+    "form": "WDWWL",
+    "key_stat": "79 international goals · World's most expensive player (2017)"
+  },
+  "tags": [
+    "neymar",
+    "ney",
+    "brazil",
+    "al hilal",
+    "forward",
+    "winger"
+  ]
+}

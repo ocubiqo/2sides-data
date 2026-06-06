@@ -1,0 +1,50 @@
+{
+  "id": "raphinha",
+  "name": "Raphinha",
+  "shortName": "Raphinha",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇷",
+  "stats": {
+    "age": 28,
+    "goals_international": 24,
+    "assists_international": 16,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 130,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 88,
+    "current_rating": 88,
+    "pace": 86,
+    "shooting": 82,
+    "passing": 80,
+    "dribbling": 86,
+    "defending": 50,
+    "physicality": 68,
+    "creativity": 84,
+    "big_game_goals": 4,
+    "conversion_rate_pct": 24,
+    "hat_tricks": 2,
+    "player_trophies_total": 5,
+    "market_value_m": 60,
+    "goals_per_game": 0.28,
+    "intl_caps": 62,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 75
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Barcelona",
+    "nationality": "Brazil",
+    "form": "WWWWW",
+    "key_stat": "UCL top scorer 2025 · Barcelona's star winger"
+  },
+  "tags": [
+    "raphinha",
+    "brazil",
+    "barcelona",
+    "forward",
+    "winger"
+  ]
+}

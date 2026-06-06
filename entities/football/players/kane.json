@@ -1,0 +1,51 @@
+{
+  "id": "kane",
+  "name": "Harry Kane",
+  "shortName": "Kane",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "age": 32,
+    "goals_international": 69,
+    "assists_international": 18,
+    "wc_goals": 6,
+    "player_wc_titles": 0,
+    "career_club_goals": 370,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 92,
+    "current_rating": 88,
+    "pace": 75,
+    "shooting": 95,
+    "passing": 82,
+    "dribbling": 75,
+    "defending": 40,
+    "physicality": 80,
+    "creativity": 78,
+    "big_game_goals": 15,
+    "conversion_rate_pct": 27,
+    "hat_tricks": 8,
+    "player_trophies_total": 3,
+    "market_value_m": 90,
+    "goals_per_game": 0.68,
+    "intl_caps": 108,
+    "free_kick_goals": 5,
+    "penalty_record_pct": 89
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Bayern Munich",
+    "nationality": "England",
+    "form": "WWWWW",
+    "key_stat": "69 international goals · 2023 WC Golden Boot"
+  },
+  "tags": [
+    "kane",
+    "harry kane",
+    "england",
+    "bayern munich",
+    "striker",
+    "golden boot"
+  ]
+}

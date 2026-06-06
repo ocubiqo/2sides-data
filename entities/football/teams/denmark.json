@@ -1,0 +1,49 @@
+{
+  "id": "denmark",
+  "name": "Denmark",
+  "shortName": "DEN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇩🇰",
+  "stats": {
+    "fifa_rank": 20,
+    "wc_titles": 0,
+    "wc_appearances": 6,
+    "win_rate_pct": 46,
+    "avg_goals_per_game": 1.5,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 4,
+    "squad_avg_age": 27,
+    "squad_market_value_m": 305,
+    "wc_finals_appearances": 0,
+    "continental_titles": 1,
+    "team_trophies_total": 2,
+    "wc_golden_boots": 1,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 7,
+    "player_synergy": 8,
+    "youth_development": 7,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 40,
+    "penalty_shootout_wins": 1,
+    "wc_clean_sheets": 12,
+    "biggest_win_margin": 4,
+    "global_fan_base_m": 70,
+    "social_media_m": 22
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Kasper Hjulmand",
+    "wc_best": "Quarter-final",
+    "form": "WDWWL",
+    "key_players": "C. Eriksen, P. Højlund, A. Dolberg, V. Andersen"
+  },
+  "tags": [
+    "denmark",
+    "den",
+    "danish dynamite",
+    "europe",
+    "eriksen",
+    "uefa"
+  ]
+}

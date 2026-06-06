@@ -1,0 +1,51 @@
+{
+  "id": "doku",
+  "name": "Jérémy Doku",
+  "shortName": "Doku",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇪",
+  "stats": {
+    "age": 23,
+    "goals_international": 8,
+    "assists_international": 10,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 45,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 87,
+    "current_rating": 87,
+    "pace": 96,
+    "shooting": 74,
+    "passing": 75,
+    "dribbling": 90,
+    "defending": 38,
+    "physicality": 65,
+    "creativity": 84,
+    "big_game_goals": 2,
+    "conversion_rate_pct": 16,
+    "hat_tricks": 0,
+    "player_trophies_total": 4,
+    "market_value_m": 65,
+    "goals_per_game": 0.19,
+    "intl_caps": 40,
+    "free_kick_goals": 2,
+    "penalty_record_pct": 65
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Manchester City",
+    "nationality": "Belgium",
+    "form": "WWWWW",
+    "key_stat": "Fastest dribbler in the Premier League"
+  },
+  "tags": [
+    "doku",
+    "jeremy",
+    "belgium",
+    "manchester city",
+    "forward",
+    "winger"
+  ]
+}

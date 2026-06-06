@@ -1,0 +1,48 @@
+{
+  "id": "uzbekistan",
+  "name": "Uzbekistan",
+  "shortName": "UZB",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇺🇿",
+  "stats": {
+    "fifa_rank": 67,
+    "wc_titles": 0,
+    "wc_appearances": 0,
+    "win_rate_pct": 31,
+    "avg_goals_per_game": 1.1,
+    "avg_goals_conceded": 1.3,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 24.9,
+    "squad_market_value_m": 55,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 5,
+    "player_synergy": 5,
+    "youth_development": 6,
+    "coach_rating": 5,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 0,
+    "biggest_win_margin": 2,
+    "global_fan_base_m": 20,
+    "social_media_m": 8
+  },
+  "meta": {
+    "confederation": "AFC",
+    "coach": "Srecko Katanec",
+    "wc_best": "Group stage",
+    "form": "WWWLW",
+    "key_players": "E. Shomurodov, O. Toshmatov, J. Kholmatov, O. Alijonov"
+  },
+  "tags": [
+    "uzbekistan",
+    "uzb",
+    "white wolves",
+    "asia",
+    "afc"
+  ]
+}

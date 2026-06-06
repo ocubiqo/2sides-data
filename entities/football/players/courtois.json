@@ -1,0 +1,51 @@
+{
+  "id": "courtois",
+  "name": "Thibaut Courtois",
+  "shortName": "Courtois",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇪",
+  "stats": {
+    "age": 33,
+    "goals_international": 0,
+    "assists_international": 1,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 0,
+    "ballon_dor": 0,
+    "ucl_titles": 2,
+    "peak_rating": 95,
+    "current_rating": 90,
+    "pace": 62,
+    "shooting": 18,
+    "passing": 78,
+    "dribbling": 52,
+    "defending": 94,
+    "physicality": 82,
+    "creativity": 58,
+    "big_game_goals": 0,
+    "conversion_rate_pct": 4,
+    "hat_tricks": 0,
+    "player_trophies_total": 18,
+    "market_value_m": 30,
+    "goals_per_game": 0,
+    "intl_caps": 101,
+    "free_kick_goals": 0,
+    "penalty_record_pct": 65
+  },
+  "meta": {
+    "position": "Goalkeeper",
+    "club": "Real Madrid",
+    "nationality": "Belgium",
+    "form": "WWWDW",
+    "key_stat": "2022 UCL Final MVP · Best GK in 2022 WC"
+  },
+  "tags": [
+    "courtois",
+    "thibaut",
+    "belgium",
+    "real madrid",
+    "goalkeeper",
+    "gk"
+  ]
+}

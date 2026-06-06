@@ -1,0 +1,51 @@
+{
+  "id": "olise",
+  "name": "Michael Olise",
+  "shortName": "Olise",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇫🇷",
+  "stats": {
+    "age": 23,
+    "goals_international": 6,
+    "assists_international": 6,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 55,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 87,
+    "current_rating": 87,
+    "pace": 84,
+    "shooting": 80,
+    "passing": 80,
+    "dribbling": 86,
+    "defending": 45,
+    "physicality": 65,
+    "creativity": 86,
+    "big_game_goals": 2,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 1,
+    "player_trophies_total": 3,
+    "market_value_m": 60,
+    "goals_per_game": 0.24,
+    "intl_caps": 22,
+    "free_kick_goals": 5,
+    "penalty_record_pct": 75
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Bayern Munich",
+    "nationality": "France",
+    "form": "WWWWW",
+    "key_stat": "France's rising star · Top scorer in Bundesliga 2025"
+  },
+  "tags": [
+    "olise",
+    "michael",
+    "france",
+    "bayern munich",
+    "forward",
+    "winger"
+  ]
+}

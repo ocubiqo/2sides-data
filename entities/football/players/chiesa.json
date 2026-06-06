@@ -1,0 +1,51 @@
+{
+  "id": "chiesa",
+  "name": "Federico Chiesa",
+  "shortName": "Chiesa",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇮🇹",
+  "stats": {
+    "age": 27,
+    "goals_international": 18,
+    "assists_international": 10,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 85,
+    "ballon_dor": 0,
+    "ucl_titles": 0,
+    "peak_rating": 88,
+    "current_rating": 85,
+    "pace": 88,
+    "shooting": 80,
+    "passing": 74,
+    "dribbling": 82,
+    "defending": 55,
+    "physicality": 72,
+    "creativity": 80,
+    "big_game_goals": 5,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 1,
+    "player_trophies_total": 5,
+    "market_value_m": 55,
+    "goals_per_game": 0.25,
+    "intl_caps": 73,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 72
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Liverpool",
+    "nationality": "Italy",
+    "form": "WWWDL",
+    "key_stat": "Euro 2020 winner · Italy's fastest winger"
+  },
+  "tags": [
+    "chiesa",
+    "federico",
+    "italy",
+    "liverpool",
+    "forward",
+    "winger"
+  ]
+}

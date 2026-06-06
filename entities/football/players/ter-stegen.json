@@ -1,0 +1,51 @@
+{
+  "id": "ter-stegen",
+  "name": "Marc-André ter Stegen",
+  "shortName": "Ter Stegen",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇩🇪",
+  "stats": {
+    "age": 33,
+    "goals_international": 0,
+    "assists_international": 0,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 0,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 92,
+    "current_rating": 88,
+    "pace": 60,
+    "shooting": 18,
+    "passing": 80,
+    "dribbling": 55,
+    "defending": 91,
+    "physicality": 78,
+    "creativity": 60,
+    "big_game_goals": 0,
+    "conversion_rate_pct": 3,
+    "hat_tricks": 0,
+    "player_trophies_total": 8,
+    "market_value_m": 20,
+    "goals_per_game": 0,
+    "intl_caps": 42,
+    "free_kick_goals": 0,
+    "penalty_record_pct": 62
+  },
+  "meta": {
+    "position": "Goalkeeper",
+    "club": "Barcelona",
+    "nationality": "Germany",
+    "form": "WWDWW",
+    "key_stat": "Germany's #1 · Known for sweeper-keeper style"
+  },
+  "tags": [
+    "ter stegen",
+    "marc andre",
+    "germany",
+    "barcelona",
+    "goalkeeper",
+    "gk"
+  ]
+}

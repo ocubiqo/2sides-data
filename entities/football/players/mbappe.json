@@ -1,0 +1,51 @@
+{
+  "id": "mbappe",
+  "name": "Kylian Mbappé",
+  "shortName": "Mbappé",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇫🇷",
+  "stats": {
+    "age": 27,
+    "goals_international": 52,
+    "assists_international": 28,
+    "wc_goals": 12,
+    "player_wc_titles": 1,
+    "career_club_goals": 310,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 94,
+    "current_rating": 94,
+    "pace": 99,
+    "shooting": 92,
+    "passing": 83,
+    "dribbling": 94,
+    "defending": 38,
+    "physicality": 77,
+    "creativity": 88,
+    "big_game_goals": 18,
+    "conversion_rate_pct": 28,
+    "hat_tricks": 5,
+    "player_trophies_total": 20,
+    "market_value_m": 180,
+    "goals_per_game": 0.72,
+    "intl_caps": 87,
+    "free_kick_goals": 6,
+    "penalty_record_pct": 88
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Real Madrid",
+    "nationality": "France",
+    "form": "WWWWW",
+    "key_stat": "2018 WC winner · 12 World Cup goals at age 27"
+  },
+  "tags": [
+    "mbappe",
+    "kylian",
+    "france",
+    "real madrid",
+    "forward",
+    "pace"
+  ]
+}

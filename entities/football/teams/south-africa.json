@@ -1,0 +1,48 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "shortName": "RSA",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇿🇦",
+  "stats": {
+    "fifa_rank": 57,
+    "wc_titles": 0,
+    "wc_appearances": 3,
+    "win_rate_pct": 30,
+    "avg_goals_per_game": 1,
+    "avg_goals_conceded": 1.3,
+    "unbeaten_streak": 2,
+    "squad_avg_age": 26.5,
+    "squad_market_value_m": 80,
+    "wc_finals_appearances": 0,
+    "continental_titles": 3,
+    "team_trophies_total": 3,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 5,
+    "player_synergy": 5,
+    "youth_development": 5,
+    "coach_rating": 6,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 2,
+    "biggest_win_margin": 2,
+    "global_fan_base_m": 30,
+    "social_media_m": 12
+  },
+  "meta": {
+    "confederation": "CAF",
+    "coach": "Hugo Broos",
+    "wc_best": "Group stage",
+    "form": "WDLWW",
+    "key_players": "P. Tau, S. Bidvest, L. Dolly, R. de Reuck"
+  },
+  "tags": [
+    "south africa",
+    "rsa",
+    "bafana bafana",
+    "africa",
+    "caf"
+  ]
+}

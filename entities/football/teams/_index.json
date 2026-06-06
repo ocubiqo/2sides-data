@@ -1,0 +1,648 @@
+{
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "entities": [
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "emoji": "🇦🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "argentina",
+        "arg",
+        "albiceleste",
+        "south america",
+        "messi",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "emoji": "🇧🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "brazil",
+        "bra",
+        "seleção",
+        "canarinha",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "emoji": "🇨🇴",
+      "subCategoryId": "teams",
+      "tags": [
+        "colombia",
+        "col",
+        "cafeteros",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "emoji": "🇺🇾",
+      "subCategoryId": "teams",
+      "tags": [
+        "uruguay",
+        "uru",
+        "celeste",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "emoji": "🇪🇨",
+      "subCategoryId": "teams",
+      "tags": [
+        "ecuador",
+        "ecu",
+        "tri",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "emoji": "🇻🇪",
+      "subCategoryId": "teams",
+      "tags": [
+        "venezuela",
+        "ven",
+        "vinotinto",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "emoji": "🇫🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "france",
+        "fra",
+        "les bleus",
+        "europe",
+        "mbappe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "england",
+      "name": "England",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "subCategoryId": "teams",
+      "tags": [
+        "england",
+        "eng",
+        "three lions",
+        "europe",
+        "kane",
+        "bellingham",
+        "uefa"
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "emoji": "🇪🇸",
+      "subCategoryId": "teams",
+      "tags": [
+        "spain",
+        "esp",
+        "la roja",
+        "europe",
+        "pedri",
+        "yamal",
+        "uefa"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "emoji": "🇩🇪",
+      "subCategoryId": "teams",
+      "tags": [
+        "germany",
+        "ger",
+        "die mannschaft",
+        "europe",
+        "ter stegen",
+        "uefa"
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "emoji": "🇵🇹",
+      "subCategoryId": "teams",
+      "tags": [
+        "portugal",
+        "por",
+        "selecao",
+        "europe",
+        "ronaldo",
+        "uefa"
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "emoji": "🇳🇱",
+      "subCategoryId": "teams",
+      "tags": [
+        "netherlands",
+        "ned",
+        "holland",
+        "oranje",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "emoji": "🇧🇪",
+      "subCategoryId": "teams",
+      "tags": [
+        "belgium",
+        "bel",
+        "red devils",
+        "europe",
+        "de bruyne",
+        "uefa"
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "emoji": "🇭🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "croatia",
+        "cro",
+        "vatreni",
+        "europe",
+        "modric",
+        "uefa"
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "emoji": "🇨🇭",
+      "subCategoryId": "teams",
+      "tags": [
+        "switzerland",
+        "sui",
+        "nati",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "emoji": "🇦🇹",
+      "subCategoryId": "teams",
+      "tags": [
+        "austria",
+        "aut",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark",
+      "emoji": "🇩🇰",
+      "subCategoryId": "teams",
+      "tags": [
+        "denmark",
+        "den",
+        "danish dynamite",
+        "europe",
+        "eriksen",
+        "uefa"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "emoji": "🇹🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "turkey",
+        "tur",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "emoji": "🇵🇱",
+      "subCategoryId": "teams",
+      "tags": [
+        "poland",
+        "pol",
+        "europe",
+        "lewandowski",
+        "uefa"
+      ]
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "emoji": "🇺🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "ukraine",
+        "ukr",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia",
+      "emoji": "🇷🇸",
+      "subCategoryId": "teams",
+      "tags": [
+        "serbia",
+        "srb",
+        "europe",
+        "uefa"
+      ]
+    },
+    {
+      "id": "scotland",
+      "name": "Scotland",
+      "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "subCategoryId": "teams",
+      "tags": [
+        "scotland",
+        "sco",
+        "europe",
+        "tartan army",
+        "uefa"
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "emoji": "🇲🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "morocco",
+        "mar",
+        "atlas lions",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "emoji": "🇸🇳",
+      "subCategoryId": "teams",
+      "tags": [
+        "senegal",
+        "sen",
+        "lions of teranga",
+        "africa",
+        "mane",
+        "caf"
+      ]
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "emoji": "🇳🇬",
+      "subCategoryId": "teams",
+      "tags": [
+        "nigeria",
+        "nga",
+        "super eagles",
+        "africa",
+        "osimhen",
+        "caf"
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "emoji": "🇪🇬",
+      "subCategoryId": "teams",
+      "tags": [
+        "egypt",
+        "egy",
+        "pharaohs",
+        "africa",
+        "salah",
+        "caf"
+      ]
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "emoji": "🇿🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "south africa",
+        "rsa",
+        "bafana bafana",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "emoji": "🇨🇲",
+      "subCategoryId": "teams",
+      "tags": [
+        "cameroon",
+        "cmr",
+        "indomitable lions",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "ivory-coast",
+      "name": "Ivory Coast",
+      "emoji": "🇨🇮",
+      "subCategoryId": "teams",
+      "tags": [
+        "ivory coast",
+        "civ",
+        "cote divoire",
+        "elephants",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "emoji": "🇬🇭",
+      "subCategoryId": "teams",
+      "tags": [
+        "ghana",
+        "gha",
+        "black stars",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "algeria",
+      "name": "Algeria",
+      "emoji": "🇩🇿",
+      "subCategoryId": "teams",
+      "tags": [
+        "algeria",
+        "alg",
+        "desert foxes",
+        "africa",
+        "caf"
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "emoji": "🇯🇵",
+      "subCategoryId": "teams",
+      "tags": [
+        "japan",
+        "jpn",
+        "samurai blue",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "emoji": "🇰🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "south korea",
+        "kor",
+        "taegeuk warriors",
+        "asia",
+        "son",
+        "afc"
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "emoji": "🇮🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "iran",
+        "irn",
+        "team melli",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "emoji": "🇦🇺",
+      "subCategoryId": "teams",
+      "tags": [
+        "australia",
+        "aus",
+        "socceroos",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "saudi arabia",
+        "ksa",
+        "green falcons",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "emoji": "🇶🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "qatar",
+        "qat",
+        "maroons",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "emoji": "🇮🇶",
+      "subCategoryId": "teams",
+      "tags": [
+        "iraq",
+        "irq",
+        "lions of mesopotamia",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "emoji": "🇺🇿",
+      "subCategoryId": "teams",
+      "tags": [
+        "uzbekistan",
+        "uzb",
+        "white wolves",
+        "asia",
+        "afc"
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "emoji": "🇺🇸",
+      "subCategoryId": "teams",
+      "tags": [
+        "usa",
+        "united states",
+        "us soccer",
+        "pulisic",
+        "north america",
+        "concacaf",
+        "host"
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "emoji": "🇲🇽",
+      "subCategoryId": "teams",
+      "tags": [
+        "mexico",
+        "mex",
+        "el tri",
+        "north america",
+        "concacaf",
+        "host"
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "emoji": "🇨🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "canada",
+        "can",
+        "north america",
+        "concacaf",
+        "host",
+        "davies"
+      ]
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "emoji": "🇨🇷",
+      "subCategoryId": "teams",
+      "tags": [
+        "costa rica",
+        "crc",
+        "sele",
+        "north america",
+        "concacaf"
+      ]
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "emoji": "🇵🇦",
+      "subCategoryId": "teams",
+      "tags": [
+        "panama",
+        "pan",
+        "canaleros",
+        "north america",
+        "concacaf"
+      ]
+    },
+    {
+      "id": "jamaica",
+      "name": "Jamaica",
+      "emoji": "🇯🇲",
+      "subCategoryId": "teams",
+      "tags": [
+        "jamaica",
+        "jam",
+        "reggae boyz",
+        "north america",
+        "concacaf"
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "emoji": "🇳🇿",
+      "subCategoryId": "teams",
+      "tags": [
+        "new zealand",
+        "nzl",
+        "all whites",
+        "oceania",
+        "ofc"
+      ]
+    },
+    {
+      "id": "paraguay",
+      "name": "Paraguay",
+      "emoji": "🇵🇾",
+      "subCategoryId": "teams",
+      "tags": [
+        "paraguay",
+        "par",
+        "guarania",
+        "south america",
+        "conmebol"
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "emoji": "🇷🇴",
+      "subCategoryId": "teams",
+      "tags": [
+        "romania",
+        "rou",
+        "tricolorii",
+        "europe",
+        "uefa"
+      ]
+    }
+  ]
+}

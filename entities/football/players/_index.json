@@ -1,0 +1,496 @@
+{
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "entities": [
+    {
+      "id": "messi",
+      "name": "Lionel Messi",
+      "emoji": "🇦🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "messi",
+        "leo messi",
+        "goat",
+        "argentina",
+        "inter miami",
+        "forward",
+        "ballon dor"
+      ]
+    },
+    {
+      "id": "ronaldo",
+      "name": "Cristiano Ronaldo",
+      "emoji": "🇵🇹",
+      "subCategoryId": "players",
+      "tags": [
+        "ronaldo",
+        "cr7",
+        "cristiano",
+        "goat",
+        "portugal",
+        "al nassr",
+        "forward"
+      ]
+    },
+    {
+      "id": "mbappe",
+      "name": "Kylian Mbappé",
+      "emoji": "🇫🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "mbappe",
+        "kylian",
+        "france",
+        "real madrid",
+        "forward",
+        "pace"
+      ]
+    },
+    {
+      "id": "haaland",
+      "name": "Erling Haaland",
+      "emoji": "🇳🇴",
+      "subCategoryId": "players",
+      "tags": [
+        "haaland",
+        "erling",
+        "norway",
+        "manchester city",
+        "forward",
+        "striker"
+      ]
+    },
+    {
+      "id": "vinicius",
+      "name": "Vinicius Jr.",
+      "emoji": "🇧🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "vinicius",
+        "vini jr",
+        "brazil",
+        "real madrid",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "pedri",
+      "name": "Pedri",
+      "emoji": "🇪🇸",
+      "subCategoryId": "players",
+      "tags": [
+        "pedri",
+        "spain",
+        "barcelona",
+        "midfielder",
+        "creative"
+      ]
+    },
+    {
+      "id": "bellingham",
+      "name": "Jude Bellingham",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "subCategoryId": "players",
+      "tags": [
+        "bellingham",
+        "jude",
+        "england",
+        "real madrid",
+        "midfielder"
+      ]
+    },
+    {
+      "id": "salah",
+      "name": "Mohamed Salah",
+      "emoji": "🇪🇬",
+      "subCategoryId": "players",
+      "tags": [
+        "salah",
+        "mo salah",
+        "egypt",
+        "liverpool",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "kane",
+      "name": "Harry Kane",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "subCategoryId": "players",
+      "tags": [
+        "kane",
+        "harry kane",
+        "england",
+        "bayern munich",
+        "striker",
+        "golden boot"
+      ]
+    },
+    {
+      "id": "modric",
+      "name": "Luka Modrić",
+      "emoji": "🇭🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "modric",
+        "luka",
+        "croatia",
+        "al qadsiah",
+        "midfielder",
+        "veteran",
+        "ballon dor"
+      ]
+    },
+    {
+      "id": "de-bruyne",
+      "name": "Kevin De Bruyne",
+      "emoji": "🇧🇪",
+      "subCategoryId": "players",
+      "tags": [
+        "de bruyne",
+        "kdb",
+        "kevin",
+        "belgium",
+        "manchester city",
+        "midfielder",
+        "assist king"
+      ]
+    },
+    {
+      "id": "lewandowski",
+      "name": "Robert Lewandowski",
+      "emoji": "🇵🇱",
+      "subCategoryId": "players",
+      "tags": [
+        "lewandowski",
+        "lewy",
+        "robert",
+        "poland",
+        "barcelona",
+        "striker"
+      ]
+    },
+    {
+      "id": "benzema",
+      "name": "Karim Benzema",
+      "emoji": "🇫🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "benzema",
+        "karim",
+        "france",
+        "al ittihad",
+        "striker",
+        "retired international",
+        "ballon dor"
+      ]
+    },
+    {
+      "id": "neymar",
+      "name": "Neymar Jr.",
+      "emoji": "🇧🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "neymar",
+        "ney",
+        "brazil",
+        "al hilal",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "son",
+      "name": "Son Heung-min",
+      "emoji": "🇰🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "son",
+        "heung min",
+        "south korea",
+        "tottenham",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "yamal",
+      "name": "Lamine Yamal",
+      "emoji": "🇪🇸",
+      "subCategoryId": "players",
+      "tags": [
+        "yamal",
+        "lamine",
+        "spain",
+        "barcelona",
+        "forward",
+        "winger",
+        "wonderkid"
+      ]
+    },
+    {
+      "id": "saka",
+      "name": "Bukayo Saka",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "subCategoryId": "players",
+      "tags": [
+        "saka",
+        "bukayo",
+        "england",
+        "arsenal",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "rodrigo",
+      "name": "Rodri",
+      "emoji": "🇪🇸",
+      "subCategoryId": "players",
+      "tags": [
+        "rodri",
+        "rodrigo hernandez",
+        "spain",
+        "manchester city",
+        "midfielder",
+        "ballon dor"
+      ]
+    },
+    {
+      "id": "ruben-dias",
+      "name": "Rúben Dias",
+      "emoji": "🇵🇹",
+      "subCategoryId": "players",
+      "tags": [
+        "ruben dias",
+        "dias",
+        "portugal",
+        "manchester city",
+        "defender",
+        "centre back"
+      ]
+    },
+    {
+      "id": "alisson",
+      "name": "Alisson Becker",
+      "emoji": "🇧🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "alisson",
+        "alisson becker",
+        "brazil",
+        "liverpool",
+        "goalkeeper",
+        "gk"
+      ]
+    },
+    {
+      "id": "courtois",
+      "name": "Thibaut Courtois",
+      "emoji": "🇧🇪",
+      "subCategoryId": "players",
+      "tags": [
+        "courtois",
+        "thibaut",
+        "belgium",
+        "real madrid",
+        "goalkeeper",
+        "gk"
+      ]
+    },
+    {
+      "id": "ter-stegen",
+      "name": "Marc-André ter Stegen",
+      "emoji": "🇩🇪",
+      "subCategoryId": "players",
+      "tags": [
+        "ter stegen",
+        "marc andre",
+        "germany",
+        "barcelona",
+        "goalkeeper",
+        "gk"
+      ]
+    },
+    {
+      "id": "osimhen",
+      "name": "Victor Osimhen",
+      "emoji": "🇳🇬",
+      "subCategoryId": "players",
+      "tags": [
+        "osimhen",
+        "victor",
+        "nigeria",
+        "galatasaray",
+        "striker",
+        "forward"
+      ]
+    },
+    {
+      "id": "diallo",
+      "name": "Serhou Guirassy",
+      "emoji": "🇬🇳",
+      "subCategoryId": "players",
+      "tags": [
+        "guirassy",
+        "serhou",
+        "guinea",
+        "borussia dortmund",
+        "striker"
+      ]
+    },
+    {
+      "id": "brozovic",
+      "name": "Marcelo Brozović",
+      "emoji": "🇭🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "brozovic",
+        "marcelo",
+        "croatia",
+        "al nassr",
+        "midfielder"
+      ]
+    },
+    {
+      "id": "valverde",
+      "name": "Federico Valverde",
+      "emoji": "🇺🇾",
+      "subCategoryId": "players",
+      "tags": [
+        "valverde",
+        "fede",
+        "federico",
+        "uruguay",
+        "real madrid",
+        "midfielder"
+      ]
+    },
+    {
+      "id": "carvajal",
+      "name": "Dani Carvajal",
+      "emoji": "🇪🇸",
+      "subCategoryId": "players",
+      "tags": [
+        "carvajal",
+        "dani",
+        "spain",
+        "real madrid",
+        "defender",
+        "right back"
+      ]
+    },
+    {
+      "id": "chiesa",
+      "name": "Federico Chiesa",
+      "emoji": "🇮🇹",
+      "subCategoryId": "players",
+      "tags": [
+        "chiesa",
+        "federico",
+        "italy",
+        "liverpool",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "frattesi",
+      "name": "Davide Frattesi",
+      "emoji": "🇮🇹",
+      "subCategoryId": "players",
+      "tags": [
+        "frattesi",
+        "davide",
+        "italy",
+        "inter milan",
+        "midfielder"
+      ]
+    },
+    {
+      "id": "doku",
+      "name": "Jérémy Doku",
+      "emoji": "🇧🇪",
+      "subCategoryId": "players",
+      "tags": [
+        "doku",
+        "jeremy",
+        "belgium",
+        "manchester city",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "olise",
+      "name": "Michael Olise",
+      "emoji": "🇫🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "olise",
+        "michael",
+        "france",
+        "bayern munich",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "zirkzee",
+      "name": "Joshua Zirkzee",
+      "emoji": "🇳🇱",
+      "subCategoryId": "players",
+      "tags": [
+        "zirkzee",
+        "joshua",
+        "netherlands",
+        "ac milan",
+        "striker",
+        "forward"
+      ]
+    },
+    {
+      "id": "richarlison",
+      "name": "Richarlison",
+      "emoji": "🇧🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "richarlison",
+        "brazil",
+        "tottenham",
+        "striker",
+        "forward"
+      ]
+    },
+    {
+      "id": "raphinha",
+      "name": "Raphinha",
+      "emoji": "🇧🇷",
+      "subCategoryId": "players",
+      "tags": [
+        "raphinha",
+        "brazil",
+        "barcelona",
+        "forward",
+        "winger"
+      ]
+    },
+    {
+      "id": "pulisic",
+      "name": "Christian Pulisic",
+      "emoji": "🇺🇸",
+      "subCategoryId": "players",
+      "tags": [
+        "pulisic",
+        "christian",
+        "usa",
+        "ac milan",
+        "forward",
+        "winger",
+        "captain america"
+      ]
+    }
+  ]
+}

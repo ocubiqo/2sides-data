@@ -1,0 +1,51 @@
+{
+  "id": "vinicius",
+  "name": "Vinicius Jr.",
+  "shortName": "Vinicius",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇧🇷",
+  "stats": {
+    "age": 24,
+    "goals_international": 28,
+    "assists_international": 20,
+    "wc_goals": 2,
+    "player_wc_titles": 0,
+    "career_club_goals": 165,
+    "ballon_dor": 1,
+    "ucl_titles": 2,
+    "peak_rating": 92,
+    "current_rating": 92,
+    "pace": 97,
+    "shooting": 84,
+    "passing": 80,
+    "dribbling": 96,
+    "defending": 35,
+    "physicality": 70,
+    "creativity": 90,
+    "big_game_goals": 10,
+    "conversion_rate_pct": 24,
+    "hat_tricks": 2,
+    "player_trophies_total": 10,
+    "market_value_m": 220,
+    "goals_per_game": 0.72,
+    "intl_caps": 65,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 83
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Real Madrid",
+    "nationality": "Brazil",
+    "form": "WWWWW",
+    "key_stat": "2× UCL winner · 2024 Ballon d'Or runner-up"
+  },
+  "tags": [
+    "vinicius",
+    "vini jr",
+    "brazil",
+    "real madrid",
+    "forward",
+    "winger"
+  ]
+}

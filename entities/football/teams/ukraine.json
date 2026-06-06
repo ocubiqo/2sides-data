@@ -1,0 +1,47 @@
+{
+  "id": "ukraine",
+  "name": "Ukraine",
+  "shortName": "UKR",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇺🇦",
+  "stats": {
+    "fifa_rank": 24,
+    "wc_titles": 0,
+    "wc_appearances": 2,
+    "win_rate_pct": 41,
+    "avg_goals_per_game": 1.3,
+    "avg_goals_conceded": 1.2,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 26.9,
+    "squad_market_value_m": 195,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 7,
+    "tactical_flexibility": 7,
+    "player_synergy": 6,
+    "youth_development": 7,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 33,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 6,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 55,
+    "social_media_m": 18
+  },
+  "meta": {
+    "confederation": "UEFA",
+    "coach": "Serhiy Rebrov",
+    "wc_best": "Quarter-final",
+    "form": "WDWWW",
+    "key_players": "M. Mudryk, O. Zinchenko, V. Tsygankov, A. Lunin"
+  },
+  "tags": [
+    "ukraine",
+    "ukr",
+    "europe",
+    "uefa"
+  ]
+}

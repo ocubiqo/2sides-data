@@ -1,0 +1,48 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "shortName": "JPN",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇯🇵",
+  "stats": {
+    "fifa_rank": 15,
+    "wc_titles": 0,
+    "wc_appearances": 8,
+    "win_rate_pct": 46,
+    "avg_goals_per_game": 1.5,
+    "avg_goals_conceded": 1,
+    "unbeaten_streak": 6,
+    "squad_avg_age": 26,
+    "squad_market_value_m": 265,
+    "wc_finals_appearances": 0,
+    "continental_titles": 4,
+    "team_trophies_total": 4,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 8,
+    "tactical_flexibility": 8,
+    "player_synergy": 8,
+    "youth_development": 8,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 38,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 16,
+    "biggest_win_margin": 4,
+    "global_fan_base_m": 130,
+    "social_media_m": 45
+  },
+  "meta": {
+    "confederation": "AFC",
+    "coach": "Hajime Moriyasu",
+    "wc_best": "Round of 16",
+    "form": "WWWWW",
+    "key_players": "D. Mitoma, T. Endo, H. Kubo, S. Maeda"
+  },
+  "tags": [
+    "japan",
+    "jpn",
+    "samurai blue",
+    "asia",
+    "afc"
+  ]
+}

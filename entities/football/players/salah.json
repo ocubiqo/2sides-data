@@ -1,0 +1,51 @@
+{
+  "id": "salah",
+  "name": "Mohamed Salah",
+  "shortName": "Salah",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇪🇬",
+  "stats": {
+    "age": 33,
+    "goals_international": 57,
+    "assists_international": 31,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 360,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 94,
+    "current_rating": 88,
+    "pace": 90,
+    "shooting": 90,
+    "passing": 80,
+    "dribbling": 90,
+    "defending": 45,
+    "physicality": 72,
+    "creativity": 85,
+    "big_game_goals": 14,
+    "conversion_rate_pct": 26,
+    "hat_tricks": 6,
+    "player_trophies_total": 15,
+    "market_value_m": 50,
+    "goals_per_game": 0.52,
+    "intl_caps": 110,
+    "free_kick_goals": 8,
+    "penalty_record_pct": 85
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "Liverpool",
+    "nationality": "Egypt",
+    "form": "WWWDW",
+    "key_stat": "57 international goals · 4× PL Golden Boot"
+  },
+  "tags": [
+    "salah",
+    "mo salah",
+    "egypt",
+    "liverpool",
+    "forward",
+    "winger"
+  ]
+}

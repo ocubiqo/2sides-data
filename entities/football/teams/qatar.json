@@ -1,0 +1,48 @@
+{
+  "id": "qatar",
+  "name": "Qatar",
+  "shortName": "QAT",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇶🇦",
+  "stats": {
+    "fifa_rank": 37,
+    "wc_titles": 0,
+    "wc_appearances": 1,
+    "win_rate_pct": 31,
+    "avg_goals_per_game": 1.1,
+    "avg_goals_conceded": 1.5,
+    "unbeaten_streak": 2,
+    "squad_avg_age": 26.2,
+    "squad_market_value_m": 90,
+    "wc_finals_appearances": 0,
+    "continental_titles": 1,
+    "team_trophies_total": 1,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 5,
+    "player_synergy": 5,
+    "youth_development": 6,
+    "coach_rating": 5,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 0,
+    "biggest_win_margin": 2,
+    "global_fan_base_m": 35,
+    "social_media_m": 14
+  },
+  "meta": {
+    "confederation": "AFC",
+    "coach": "Marquez Lopez",
+    "wc_best": "Group stage",
+    "form": "WDWWL",
+    "key_players": "A. Al-Haydos, A. Afif, M. Muntari, B. Al-Hassan"
+  },
+  "tags": [
+    "qatar",
+    "qat",
+    "maroons",
+    "asia",
+    "afc"
+  ]
+}

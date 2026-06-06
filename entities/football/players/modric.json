@@ -1,0 +1,52 @@
+{
+  "id": "modric",
+  "name": "Luka Modrić",
+  "shortName": "Modrić",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇭🇷",
+  "stats": {
+    "age": 40,
+    "goals_international": 24,
+    "assists_international": 32,
+    "wc_goals": 2,
+    "player_wc_titles": 0,
+    "career_club_goals": 115,
+    "ballon_dor": 1,
+    "ucl_titles": 6,
+    "peak_rating": 97,
+    "current_rating": 80,
+    "pace": 72,
+    "shooting": 72,
+    "passing": 93,
+    "dribbling": 91,
+    "defending": 72,
+    "physicality": 62,
+    "creativity": 93,
+    "big_game_goals": 5,
+    "conversion_rate_pct": 14,
+    "hat_tricks": 1,
+    "player_trophies_total": 22,
+    "market_value_m": 5,
+    "goals_per_game": 0.14,
+    "intl_caps": 183,
+    "free_kick_goals": 8,
+    "penalty_record_pct": 72
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Al Qadsiah",
+    "nationality": "Croatia",
+    "form": "WDWWL",
+    "key_stat": "2018 WC runner-up · 2018 Ballon d'Or · 6× UCL winner"
+  },
+  "tags": [
+    "modric",
+    "luka",
+    "croatia",
+    "al qadsiah",
+    "midfielder",
+    "veteran",
+    "ballon dor"
+  ]
+}

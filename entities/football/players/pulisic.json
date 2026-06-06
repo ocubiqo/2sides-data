@@ -1,0 +1,52 @@
+{
+  "id": "pulisic",
+  "name": "Christian Pulisic",
+  "shortName": "Pulisic",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇺🇸",
+  "stats": {
+    "age": 27,
+    "goals_international": 32,
+    "assists_international": 20,
+    "wc_goals": 2,
+    "player_wc_titles": 0,
+    "career_club_goals": 125,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 87,
+    "current_rating": 87,
+    "pace": 85,
+    "shooting": 80,
+    "passing": 78,
+    "dribbling": 84,
+    "defending": 55,
+    "physicality": 72,
+    "creativity": 82,
+    "big_game_goals": 5,
+    "conversion_rate_pct": 22,
+    "hat_tricks": 1,
+    "player_trophies_total": 4,
+    "market_value_m": 50,
+    "goals_per_game": 0.3,
+    "intl_caps": 70,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 78
+  },
+  "meta": {
+    "position": "Forward",
+    "club": "AC Milan",
+    "nationality": "USA",
+    "form": "WDWWW",
+    "key_stat": "USA's captain · Most decorated American footballer"
+  },
+  "tags": [
+    "pulisic",
+    "christian",
+    "usa",
+    "ac milan",
+    "forward",
+    "winger",
+    "captain america"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "new-zealand",
+  "name": "New Zealand",
+  "shortName": "NZL",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇳🇿",
+  "stats": {
+    "fifa_rank": 95,
+    "wc_titles": 0,
+    "wc_appearances": 3,
+    "win_rate_pct": 22,
+    "avg_goals_per_game": 0.8,
+    "avg_goals_conceded": 1.7,
+    "unbeaten_streak": 1,
+    "squad_avg_age": 26.1,
+    "squad_market_value_m": 30,
+    "wc_finals_appearances": 0,
+    "continental_titles": 4,
+    "team_trophies_total": 4,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 4,
+    "tactical_flexibility": 5,
+    "player_synergy": 4,
+    "youth_development": 5,
+    "coach_rating": 5,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 2,
+    "biggest_win_margin": 2,
+    "global_fan_base_m": 15,
+    "social_media_m": 6
+  },
+  "meta": {
+    "confederation": "OFC",
+    "coach": "Darren Bazeley",
+    "wc_best": "Group stage",
+    "form": "WDLLW",
+    "key_players": "C. Wood, W. Spence, L. Cacace, A. Garbett"
+  },
+  "tags": [
+    "new zealand",
+    "nzl",
+    "all whites",
+    "oceania",
+    "ofc"
+  ]
+}

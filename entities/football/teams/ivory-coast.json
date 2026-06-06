@@ -1,0 +1,49 @@
+{
+  "id": "ivory-coast",
+  "name": "Ivory Coast",
+  "shortName": "CIV",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇨🇮",
+  "stats": {
+    "fifa_rank": 48,
+    "wc_titles": 0,
+    "wc_appearances": 3,
+    "win_rate_pct": 35,
+    "avg_goals_per_game": 1.3,
+    "avg_goals_conceded": 1.2,
+    "unbeaten_streak": 6,
+    "squad_avg_age": 26,
+    "squad_market_value_m": 120,
+    "wc_finals_appearances": 0,
+    "continental_titles": 3,
+    "team_trophies_total": 3,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 6,
+    "tactical_flexibility": 6,
+    "player_synergy": 6,
+    "youth_development": 6,
+    "coach_rating": 7,
+    "wc_knockout_win_rate_pct": 17,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 4,
+    "biggest_win_margin": 3,
+    "global_fan_base_m": 45,
+    "social_media_m": 16
+  },
+  "meta": {
+    "confederation": "CAF",
+    "coach": "Emerse Faé",
+    "wc_best": "Group stage",
+    "form": "WWWDW",
+    "key_players": "S. Haller, F. Koné, I. Sangaré, S. Fofana"
+  },
+  "tags": [
+    "ivory coast",
+    "civ",
+    "cote divoire",
+    "elephants",
+    "africa",
+    "caf"
+  ]
+}

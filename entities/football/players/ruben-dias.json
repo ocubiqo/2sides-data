@@ -1,0 +1,51 @@
+{
+  "id": "ruben-dias",
+  "name": "Rúben Dias",
+  "shortName": "Rúben Dias",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇵🇹",
+  "stats": {
+    "age": 27,
+    "goals_international": 5,
+    "assists_international": 3,
+    "wc_goals": 0,
+    "player_wc_titles": 0,
+    "career_club_goals": 22,
+    "ballon_dor": 0,
+    "ucl_titles": 1,
+    "peak_rating": 91,
+    "current_rating": 91,
+    "pace": 72,
+    "shooting": 45,
+    "passing": 72,
+    "dribbling": 62,
+    "defending": 93,
+    "physicality": 85,
+    "creativity": 62,
+    "big_game_goals": 1,
+    "conversion_rate_pct": 10,
+    "hat_tricks": 0,
+    "player_trophies_total": 8,
+    "market_value_m": 65,
+    "goals_per_game": 0.04,
+    "intl_caps": 60,
+    "free_kick_goals": 0,
+    "penalty_record_pct": 60
+  },
+  "meta": {
+    "position": "Defender",
+    "club": "Manchester City",
+    "nationality": "Portugal",
+    "form": "WWWDW",
+    "key_stat": "2021 PL Player of the Year · Cornerstone of Man City defence"
+  },
+  "tags": [
+    "ruben dias",
+    "dias",
+    "portugal",
+    "manchester city",
+    "defender",
+    "centre back"
+  ]
+}

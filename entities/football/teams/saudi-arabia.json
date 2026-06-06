@@ -1,0 +1,48 @@
+{
+  "id": "saudi-arabia",
+  "name": "Saudi Arabia",
+  "shortName": "KSA",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇸🇦",
+  "stats": {
+    "fifa_rank": 56,
+    "wc_titles": 0,
+    "wc_appearances": 6,
+    "win_rate_pct": 29,
+    "avg_goals_per_game": 1.1,
+    "avg_goals_conceded": 1.4,
+    "unbeaten_streak": 3,
+    "squad_avg_age": 26.8,
+    "squad_market_value_m": 105,
+    "wc_finals_appearances": 0,
+    "continental_titles": 3,
+    "team_trophies_total": 4,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 6,
+    "player_synergy": 6,
+    "youth_development": 5,
+    "coach_rating": 6,
+    "wc_knockout_win_rate_pct": 20,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 4,
+    "biggest_win_margin": 4,
+    "global_fan_base_m": 50,
+    "social_media_m": 18
+  },
+  "meta": {
+    "confederation": "AFC",
+    "coach": "Roberto Mancini",
+    "wc_best": "Round of 16",
+    "form": "WDLWW",
+    "key_players": "S. Al-Dawsari, F. Al-Brikan, A. Al-Ammari, M. Al-Owais"
+  },
+  "tags": [
+    "saudi arabia",
+    "ksa",
+    "green falcons",
+    "asia",
+    "afc"
+  ]
+}

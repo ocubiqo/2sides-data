@@ -1,0 +1,51 @@
+{
+  "id": "rodrigo",
+  "name": "Rodri",
+  "shortName": "Rodri",
+  "categoryId": "football",
+  "subCategoryId": "players",
+  "emoji": "🇪🇸",
+  "stats": {
+    "age": 29,
+    "goals_international": 15,
+    "assists_international": 18,
+    "wc_goals": 1,
+    "player_wc_titles": 0,
+    "career_club_goals": 60,
+    "ballon_dor": 1,
+    "ucl_titles": 1,
+    "peak_rating": 94,
+    "current_rating": 93,
+    "pace": 65,
+    "shooting": 72,
+    "passing": 91,
+    "dribbling": 82,
+    "defending": 88,
+    "physicality": 80,
+    "creativity": 88,
+    "big_game_goals": 4,
+    "conversion_rate_pct": 18,
+    "hat_tricks": 0,
+    "player_trophies_total": 12,
+    "market_value_m": 100,
+    "goals_per_game": 0.15,
+    "intl_caps": 85,
+    "free_kick_goals": 4,
+    "penalty_record_pct": 70
+  },
+  "meta": {
+    "position": "Midfielder",
+    "club": "Manchester City",
+    "nationality": "Spain",
+    "form": "WWWWD",
+    "key_stat": "2024 Ballon d'Or · Euro 2024 winner · Best defensive MF"
+  },
+  "tags": [
+    "rodri",
+    "rodrigo hernandez",
+    "spain",
+    "manchester city",
+    "midfielder",
+    "ballon dor"
+  ]
+}

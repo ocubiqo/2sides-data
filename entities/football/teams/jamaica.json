@@ -1,0 +1,48 @@
+{
+  "id": "jamaica",
+  "name": "Jamaica",
+  "shortName": "JAM",
+  "categoryId": "football",
+  "subCategoryId": "teams",
+  "emoji": "🇯🇲",
+  "stats": {
+    "fifa_rank": 70,
+    "wc_titles": 0,
+    "wc_appearances": 1,
+    "win_rate_pct": 30,
+    "avg_goals_per_game": 1,
+    "avg_goals_conceded": 1.4,
+    "unbeaten_streak": 2,
+    "squad_avg_age": 25.8,
+    "squad_market_value_m": 55,
+    "wc_finals_appearances": 0,
+    "continental_titles": 0,
+    "team_trophies_total": 0,
+    "wc_golden_boots": 0,
+    "pressing_intensity": 5,
+    "tactical_flexibility": 5,
+    "player_synergy": 5,
+    "youth_development": 5,
+    "coach_rating": 5,
+    "wc_knockout_win_rate_pct": 0,
+    "penalty_shootout_wins": 0,
+    "wc_clean_sheets": 0,
+    "biggest_win_margin": 1,
+    "global_fan_base_m": 20,
+    "social_media_m": 8
+  },
+  "meta": {
+    "confederation": "CONCACAF",
+    "coach": "Steve McClaren",
+    "wc_best": "Group stage",
+    "form": "WDWLW",
+    "key_players": "D. Antonio, L. Bailey, K. Anderson, N. Nicholson"
+  },
+  "tags": [
+    "jamaica",
+    "jam",
+    "reggae boyz",
+    "north america",
+    "concacaf"
+  ]
+}
