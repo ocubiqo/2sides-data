@@ -121,14 +121,22 @@ A(${conflict.sideA.label}):${topA}
 B(${conflict.sideB.label}):${topB}
 Query:"${conflict.searchQuery}"
 
-Return 5 most recent war/military items per side. Prefer last 7 days — if unavailable, return up to 30 days old. Always return what you find; never refuse due to age. No invented quotes. Living officials only.
+Return 5 most recent war/military items per side AND up to 5 key events (brief factual sentences, last 14 days, no opinions). Prefer last 7 days — if unavailable, return up to 30 days old. Always return what you find; never refuse due to age. No invented quotes. Living officials only.
 JSON only:
-{"sideA":[{"title":"","source":"","sourceType":"tweet|official|newswire|analysis|state","description":"1-2 sentences","publishedAt":"","url":""}],"sideB":[...same...]}`;
+{"sideA":[{"title":"","source":"","sourceType":"tweet|official|newswire|analysis|state","description":"1-2 sentences","publishedAt":"","url":""}],"sideB":[...same...],"keyEvents":["1-sentence factual event","..."]}`;
 }
 
 // ── Parsing ───────────────────────────────────────────────────
 const VALID_SOURCE_TYPES = new Set(['tweet', 'official', 'newswire', 'analysis', 'state']);
 const MAX_ARTICLE_AGE_DAYS = 30;
+
+function parseKeyEvents(arr) {
+  if (!Array.isArray(arr)) return [];
+  return arr
+    .filter(e => typeof e === 'string' && e.trim().length > 5)
+    .slice(0, 5)
+    .map(e => stripCitations(e.trim()));
+}
 
 function stripCitations(s) {
   return s
@@ -162,15 +170,16 @@ function parseArticleArray(arr) {
 function parseResponse(text) {
   const clean = text.replace(/```[a-z]*\n?/gi, '').trim();
   const match = clean.match(/\{[\s\S]*\}/);
-  if (!match) return { sideA: [], sideB: [] };
+  if (!match) return { sideA: [], sideB: [], keyEvents: [] };
   try {
     const parsed = JSON.parse(match[0]);
     return {
-      sideA: parseArticleArray(Array.isArray(parsed.sideA) ? parsed.sideA : []),
-      sideB: parseArticleArray(Array.isArray(parsed.sideB) ? parsed.sideB : []),
+      sideA:     parseArticleArray(Array.isArray(parsed.sideA) ? parsed.sideA : []),
+      sideB:     parseArticleArray(Array.isArray(parsed.sideB) ? parsed.sideB : []),
+      keyEvents: parseKeyEvents(parsed.keyEvents),
     };
   } catch {
-    return { sideA: [], sideB: [] };
+    return { sideA: [], sideB: [], keyEvents: [] };
   }
 }
 
@@ -191,21 +200,22 @@ async function fetchConflict(client, conflict) {
     .join('\n')
     .trim();
 
-  const { sideA, sideB } = parseResponse(rawText);
+  const { sideA, sideB, keyEvents } = parseResponse(rawText);
 
   const generatedAtMs = Date.now();
   const fileData = {
     conflictId:    conflict.id,
     generatedAt:   new Date(generatedAtMs).toISOString(),
     generatedAtMs,
-    schemaVersion: 1,
-    sideA: { label: conflict.sideA.label, articles: sideA },
-    sideB: { label: conflict.sideB.label, articles: sideB },
+    schemaVersion: 2,
+    sideA:         { label: conflict.sideA.label, articles: sideA },
+    sideB:         { label: conflict.sideB.label, articles: sideB },
+    keyEvents,
   };
 
   const filePath = join(NEWS_DIR, `${conflict.id}.json`);
   writeFileSync(filePath, JSON.stringify(fileData, null, 2), 'utf8');
-  console.log(`[update-news] ✓ ${conflict.id}.json — A=${sideA.length} B=${sideB.length}`);
+  console.log(`[update-news] ✓ ${conflict.id}.json — A=${sideA.length} B=${sideB.length} events=${keyEvents.length}`);
 
   return { conflictId: conflict.id, generatedAtMs, sideACount: sideA.length, sideBCount: sideB.length };
 }
