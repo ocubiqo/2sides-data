@@ -1,0 +1,25 @@
+{
+  "id": "avengers-endgame",
+  "name": "Avengers: Endgame",
+  "shortName": "Endgame",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 2799,
+    "opening_weekend_m": 357,
+    "budget_m": 356,
+    "roi_pct": 686,
+    "rotten_tomatoes_pct": 94,
+    "imdb_rating": 8.4,
+    "metacritic_score": 78,
+    "award_nominations": 4
+  },
+  "meta": {
+    "director": "Russo Brothers",
+    "stars": "Robert Downey Jr",
+    "language": "English",
+    "studio": "Marvel / Disney"
+  },
+  "tags": ["hollywood", "movie", "english", "2019"]
+}

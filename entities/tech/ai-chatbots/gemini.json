@@ -1,0 +1,27 @@
+{
+  "id": "gemini",
+  "name": "Gemini (1.5 Pro)",
+  "shortName": "Gemini",
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "emoji": "✨",
+  "stats": {
+    "monthly_users_m": 80,
+    "context_window_k": 1000,
+    "languages_supported": 100,
+    "plugins_integrations": 300,
+    "code_benchmark_pct": 88,
+    "reasoning_score": 85,
+    "response_speed_ms": 1100,
+    "price_per_1m_tokens_usd": 3.5,
+    "multimodal": "Yes",
+    "voice_mode": "Yes",
+    "free_tier": "Yes"
+  },
+  "meta": {
+    "parent_company": "Google",
+    "founded": "2023",
+    "valuation_bn": "N/A"
+  },
+  "tags": ["ai", "chatbot", "google", "gemini", "multimodal", "voice"]
+}

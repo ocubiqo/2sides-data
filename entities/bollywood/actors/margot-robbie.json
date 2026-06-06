@@ -1,0 +1,24 @@
+{
+  "id": "margot-robbie",
+  "name": "Margot Robbie",
+  "shortName": "Margot",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇦🇺",
+  "stats": {
+    "total_box_office_bn": 4.8,
+    "opening_weekend_record_m": 162,
+    "movies_count": 22,
+    "oscar_nominations": 2,
+    "oscar_wins": 0,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 22,
+    "avg_rotten_tomatoes_pct": 78
+  },
+  "meta": {
+    "nationality": "Australian",
+    "known_for": "Barbie, Suicide Squad, I, Tonya",
+    "era": "2013–present"
+  },
+  "tags": ["hollywood", "actor", "australian"]
+}

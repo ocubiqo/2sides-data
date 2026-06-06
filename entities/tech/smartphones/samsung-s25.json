@@ -1,0 +1,23 @@
+{
+  "id": "samsung-s25",
+  "name": "Samsung Galaxy S25",
+  "shortName": "S25",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 416,
+    "battery_mah": 4000,
+    "ram_gb": 12,
+    "storage_max_gb": 512,
+    "camera_main_mp": 50,
+    "antutu_score": 1800000,
+    "price_usd": 799
+  },
+  "meta": {
+    "os": "Android 15",
+    "chip": "Snapdragon 8 Elite",
+    "release_year": "2025"
+  },
+  "tags": ["samsung", "galaxy", "android", "5g"]
+}

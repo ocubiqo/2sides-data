@@ -1,0 +1,25 @@
+{
+  "id": "barbie",
+  "name": "Barbie",
+  "shortName": "Barbie",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 1442,
+    "opening_weekend_m": 162,
+    "budget_m": 145,
+    "roi_pct": 895,
+    "rotten_tomatoes_pct": 88,
+    "imdb_rating": 6.9,
+    "metacritic_score": 80,
+    "award_nominations": 12
+  },
+  "meta": {
+    "director": "Greta Gerwig",
+    "stars": "Margot Robbie",
+    "language": "English",
+    "studio": "Warner Bros"
+  },
+  "tags": ["hollywood", "movie", "english", "2023"]
+}

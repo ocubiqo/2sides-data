@@ -1,0 +1,27 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT (GPT-4o)",
+  "shortName": "ChatGPT",
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "emoji": "🤖",
+  "stats": {
+    "monthly_users_m": 200,
+    "context_window_k": 128,
+    "languages_supported": 95,
+    "plugins_integrations": 700,
+    "code_benchmark_pct": 90,
+    "reasoning_score": 87,
+    "response_speed_ms": 1200,
+    "price_per_1m_tokens_usd": 5.0,
+    "multimodal": "Yes",
+    "voice_mode": "Yes",
+    "free_tier": "Yes"
+  },
+  "meta": {
+    "parent_company": "OpenAI",
+    "founded": "2022",
+    "valuation_bn": "157"
+  },
+  "tags": ["ai", "chatbot", "openai", "gpt", "multimodal", "voice"]
+}

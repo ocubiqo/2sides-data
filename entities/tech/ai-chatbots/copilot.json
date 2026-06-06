@@ -1,0 +1,27 @@
+{
+  "id": "copilot",
+  "name": "Microsoft Copilot",
+  "shortName": "Copilot",
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "emoji": "🪟",
+  "stats": {
+    "monthly_users_m": 30,
+    "context_window_k": 128,
+    "languages_supported": 70,
+    "plugins_integrations": 1000,
+    "code_benchmark_pct": 87,
+    "reasoning_score": 82,
+    "response_speed_ms": 1300,
+    "price_per_1m_tokens_usd": 0,
+    "multimodal": "Yes",
+    "voice_mode": "Yes",
+    "free_tier": "Yes"
+  },
+  "meta": {
+    "parent_company": "Microsoft",
+    "founded": "2023",
+    "valuation_bn": "N/A"
+  },
+  "tags": ["ai", "chatbot", "microsoft", "copilot", "multimodal", "voice", "office"]
+}

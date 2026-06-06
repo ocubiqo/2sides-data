@@ -1,0 +1,22 @@
+{
+  "id": "tesla-model-3",
+  "name": "Tesla Model 3 (2024)",
+  "shortName": "Model 3",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚗",
+  "stats": {
+    "range_km": 576,
+    "horsepower": 358,
+    "charge_0_80_min": 25,
+    "cargo_litres": 594,
+    "safety_rating": 5,
+    "price_usd": 40240
+  },
+  "meta": {
+    "brand": "Tesla",
+    "type": "Sedan",
+    "origin": "USA"
+  },
+  "tags": ["tesla", "sedan", "ev", "usa", "autopilot"]
+}

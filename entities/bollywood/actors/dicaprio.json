@@ -1,0 +1,24 @@
+{
+  "id": "dicaprio",
+  "name": "Leonardo DiCaprio",
+  "shortName": "DiCaprio",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 7.2,
+    "opening_weekend_record_m": 98,
+    "movies_count": 35,
+    "oscar_nominations": 7,
+    "oscar_wins": 1,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 57,
+    "avg_rotten_tomatoes_pct": 82
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Titanic, Inception, The Revenant",
+    "era": "1991–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hbo-max",
+  "name": "Max (HBO)",
+  "shortName": "Max",
+  "categoryId": "tech",
+  "subCategoryId": "streaming",
+  "emoji": "🎭",
+  "stats": {
+    "subscribers_m": 95,
+    "content_library_k": 2.8,
+    "original_shows": 350,
+    "monthly_price_usd": 15.99,
+    "max_streams": 3
+  },
+  "meta": {
+    "founded": "2020",
+    "hq": "New York, USA",
+    "revenue_bn": "11"
+  },
+  "tags": ["streaming", "hbo", "max", "warner", "originals", "prestige-tv"]
+}

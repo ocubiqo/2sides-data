@@ -1,0 +1,24 @@
+{
+  "id": "zendaya",
+  "name": "Zendaya",
+  "shortName": "Zendaya",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 3.2,
+    "opening_weekend_record_m": 84,
+    "movies_count": 12,
+    "oscar_nominations": 1,
+    "oscar_wins": 0,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 185,
+    "avg_rotten_tomatoes_pct": 88
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Dune, Challengers, Spider-Man: No Way Home",
+    "era": "2017–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

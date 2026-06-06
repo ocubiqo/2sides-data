@@ -1,0 +1,76 @@
+{
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "entities": [
+    {
+      "id": "srk",
+      "name": "Shah Rukh Khan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "aamir-khan",
+      "name": "Aamir Khan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "deepika",
+      "name": "Deepika Padukone",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "alia-bhatt",
+      "name": "Alia Bhatt",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "salman-khan",
+      "name": "Salman Khan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "tom-cruise",
+      "name": "Tom Cruise",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "dicaprio",
+      "name": "Leonardo DiCaprio",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "margot-robbie",
+      "name": "Margot Robbie",
+      "emoji": "🇦🇺",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "australian"]
+    },
+    {
+      "id": "zendaya",
+      "name": "Zendaya",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "dwayne-johnson",
+      "name": "Dwayne Johnson",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    }
+  ]
+}

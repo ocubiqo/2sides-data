@@ -1,0 +1,27 @@
+{
+  "id": "claude",
+  "name": "Claude (claude-sonnet-4-6)",
+  "shortName": "Claude",
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "emoji": "🧠",
+  "stats": {
+    "monthly_users_m": 40,
+    "context_window_k": 200,
+    "languages_supported": 85,
+    "plugins_integrations": 150,
+    "code_benchmark_pct": 92,
+    "reasoning_score": 91,
+    "response_speed_ms": 900,
+    "price_per_1m_tokens_usd": 3.0,
+    "multimodal": "Yes",
+    "voice_mode": "No",
+    "free_tier": "Yes"
+  },
+  "meta": {
+    "parent_company": "Anthropic",
+    "founded": "2021",
+    "valuation_bn": "61"
+  },
+  "tags": ["ai", "chatbot", "anthropic", "claude", "multimodal", "coding"]
+}

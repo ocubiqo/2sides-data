@@ -1,0 +1,22 @@
+{
+  "id": "tesla-model-y",
+  "name": "Tesla Model Y",
+  "shortName": "Model Y",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚙",
+  "stats": {
+    "range_km": 533,
+    "horsepower": 456,
+    "charge_0_80_min": 25,
+    "cargo_litres": 2041,
+    "safety_rating": 5,
+    "price_usd": 43990
+  },
+  "meta": {
+    "brand": "Tesla",
+    "type": "SUV",
+    "origin": "USA"
+  },
+  "tags": ["tesla", "suv", "ev", "usa", "autopilot"]
+}

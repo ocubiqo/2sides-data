@@ -1,0 +1,21 @@
+{
+  "id": "netflix",
+  "name": "Netflix",
+  "shortName": "Netflix",
+  "categoryId": "tech",
+  "subCategoryId": "streaming",
+  "emoji": "🎬",
+  "stats": {
+    "subscribers_m": 270,
+    "content_library_k": 17,
+    "original_shows": 1800,
+    "monthly_price_usd": 15.49,
+    "max_streams": 4
+  },
+  "meta": {
+    "founded": "1997",
+    "hq": "Los Gatos, USA",
+    "revenue_bn": "38"
+  },
+  "tags": ["streaming", "video", "originals", "movies", "tv-shows"]
+}

@@ -1,0 +1,48 @@
+{
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "entities": [
+    {
+      "id": "tesla-model-3",
+      "name": "Tesla Model 3 (2024)",
+      "emoji": "🚗",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["tesla", "sedan", "ev", "usa", "autopilot"]
+    },
+    {
+      "id": "byd-seal",
+      "name": "BYD Seal (2024)",
+      "emoji": "🚗",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["byd", "sedan", "ev", "china", "blade-battery"]
+    },
+    {
+      "id": "tesla-model-y",
+      "name": "Tesla Model Y",
+      "emoji": "🚙",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["tesla", "suv", "ev", "usa", "autopilot"]
+    },
+    {
+      "id": "byd-atto-3",
+      "name": "BYD Atto 3 (Yuan Plus)",
+      "emoji": "🚙",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["byd", "suv", "ev", "china", "blade-battery"]
+    },
+    {
+      "id": "hyundai-ioniq-6",
+      "name": "Hyundai IONIQ 6",
+      "emoji": "🚗",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["hyundai", "sedan", "ev", "south-korea", "800v-charging"]
+    },
+    {
+      "id": "volkswagen-id4",
+      "name": "VW ID.4",
+      "emoji": "🚙",
+      "subCategoryId": "electric-vehicles",
+      "tags": ["volkswagen", "vw", "suv", "ev", "germany"]
+    }
+  ]
+}

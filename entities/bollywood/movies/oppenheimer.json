@@ -1,0 +1,25 @@
+{
+  "id": "oppenheimer",
+  "name": "Oppenheimer",
+  "shortName": "Oppenheimer",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 952,
+    "opening_weekend_m": 80,
+    "budget_m": 100,
+    "roi_pct": 852,
+    "rotten_tomatoes_pct": 93,
+    "imdb_rating": 8.3,
+    "metacritic_score": 88,
+    "award_nominations": 27
+  },
+  "meta": {
+    "director": "Christopher Nolan",
+    "stars": "Cillian Murphy",
+    "language": "English",
+    "studio": "Universal"
+  },
+  "tags": ["hollywood", "movie", "english", "2023"]
+}

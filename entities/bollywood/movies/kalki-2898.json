@@ -1,0 +1,25 @@
+{
+  "id": "kalki-2898",
+  "name": "Kalki 2898 AD",
+  "shortName": "Kalki 2898",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 219,
+    "opening_weekend_m": 95,
+    "budget_m": 72,
+    "roi_pct": 204,
+    "rotten_tomatoes_pct": 92,
+    "imdb_rating": 7.8,
+    "metacritic_score": 78,
+    "award_nominations": 6
+  },
+  "meta": {
+    "director": "Nag Ashwin",
+    "stars": "Prabhas, Deepika Padukone",
+    "language": "Telugu",
+    "studio": "Vyjayanthi Movies"
+  },
+  "tags": ["bollywood", "movie", "telugu", "2024"]
+}

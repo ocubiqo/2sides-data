@@ -1,0 +1,25 @@
+{
+  "id": "aamir-khan",
+  "name": "Aamir Khan",
+  "shortName": "Aamir",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 3.2,
+    "opening_weekend_record_m": 43,
+    "movies_count": 50,
+    "oscar_nominations": 1,
+    "oscar_wins": 0,
+    "filmfare_wins": 8,
+    "instagram_followers_m": 10,
+    "avg_rotten_tomatoes_pct": 81
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Dangal, 3 Idiots, Lagaan",
+    "era": "1988–present",
+    "nickname": "Mr. Perfectionist"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

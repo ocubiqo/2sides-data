@@ -1,0 +1,48 @@
+{
+  "categoryId": "tech",
+  "subCategoryId": "streaming",
+  "entities": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "emoji": "🎬",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "video", "originals", "movies", "tv-shows"]
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "emoji": "🏰",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "disney", "marvel", "star-wars", "pixar", "family"]
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime Video",
+      "emoji": "📦",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "amazon", "prime", "originals", "movies", "tv-shows"]
+    },
+    {
+      "id": "hbo-max",
+      "name": "Max (HBO)",
+      "emoji": "🎭",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "hbo", "max", "warner", "originals", "prestige-tv"]
+    },
+    {
+      "id": "apple-tv",
+      "name": "Apple TV+",
+      "emoji": "🍎",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "apple", "originals", "award-winning"]
+    },
+    {
+      "id": "youtube-premium",
+      "name": "YouTube Premium",
+      "emoji": "▶️",
+      "subCategoryId": "streaming",
+      "tags": ["streaming", "youtube", "google", "ugc", "ad-free", "music"]
+    }
+  ]
+}

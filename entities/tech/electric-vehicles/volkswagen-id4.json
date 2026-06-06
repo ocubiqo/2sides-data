@@ -1,0 +1,22 @@
+{
+  "id": "volkswagen-id4",
+  "name": "VW ID.4",
+  "shortName": "ID.4",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚙",
+  "stats": {
+    "range_km": 520,
+    "horsepower": 295,
+    "charge_0_80_min": 28,
+    "cargo_litres": 543,
+    "safety_rating": 5,
+    "price_usd": 38995
+  },
+  "meta": {
+    "brand": "Volkswagen",
+    "type": "SUV",
+    "origin": "Germany"
+  },
+  "tags": ["volkswagen", "vw", "suv", "ev", "germany"]
+}

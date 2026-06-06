@@ -1,0 +1,22 @@
+{
+  "id": "hyundai-ioniq-6",
+  "name": "Hyundai IONIQ 6",
+  "shortName": "IONIQ 6",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚗",
+  "stats": {
+    "range_km": 614,
+    "horsepower": 320,
+    "charge_0_80_min": 18,
+    "cargo_litres": 401,
+    "safety_rating": 5,
+    "price_usd": 38615
+  },
+  "meta": {
+    "brand": "Hyundai",
+    "type": "Sedan",
+    "origin": "South Korea"
+  },
+  "tags": ["hyundai", "sedan", "ev", "south-korea", "800v-charging"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "oneplus-13",
+  "name": "OnePlus 13",
+  "shortName": "OnePlus 13",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 510,
+    "battery_mah": 6000,
+    "ram_gb": 16,
+    "storage_max_gb": 512,
+    "camera_main_mp": 50,
+    "antutu_score": 2000000,
+    "price_usd": 899
+  },
+  "meta": {
+    "os": "Android 15",
+    "chip": "Snapdragon 8 Elite",
+    "release_year": "2025"
+  },
+  "tags": ["oneplus", "android", "flagship", "5g", "fast-charge"]
+}

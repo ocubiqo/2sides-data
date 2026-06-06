@@ -1,0 +1,22 @@
+{
+  "id": "byd-seal",
+  "name": "BYD Seal (2024)",
+  "shortName": "BYD Seal",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚗",
+  "stats": {
+    "range_km": 570,
+    "horsepower": 523,
+    "charge_0_80_min": 26,
+    "cargo_litres": 400,
+    "safety_rating": 5,
+    "price_usd": 38000
+  },
+  "meta": {
+    "brand": "BYD",
+    "type": "Sedan",
+    "origin": "China"
+  },
+  "tags": ["byd", "sedan", "ev", "china", "blade-battery"]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "grok",
+  "name": "Grok (3)",
+  "shortName": "Grok",
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "emoji": "⚡",
+  "stats": {
+    "monthly_users_m": 10,
+    "context_window_k": 131,
+    "languages_supported": 50,
+    "plugins_integrations": 50,
+    "code_benchmark_pct": 85,
+    "reasoning_score": 83,
+    "response_speed_ms": 1500,
+    "price_per_1m_tokens_usd": 2.0,
+    "multimodal": "Yes",
+    "voice_mode": "No",
+    "free_tier": "No"
+  },
+  "meta": {
+    "parent_company": "xAI / Elon Musk",
+    "founded": "2023",
+    "valuation_bn": "40"
+  },
+  "tags": ["ai", "chatbot", "xai", "grok", "multimodal", "x-platform"]
+}

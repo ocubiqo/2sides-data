@@ -1,0 +1,25 @@
+{
+  "id": "srk",
+  "name": "Shah Rukh Khan",
+  "shortName": "SRK",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 2.8,
+    "opening_weekend_record_m": 40,
+    "movies_count": 90,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 14,
+    "instagram_followers_m": 43,
+    "avg_rotten_tomatoes_pct": 72
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Dilwale Dulhania Le Jayenge, Pathaan",
+    "era": "1992–present",
+    "nickname": "King Khan"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

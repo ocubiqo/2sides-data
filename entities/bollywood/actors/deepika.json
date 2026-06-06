@@ -1,0 +1,25 @@
+{
+  "id": "deepika",
+  "name": "Deepika Padukone",
+  "shortName": "Deepika",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 2.0,
+    "opening_weekend_record_m": 28,
+    "movies_count": 45,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 7,
+    "instagram_followers_m": 78,
+    "avg_rotten_tomatoes_pct": 70
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Pathaan, Chennai Express, Piku",
+    "era": "2007–present",
+    "nickname": "DP"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

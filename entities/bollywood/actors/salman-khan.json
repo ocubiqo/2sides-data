@@ -1,0 +1,25 @@
+{
+  "id": "salman-khan",
+  "name": "Salman Khan",
+  "shortName": "Salman",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 2.5,
+    "opening_weekend_record_m": 36,
+    "movies_count": 100,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 3,
+    "instagram_followers_m": 68,
+    "avg_rotten_tomatoes_pct": 55
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Bajrangi Bhaijaan, Tiger series, Dabangg",
+    "era": "1988–present",
+    "nickname": "Bhai"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

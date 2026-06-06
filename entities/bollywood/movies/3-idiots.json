@@ -1,0 +1,25 @@
+{
+  "id": "3-idiots",
+  "name": "3 Idiots",
+  "shortName": "3 Idiots",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 100,
+    "opening_weekend_m": 8,
+    "budget_m": 15,
+    "roi_pct": 567,
+    "rotten_tomatoes_pct": 100,
+    "imdb_rating": 8.4,
+    "metacritic_score": 67,
+    "award_nominations": 8
+  },
+  "meta": {
+    "director": "Rajkumar Hirani",
+    "stars": "Aamir Khan",
+    "language": "Hindi",
+    "studio": "Vinod Chopra Productions"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2009"]
+}

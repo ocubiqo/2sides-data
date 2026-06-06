@@ -1,0 +1,21 @@
+{
+  "id": "amazon-prime",
+  "name": "Amazon Prime Video",
+  "shortName": "Prime Video",
+  "categoryId": "tech",
+  "subCategoryId": "streaming",
+  "emoji": "📦",
+  "stats": {
+    "subscribers_m": 200,
+    "content_library_k": 24,
+    "original_shows": 400,
+    "monthly_price_usd": 8.99,
+    "max_streams": 3
+  },
+  "meta": {
+    "founded": "2006",
+    "hq": "Seattle, USA",
+    "revenue_bn": "12"
+  },
+  "tags": ["streaming", "amazon", "prime", "originals", "movies", "tv-shows"]
+}

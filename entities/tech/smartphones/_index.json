@@ -1,0 +1,55 @@
+{
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "entities": [
+    {
+      "id": "iphone-16-pro",
+      "name": "iPhone 16 Pro",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["apple", "iphone", "ios", "flagship", "5g"]
+    },
+    {
+      "id": "samsung-s25-ultra",
+      "name": "Samsung Galaxy S25 Ultra",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["samsung", "galaxy", "android", "flagship", "5g", "stylus"]
+    },
+    {
+      "id": "pixel-9-pro",
+      "name": "Google Pixel 9 Pro",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["google", "pixel", "android", "flagship", "5g", "ai-camera"]
+    },
+    {
+      "id": "oneplus-13",
+      "name": "OnePlus 13",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["oneplus", "android", "flagship", "5g", "fast-charge"]
+    },
+    {
+      "id": "xiaomi-15-ultra",
+      "name": "Xiaomi 15 Ultra",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["xiaomi", "android", "flagship", "5g", "leica-camera"]
+    },
+    {
+      "id": "iphone-16",
+      "name": "iPhone 16",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["apple", "iphone", "ios", "5g"]
+    },
+    {
+      "id": "samsung-s25",
+      "name": "Samsung Galaxy S25",
+      "emoji": "📱",
+      "subCategoryId": "smartphones",
+      "tags": ["samsung", "galaxy", "android", "5g"]
+    }
+  ]
+}

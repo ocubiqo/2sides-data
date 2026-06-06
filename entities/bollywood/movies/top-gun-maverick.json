@@ -1,0 +1,25 @@
+{
+  "id": "top-gun-maverick",
+  "name": "Top Gun: Maverick",
+  "shortName": "Top Gun: Maverick",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 1493,
+    "opening_weekend_m": 160,
+    "budget_m": 177,
+    "roi_pct": 744,
+    "rotten_tomatoes_pct": 96,
+    "imdb_rating": 8.2,
+    "metacritic_score": 78,
+    "award_nominations": 6
+  },
+  "meta": {
+    "director": "Joseph Kosinski",
+    "stars": "Tom Cruise",
+    "language": "English",
+    "studio": "Paramount"
+  },
+  "tags": ["hollywood", "movie", "english", "2022"]
+}

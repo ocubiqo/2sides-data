@@ -1,0 +1,25 @@
+{
+  "id": "pathaan",
+  "name": "Pathaan",
+  "shortName": "Pathaan",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 243,
+    "opening_weekend_m": 55,
+    "budget_m": 51,
+    "roi_pct": 376,
+    "rotten_tomatoes_pct": 80,
+    "imdb_rating": 6.3,
+    "metacritic_score": 65,
+    "award_nominations": 3
+  },
+  "meta": {
+    "director": "Siddharth Anand",
+    "stars": "Shah Rukh Khan",
+    "language": "Hindi",
+    "studio": "Yash Raj Films"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2023"]
+}

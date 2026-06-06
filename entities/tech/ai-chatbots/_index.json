@@ -1,0 +1,48 @@
+{
+  "categoryId": "tech",
+  "subCategoryId": "ai-chatbots",
+  "entities": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT (GPT-4o)",
+      "emoji": "🤖",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "openai", "gpt", "multimodal", "voice"]
+    },
+    {
+      "id": "claude",
+      "name": "Claude (claude-sonnet-4-6)",
+      "emoji": "🧠",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "anthropic", "claude", "multimodal", "coding"]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini (1.5 Pro)",
+      "emoji": "✨",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "google", "gemini", "multimodal", "voice"]
+    },
+    {
+      "id": "grok",
+      "name": "Grok (3)",
+      "emoji": "⚡",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "xai", "grok", "multimodal", "x-platform"]
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "emoji": "🪟",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "microsoft", "copilot", "multimodal", "voice", "office"]
+    },
+    {
+      "id": "llama",
+      "name": "Llama (3.3 70B)",
+      "emoji": "🦙",
+      "subCategoryId": "ai-chatbots",
+      "tags": ["ai", "chatbot", "meta", "llama", "open-source", "free"]
+    }
+  ]
+}

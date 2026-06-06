@@ -1,0 +1,23 @@
+{
+  "id": "xiaomi-15-ultra",
+  "name": "Xiaomi 15 Ultra",
+  "shortName": "Xiaomi 15 Ultra",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 521,
+    "battery_mah": 5410,
+    "ram_gb": 16,
+    "storage_max_gb": 1024,
+    "camera_main_mp": 200,
+    "antutu_score": 2200000,
+    "price_usd": 1100
+  },
+  "meta": {
+    "os": "Android 15",
+    "chip": "Snapdragon 8 Elite",
+    "release_year": "2025"
+  },
+  "tags": ["xiaomi", "android", "flagship", "5g", "leica-camera"]
+}

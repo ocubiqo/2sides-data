@@ -1,0 +1,25 @@
+{
+  "id": "rrr",
+  "name": "RRR",
+  "shortName": "RRR",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 175,
+    "opening_weekend_m": 15,
+    "budget_m": 72,
+    "roi_pct": 143,
+    "rotten_tomatoes_pct": 95,
+    "imdb_rating": 7.9,
+    "metacritic_score": 86,
+    "award_nominations": 15
+  },
+  "meta": {
+    "director": "S.S. Rajamouli",
+    "stars": "Ram Charan, Jr NTR",
+    "language": "Telugu",
+    "studio": "DVV Entertainment"
+  },
+  "tags": ["bollywood", "movie", "telugu", "2022"]
+}

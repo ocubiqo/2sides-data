@@ -1,0 +1,24 @@
+{
+  "id": "alia-bhatt",
+  "name": "Alia Bhatt",
+  "shortName": "Alia",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 1.4,
+    "opening_weekend_record_m": 20,
+    "movies_count": 28,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 6,
+    "instagram_followers_m": 81,
+    "avg_rotten_tomatoes_pct": 78
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Gangubai Kathiawadi, Raazi, Rocky Aur Rani",
+    "era": "2012–present"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

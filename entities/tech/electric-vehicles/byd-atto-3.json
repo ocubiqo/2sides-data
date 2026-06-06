@@ -1,0 +1,22 @@
+{
+  "id": "byd-atto-3",
+  "name": "BYD Atto 3 (Yuan Plus)",
+  "shortName": "BYD Atto 3",
+  "categoryId": "tech",
+  "subCategoryId": "electric-vehicles",
+  "emoji": "🚙",
+  "stats": {
+    "range_km": 480,
+    "horsepower": 201,
+    "charge_0_80_min": 35,
+    "cargo_litres": 440,
+    "safety_rating": 5,
+    "price_usd": 32000
+  },
+  "meta": {
+    "brand": "BYD",
+    "type": "SUV",
+    "origin": "China"
+  },
+  "tags": ["byd", "suv", "ev", "china", "blade-battery"]
+}

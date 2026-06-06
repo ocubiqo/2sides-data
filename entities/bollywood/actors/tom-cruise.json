@@ -1,0 +1,24 @@
+{
+  "id": "tom-cruise",
+  "name": "Tom Cruise",
+  "shortName": "Tom Cruise",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 10.9,
+    "opening_weekend_record_m": 160,
+    "movies_count": 45,
+    "oscar_nominations": 3,
+    "oscar_wins": 0,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 0,
+    "avg_rotten_tomatoes_pct": 76
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Mission Impossible, Top Gun: Maverick",
+    "era": "1981–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

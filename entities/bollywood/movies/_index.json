@@ -1,0 +1,76 @@
+{
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "entities": [
+    {
+      "id": "dangal",
+      "name": "Dangal",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2016"]
+    },
+    {
+      "id": "rrr",
+      "name": "RRR",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "telugu", "2022"]
+    },
+    {
+      "id": "pathaan",
+      "name": "Pathaan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2023"]
+    },
+    {
+      "id": "3-idiots",
+      "name": "3 Idiots",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2009"]
+    },
+    {
+      "id": "kalki-2898",
+      "name": "Kalki 2898 AD",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "telugu", "2024"]
+    },
+    {
+      "id": "oppenheimer",
+      "name": "Oppenheimer",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2023"]
+    },
+    {
+      "id": "avengers-endgame",
+      "name": "Avengers: Endgame",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2019"]
+    },
+    {
+      "id": "top-gun-maverick",
+      "name": "Top Gun: Maverick",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2022"]
+    },
+    {
+      "id": "barbie",
+      "name": "Barbie",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2023"]
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2010"]
+    }
+  ]
+}

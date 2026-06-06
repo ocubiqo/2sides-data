@@ -1,0 +1,25 @@
+{
+  "id": "dangal",
+  "name": "Dangal",
+  "shortName": "Dangal",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 330,
+    "opening_weekend_m": 22,
+    "budget_m": 20,
+    "roi_pct": 1550,
+    "rotten_tomatoes_pct": 96,
+    "imdb_rating": 8.4,
+    "metacritic_score": 75,
+    "award_nominations": 4
+  },
+  "meta": {
+    "director": "Nitesh Tiwari",
+    "stars": "Aamir Khan",
+    "language": "Hindi",
+    "studio": "Disney India"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2016"]
+}

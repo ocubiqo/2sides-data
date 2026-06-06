@@ -1,0 +1,25 @@
+{
+  "id": "inception",
+  "name": "Inception",
+  "shortName": "Inception",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 836,
+    "opening_weekend_m": 62,
+    "budget_m": 160,
+    "roi_pct": 423,
+    "rotten_tomatoes_pct": 87,
+    "imdb_rating": 8.8,
+    "metacritic_score": 74,
+    "award_nominations": 8
+  },
+  "meta": {
+    "director": "Christopher Nolan",
+    "stars": "Leonardo DiCaprio",
+    "language": "English",
+    "studio": "Warner Bros"
+  },
+  "tags": ["hollywood", "movie", "english", "2010"]
+}

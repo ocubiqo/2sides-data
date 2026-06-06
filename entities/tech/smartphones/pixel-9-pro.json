@@ -1,0 +1,23 @@
+{
+  "id": "pixel-9-pro",
+  "name": "Google Pixel 9 Pro",
+  "shortName": "Pixel 9 Pro",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 486,
+    "battery_mah": 4700,
+    "ram_gb": 16,
+    "storage_max_gb": 1024,
+    "camera_main_mp": 50,
+    "antutu_score": 1600000,
+    "price_usd": 999
+  },
+  "meta": {
+    "os": "Android 15",
+    "chip": "Google Tensor G4",
+    "release_year": "2024"
+  },
+  "tags": ["google", "pixel", "android", "flagship", "5g", "ai-camera"]
+}

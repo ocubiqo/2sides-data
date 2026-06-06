@@ -1,0 +1,23 @@
+{
+  "id": "samsung-s25-ultra",
+  "name": "Samsung Galaxy S25 Ultra",
+  "shortName": "S25 Ultra",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 501,
+    "battery_mah": 5000,
+    "ram_gb": 12,
+    "storage_max_gb": 1024,
+    "camera_main_mp": 200,
+    "antutu_score": 2100000,
+    "price_usd": 1299
+  },
+  "meta": {
+    "os": "Android 15",
+    "chip": "Snapdragon 8 Elite",
+    "release_year": "2025"
+  },
+  "tags": ["samsung", "galaxy", "android", "flagship", "5g", "stylus"]
+}

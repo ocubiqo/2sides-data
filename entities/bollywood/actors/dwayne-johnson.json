@@ -1,0 +1,25 @@
+{
+  "id": "dwayne-johnson",
+  "name": "Dwayne Johnson",
+  "shortName": "The Rock",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 10.5,
+    "opening_weekend_record_m": 150,
+    "movies_count": 50,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 397,
+    "avg_rotten_tomatoes_pct": 59
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Fast & Furious, Jumanji, Black Adam",
+    "era": "2001–present",
+    "nickname": "The Rock"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

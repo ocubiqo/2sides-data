@@ -1,0 +1,23 @@
+{
+  "id": "iphone-16-pro",
+  "name": "iPhone 16 Pro",
+  "shortName": "iPhone 16 Pro",
+  "categoryId": "tech",
+  "subCategoryId": "smartphones",
+  "emoji": "📱",
+  "stats": {
+    "display_ppi": 460,
+    "battery_mah": 3582,
+    "ram_gb": 8,
+    "storage_max_gb": 1024,
+    "camera_main_mp": 48,
+    "antutu_score": 1850000,
+    "price_usd": 999
+  },
+  "meta": {
+    "os": "iOS 18",
+    "chip": "A18 Pro",
+    "release_year": "2024"
+  },
+  "tags": ["apple", "iphone", "ios", "flagship", "5g"]
+}
