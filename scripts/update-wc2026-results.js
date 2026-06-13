@@ -113,24 +113,50 @@ function buildSearchQuery(fixtures) {
 
 function buildPrompt(fixtures, searchResults) {
   const fixtureList = fixtures
-    .map(f => `  ${f.id}: ${f.aId} (home) vs ${f.bId} — kicked off ${f.ko}`)
+    .map(f => `  ${f.id}: ${f.aId} (home/teamA) vs ${f.bId} (teamB) — kicked off ${f.ko}`)
     .join('\n');
 
   return `Today: ${new Date().toUTCString()}
 
-I need the FINAL scores for these FIFA World Cup 2026 group stage matches that have already finished:
+I need the FINAL scores and match stats for these FIFA World Cup 2026 group stage matches that have already finished:
 ${fixtureList}
 
 Search results I found:
 ${searchResults}
 
-Extract the confirmed final score for each match ID above. Only include matches where you are certain of the final score from the search results.
+Extract the confirmed final score AND any available match stats for each match ID. Only include a match if you are certain of the final score. For stats, only include values you are confident about — omit any you are unsure of.
 
 Respond with ONLY this JSON (no explanation, no markdown):
-{"matches":{"b1":{"played":true,"aScore":1,"bScore":0},"a1":{"played":true,"aScore":2,"bScore":1}}}
+{
+  "matches": {
+    "b1": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "stats": {
+        "possession_a": 58,
+        "possession_b": 42,
+        "shots_a": 14,
+        "shots_b": 5,
+        "shots_on_target_a": 6,
+        "shots_on_target_b": 1,
+        "corners_a": 7,
+        "corners_b": 2,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 2,
+        "red_cards_a": 0,
+        "red_cards_b": 0
+      }
+    }
+  }
+}
 
-Where aScore = goals by the first team listed, bScore = goals by the second team listed.
-Omit any match you could not find a confirmed score for.`;
+Rules:
+- aScore / stats *_a = teamA (first team listed per fixture)
+- bScore / stats *_b = teamB (second team listed per fixture)
+- possession_a + possession_b should sum to 100
+- Omit the stats object entirely if no stats were found
+- Omit any match you could not find a confirmed score for`;
 }
 
 function parseResponse(text) {
@@ -147,12 +173,26 @@ function parseResponse(text) {
     const parsed = JSON.parse(match[0]);
     const raw = parsed.matches ?? {};
     const matches = {};
+    const STAT_KEYS = [
+      'possession_a','possession_b','shots_a','shots_b',
+      'shots_on_target_a','shots_on_target_b','corners_a','corners_b',
+      'yellow_cards_a','yellow_cards_b','red_cards_a','red_cards_b',
+    ];
     for (const [id, entry] of Object.entries(raw)) {
       const aScore = Number(entry?.aScore);
       const bScore = Number(entry?.bScore);
-      if (Number.isFinite(aScore) && Number.isFinite(bScore) && aScore >= 0 && bScore >= 0) {
-        matches[id] = { played: true, aScore, bScore };
+      if (!Number.isFinite(aScore) || !Number.isFinite(bScore) || aScore < 0 || bScore < 0) continue;
+      const result = { played: true, aScore, bScore };
+      // Extract optional stats block
+      if (entry?.stats && typeof entry.stats === 'object') {
+        const stats = {};
+        for (const key of STAT_KEYS) {
+          const v = Number(entry.stats[key]);
+          if (Number.isFinite(v) && v >= 0) stats[key] = v;
+        }
+        if (Object.keys(stats).length > 0) result.stats = stats;
       }
+      matches[id] = result;
     }
     return matches;
   } catch (err) {

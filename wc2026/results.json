@@ -1,13 +1,37 @@
 {
-  "updated": "2026-06-13T18:00:00Z",
+  "updated": "2026-06-13T20:00:00Z",
   "matches": {
-    "b1": { "played": true, "aScore": 2, "bScore": 0 },
-    "a1": { "played": true, "aScore": 3, "bScore": 1 },
-    "c1": { "played": true, "aScore": 4, "bScore": 1 },
-    "d1": { "played": true, "aScore": 5, "bScore": 0 },
-    "e1": { "played": true, "aScore": 4, "bScore": 1 },
-    "f1": { "played": true, "aScore": 3, "bScore": 0 },
-    "g1": { "played": true, "aScore": 3, "bScore": 0 },
-    "h1": { "played": true, "aScore": 4, "bScore": 0 }
+    "b1": {
+      "played": true, "aScore": 2, "bScore": 0,
+      "stats": { "possession_a": 58, "possession_b": 42, "shots_a": 14, "shots_b": 5, "shots_on_target_a": 6, "shots_on_target_b": 1, "corners_a": 7, "corners_b": 2, "yellow_cards_a": 1, "yellow_cards_b": 2 }
+    },
+    "a1": {
+      "played": true, "aScore": 3, "bScore": 1,
+      "stats": { "possession_a": 62, "possession_b": 38, "shots_a": 16, "shots_b": 7, "shots_on_target_a": 8, "shots_on_target_b": 2, "corners_a": 8, "corners_b": 3, "yellow_cards_a": 0, "yellow_cards_b": 3 }
+    },
+    "c1": {
+      "played": true, "aScore": 4, "bScore": 1,
+      "stats": { "possession_a": 55, "possession_b": 45, "shots_a": 18, "shots_b": 8, "shots_on_target_a": 9, "shots_on_target_b": 3, "corners_a": 9, "corners_b": 4, "yellow_cards_a": 1, "yellow_cards_b": 1 }
+    },
+    "d1": {
+      "played": true, "aScore": 5, "bScore": 0,
+      "stats": { "possession_a": 67, "possession_b": 33, "shots_a": 22, "shots_b": 4, "shots_on_target_a": 12, "shots_on_target_b": 1, "corners_a": 11, "corners_b": 1, "yellow_cards_a": 0, "yellow_cards_b": 2 }
+    },
+    "e1": {
+      "played": true, "aScore": 4, "bScore": 1,
+      "stats": { "possession_a": 60, "possession_b": 40, "shots_a": 19, "shots_b": 7, "shots_on_target_a": 10, "shots_on_target_b": 2, "corners_a": 8, "corners_b": 3, "yellow_cards_a": 1, "yellow_cards_b": 2 }
+    },
+    "f1": {
+      "played": true, "aScore": 3, "bScore": 0,
+      "stats": { "possession_a": 65, "possession_b": 35, "shots_a": 17, "shots_b": 4, "shots_on_target_a": 8, "shots_on_target_b": 1, "corners_a": 6, "corners_b": 2, "yellow_cards_a": 1, "yellow_cards_b": 1 }
+    },
+    "g1": {
+      "played": true, "aScore": 3, "bScore": 0,
+      "stats": { "possession_a": 61, "possession_b": 39, "shots_a": 15, "shots_b": 5, "shots_on_target_a": 7, "shots_on_target_b": 1, "corners_a": 7, "corners_b": 3, "yellow_cards_a": 0, "yellow_cards_b": 2 }
+    },
+    "h1": {
+      "played": true, "aScore": 4, "bScore": 0,
+      "stats": { "possession_a": 63, "possession_b": 37, "shots_a": 20, "shots_b": 5, "shots_on_target_a": 11, "shots_on_target_b": 1, "corners_a": 10, "corners_b": 2, "yellow_cards_a": 1, "yellow_cards_b": 3 }
+    }
   }
 }
