@@ -1,4 +1,23 @@
 {
-  "updated": "2026-06-13T00:00:00Z",
-  "matches": {}
+  "updated": "2026-06-13T11:12:59.308Z",
+  "matches": {
+    "a1": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "south-africa"
+    },
+    "b1": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "bosnia-and-herzegovina"
+    },
+    "d1": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 1,
+      "opponentId": "paraguay"
+    }
+  }
 }
