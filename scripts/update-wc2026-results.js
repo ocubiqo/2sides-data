@@ -190,13 +190,15 @@ async function fetchBatch(client, fixtures) {
     messages:   [{ role: 'user', content: buildPrompt(fixtures) }],
   });
 
+  console.log(`[update-wc2026] stop_reason=${msg.stop_reason} content_blocks=${JSON.stringify(msg.content.map(b => b.type))}`);
+
   const text = msg.content
     .filter(b => b.type === 'text')
     .map(b => b.text)
     .join('\n')
     .trim();
 
-  console.log(`[update-wc2026] Batch response (${fixtures.map(f => f.id).join(',')}): ${text.slice(0, 400)}`);
+  console.log(`[update-wc2026] text_length=${text.length} full_text=${JSON.stringify(text.slice(0, 800))}`);
   return parseResponse(text);
 }
 
