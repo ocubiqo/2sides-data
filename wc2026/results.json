@@ -1,4 +1,29 @@
 {
-  "updated": "2026-06-13T10:18:23.289Z",
-  "matches": {}
+  "updated": "2026-06-13T11:04:04.400Z",
+  "matches": {
+    "a1": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "south-africa"
+    },
+    "a2": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "czechia"
+    },
+    "b1": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "bosnia-herzegovina"
+    },
+    "d1": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 1,
+      "opponentId": "paraguay"
+    }
+  }
 }
