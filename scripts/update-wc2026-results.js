@@ -122,14 +122,15 @@ function buildPrompt(fixtures) {
 Search the web for these teams' FIFA World Cup 2026 group stage match results. For each item, find the match played by the listed team on (or around) that date — regardless of who the opponent was:
 ${fixtureList}
 
-Return a JSON object with one key per match ID. Use the listed team as "team A" — aScore is their goals, bScore is the opponent's goals, opponentId is the actual opponent (lowercase-hyphenated, e.g. "south-africa"):
-{"b1":{"played":true,"aScore":2,"bScore":0,"opponentId":"south-africa"},"a1":{"played":true,"aScore":1,"bScore":1,"opponentId":"panama"}}
+Return a JSON object with one key per match ID. Use the listed team as "team A". Include match stats if you find them in search results (possession %, shots, corners, cards):
+{"a1":{"played":true,"aScore":2,"bScore":0,"opponentId":"south-africa","stats":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":0}}}
 
 Rules:
 - Keys must be exactly the match IDs listed above
-- aScore = goals by the FIRST team listed (not the opponent)
-- bScore = goals by whoever they actually played
-- opponentId = the actual opponent's name (lowercase-hyphenated)
+- aScore = goals by the FIRST team listed, bScore = goals by their actual opponent
+- opponentId = actual opponent name (lowercase-hyphenated, e.g. "south-africa")
+- stats.*_a = first team's stats, stats.*_b = opponent's stats; possession_a + possession_b = 100
+- Omit the stats object entirely if you cannot find match stats — do NOT guess
 - Only include a match if you find a confirmed final score
 - JSON only — no explanation, no markdown fences`;
 }
