@@ -120,10 +120,12 @@ function buildPrompt(fixtures) {
 
   return `Today: ${new Date().toUTCString()}
 
-Search the web for these teams' FIFA World Cup 2026 group stage match results. For each item, find the match played by the listed team on (or around) that date — regardless of who the opponent was:
+Search FIFA.com, ESPN, or BBC Sport for these FIFA World Cup 2026 group stage results. For each item, find the match played by the listed team on (or around) that date — regardless of who the opponent was:
 ${fixtureList}
 
-Return a JSON object with one key per match ID. Use the listed team as "team A". Include match stats if you find them in search results (possession %, shots, corners, cards):
+Search queries to use: "[team] FIFA World Cup 2026 match result [date]" or "[team] World Cup 2026 site:fifa.com"
+
+Return a JSON object with one key per match ID. Use the listed team as "team A". Include match stats if the official source shows them (possession %, shots, corners, cards):
 {"a1":{"played":true,"aScore":2,"bScore":0,"opponentId":"south-africa","stats":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":0}}}
 
 Rules:
@@ -132,7 +134,7 @@ Rules:
 - opponentId = actual opponent name (lowercase-hyphenated, e.g. "south-africa")
 - stats.*_a = first team's stats, stats.*_b = opponent's stats; possession_a + possession_b = 100
 - Omit the stats object entirely if you cannot find match stats — do NOT guess
-- Only include a match if you find a confirmed final score
+- Only include a match if you find a confirmed final score from an official or reliable source
 - JSON only — no explanation, no markdown fences`;
 }
 
@@ -148,18 +150,28 @@ function buildStatsPrompt(fixtures, existing) {
 
   return `Today: ${new Date().toUTCString()}
 
-Search the web for detailed match statistics for these FIFA World Cup 2026 matches (scores already confirmed):
+Look up official match statistics for these confirmed FIFA World Cup 2026 matches:
 ${fixtureList}
 
-For each match, search for "[team A] vs [opponent] World Cup 2026 match stats" to find possession %, shots, shots on target, corners, yellow cards, red cards.
+For each match, search on FIFA.com, ESPN, or BBC Sport using queries like:
+  "[team A] [team B] FIFA World Cup 2026 match statistics"
+  "[team A] vs [team B] World Cup 2026 site:fifa.com"
+  "[team A] vs [team B] World Cup 2026 stats ESPN"
+
+Retrieve from the official match centre or stats table:
+- Ball possession % for each team
+- Total shots and shots on target for each team
+- Corner kicks for each team
+- Yellow cards and red cards for each team
 
 Return a JSON object — one key per match ID, value is only the stats fields:
 {"a1":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":0}}
 
 Rules:
 - *_a = first named team's stats, *_b = opponent's stats; possession_a + possession_b = 100
-- Omit any field you cannot confirm — do NOT guess
-- Omit a match ID entirely if you found no stats at all for that match
+- Use only numbers confirmed from an official or authoritative source — do NOT estimate
+- Omit any individual field you cannot confirm
+- Omit a match ID entirely if you found no stats at all for it
 - JSON only — no explanation, no markdown fences`;
 }
 
