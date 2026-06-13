@@ -1,23 +1,79 @@
 {
-  "updated": "2026-06-13T11:12:59.308Z",
+  "updated": "2026-06-13T11:24:36.188Z",
   "matches": {
     "a1": {
       "played": true,
       "aScore": 2,
       "bScore": 0,
-      "opponentId": "south-africa"
+      "opponentId": "south-africa",
+      "stats": {
+        "possession_a": 60,
+        "possession_b": 40,
+        "shots_a": 20,
+        "shots_b": 12,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 4,
+        "corners_a": 4,
+        "corners_b": 3,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 0,
+        "red_cards_a": 1,
+        "red_cards_b": 2
+      }
     },
     "b1": {
       "played": true,
       "aScore": 1,
       "bScore": 1,
-      "opponentId": "bosnia-and-herzegovina"
+      "opponentId": "bosnia-and-herzegovina",
+      "stats": {
+        "possession_a": 61,
+        "possession_b": 39,
+        "shots_a": 13,
+        "shots_b": 8,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 3,
+        "corners_a": 9,
+        "corners_b": 4,
+        "yellow_cards_a": 3,
+        "yellow_cards_b": 1
+      }
     },
     "d1": {
       "played": true,
       "aScore": 4,
       "bScore": 1,
-      "opponentId": "paraguay"
+      "opponentId": "paraguay",
+      "stats": {
+        "possession_a": 59,
+        "possession_b": 41,
+        "shots_a": 16,
+        "shots_b": 9,
+        "shots_on_target_a": 6,
+        "shots_on_target_b": 1,
+        "corners_a": 5,
+        "corners_b": 8,
+        "yellow_cards_a": 3,
+        "yellow_cards_b": 3
+      }
+    },
+    "a2": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "czechia",
+      "stats": {
+        "possession_a": 62,
+        "possession_b": 38,
+        "shots_a": 15,
+        "shots_b": 7,
+        "shots_on_target_a": 6,
+        "shots_on_target_b": 4,
+        "corners_a": 8,
+        "corners_b": 3,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 0
+      }
     }
   }
 }
