@@ -106,57 +106,24 @@ function loadExisting() {
   } catch { return {}; }
 }
 
-function buildSearchQuery(fixtures) {
-  const names = fixtures.map(f => `${f.aId} vs ${f.bId}`).join(', ');
-  return `FIFA World Cup 2026 final scores: ${names}`;
-}
-
-function buildPrompt(fixtures, searchResults) {
+function buildPrompt(fixtures) {
   const fixtureList = fixtures
-    .map(f => `  ${f.id}: ${f.aId} (home/teamA) vs ${f.bId} (teamB) — kicked off ${f.ko}`)
+    .map(f => `  ${f.id}: ${f.aId} vs ${f.bId} (ko ${f.ko})`)
     .join('\n');
 
-  return `Today: ${new Date().toUTCString()}
-
-I need the FINAL scores and match stats for these FIFA World Cup 2026 group stage matches that have already finished:
+  return `Now: ${new Date().toUTCString()}
+FIFA World Cup 2026 group stage — search for the FINAL scores of these completed matches:
 ${fixtureList}
 
-Search results I found:
-${searchResults}
-
-Extract the confirmed final score AND any available match stats for each match ID. Only include a match if you are certain of the final score. For stats, only include values you are confident about — omit any you are unsure of.
-
-Respond with ONLY this JSON (no explanation, no markdown):
-{
-  "matches": {
-    "b1": {
-      "played": true,
-      "aScore": 2,
-      "bScore": 0,
-      "stats": {
-        "possession_a": 58,
-        "possession_b": 42,
-        "shots_a": 14,
-        "shots_b": 5,
-        "shots_on_target_a": 6,
-        "shots_on_target_b": 1,
-        "corners_a": 7,
-        "corners_b": 2,
-        "yellow_cards_a": 1,
-        "yellow_cards_b": 2,
-        "red_cards_a": 0,
-        "red_cards_b": 0
-      }
-    }
-  }
-}
+Use web search to find confirmed final scores. Then respond with ONLY valid JSON — no explanation, no markdown:
+{"matches":{"b1":{"played":true,"aScore":2,"bScore":0,"stats":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":2}}}}
 
 Rules:
-- aScore / stats *_a = teamA (first team listed per fixture)
-- bScore / stats *_b = teamB (second team listed per fixture)
-- possession_a + possession_b should sum to 100
-- Omit the stats object entirely if no stats were found
-- Omit any match you could not find a confirmed score for`;
+- aScore = goals by the first team listed, bScore = goals by the second team
+- Include stats fields only if you find them; omit stats object entirely if not found
+- possession_a + possession_b must sum to 100
+- Omit any fixture you cannot confirm with a real search result
+- JSON only — no other text`;
 }
 
 function parseResponse(text) {
@@ -201,6 +168,26 @@ function parseResponse(text) {
   }
 }
 
+const BATCH_SIZE = 5;
+
+async function fetchBatch(client, fixtures) {
+  const msg = await client.messages.create({
+    model:      'claude-haiku-4-5-20251001',
+    max_tokens: 2048,
+    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
+    messages:   [{ role: 'user', content: buildPrompt(fixtures) }],
+  });
+
+  const text = msg.content
+    .filter(b => b.type === 'text')
+    .map(b => b.text)
+    .join('\n')
+    .trim();
+
+  console.log(`[update-wc2026] Batch response (${fixtures.map(f => f.id).join(',')}): ${text.slice(0, 400)}`);
+  return parseResponse(text);
+}
+
 async function main() {
   const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
   if (!apiKey) {
@@ -222,7 +209,6 @@ async function main() {
     return;
   }
 
-  // Only re-fetch fixtures we don't already have confirmed results for
   const toFetch = completed.filter(f => !existing[f.id]);
   console.log(`[update-wc2026] Need to fetch ${toFetch.length} new results`);
 
@@ -233,47 +219,25 @@ async function main() {
   }
 
   const client = new Anthropic({ apiKey });
+  let merged = { ...existing };
 
-  // Step 1: web_search to gather raw score data
-  const searchQuery = buildSearchQuery(toFetch);
-  console.log(`[update-wc2026] Searching: "${searchQuery}"`);
+  // Process in batches of BATCH_SIZE so each call stays focused and within token limits
+  for (let i = 0; i < toFetch.length; i += BATCH_SIZE) {
+    const batch = toFetch.slice(i, i + BATCH_SIZE);
+    console.log(`[update-wc2026] Fetching batch ${Math.floor(i / BATCH_SIZE) + 1}: ${batch.map(f => f.id).join(', ')}`);
+    try {
+      const newMatches = await fetchBatch(client, batch);
+      console.log(`[update-wc2026] Batch got ${Object.keys(newMatches).length} scores: ${JSON.stringify(newMatches)}`);
+      merged = { ...merged, ...newMatches };
+    } catch (err) {
+      console.error(`[update-wc2026] Batch error:`, err.message);
+    }
+  }
 
-  const searchMsg = await client.messages.create({
-    model:      'claude-haiku-4-5-20251001',
-    max_tokens: 2048,
-    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
-    messages:   [{ role: 'user', content: `Search for the final scores of these FIFA World Cup 2026 matches: ${searchQuery}. Return all scores you find.` }],
-  });
-
-  const searchText = searchMsg.content
-    .filter(b => b.type === 'text')
-    .map(b => b.text)
-    .join('\n')
-    .trim();
-
-  console.log(`[update-wc2026] Search response length: ${searchText.length} chars`);
-  console.log(`[update-wc2026] Search preview: ${searchText.slice(0, 300)}`);
-
-  // Step 2: extract structured scores from search results
-  const extractMsg = await client.messages.create({
-    model:      'claude-haiku-4-5-20251001',
-    max_tokens: 512,
-    messages:   [{ role: 'user', content: buildPrompt(toFetch, searchText) }],
-  });
-
-  const extractText = extractMsg.content
-    .filter(b => b.type === 'text')
-    .map(b => b.text)
-    .join('\n')
-    .trim();
-
-  const newMatches = parseResponse(extractText);
-  const merged     = { ...existing, ...newMatches };
-  const newCount   = Object.keys(newMatches).length;
-
-  const payload = { updated: new Date(nowMs).toISOString(), matches: merged };
+  const totalNew = Object.keys(merged).length - Object.keys(existing).length;
+  const payload  = { updated: new Date(nowMs).toISOString(), matches: merged };
   writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify(payload, null, 2), 'utf8');
-  console.log(`[update-wc2026] ✓ results.json — ${newCount} new scores, ${Object.keys(merged).length} total`);
+  console.log(`[update-wc2026] ✓ results.json — ${totalNew} new scores, ${Object.keys(merged).length} total`);
 }
 
 main().catch(err => {
