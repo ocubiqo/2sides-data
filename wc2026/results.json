@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T14:07:50.311Z",
+  "updated": "2026-06-13T19:42:13.875Z",
   "matches": {
     "a1": {
       "played": true,
@@ -74,6 +74,12 @@
         "yellow_cards_a": 1,
         "yellow_cards_b": 0
       }
+    },
+    "b2": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 1,
+      "opponentId": "qatar"
     }
   }
 }
