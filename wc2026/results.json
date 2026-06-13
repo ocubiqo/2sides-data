@@ -1,4 +1,13 @@
 {
-  "updated": "2026-06-13T09:20:18.850Z",
-  "matches": {}
+  "updated": "2026-06-13T18:00:00Z",
+  "matches": {
+    "b1": { "played": true, "aScore": 2, "bScore": 0 },
+    "a1": { "played": true, "aScore": 3, "bScore": 1 },
+    "c1": { "played": true, "aScore": 4, "bScore": 1 },
+    "d1": { "played": true, "aScore": 5, "bScore": 0 },
+    "e1": { "played": true, "aScore": 4, "bScore": 1 },
+    "f1": { "played": true, "aScore": 3, "bScore": 0 },
+    "g1": { "played": true, "aScore": 3, "bScore": 0 },
+    "h1": { "played": true, "aScore": 4, "bScore": 0 }
+  }
 }
