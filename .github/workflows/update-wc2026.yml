@@ -1,8 +1,8 @@
 name: Update WC2026 Results
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'   # every 6 h — covers post-match windows globally
+  # schedule:
+  #   - cron: '0 */6 * * *'   # every 6 h — re-enable when fetch script is working
   workflow_dispatch:
 
 env:
