@@ -93,7 +93,8 @@ const WC2026_FIXTURES = [
   { id: 'l6', aId: 'croatia',            bId: 'ghana',              ko: '2026-06-27T19:00:00Z' },
 ];
 
-const DONE_BUFFER_MS = 2 * 3_600_000;
+const DONE_BUFFER_MS  = 2 * 3_600_000;
+const STATS_MAX_AGE_MS = 48 * 3_600_000; // stop retrying stats after 48h post-kickoff
 
 function getCompletedFixtures(nowMs) {
   return WC2026_FIXTURES.filter(f => new Date(f.ko).getTime() + DONE_BUFFER_MS < nowMs);
@@ -132,6 +133,33 @@ Rules:
 - stats.*_a = first team's stats, stats.*_b = opponent's stats; possession_a + possession_b = 100
 - Omit the stats object entirely if you cannot find match stats — do NOT guess
 - Only include a match if you find a confirmed final score
+- JSON only — no explanation, no markdown fences`;
+}
+
+function buildStatsPrompt(fixtures, existing) {
+  const fixtureList = fixtures
+    .map(f => {
+      const e = existing[f.id];
+      const date = f.ko.split('T')[0];
+      const opponent = e?.opponentId || f.bId;
+      return `  ${f.id}: ${f.aId} vs ${opponent} on ${date}`;
+    })
+    .join('\n');
+
+  return `Today: ${new Date().toUTCString()}
+
+Search the web for detailed match statistics for these FIFA World Cup 2026 matches (scores already confirmed):
+${fixtureList}
+
+For each match, search for "[team A] vs [opponent] World Cup 2026 match stats" to find possession %, shots, shots on target, corners, yellow cards, red cards.
+
+Return a JSON object — one key per match ID, value is only the stats fields:
+{"a1":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":0}}
+
+Rules:
+- *_a = first named team's stats, *_b = opponent's stats; possession_a + possession_b = 100
+- Omit any field you cannot confirm — do NOT guess
+- Omit a match ID entirely if you found no stats at all for that match
 - JSON only — no explanation, no markdown fences`;
 }
 
@@ -197,7 +225,7 @@ async function fetchBatch(client, fixtures) {
   const msg = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
     max_tokens: 2048,
-    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
+    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 8 }],
     messages:   [{ role: 'user', content: buildPrompt(fixtures) }],
   });
 
@@ -211,6 +239,46 @@ async function fetchBatch(client, fixtures) {
 
   console.log(`[update-wc2026] text_length=${text.length} full_text=${JSON.stringify(text.slice(0, 800))}`);
   return parseResponse(text);
+}
+
+async function fetchStatsBatch(client, fixtures, existing) {
+  const msg = await client.messages.create({
+    model:      'claude-haiku-4-5-20251001',
+    max_tokens: 2048,
+    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 8 }],
+    messages:   [{ role: 'user', content: buildStatsPrompt(fixtures, existing) }],
+  });
+
+  console.log(`[update-wc2026] stats stop_reason=${msg.stop_reason} blocks=${JSON.stringify(msg.content.map(b => b.type))}`);
+
+  const text = msg.content
+    .filter(b => b.type === 'text')
+    .map(b => b.text)
+    .join('\n')
+    .trim();
+
+  console.log(`[update-wc2026] stats text_length=${text.length} full_text=${JSON.stringify(text.slice(0, 800))}`);
+
+  // Parse stats-only response: each value is a flat stats object (no played/aScore/etc)
+  const clean = text.replace(/```[a-z]*\n?/gi, '').replace(/```/g, '').trim();
+  const jsonMatch = clean.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) return {};
+  let parsed;
+  try { parsed = JSON.parse(jsonMatch[0]); } catch { return {}; }
+
+  const raw = (parsed.matches && typeof parsed.matches === 'object') ? parsed.matches : parsed;
+  const statsMap = {};
+  for (const [id, entry] of Object.entries(raw)) {
+    if (typeof entry !== 'object' || entry === null) continue;
+    const stats = {};
+    for (const key of STAT_KEYS) {
+      const v = Number(entry[key]);
+      if (Number.isFinite(v) && v >= 0) stats[key] = v;
+    }
+    if (Object.keys(stats).length > 0) statsMap[id] = stats;
+  }
+  console.log(`[update-wc2026] stats batch got ${Object.keys(statsMap).length} stat blocks: ${JSON.stringify(Object.keys(statsMap))}`);
+  return statsMap;
 }
 
 async function main() {
@@ -237,8 +305,17 @@ async function main() {
   const toFetch = completed.filter(f => !existing[f.id]);
   console.log(`[update-wc2026] Need to fetch ${toFetch.length} new results`);
 
-  if (toFetch.length === 0) {
-    console.log('[update-wc2026] All completed fixtures already have results — skipping fetch');
+  // Also retry stats for matches that have scores but no stats block, within 48h window
+  const toFetchStats = completed.filter(f => {
+    const e = existing[f.id];
+    if (!e || !e.played) return false;
+    if (e.stats) return false;
+    return (nowMs - new Date(f.ko).getTime()) < STATS_MAX_AGE_MS;
+  });
+  console.log(`[update-wc2026] ${toFetchStats.length} matches need stats backfill`);
+
+  if (toFetch.length === 0 && toFetchStats.length === 0) {
+    console.log('[update-wc2026] All completed fixtures already have results and stats — skipping fetch');
     writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify({ updated: new Date(nowMs).toISOString(), matches: existing }, null, 2), 'utf8');
     return;
   }
@@ -256,6 +333,25 @@ async function main() {
       merged = { ...merged, ...newMatches };
     } catch (err) {
       console.error(`[update-wc2026] Batch error:`, err.message);
+    }
+  }
+
+  // Stats backfill pass — targeted search for matches missing stats
+  if (toFetchStats.length > 0) {
+    // Exclude any that just got stats from the score fetch above
+    const stillNeedStats = toFetchStats.filter(f => merged[f.id] && !merged[f.id].stats);
+    console.log(`[update-wc2026] Stats backfill: ${stillNeedStats.length} matches`);
+    for (let i = 0; i < stillNeedStats.length; i += BATCH_SIZE) {
+      const batch = stillNeedStats.slice(i, i + BATCH_SIZE);
+      console.log(`[update-wc2026] Stats batch ${Math.floor(i / BATCH_SIZE) + 1}: ${batch.map(f => f.id).join(', ')}`);
+      try {
+        const statsMap = await fetchStatsBatch(client, batch, merged);
+        for (const [id, stats] of Object.entries(statsMap)) {
+          if (merged[id]) merged[id] = { ...merged[id], stats };
+        }
+      } catch (err) {
+        console.error(`[update-wc2026] Stats batch error:`, err.message);
+      }
     }
   }
 
