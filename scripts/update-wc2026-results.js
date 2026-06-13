@@ -108,64 +108,76 @@ function loadExisting() {
 
 function buildPrompt(fixtures) {
   const fixtureList = fixtures
-    .map(f => `  ${f.id}: ${f.aId} vs ${f.bId} (ko ${f.ko})`)
+    .map(f => `  ${f.id}: ${f.aId} vs ${f.bId} — kicked off ${f.ko}`)
     .join('\n');
 
-  return `Now: ${new Date().toUTCString()}
-FIFA World Cup 2026 group stage — search for the FINAL scores of these completed matches:
+  return `Today: ${new Date().toUTCString()}
+
+Search the web for the FINAL scores of these completed FIFA World Cup 2026 matches:
 ${fixtureList}
 
-Use web search to find confirmed final scores. Then respond with ONLY valid JSON — no explanation, no markdown:
-{"matches":{"b1":{"played":true,"aScore":2,"bScore":0,"stats":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":2}}}}
+After searching, return a JSON object where each key is the match ID and the value has the final score. Example format (do not use these values — use actual scores you find):
+{"XX":{"played":true,"aScore":1,"bScore":0},"YY":{"played":true,"aScore":2,"bScore":2,"stats":{"possession_a":55,"possession_b":45,"shots_a":12,"shots_b":8}}}
 
 Rules:
-- aScore = goals by the first team listed, bScore = goals by the second team
-- Include stats fields only if you find them; omit stats object entirely if not found
-- possession_a + possession_b must sum to 100
-- Omit any fixture you cannot confirm with a real search result
-- JSON only — no other text`;
+- Keys must be exactly the match IDs listed above (e.g. b1, a1, c1)
+- aScore = goals scored by the FIRST team listed, bScore = goals by the SECOND team
+- Only include a match if you find a confirmed final score via search
+- Include stats only if you find them in search results; all stats fields are optional
+- Return JSON only — no explanation, no markdown fences`;
+}
+
+const STAT_KEYS = [
+  'possession_a','possession_b','shots_a','shots_b',
+  'shots_on_target_a','shots_on_target_b','corners_a','corners_b',
+  'yellow_cards_a','yellow_cards_b','red_cards_a','red_cards_b',
+];
+
+function extractEntry(entry) {
+  const aScore = Number(entry?.aScore);
+  const bScore = Number(entry?.bScore);
+  if (!Number.isFinite(aScore) || !Number.isFinite(bScore) || aScore < 0 || bScore < 0) return null;
+  const result = { played: true, aScore, bScore };
+  if (entry?.stats && typeof entry.stats === 'object') {
+    const stats = {};
+    for (const key of STAT_KEYS) {
+      const v = Number(entry.stats[key]);
+      if (Number.isFinite(v) && v >= 0) stats[key] = v;
+    }
+    if (Object.keys(stats).length > 0) result.stats = stats;
+  }
+  return result;
 }
 
 function parseResponse(text) {
-  console.log('[update-wc2026] Raw response:', text.slice(0, 500));
-  // Strip markdown fences
+  console.log('[update-wc2026] Raw response:', text.slice(0, 600));
   const clean = text.replace(/```[a-z]*\n?/gi, '').replace(/```/g, '').trim();
-  // Grab the outermost JSON object
-  const match = clean.match(/\{[\s\S]*\}/);
-  if (!match) {
+  const jsonMatch = clean.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) {
     console.log('[update-wc2026] No JSON object found in response');
     return {};
   }
+  let parsed;
   try {
-    const parsed = JSON.parse(match[0]);
-    const raw = parsed.matches ?? {};
-    const matches = {};
-    const STAT_KEYS = [
-      'possession_a','possession_b','shots_a','shots_b',
-      'shots_on_target_a','shots_on_target_b','corners_a','corners_b',
-      'yellow_cards_a','yellow_cards_b','red_cards_a','red_cards_b',
-    ];
-    for (const [id, entry] of Object.entries(raw)) {
-      const aScore = Number(entry?.aScore);
-      const bScore = Number(entry?.bScore);
-      if (!Number.isFinite(aScore) || !Number.isFinite(bScore) || aScore < 0 || bScore < 0) continue;
-      const result = { played: true, aScore, bScore };
-      // Extract optional stats block
-      if (entry?.stats && typeof entry.stats === 'object') {
-        const stats = {};
-        for (const key of STAT_KEYS) {
-          const v = Number(entry.stats[key]);
-          if (Number.isFinite(v) && v >= 0) stats[key] = v;
-        }
-        if (Object.keys(stats).length > 0) result.stats = stats;
-      }
-      matches[id] = result;
-    }
-    return matches;
+    parsed = JSON.parse(jsonMatch[0]);
   } catch (err) {
     console.log('[update-wc2026] JSON parse error:', err.message);
     return {};
   }
+
+  // Accept {"matches":{...}} wrapper or direct {"b1":{...}} format
+  const raw = (parsed.matches && typeof parsed.matches === 'object')
+    ? parsed.matches
+    : parsed;
+
+  const matches = {};
+  for (const [id, entry] of Object.entries(raw)) {
+    if (typeof entry !== 'object' || entry === null) continue;
+    const result = extractEntry(entry);
+    if (result) matches[id] = result;
+  }
+  console.log(`[update-wc2026] Parsed ${Object.keys(matches).length} valid entries from response`);
+  return matches;
 }
 
 const BATCH_SIZE = 5;
