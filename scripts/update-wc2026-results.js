@@ -7,7 +7,7 @@
  */
 
 import Anthropic from '@anthropic-ai/sdk';
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -15,7 +15,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT      = join(__dirname, '..');
 const WC_DIR    = join(ROOT, 'wc2026');
 
-// Full 72-match group-stage fixture list (same data as wc2026Fixtures.ts)
 const WC2026_FIXTURES = [
   { id: 'b1',  aId: 'mexico',       bId: 'jamaica',       ko: '2026-06-11T22:00:00Z' },
   { id: 'a1',  aId: 'usa',          bId: 'panama',        ko: '2026-06-12T01:00:00Z' },
@@ -91,57 +90,73 @@ const WC2026_FIXTURES = [
   { id: 'l6',  aId: 'south-africa', bId: 'iraq',          ko: '2026-07-01T16:00:00Z' },
 ];
 
-const DONE_BUFFER_MS = 2 * 3_600_000; // 2 h after kickoff = match considered finished
+const DONE_BUFFER_MS = 2 * 3_600_000;
 
 function getCompletedFixtures(nowMs) {
   return WC2026_FIXTURES.filter(f => new Date(f.ko).getTime() + DONE_BUFFER_MS < nowMs);
 }
 
-function buildPrompt(fixtures) {
+// Load existing results so we keep already-confirmed scores even if search misses them
+function loadExisting() {
+  const p = join(WC_DIR, 'results.json');
+  if (!existsSync(p)) return {};
+  try {
+    const j = JSON.parse(readFileSync(p, 'utf8'));
+    return j.matches ?? {};
+  } catch { return {}; }
+}
+
+function buildSearchQuery(fixtures) {
+  const names = fixtures.map(f => `${f.aId} vs ${f.bId}`).join(', ');
+  return `FIFA World Cup 2026 final scores: ${names}`;
+}
+
+function buildPrompt(fixtures, searchResults) {
   const fixtureList = fixtures
-    .map(f => `${f.id}: ${f.aId} vs ${f.bId} (ko ${f.ko})`)
+    .map(f => `  ${f.id}: ${f.aId} (home) vs ${f.bId} — kicked off ${f.ko}`)
     .join('\n');
 
   return `Today: ${new Date().toUTCString()}
-FIFA World Cup 2026 — group stage scores needed.
-The following matches have already kicked off. Search for the FINAL scores.
 
-Fixtures (id: teamA vs teamB, kickoff UTC):
+I need the FINAL scores for these FIFA World Cup 2026 group stage matches that have already finished:
 ${fixtureList}
 
-Return ONLY valid JSON. For each fixture id, include the final score if known. Skip fixtures with unknown or unconfirmed scores.
-Format:
-{"matches":{"b1":{"played":true,"aScore":2,"bScore":1},"a1":{"played":true,"aScore":0,"bScore":0}}}
+Search results I found:
+${searchResults}
 
-Rules:
-- aScore = goals scored by the first-listed team (teamA)
-- bScore = goals scored by the second-listed team (teamB)
-- Only include fixtures where you found the confirmed final score
-- Do not guess or invent scores
-- JSON only, no other text`;
+Extract the confirmed final score for each match ID above. Only include matches where you are certain of the final score from the search results.
+
+Respond with ONLY this JSON (no explanation, no markdown):
+{"matches":{"b1":{"played":true,"aScore":1,"bScore":0},"a1":{"played":true,"aScore":2,"bScore":1}}}
+
+Where aScore = goals by the first team listed, bScore = goals by the second team listed.
+Omit any match you could not find a confirmed score for.`;
 }
 
 function parseResponse(text) {
-  const clean = text.replace(/```[a-z]*\n?/gi, '').trim();
+  console.log('[update-wc2026] Raw response:', text.slice(0, 500));
+  // Strip markdown fences
+  const clean = text.replace(/```[a-z]*\n?/gi, '').replace(/```/g, '').trim();
+  // Grab the outermost JSON object
   const match = clean.match(/\{[\s\S]*\}/);
-  if (!match) return {};
+  if (!match) {
+    console.log('[update-wc2026] No JSON object found in response');
+    return {};
+  }
   try {
     const parsed = JSON.parse(match[0]);
-    const matches = {};
     const raw = parsed.matches ?? {};
+    const matches = {};
     for (const [id, entry] of Object.entries(raw)) {
-      if (
-        entry && typeof entry === 'object' &&
-        entry.played === true &&
-        typeof entry.aScore === 'number' &&
-        typeof entry.bScore === 'number' &&
-        entry.aScore >= 0 && entry.bScore >= 0
-      ) {
-        matches[id] = { played: true, aScore: entry.aScore, bScore: entry.bScore };
+      const aScore = Number(entry?.aScore);
+      const bScore = Number(entry?.bScore);
+      if (Number.isFinite(aScore) && Number.isFinite(bScore) && aScore >= 0 && bScore >= 0) {
+        matches[id] = { played: true, aScore, bScore };
       }
     }
     return matches;
-  } catch {
+  } catch (err) {
+    console.log('[update-wc2026] JSON parse error:', err.message);
     return {};
   }
 }
@@ -155,43 +170,70 @@ async function main() {
 
   mkdirSync(WC_DIR, { recursive: true });
 
-  const nowMs      = Date.now();
-  const completed  = getCompletedFixtures(nowMs);
+  const nowMs     = Date.now();
+  const completed = getCompletedFixtures(nowMs);
+  const existing  = loadExisting();
+
+  console.log(`[update-wc2026] ${completed.length} completed fixtures, ${Object.keys(existing).length} existing results`);
 
   if (completed.length === 0) {
-    console.log('[update-wc2026] No completed fixtures yet — writing empty results.json');
-    const empty = { updated: new Date(nowMs).toISOString(), matches: {} };
-    writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify(empty, null, 2), 'utf8');
+    console.log('[update-wc2026] No completed fixtures yet');
+    writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify({ updated: new Date(nowMs).toISOString(), matches: existing }, null, 2), 'utf8');
     return;
   }
 
-  console.log(`[update-wc2026] ${completed.length} completed fixtures — fetching scores...`);
+  // Only re-fetch fixtures we don't already have confirmed results for
+  const toFetch = completed.filter(f => !existing[f.id]);
+  console.log(`[update-wc2026] Need to fetch ${toFetch.length} new results`);
+
+  if (toFetch.length === 0) {
+    console.log('[update-wc2026] All completed fixtures already have results — skipping fetch');
+    writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify({ updated: new Date(nowMs).toISOString(), matches: existing }, null, 2), 'utf8');
+    return;
+  }
 
   const client = new Anthropic({ apiKey });
 
-  const message = await client.messages.create({
+  // Step 1: web_search to gather raw score data
+  const searchQuery = buildSearchQuery(toFetch);
+  console.log(`[update-wc2026] Searching: "${searchQuery}"`);
+
+  const searchMsg = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
-    max_tokens: 1024,
-    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 2 }],
-    messages:   [{ role: 'user', content: buildPrompt(completed) }],
+    max_tokens: 2048,
+    tools:      [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
+    messages:   [{ role: 'user', content: `Search for the final scores of these FIFA World Cup 2026 matches: ${searchQuery}. Return all scores you find.` }],
   });
 
-  const rawText = message.content
+  const searchText = searchMsg.content
     .filter(b => b.type === 'text')
     .map(b => b.text)
     .join('\n')
     .trim();
 
-  const matches = parseResponse(rawText);
-  const count   = Object.keys(matches).length;
+  console.log(`[update-wc2026] Search response length: ${searchText.length} chars`);
+  console.log(`[update-wc2026] Search preview: ${searchText.slice(0, 300)}`);
 
-  const payload = {
-    updated: new Date(nowMs).toISOString(),
-    matches,
-  };
+  // Step 2: extract structured scores from search results
+  const extractMsg = await client.messages.create({
+    model:      'claude-haiku-4-5-20251001',
+    max_tokens: 512,
+    messages:   [{ role: 'user', content: buildPrompt(toFetch, searchText) }],
+  });
 
+  const extractText = extractMsg.content
+    .filter(b => b.type === 'text')
+    .map(b => b.text)
+    .join('\n')
+    .trim();
+
+  const newMatches = parseResponse(extractText);
+  const merged     = { ...existing, ...newMatches };
+  const newCount   = Object.keys(newMatches).length;
+
+  const payload = { updated: new Date(nowMs).toISOString(), matches: merged };
   writeFileSync(join(WC_DIR, 'results.json'), JSON.stringify(payload, null, 2), 'utf8');
-  console.log(`[update-wc2026] ✓ results.json — ${count}/${completed.length} scores found`);
+  console.log(`[update-wc2026] ✓ results.json — ${newCount} new scores, ${Object.keys(merged).length} total`);
 }
 
 main().catch(err => {
