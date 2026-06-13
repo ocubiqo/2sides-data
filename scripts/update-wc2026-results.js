@@ -108,23 +108,27 @@ function loadExisting() {
 
 function buildPrompt(fixtures) {
   const fixtureList = fixtures
-    .map(f => `  ${f.id}: ${f.aId} vs ${f.bId} — kicked off ${f.ko}`)
+    .map(f => {
+      const date = f.ko.split('T')[0];
+      return `  ${f.id}: ${f.aId} — search for their FIFA World Cup 2026 match on ${date}`;
+    })
     .join('\n');
 
   return `Today: ${new Date().toUTCString()}
 
-Search the web for the FINAL scores of these completed FIFA World Cup 2026 matches:
+Search the web for these teams' FIFA World Cup 2026 group stage match results. For each item, find the match played by the listed team on (or around) that date — regardless of who the opponent was:
 ${fixtureList}
 
-After searching, return a JSON object where each key is the match ID and the value has the final score. Example format (do not use these values — use actual scores you find):
-{"XX":{"played":true,"aScore":1,"bScore":0},"YY":{"played":true,"aScore":2,"bScore":2,"stats":{"possession_a":55,"possession_b":45,"shots_a":12,"shots_b":8}}}
+Return a JSON object with one key per match ID. Use the listed team as "team A" — aScore is their goals, bScore is the opponent's goals, opponentId is the actual opponent (lowercase-hyphenated, e.g. "south-africa"):
+{"b1":{"played":true,"aScore":2,"bScore":0,"opponentId":"south-africa"},"a1":{"played":true,"aScore":1,"bScore":1,"opponentId":"panama"}}
 
 Rules:
-- Keys must be exactly the match IDs listed above (e.g. b1, a1, c1)
-- aScore = goals scored by the FIRST team listed, bScore = goals by the SECOND team
-- Only include a match if you find a confirmed final score via search
-- Include stats only if you find them in search results; all stats fields are optional
-- Return JSON only — no explanation, no markdown fences`;
+- Keys must be exactly the match IDs listed above
+- aScore = goals by the FIRST team listed (not the opponent)
+- bScore = goals by whoever they actually played
+- opponentId = the actual opponent's name (lowercase-hyphenated)
+- Only include a match if you find a confirmed final score
+- JSON only — no explanation, no markdown fences`;
 }
 
 const STAT_KEYS = [
@@ -138,6 +142,9 @@ function extractEntry(entry) {
   const bScore = Number(entry?.bScore);
   if (!Number.isFinite(aScore) || !Number.isFinite(bScore) || aScore < 0 || bScore < 0) return null;
   const result = { played: true, aScore, bScore };
+  if (typeof entry?.opponentId === 'string' && entry.opponentId.trim()) {
+    result.opponentId = entry.opponentId.trim().toLowerCase().replace(/\s+/g, '-');
+  }
   if (entry?.stats && typeof entry.stats === 'object') {
     const stats = {};
     for (const key of STAT_KEYS) {
