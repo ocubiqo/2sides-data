@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T19:42:13.875Z",
+  "updated": "2026-06-14T04:26:02.779Z",
   "matches": {
     "a1": {
       "played": true,
@@ -79,7 +79,41 @@
       "played": true,
       "aScore": 0,
       "bScore": 1,
-      "opponentId": "qatar"
+      "opponentId": "qatar",
+      "stats": {
+        "possession_a": 31,
+        "possession_b": 56,
+        "shots_a": 7,
+        "shots_b": 26,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 7,
+        "yellow_cards_a": 2,
+        "yellow_cards_b": 1,
+        "red_cards_a": 0,
+        "red_cards_b": 0
+      }
+    },
+    "c1": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "morocco",
+      "stats": {
+        "possession_a": 48,
+        "possession_b": 44,
+        "shots_a": 12,
+        "shots_b": 14,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 4,
+        "yellow_cards_a": 2,
+        "yellow_cards_b": 0
+      }
+    },
+    "d2": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "turkiye"
     }
   }
 }
