@@ -1,8 +1,8 @@
 name: Update WC2026 Results
 
 on:
-  # schedule:
-  #   - cron: '0 */6 * * *'   # every 6 h — paused; re-enable when production is confirmed
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC — covers overnight match windows globally
   workflow_dispatch:
 
 env:
