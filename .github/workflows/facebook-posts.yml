@@ -50,6 +50,6 @@ jobs:
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@2sides-data"
-          git add wc2026/posted-results.json wc2026/feature-post-index.json
+          git add wc2026/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: update facebook post tracking $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push
