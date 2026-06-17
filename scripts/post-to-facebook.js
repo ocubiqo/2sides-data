@@ -153,11 +153,11 @@ const WC2026_FIXTURES = [
 // ─── Feature topics (round-robin) ─────────────────────────────────────────────
 
 const FEATURE_TOPICS = [
-  { topic: 'live WC2026 match results', detail: 'See scores update in real time as matches are played — never miss a goal.' },
-  { topic: 'head-to-head team comparison', detail: 'Compare any two WC2026 nations side by side: FIFA ranking, goal stats, WC history, and live tournament form.' },
-  { topic: 'match simulation', detail: 'Run the numbers on any matchup — who wins on paper vs who wins on the pitch? The stats might surprise you.' },
-  { topic: 'WC match notifications', detail: 'Get notified before kickoff so you never miss a big match. Enable WC2026 match reminders in the app.' },
-  { topic: 'group standings', detail: 'Track every group in real time — see who is leading, who is scrapping for survival, and who is already out.' },
+  { topic: 'head-to-head team comparison', detail: 'Pick any two WC2026 nations and compare them side by side — FIFA ranking, World Cup history, win rate, goals scored, clean sheets, and more. See exactly who has the statistical edge before a match.' },
+  { topic: 'match simulation', detail: 'Let the stats decide — run a simulation on any WC2026 matchup and see who wins on paper. Great for settling debates with friends before kickoff.' },
+  { topic: 'WC2026 group standings and scores', detail: 'See how every group is shaping up — updated match scores, group tables, and who is advancing. Catch up on all the results in one place.' },
+  { topic: 'pre-match notifications', detail: 'Enable WC2026 match reminders and get notified before kickoff so you never lose track of when the next big game is.' },
+  { topic: 'player and nation stats depth', detail: 'Beyond the scoreline — 2 Sides breaks down each nation\'s full WC pedigree: titles won, appearances, biggest wins, and tournament clean sheets, all in one clean comparison view.' },
 ];
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -242,19 +242,26 @@ function previewPrompt(fixtures) {
     .map(f => `- ${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
     .join('\n');
 
-  return `You are the social media manager for "2 Sides", a football stats app. Write an engaging Facebook post previewing these upcoming WC2026 matches:
+  return `You are the social media manager for "2 Sides", a football comparison and simulation app.
 
+ABOUT THE APP (facts only — do not add or invent features):
+- 2 Sides lets fans compare any two WC2026 nations head-to-head using real stats (FIFA ranking, WC history, win rate, goals, clean sheets)
+- Users can run a match simulation to see who wins on paper based on the stats
+- The app shows WC2026 group standings and match scores (updated daily)
+- NOT a live score streaming app — do not say "real-time", "instant updates", or "never miss a goal"
+
+Write an engaging Facebook post previewing these upcoming WC2026 matches:
 ${matchLines}
 
 Rules:
-- Start with a bold hook line about the upcoming action (use emojis)
-- Mention both teams for each match using their flag emojis
-- Build excitement and anticipation — "who wins?", "the stats say..."
-- End with a CTA: "Compare the squads on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
-- Include 4–6 relevant hashtags at the end: #WC2026 #FIFAWorldCup #Football #2Sides plus team-specific ones
-- Total length: 150–220 words
-- Tone: energetic, passionate football fan, not corporate
-- Output the post text only — no preamble, no quotes around it`;
+- Start with a bold hook line about the clash (use emojis)
+- Mention both teams with their flag emojis
+- Tease the stats angle — "who has the better WC record?", "the numbers might surprise you"
+- End with CTA: "Compare the squads on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
+- Include 4–6 hashtags: #WC2026 #FIFAWorldCup #Football #2Sides plus team-specific ones
+- Total length: 120–180 words
+- Tone: passionate football fan, not corporate
+- Output the post text only — no preamble, no quotes`;
 }
 
 function resultPrompt(fixture, result) {
@@ -272,36 +279,52 @@ function resultPrompt(fixture, result) {
     if (parts.length) statsLine = `\nStats: ${parts.join(' | ')}`;
   }
 
-  return `You are the social media manager for "2 Sides", a football stats app. Write an engaging Facebook post reporting this WC2026 result:
+  return `You are the social media manager for "2 Sides", a football comparison and simulation app.
+
+ABOUT THE APP (facts only — do not add or invent features):
+- 2 Sides lets fans compare any two WC2026 nations head-to-head using real stats
+- Users can simulate matchups to see who wins on paper
+- NOT a live score app — do not say "real-time", "instant", or "live updates"
+
+Write an engaging Facebook post reporting this WC2026 result:
 
 ${a.flag} ${a.name} ${result.aScore}–${result.bScore} ${b.name} ${b.flag}
 Outcome: ${draw ? 'Draw' : aWon ? `${a.name} win` : `${b.name} win`}${statsLine}
 
 Rules:
 - Open with "⚽ FULL TIME" and the scoreline
-- Give a one-sentence narrative of the match (e.g. dominant performance, late drama, shock upset)
-- Mention what this means for the group (advancing, fighting on, early exit)
-- End with CTA: "Did the stats predict this? Check on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
+- One sentence on the match — dominant, shock result, close contest
+- Tie it back to the stats angle: "Did the numbers predict this?" or "What did the head-to-head say?"
+- End with CTA: "Run the matchup on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
 - Include 4–6 hashtags: #WC2026 #FIFAWorldCup #Football #2Sides plus team names
-- Total length: 100–160 words
-- Tone: excited football commentator
+- Total length: 100–150 words
+- Tone: excited football fan, grounded in stats
 - Output the post text only`;
 }
 
 function featurePrompt(topic) {
-  return `You are the social media manager for "2 Sides", a football stats and simulation app. Write an engaging Facebook post promoting this app feature during WC2026:
+  return `You are the social media manager for "2 Sides", a football comparison and simulation app.
 
+ABOUT THE APP (facts only — do not add or invent features):
+- Core feature: compare any two WC2026 nations head-to-head using real stats (FIFA ranking, WC titles, appearances, win rate, goals scored, clean sheets, and more)
+- Secondary feature: simulate any WC2026 matchup to see who wins on paper based on the stats
+- Also shows WC2026 group standings and match scores (updated daily — NOT live streaming)
+- Has pre-match notifications to remind users before kickoff
+- Simple, clean app — pick two sides, compare, simulate, decide
+- Do NOT mention: live scores, real-time updates, instant notifications, streaming, or any feature not listed above
+
+Write an engaging Facebook post promoting this specific feature:
 Feature: ${topic.topic}
 Detail: ${topic.detail}
 
 Rules:
-- Open with an eye-catching question or statement relevant to WC2026 right now
-- Describe the feature in 2–3 sentences — how it works, why fans love it
-- Make it feel timely (WC2026 is happening right now)
+- Open with a punchy question or bold statement tied to WC2026 right now
+- Explain the feature in 2 sentences max — what it does, why it's useful during the tournament
+- Keep it honest and grounded — no exaggeration about what the app does
 - End with CTA: "Try it free on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
-- Include 5–6 hashtags: #WC2026 #WorldCup2026 #Football #FootballStats #2Sides #FIFAWorldCup
-- Total length: 120–180 words
-- Tone: enthusiastic, friendly, FOMO-inducing
+- Include 4–5 hashtags: #WC2026 #Football #FootballStats #2Sides #FIFAWorldCup
+- Total length: 100–150 words
+- Tone: confident, football-savvy fan — not hype, not corporate
 - Output the post text only`;
 }
 
