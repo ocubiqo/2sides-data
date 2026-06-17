@@ -205,12 +205,9 @@ function saveJson(path, data) {
 
 function resolvePostType(raw) {
   if (raw && raw !== 'auto') return raw;
-  const now  = new Date();
-  const hour = now.getUTCHours();
-  const day  = now.getUTCDay(); // 0=Sun, 1=Mon
-  if (hour === 9) return 'result';
-  if (day === 1)  return 'feature';
-  return 'preview';
+  const day = new Date().getUTCDay(); // 0=Sun, 1=Mon
+  if (day === 1) return 'feature';   // Monday → weekly app feature post
+  return 'result';                    // Other days → result recap (falls back to preview in auto mode)
 }
 
 // ─── Facebook API ─────────────────────────────────────────────────────────────
@@ -555,8 +552,9 @@ async function main() {
   if (!fbPageId) { console.error('[post] FB_PAGE_ID is not set'); process.exit(1); }
   if (!igUserId) console.log('[post] IG_USER_ID not set — skipping Instagram');
 
+  const isAuto   = !process.env.POST_TYPE || process.env.POST_TYPE === 'auto';
   const postType = resolvePostType(process.env.POST_TYPE);
-  console.log(`[post] Running post type: ${postType}`);
+  console.log(`[post] Running post type: ${postType}${isAuto ? ' (auto)' : ''}`);
 
   const client        = new Anthropic({ apiKey });
   const imageFilename = pickRandomImage();
@@ -565,10 +563,19 @@ async function main() {
   console.log(`[post] Using image: ${imageFilename}`);
 
   let result;
-  if      (postType === 'preview') result = await handlePreview(client);
-  else if (postType === 'result')  result = await handleResult(client);
-  else if (postType === 'feature') result = await handleFeature(client);
-  else { console.error(`[post] Unknown POST_TYPE: ${postType}`); process.exit(1); }
+  if (postType === 'feature') {
+    result = await handleFeature(client);
+  } else if (postType === 'result') {
+    result = await handleResult(client);
+    if (!result && isAuto) {
+      console.log('[post] No new results — falling back to match preview');
+      result = await handlePreview(client);
+    }
+  } else if (postType === 'preview') {
+    result = await handlePreview(client);
+  } else {
+    console.error(`[post] Unknown POST_TYPE: ${postType}`); process.exit(1);
+  }
 
   if (!result) {
     console.log('[post] Nothing to post — exiting cleanly');
