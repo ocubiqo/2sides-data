@@ -1,5 +1,5 @@
 /**
- * Facebook auto-poster for the 2 Sides football page.
+ * Facebook + Instagram auto-poster for the 2 Sides football page.
  * Posts match previews, result recaps, and weekly app feature posts.
  *
  * Env vars (required):
@@ -7,6 +7,9 @@
  *   FB_PAGE_ACCESS_TOKEN    — Never-expiring Facebook Page Access Token
  *   FB_PAGE_ID              — Numeric Facebook Page ID
  *   POST_TYPE               — 'preview' | 'result' | 'feature' | 'auto'
+ *
+ * Env vars (optional — Instagram posting skipped if absent):
+ *   IG_USER_ID              — Instagram Business Account ID
  */
 
 import Anthropic from '@anthropic-ai/sdk';
@@ -18,7 +21,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT    = join(__dirname, '..');
 const WC_DIR  = join(ROOT, 'wc2026');
 
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.ocubiqo.twosides';
+const PLAY_STORE_URL  = 'https://play.google.com/store/apps/details?id=com.ocubiqo.twosides';
+const IG_IMAGE_URL    = 'https://raw.githubusercontent.com/ocubiqo/2sides-data/main/assets/apptitle.jpg';
 
 // ─── Team data ────────────────────────────────────────────────────────────────
 
@@ -226,6 +230,42 @@ async function createPost(message, photoId, token, pageId) {
   return body.id;
 }
 
+// ─── Instagram API ────────────────────────────────────────────────────────────
+
+async function postToInstagram(caption, token, igUserId) {
+  // Step 1 — create media container
+  const containerRes = await fetch(`https://graph.facebook.com/v25.0/${igUserId}/media`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      image_url:    IG_IMAGE_URL,
+      caption,
+      access_token: token,
+    }),
+  });
+  const container = await containerRes.json();
+  if (!containerRes.ok || container.error) {
+    throw new Error(`IG container failed: ${JSON.stringify(container.error ?? container)}`);
+  }
+  console.log(`[ig-post] Container created id=${container.id}`);
+
+  // Step 2 — publish the container
+  const publishRes = await fetch(`https://graph.facebook.com/v25.0/${igUserId}/media_publish`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      creation_id:  container.id,
+      access_token: token,
+    }),
+  });
+  const published = await publishRes.json();
+  if (!publishRes.ok || published.error) {
+    throw new Error(`IG publish failed: ${JSON.stringify(published.error ?? published)}`);
+  }
+  console.log(`[ig-post] Published id=${published.id}`);
+  return published.id;
+}
+
 // ─── Claude copy generation ───────────────────────────────────────────────────
 
 async function generateCopy(client, prompt) {
@@ -328,6 +368,93 @@ Rules:
 - Output the post text only`;
 }
 
+// ─── Instagram copy prompts ───────────────────────────────────────────────────
+// Instagram captions need a punchy first line (shows before "more"), slightly
+// shorter text, and more hashtags (10–20 works well for reach).
+
+const APP_CONTEXT = `ABOUT 2 SIDES (facts only — never invent or exaggerate features):
+- Comparison app: pick any two WC2026 nations and compare them side by side using real stats (FIFA ranking, WC titles, win rate, goals, clean sheets, WC appearances)
+- Simulation: run a matchup to see who wins on paper based on the stats
+- Shows WC2026 group standings and match scores (updated daily — NOT live streaming)
+- Pre-match notifications to remind users before kickoff
+- Simple, clean app — pick two sides, compare, simulate, decide
+- Do NOT mention: live scores, real-time updates, instant goals, streaming, or anything not listed above`;
+
+function igPreviewPrompt(fixtures) {
+  const matchLines = fixtures
+    .map(f => `${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
+    .join('\n');
+
+  return `You are the Instagram manager for "2 Sides", a football comparison and simulation app.
+
+${APP_CONTEXT}
+
+Write an Instagram caption for a match preview post. Upcoming WC2026 matches:
+${matchLines}
+
+Rules:
+- First line must be a punchy 1-sentence hook using emojis (this shows before "more" is tapped)
+- 3–4 sentences total covering: teams, what's at stake, the stats angle ("who has the edge?")
+- End with: "Link in bio 👆 #2Sides"
+- Add 12–18 hashtags on a new line: mix of broad (#WC2026 #Football #WorldCup2026) and team-specific (#TeamName)
+- Total caption length: 80–130 words
+- Tone: direct, football-savvy fan
+- Output the caption only`;
+}
+
+function igResultPrompt(fixture, result) {
+  const a    = TEAM[fixture.aId] ?? { name: fixture.aId, flag: '' };
+  const b    = TEAM[fixture.bId] ?? { name: fixture.bId, flag: '' };
+  const aWon = result.aScore > result.bScore;
+  const draw = result.aScore === result.bScore;
+
+  let statsLine = '';
+  if (result.stats) {
+    const s = result.stats;
+    const parts = [];
+    if (s.possession_a != null) parts.push(`Possession ${s.possession_a}%–${s.possession_b}%`);
+    if (s.shots_on_target_a != null) parts.push(`SoT ${s.shots_on_target_a}–${s.shots_on_target_b}`);
+    if (parts.length) statsLine = `\nStats: ${parts.join(' | ')}`;
+  }
+
+  return `You are the Instagram manager for "2 Sides", a football comparison and simulation app.
+
+${APP_CONTEXT}
+
+Write an Instagram caption for this WC2026 result:
+${a.flag} ${a.name} ${result.aScore}–${result.bScore} ${b.name} ${b.flag}
+${draw ? 'Draw' : aWon ? `${a.name} win` : `${b.name} win`}${statsLine}
+
+Rules:
+- First line: scoreline with emojis as the immediate hook
+- 2–3 sentences: what happened, did the stats predict it, what it means for the group
+- End with: "Compare on 2 Sides — link in bio 👆"
+- Add 12–16 hashtags on a new line
+- Total caption: 70–110 words
+- Tone: excited fan, grounded in stats
+- Output the caption only`;
+}
+
+function igFeaturePrompt(topic) {
+  return `You are the Instagram manager for "2 Sides", a football comparison and simulation app.
+
+${APP_CONTEXT}
+
+Write an Instagram caption promoting this feature during WC2026:
+Feature: ${topic.topic}
+Detail: ${topic.detail}
+
+Rules:
+- First line: bold question or statement — must hook in under 10 words with an emoji
+- 2–3 sentences: what the feature does and why it matters right now during WC2026
+- Stay strictly accurate — only describe what the app actually does
+- End with: "Try it free — link in bio 👆 #2Sides"
+- Add 12–18 hashtags on a new line: #WC2026 #Football #FootballStats #WorldCup2026 #FIFAWorldCup plus relevant ones
+- Total caption: 70–120 words
+- Tone: confident, fan-to-fan — not hype, not corporate
+- Output the caption only`;
+}
+
 // ─── Post type handlers ───────────────────────────────────────────────────────
 
 async function handlePreview(client) {
@@ -347,7 +474,7 @@ async function handlePreview(client) {
 
   console.log(`[fb-post] preview: ${upcoming.length} fixture(s) in window: ${upcoming.map(f => f.id).join(', ')}`);
   const text = await generateCopy(client, previewPrompt(upcoming));
-  return { text, fixtures: upcoming.map(f => f.id) };
+  return { text, fixtures: upcoming.map(f => f.id), fixturesData: upcoming };
 }
 
 async function handleResult(client) {
@@ -381,7 +508,7 @@ async function handleResult(client) {
   posted.posted.push(fixture.id);
   saveJson(join(WC_DIR, 'posted-results.json'), posted);
 
-  return { text, fixtureId: fixture.id };
+  return { text, fixtureId: fixture.id, matchResult: result };
 }
 
 async function handleFeature(client) {
@@ -406,13 +533,15 @@ async function main() {
   const apiKey   = process.env.ANTHROPIC_API_KEY?.trim();
   const fbToken  = process.env.FB_PAGE_ACCESS_TOKEN?.trim();
   const fbPageId = process.env.FB_PAGE_ID?.trim();
+  const igUserId = process.env.IG_USER_ID?.trim(); // optional
 
-  if (!apiKey)   { console.error('[fb-post] ANTHROPIC_API_KEY is not set'); process.exit(1); }
-  if (!fbToken)  { console.error('[fb-post] FB_PAGE_ACCESS_TOKEN is not set'); process.exit(1); }
-  if (!fbPageId) { console.error('[fb-post] FB_PAGE_ID is not set'); process.exit(1); }
+  if (!apiKey)   { console.error('[post] ANTHROPIC_API_KEY is not set'); process.exit(1); }
+  if (!fbToken)  { console.error('[post] FB_PAGE_ACCESS_TOKEN is not set'); process.exit(1); }
+  if (!fbPageId) { console.error('[post] FB_PAGE_ID is not set'); process.exit(1); }
+  if (!igUserId) console.log('[post] IG_USER_ID not set — skipping Instagram');
 
   const postType = resolvePostType(process.env.POST_TYPE);
-  console.log(`[fb-post] Running post type: ${postType}`);
+  console.log(`[post] Running post type: ${postType}`);
 
   const client    = new Anthropic({ apiKey });
   const imagePath = join(ROOT, 'assets', 'apptitle.jpg');
@@ -421,19 +550,31 @@ async function main() {
   if      (postType === 'preview') result = await handlePreview(client);
   else if (postType === 'result')  result = await handleResult(client);
   else if (postType === 'feature') result = await handleFeature(client);
-  else { console.error(`[fb-post] Unknown POST_TYPE: ${postType}`); process.exit(1); }
+  else { console.error(`[post] Unknown POST_TYPE: ${postType}`); process.exit(1); }
 
   if (!result) {
-    console.log('[fb-post] Nothing to post — exiting cleanly');
+    console.log('[post] Nothing to post — exiting cleanly');
     return;
   }
 
+  // ── Facebook ──
   console.log(`[fb-post] Generated copy (${result.text.length} chars):\n---\n${result.text}\n---`);
-
   const photoId = await uploadPhoto(imagePath, fbToken, fbPageId);
   await createPost(result.text, photoId, fbToken, fbPageId);
 
-  console.log('[fb-post] ✓ Done');
+  // ── Instagram ──
+  if (igUserId) {
+    let igPromptFn;
+    if      (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
+    else if (postType === 'result')  igPromptFn = () => igResultPrompt(WC2026_FIXTURES.find(f => f.id === result.fixtureId), result.matchResult);
+    else                             igPromptFn = () => igFeaturePrompt(FEATURE_TOPICS[result.topicIndex]);
+
+    const igCaption = await generateCopy(client, igPromptFn());
+    console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
+    await postToInstagram(igCaption, fbToken, igUserId);
+  }
+
+  console.log('[post] ✓ Done');
 }
 
 main().catch(err => {
