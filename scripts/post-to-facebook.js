@@ -22,7 +22,21 @@ const ROOT    = join(__dirname, '..');
 const WC_DIR  = join(ROOT, 'wc2026');
 
 const PLAY_STORE_URL  = 'https://play.google.com/store/apps/details?id=com.ocubiqo.twosides';
-const IG_IMAGE_URL    = 'https://raw.githubusercontent.com/ocubiqo/2sides-data/main/assets/apptitle.jpg';
+const ASSETS_BASE_URL = 'https://raw.githubusercontent.com/ocubiqo/2sides-data/main/assets';
+
+// Promo images rotated randomly across posts (promo-01 PNG excluded — too large for FB upload)
+const PROMO_IMAGES = [
+  'promo-02-top-players.jpg',
+  'promo-03-deep-analysis.jpg',
+  'promo-04-results.jpg',
+  'promo-05-records.jpg',
+  'promo-06-every-fan.jpg',
+  'promo-07-feature-graphic.jpg',
+];
+
+function pickRandomImage() {
+  return PROMO_IMAGES[Math.floor(Math.random() * PROMO_IMAGES.length)];
+}
 
 // ─── Team data ────────────────────────────────────────────────────────────────
 
@@ -201,10 +215,11 @@ function resolvePostType(raw) {
 
 // ─── Facebook API ─────────────────────────────────────────────────────────────
 
-async function uploadPhoto(imagePath, token, pageId) {
+async function uploadPhoto(imagePath, filename, token, pageId) {
   const imageBuffer = readFileSync(imagePath);
+  const mimeType    = filename.endsWith('.png') ? 'image/png' : 'image/jpeg';
   const form = new FormData();
-  form.append('source', new Blob([imageBuffer], { type: 'image/jpeg' }), 'apptitle.jpg');
+  form.append('source', new Blob([imageBuffer], { type: mimeType }), filename);
   form.append('published', 'false');
   form.append('access_token', token);
 
@@ -232,13 +247,13 @@ async function createPost(message, photoId, token, pageId) {
 
 // ─── Instagram API ────────────────────────────────────────────────────────────
 
-async function postToInstagram(caption, token, igUserId) {
+async function postToInstagram(caption, imageUrl, token, igUserId) {
   // Step 1 — create media container
   const containerRes = await fetch(`https://graph.facebook.com/v25.0/${igUserId}/media`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      image_url:    IG_IMAGE_URL,
+      image_url:    imageUrl,
       caption,
       access_token: token,
     }),
@@ -543,8 +558,11 @@ async function main() {
   const postType = resolvePostType(process.env.POST_TYPE);
   console.log(`[post] Running post type: ${postType}`);
 
-  const client    = new Anthropic({ apiKey });
-  const imagePath = join(ROOT, 'assets', 'apptitle.jpg');
+  const client        = new Anthropic({ apiKey });
+  const imageFilename = pickRandomImage();
+  const imagePath     = join(ROOT, 'assets', imageFilename);
+  const imageUrl      = `${ASSETS_BASE_URL}/${imageFilename}`;
+  console.log(`[post] Using image: ${imageFilename}`);
 
   let result;
   if      (postType === 'preview') result = await handlePreview(client);
@@ -559,7 +577,7 @@ async function main() {
 
   // ── Facebook ──
   console.log(`[fb-post] Generated copy (${result.text.length} chars):\n---\n${result.text}\n---`);
-  const photoId = await uploadPhoto(imagePath, fbToken, fbPageId);
+  const photoId = await uploadPhoto(imagePath, imageFilename, fbToken, fbPageId);
   await createPost(result.text, photoId, fbToken, fbPageId);
 
   // ── Instagram ──
@@ -572,7 +590,7 @@ async function main() {
 
       const igCaption = await generateCopy(client, igPromptFn());
       console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
-      await postToInstagram(igCaption, fbToken, igUserId);
+      await postToInstagram(igCaption, imageUrl, fbToken, igUserId);
     } catch (err) {
       console.warn('[ig-post] Skipped — Instagram posting failed (non-fatal):', err.message);
     }
