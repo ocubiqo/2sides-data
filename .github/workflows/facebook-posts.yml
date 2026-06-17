@@ -1,0 +1,55 @@
+name: Facebook Auto Posts
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # 08:00 UTC daily — match previews (Mon also triggers feature via POST_TYPE=auto)
+    - cron: '0 9 * * *'   # 09:00 UTC daily — result recaps (after 06:00 score update settles)
+  workflow_dispatch:
+    inputs:
+      post_type:
+        description: 'Post type to trigger manually'
+        required: true
+        default: 'preview'
+        type: choice
+        options:
+          - preview
+          - result
+          - feature
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Post to Facebook
+        env:
+          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
+          FB_PAGE_ACCESS_TOKEN:   ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID:             ${{ secrets.FB_PAGE_ID }}
+          # workflow_dispatch sets post_type; cron uses 'auto' (script resolves by hour/day)
+          POST_TYPE: ${{ github.event.inputs.post_type || 'auto' }}
+        run: node scripts/post-to-facebook.js
+
+      - name: Commit tracking files if changed
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@2sides-data"
+          git add wc2026/posted-results.json wc2026/feature-post-index.json
+          git diff --staged --quiet || git commit -m "chore: update facebook post tracking $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
