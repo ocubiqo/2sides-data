@@ -204,7 +204,7 @@ async function uploadPhoto(imagePath, token, pageId) {
   form.append('published', 'false');
   form.append('access_token', token);
 
-  const res  = await fetch(`https://graph.facebook.com/v21.0/${pageId}/photos`, { method: 'POST', body: form });
+  const res  = await fetch(`https://graph.facebook.com/v25.0/${pageId}/photos`, { method: 'POST', body: form });
   const body = await res.json();
   if (!res.ok || body.error) throw new Error(`Photo upload failed: ${JSON.stringify(body.error ?? body)}`);
   console.log(`[fb-post] Uploaded photo id=${body.id}`);
@@ -215,7 +215,7 @@ async function createPost(message, photoId, token, pageId) {
   const payload = { message, access_token: token };
   if (photoId) payload.attached_media = JSON.stringify([{ media_fbid: photoId }]);
 
-  const res  = await fetch(`https://graph.facebook.com/v21.0/${pageId}/feed`, {
+  const res  = await fetch(`https://graph.facebook.com/v25.0/${pageId}/feed`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
