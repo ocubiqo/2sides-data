@@ -564,14 +564,18 @@ async function main() {
 
   // ── Instagram ──
   if (igUserId) {
-    let igPromptFn;
-    if      (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
-    else if (postType === 'result')  igPromptFn = () => igResultPrompt(WC2026_FIXTURES.find(f => f.id === result.fixtureId), result.matchResult);
-    else                             igPromptFn = () => igFeaturePrompt(FEATURE_TOPICS[result.topicIndex]);
+    try {
+      let igPromptFn;
+      if      (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
+      else if (postType === 'result')  igPromptFn = () => igResultPrompt(WC2026_FIXTURES.find(f => f.id === result.fixtureId), result.matchResult);
+      else                             igPromptFn = () => igFeaturePrompt(FEATURE_TOPICS[result.topicIndex]);
 
-    const igCaption = await generateCopy(client, igPromptFn());
-    console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
-    await postToInstagram(igCaption, fbToken, igUserId);
+      const igCaption = await generateCopy(client, igPromptFn());
+      console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
+      await postToInstagram(igCaption, fbToken, igUserId);
+    } catch (err) {
+      console.warn('[ig-post] Skipped — Instagram posting failed (non-fatal):', err.message);
+    }
   }
 
   console.log('[post] ✓ Done');
