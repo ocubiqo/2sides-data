@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T10:21:10.804Z",
+  "updated": "2026-06-18T10:00:59.645Z",
   "matches": {
     "a1": {
       "played": true,
@@ -303,6 +303,54 @@
         "shots_b": 11,
         "shots_on_target_a": 4,
         "shots_on_target_b": 3
+      }
+    },
+    "k1": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "congo-dr",
+      "stats": {
+        "possession_a": 68,
+        "possession_b": 32,
+        "shots_a": 7,
+        "shots_b": 8,
+        "shots_on_target_a": 1,
+        "shots_on_target_b": 2
+      }
+    },
+    "l1": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 2,
+      "opponentId": "croatia"
+    },
+    "k2": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 3,
+      "opponentId": "colombia",
+      "stats": {
+        "possession_a": 33,
+        "possession_b": 67,
+        "shots_a": 8,
+        "shots_b": 15,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 4
+      }
+    },
+    "l2": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "panama",
+      "stats": {
+        "possession_a": 35,
+        "possession_b": 65,
+        "shots_a": 8,
+        "shots_b": 11,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 4
       }
     }
   }
