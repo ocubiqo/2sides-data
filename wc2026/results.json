@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T10:00:59.645Z",
+  "updated": "2026-06-19T10:07:37.721Z",
   "matches": {
     "a1": {
       "played": true,
@@ -323,7 +323,17 @@
       "played": true,
       "aScore": 4,
       "bScore": 2,
-      "opponentId": "croatia"
+      "opponentId": "croatia",
+      "stats": {
+        "possession_a": 52,
+        "possession_b": 48,
+        "shots_a": 22,
+        "shots_b": 10,
+        "shots_on_target_a": 11,
+        "shots_on_target_b": 5,
+        "corners_a": 8,
+        "corners_b": 2
+      }
     },
     "k2": {
       "played": true,
@@ -352,6 +362,48 @@
         "shots_on_target_a": 2,
         "shots_on_target_b": 4
       }
+    },
+    "a3": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "south-africa",
+      "stats": {
+        "possession_a": 60,
+        "possession_b": 40,
+        "shots_a": 16,
+        "shots_b": 3,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 2
+      }
+    },
+    "b3": {
+      "played": true,
+      "aScore": 6,
+      "bScore": 0,
+      "opponentId": "qatar",
+      "stats": {
+        "possession_a": 78,
+        "possession_b": 22,
+        "shots_a": 33,
+        "shots_b": 2,
+        "shots_on_target_a": 11,
+        "shots_on_target_b": 0,
+        "corners_a": 19,
+        "corners_b": 1
+      }
+    },
+    "a4": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 1,
+      "opponentId": "mexico"
+    },
+    "b4": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 4,
+      "opponentId": "switzerland"
     }
   }
 }
