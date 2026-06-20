@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T10:07:37.721Z",
+  "updated": "2026-06-20T08:37:01.936Z",
   "matches": {
     "a1": {
       "played": true,
@@ -397,13 +397,77 @@
       "played": true,
       "aScore": 0,
       "bScore": 1,
-      "opponentId": "mexico"
+      "opponentId": "mexico",
+      "stats": {
+        "possession_a": 42,
+        "possession_b": 58,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 2,
+        "yellow_cards_a": 0,
+        "yellow_cards_b": 2
+      }
     },
     "b4": {
       "played": true,
       "aScore": 1,
       "bScore": 4,
-      "opponentId": "switzerland"
+      "opponentId": "switzerland",
+      "stats": {
+        "possession_a": 62,
+        "possession_b": 38,
+        "shots_a": 13,
+        "shots_b": 5,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 3,
+        "corners_a": 7,
+        "corners_b": 3,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 2
+      }
+    },
+    "c3": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 0,
+      "opponentId": "haiti",
+      "stats": {
+        "possession_a": 49,
+        "possession_b": 43,
+        "shots_a": 7,
+        "shots_b": 7,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 3
+      }
+    },
+    "c4": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "scotland",
+      "stats": {
+        "possession_a": 59,
+        "possession_b": 41,
+        "corners_a": 5,
+        "corners_b": 2,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 1
+      }
+    },
+    "d3": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "australia",
+      "stats": {
+        "possession_a": 55,
+        "possession_b": 30,
+        "shots_a": 10,
+        "shots_b": 5,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 2,
+        "yellow_cards_a": 2,
+        "yellow_cards_b": 2
+      }
     }
   }
 }
