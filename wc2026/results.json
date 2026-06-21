@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T08:37:01.936Z",
+  "updated": "2026-06-21T09:31:35.839Z",
   "matches": {
     "a1": {
       "played": true,
@@ -467,6 +467,58 @@
         "shots_on_target_b": 2,
         "yellow_cards_a": 2,
         "yellow_cards_b": 2
+      }
+    },
+    "d4": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "turkiye",
+      "stats": {
+        "possession_a": 22,
+        "possession_b": 78,
+        "shots_a": 7,
+        "shots_b": 32,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 5,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 0,
+        "red_cards_a": 1,
+        "red_cards_b": 0
+      }
+    },
+    "e3": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "cote-d-ivoire"
+    },
+    "e4": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "curacao",
+      "stats": {
+        "possession_a": 65,
+        "possession_b": 35,
+        "shots_a": 27,
+        "shots_b": 10,
+        "shots_on_target_a": 15,
+        "shots_on_target_b": 3
+      }
+    },
+    "f3": {
+      "played": true,
+      "aScore": 5,
+      "bScore": 1,
+      "opponentId": "sweden",
+      "stats": {
+        "possession_a": 48,
+        "possession_b": 43,
+        "shots_a": 10,
+        "shots_b": 16,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 8
       }
     }
   }
