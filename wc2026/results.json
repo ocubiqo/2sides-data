@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T09:31:35.839Z",
+  "updated": "2026-06-22T11:27:21.914Z",
   "matches": {
     "a1": {
       "played": true,
@@ -491,7 +491,21 @@
       "played": true,
       "aScore": 2,
       "bScore": 1,
-      "opponentId": "cote-d-ivoire"
+      "opponentId": "cote-d-ivoire",
+      "stats": {
+        "possession_a": 49,
+        "possession_b": 41,
+        "shots_a": 16,
+        "shots_b": 9,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 2,
+        "corners_a": 8,
+        "corners_b": 3,
+        "yellow_cards_a": 0,
+        "yellow_cards_b": 0,
+        "red_cards_a": 0,
+        "red_cards_b": 0
+      }
     },
     "e4": {
       "played": true,
@@ -519,6 +533,42 @@
         "shots_b": 16,
         "shots_on_target_a": 7,
         "shots_on_target_b": 8
+      }
+    },
+    "f4": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 0,
+      "opponentId": "tunisia",
+      "stats": {
+        "possession_a": 62,
+        "possession_b": 38,
+        "shots_a": 11,
+        "shots_b": 2,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 0,
+        "corners_a": 5,
+        "corners_b": 3
+      }
+    },
+    "g3": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "iran"
+    },
+    "h3": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 0,
+      "opponentId": "saudi-arabia",
+      "stats": {
+        "possession_a": 63,
+        "possession_b": 37,
+        "shots_a": 22,
+        "shots_b": 3,
+        "shots_on_target_a": 8,
+        "shots_on_target_b": 2
       }
     }
   }
