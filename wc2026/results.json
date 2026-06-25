@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T08:48:43.404Z",
+  "updated": "2026-06-25T08:43:16.391Z",
   "matches": {
     "a1": {
       "played": true,
@@ -569,6 +569,96 @@
         "shots_b": 3,
         "shots_on_target_a": 8,
         "shots_on_target_b": 2
+      }
+    },
+    "g4": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 1,
+      "opponentId": "new-zealand"
+    },
+    "h4": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 2,
+      "opponentId": "cape-verde"
+    },
+    "i3": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 0,
+      "opponentId": "iraq"
+    },
+    "i4": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 3,
+      "opponentId": "norway"
+    },
+    "j4": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "jordan",
+      "stats": {
+        "possession_a": 62,
+        "possession_b": 27,
+        "shots_a": 17,
+        "shots_b": 8,
+        "shots_on_target_a": 8,
+        "shots_on_target_b": 4
+      }
+    },
+    "k3": {
+      "played": true,
+      "aScore": 5,
+      "bScore": 0,
+      "opponentId": "uzbekistan"
+    },
+    "l3": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "ghana",
+      "stats": {
+        "possession_a": 72,
+        "possession_b": 28,
+        "shots_a": 19,
+        "shots_b": 2,
+        "shots_on_target_a": 3,
+        "shots_on_target_b": 0
+      }
+    },
+    "c5": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 0,
+      "opponentId": "scotland"
+    },
+    "c6": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 3,
+      "opponentId": "brazil"
+    },
+    "l4": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "panama"
+    },
+    "k4": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "dr-congo",
+      "stats": {
+        "possession_a": 58,
+        "possession_b": 42,
+        "shots_a": 20,
+        "shots_b": 7,
+        "shots_on_target_a": 9,
+        "shots_on_target_b": 1
       }
     }
   }
