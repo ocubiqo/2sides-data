@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T08:43:16.391Z",
+  "updated": "2026-06-26T08:45:05.955Z",
   "matches": {
     "a1": {
       "played": true,
@@ -633,7 +633,19 @@
       "played": true,
       "aScore": 3,
       "bScore": 0,
-      "opponentId": "scotland"
+      "opponentId": "scotland",
+      "stats": {
+        "possession_a": 46,
+        "possession_b": 54,
+        "shots_a": 14,
+        "shots_b": 21,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 9,
+        "corners_a": 7,
+        "corners_b": 6,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 2
+      }
     },
     "c6": {
       "played": true,
@@ -645,7 +657,17 @@
       "played": true,
       "aScore": 1,
       "bScore": 0,
-      "opponentId": "panama"
+      "opponentId": "panama",
+      "stats": {
+        "possession_a": 42,
+        "possession_b": 58,
+        "shots_a": 8,
+        "shots_b": 6,
+        "shots_on_target_a": 1,
+        "shots_on_target_b": 2,
+        "corners_a": 7,
+        "corners_b": 2
+      }
     },
     "k4": {
       "played": true,
@@ -659,6 +681,88 @@
         "shots_b": 7,
         "shots_on_target_a": 9,
         "shots_on_target_b": 1
+      }
+    },
+    "d5": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 3,
+      "opponentId": "turkey",
+      "stats": {
+        "possession_a": 45,
+        "possession_b": 55,
+        "shots_a": 12,
+        "shots_b": 11,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 5
+      }
+    },
+    "d6": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "australia"
+    },
+    "e5": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 2,
+      "opponentId": "ecuador"
+    },
+    "e6": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "curacao",
+      "stats": {
+        "possession_a": 56,
+        "possession_b": 44,
+        "shots_a": 15,
+        "shots_b": 10,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 2
+      }
+    },
+    "f5": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 1,
+      "opponentId": "tunisia",
+      "stats": {
+        "possession_a": 64,
+        "possession_b": 27,
+        "shots_a": 20,
+        "shots_b": 10,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 4
+      }
+    },
+    "f6": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "sweden",
+      "stats": {
+        "possession_a": 44,
+        "possession_b": 56,
+        "shots_a": 8,
+        "shots_b": 11,
+        "shots_on_target_a": 3,
+        "shots_on_target_b": 5
+      }
+    },
+    "g5": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "iran",
+      "stats": {
+        "possession_a": 59,
+        "possession_b": 41,
+        "shots_a": 23,
+        "shots_b": 7,
+        "shots_on_target_a": 7,
+        "shots_on_target_b": 3
       }
     }
   }
