@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T08:45:05.955Z",
+  "updated": "2026-06-27T08:22:03.099Z",
   "matches": {
     "a1": {
       "played": true,
@@ -764,6 +764,36 @@
         "shots_on_target_a": 7,
         "shots_on_target_b": 3
       }
+    },
+    "g6": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 1,
+      "opponentId": "egypt"
+    },
+    "h5": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 0,
+      "opponentId": "uruguay"
+    },
+    "h6": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "cape-verde"
+    },
+    "i5": {
+      "played": true,
+      "aScore": 4,
+      "bScore": 1,
+      "opponentId": "norway"
+    },
+    "i6": {
+      "played": true,
+      "aScore": 5,
+      "bScore": 0,
+      "opponentId": "iraq"
     }
   }
 }
