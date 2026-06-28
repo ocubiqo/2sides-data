@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:22:03.099Z",
+  "updated": "2026-06-28T08:36:59.089Z",
   "matches": {
     "a1": {
       "played": true,
@@ -775,25 +775,153 @@
       "played": true,
       "aScore": 1,
       "bScore": 0,
-      "opponentId": "uruguay"
+      "opponentId": "uruguay",
+      "stats": {
+        "possession_a": 65,
+        "possession_b": 35,
+        "shots_a": 6,
+        "shots_b": 5,
+        "yellow_cards_a": 0,
+        "yellow_cards_b": 1,
+        "red_cards_b": 1
+      }
     },
     "h6": {
       "played": true,
       "aScore": 0,
       "bScore": 0,
-      "opponentId": "cape-verde"
+      "opponentId": "cape-verde",
+      "stats": {
+        "yellow_cards_a": 2,
+        "yellow_cards_b": 2
+      }
     },
     "i5": {
       "played": true,
       "aScore": 4,
       "bScore": 1,
-      "opponentId": "norway"
+      "opponentId": "norway",
+      "stats": {
+        "possession_a": 40,
+        "possession_b": 59,
+        "shots_a": 10,
+        "shots_b": 18,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 9,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 1
+      }
     },
     "i6": {
       "played": true,
       "aScore": 5,
       "bScore": 0,
-      "opponentId": "iraq"
+      "opponentId": "iraq",
+      "stats": {
+        "possession_a": 58,
+        "possession_b": 30,
+        "shots_a": 27,
+        "shots_b": 6,
+        "shots_on_target_a": 11,
+        "shots_on_target_b": 1,
+        "yellow_cards_a": 1,
+        "yellow_cards_b": 2,
+        "red_cards_b": 1
+      }
+    },
+    "a5": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 0,
+      "opponentId": "czechia",
+      "stats": {
+        "possession_a": 56,
+        "possession_b": 44,
+        "shots_a": 11,
+        "shots_b": 13,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 1
+      }
+    },
+    "b5": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 2,
+      "opponentId": "switzerland"
+    },
+    "b6": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "canada"
+    },
+    "j5": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 1,
+      "opponentId": "jordan"
+    },
+    "j6": {
+      "played": true,
+      "aScore": 3,
+      "bScore": 3,
+      "opponentId": "algeria",
+      "stats": {
+        "possession_a": 33,
+        "possession_b": 60,
+        "shots_a": 10,
+        "shots_b": 12,
+        "shots_on_target_a": 3,
+        "shots_on_target_b": 5
+      }
+    },
+    "k5": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 0,
+      "opponentId": "colombia",
+      "stats": {
+        "possession_a": 41,
+        "possession_b": 51,
+        "shots_a": 13,
+        "shots_b": 24,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 7
+      }
+    },
+    "k6": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 3,
+      "opponentId": "congo-dr",
+      "stats": {
+        "possession_a": 36,
+        "possession_b": 53,
+        "shots_a": 3,
+        "shots_b": 19,
+        "shots_on_target_a": 1,
+        "shots_on_target_b": 5
+      }
+    },
+    "l5": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "panama"
+    },
+    "l6": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 1,
+      "opponentId": "ghana",
+      "stats": {
+        "possession_a": 50,
+        "possession_b": 43,
+        "shots_a": 8,
+        "shots_b": 6,
+        "shots_on_target_a": 4,
+        "shots_on_target_b": 1
+      }
     }
   }
 }
