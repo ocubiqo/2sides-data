@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T08:36:59.089Z",
+  "updated": "2026-06-29T10:15:25.015Z",
   "matches": {
     "a1": {
       "played": true,
@@ -907,7 +907,19 @@
       "played": true,
       "aScore": 2,
       "bScore": 0,
-      "opponentId": "panama"
+      "opponentId": "panama",
+      "stats": {
+        "possession_a": 33,
+        "possession_b": 57,
+        "shots_a": 13,
+        "shots_b": 17,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 6,
+        "corners_a": 3,
+        "corners_b": 7,
+        "yellow_cards_a": 2,
+        "yellow_cards_b": 1
+      }
     },
     "l6": {
       "played": true,
