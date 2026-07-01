@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T08:50:28.180Z",
+  "updated": "2026-07-01T09:23:57.587Z",
   "matches": {
     "a1": {
       "played": true,
@@ -933,6 +933,34 @@
         "shots_b": 6,
         "shots_on_target_a": 4,
         "shots_on_target_b": 1
+      }
+    },
+    "j3": {
+      "played": true,
+      "aScore": 2,
+      "bScore": 0,
+      "opponentId": "austria",
+      "stats": {
+        "possession_a": 48,
+        "possession_b": 43,
+        "shots_a": 12,
+        "shots_b": 6,
+        "shots_on_target_a": 5,
+        "shots_on_target_b": 1
+      }
+    },
+    "a6": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 3,
+      "opponentId": "mexico",
+      "stats": {
+        "possession_a": 44,
+        "possession_b": 46,
+        "shots_a": 13,
+        "shots_b": 11,
+        "shots_on_target_a": 1,
+        "shots_on_target_b": 5
       }
     }
   }
