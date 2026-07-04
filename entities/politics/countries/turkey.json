@@ -1,0 +1,42 @@
+{
+  "id": "turkey",
+  "name": "Turkey",
+  "shortName": "TUR",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇹🇷",
+  "stats": {
+    "gdp_trn": 1.2,
+    "gdp_per_capita_k": 14,
+    "gdp_growth_pct": 4.5,
+    "inflation_pct": 38,
+    "national_debt_gdp_pct": 35,
+    "military_spending_bn": 15,
+    "active_troops_k": 355,
+    "nuclear_warheads": 0,
+    "military_power_score": 66,
+    "population_m": 85,
+    "hdi_score": 0.838,
+    "life_expectancy": 78,
+    "literacy_pct": 97,
+    "internet_penetration_pct": 83,
+    "corruption_score": 36,
+    "press_freedom_score": 28,
+    "democracy_index": 4.4,
+    "rule_of_law_score": 42,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 30,
+    "sanctions_on_count": 8,
+    "soft_power_score": 48,
+    "trade_partners_count": 10
+  },
+  "meta": {
+    "government": "Presidential republic",
+    "current_leader": "Recep Tayyip Erdoğan",
+    "capital": "Ankara",
+    "region": "Middle East / Eastern Europe"
+  },
+  "tags": ["turkey", "turkiye", "turkish", "erdogan", "nato"]
+}

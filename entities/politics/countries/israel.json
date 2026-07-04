@@ -1,0 +1,42 @@
+{
+  "id": "israel",
+  "name": "Israel",
+  "shortName": "ISR",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇮🇱",
+  "stats": {
+    "gdp_trn": 0.56,
+    "gdp_per_capita_k": 54,
+    "gdp_growth_pct": 3.2,
+    "inflation_pct": 3.5,
+    "national_debt_gdp_pct": 64,
+    "military_spending_bn": 27,
+    "active_troops_k": 170,
+    "nuclear_warheads": 90,
+    "military_power_score": 70,
+    "population_m": 9.7,
+    "hdi_score": 0.919,
+    "life_expectancy": 82,
+    "literacy_pct": 98,
+    "internet_penetration_pct": 90,
+    "corruption_score": 64,
+    "press_freedom_score": 63,
+    "democracy_index": 7.8,
+    "rule_of_law_score": 72,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 0,
+    "allies_count": 3,
+    "sanctions_on_count": 5,
+    "soft_power_score": 45,
+    "trade_partners_count": 6
+  },
+  "meta": {
+    "government": "Parliamentary democracy",
+    "current_leader": "Benjamin Netanyahu",
+    "capital": "Jerusalem",
+    "region": "Middle East"
+  },
+  "tags": ["israel", "israeli", "netanyahu", "middle east"]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "north-korea",
+  "name": "North Korea",
+  "shortName": "PRK",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇰🇵",
+  "stats": {
+    "gdp_trn": 0.03,
+    "gdp_per_capita_k": 1,
+    "gdp_growth_pct": 0.5,
+    "inflation_pct": 5,
+    "national_debt_gdp_pct": 15,
+    "military_spending_bn": 4,
+    "active_troops_k": 1280,
+    "nuclear_warheads": 50,
+    "military_power_score": 58,
+    "population_m": 26,
+    "hdi_score": 0.733,
+    "life_expectancy": 72,
+    "literacy_pct": 100,
+    "internet_penetration_pct": 0,
+    "corruption_score": 17,
+    "press_freedom_score": 6,
+    "democracy_index": 1.1,
+    "rule_of_law_score": 12,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 0,
+    "allies_count": 2,
+    "sanctions_on_count": 1500,
+    "soft_power_score": 8,
+    "trade_partners_count": 2
+  },
+  "meta": {
+    "government": "Unitary single-party state (Juche)",
+    "current_leader": "Kim Jong-un",
+    "capital": "Pyongyang",
+    "region": "East Asia"
+  },
+  "tags": ["north korea", "dprk", "kim", "nuclear", "asia"]
+}

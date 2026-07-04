@@ -1,0 +1,37 @@
+{
+  "id": "ramaphosa",
+  "name": "Cyril Ramaphosa",
+  "shortName": "Ramaphosa",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇿🇦",
+  "stats": {
+    "approval_rating": 44,
+    "social_media_followers_m": 1.8,
+    "global_influence_score": 55,
+    "gdp_growth_term_avg_pct": 1.5,
+    "inflation_term_avg_pct": 5.5,
+    "unemployment_rate_pct": 33,
+    "years_in_power": 8,
+    "elections_won": 2,
+    "leader_corruption_score": 41,
+    "leader_press_freedom": 68,
+    "leader_democracy_index": 7.1,
+    "age": 73,
+    "political_experience_yrs": 35,
+    "net_worth_bn": 0.45,
+    "education_score": 7,
+    "leader_allies_count": 5,
+    "sanctions_imposed_count": 0,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "ANC (African National Congress)",
+    "country": "South Africa",
+    "role": "President",
+    "term_start": "2018"
+  },
+  "tags": ["ramaphosa", "cyril ramaphosa", "south africa", "anc", "brics", "africa"]
+}

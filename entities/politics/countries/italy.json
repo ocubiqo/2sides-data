@@ -1,0 +1,42 @@
+{
+  "id": "italy",
+  "name": "Italy",
+  "shortName": "ITA",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇮🇹",
+  "stats": {
+    "gdp_trn": 2.3,
+    "gdp_per_capita_k": 38,
+    "gdp_growth_pct": 0.9,
+    "inflation_pct": 2.2,
+    "national_debt_gdp_pct": 139,
+    "military_spending_bn": 36,
+    "active_troops_k": 165,
+    "nuclear_warheads": 0,
+    "military_power_score": 62,
+    "population_m": 60,
+    "hdi_score": 0.906,
+    "life_expectancy": 83,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 85,
+    "corruption_score": 56,
+    "press_freedom_score": 71,
+    "democracy_index": 7.8,
+    "rule_of_law_score": 70,
+    "un_security_council": 0,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 29,
+    "sanctions_on_count": 0,
+    "soft_power_score": 76,
+    "trade_partners_count": 10
+  },
+  "meta": {
+    "government": "Parliamentary republic",
+    "current_leader": "Giorgia Meloni",
+    "capital": "Rome",
+    "region": "Western Europe"
+  },
+  "tags": ["italy", "italian", "italia", "meloni", "europe"]
+}

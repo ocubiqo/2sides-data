@@ -1,0 +1,37 @@
+{
+  "id": "meloni",
+  "name": "Giorgia Meloni",
+  "shortName": "Meloni",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇮🇹",
+  "stats": {
+    "approval_rating": 41,
+    "social_media_followers_m": 8,
+    "global_influence_score": 60,
+    "gdp_growth_term_avg_pct": 0.9,
+    "inflation_term_avg_pct": 2.8,
+    "unemployment_rate_pct": 6.2,
+    "years_in_power": 3.5,
+    "elections_won": 1,
+    "leader_corruption_score": 56,
+    "leader_press_freedom": 71,
+    "leader_democracy_index": 7.8,
+    "age": 47,
+    "political_experience_yrs": 22,
+    "net_worth_bn": 0.0005,
+    "education_score": 7,
+    "leader_allies_count": 29,
+    "sanctions_imposed_count": 2,
+    "leader_un_sc": 0,
+    "leader_g7": 1,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "Brothers of Italy (Fratelli d'Italia)",
+    "country": "Italy",
+    "role": "Prime Minister",
+    "term_start": "2022"
+  },
+  "tags": ["meloni", "giorgia meloni", "italy", "fratelli", "pm"]
+}

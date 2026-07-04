@@ -1,0 +1,42 @@
+{
+  "id": "iran",
+  "name": "Iran",
+  "shortName": "IRN",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇮🇷",
+  "stats": {
+    "gdp_trn": 0.72,
+    "gdp_per_capita_k": 8,
+    "gdp_growth_pct": 4.2,
+    "inflation_pct": 38,
+    "national_debt_gdp_pct": 38,
+    "military_spending_bn": 10,
+    "active_troops_k": 580,
+    "nuclear_warheads": 0,
+    "military_power_score": 65,
+    "population_m": 88,
+    "hdi_score": 0.783,
+    "life_expectancy": 77,
+    "literacy_pct": 89,
+    "internet_penetration_pct": 73,
+    "corruption_score": 24,
+    "press_freedom_score": 17,
+    "democracy_index": 2.4,
+    "rule_of_law_score": 25,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 0,
+    "allies_count": 3,
+    "sanctions_on_count": 2500,
+    "soft_power_score": 28,
+    "trade_partners_count": 5
+  },
+  "meta": {
+    "government": "Islamic republic (theocratic)",
+    "current_leader": "Masoud Pezeshkian",
+    "capital": "Tehran",
+    "region": "Middle East"
+  },
+  "tags": ["iran", "iranian", "persia", "middle east", "nuclear"]
+}

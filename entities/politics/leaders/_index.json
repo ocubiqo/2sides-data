@@ -1,0 +1,26 @@
+{
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "entities": [
+    { "id": "trump",      "name": "Donald Trump",          "emoji": "🇺🇸", "subCategoryId": "leaders", "tags": ["trump", "donald trump", "usa", "president"] },
+    { "id": "modi",       "name": "Narendra Modi",          "emoji": "🇮🇳", "subCategoryId": "leaders", "tags": ["modi", "narendra modi", "india", "pm"] },
+    { "id": "putin",      "name": "Vladimir Putin",         "emoji": "🇷🇺", "subCategoryId": "leaders", "tags": ["putin", "vladimir putin", "russia", "president"] },
+    { "id": "xi",         "name": "Xi Jinping",             "emoji": "🇨🇳", "subCategoryId": "leaders", "tags": ["xi", "xi jinping", "china", "president"] },
+    { "id": "zelensky",   "name": "Volodymyr Zelensky",     "emoji": "🇺🇦", "subCategoryId": "leaders", "tags": ["zelensky", "volodymyr zelensky", "ukraine", "president"] },
+    { "id": "biden",      "name": "Joe Biden",              "emoji": "🇺🇸", "subCategoryId": "leaders", "tags": ["biden", "joe biden", "usa", "former president"] },
+    { "id": "macron",     "name": "Emmanuel Macron",        "emoji": "🇫🇷", "subCategoryId": "leaders", "tags": ["macron", "emmanuel macron", "france", "president"] },
+    { "id": "kim",        "name": "Kim Jong-un",            "emoji": "🇰🇵", "subCategoryId": "leaders", "tags": ["kim", "kim jong-un", "north korea", "leader"] },
+    { "id": "netanyahu",  "name": "Benjamin Netanyahu",     "emoji": "🇮🇱", "subCategoryId": "leaders", "tags": ["netanyahu", "benjamin netanyahu", "israel", "pm"] },
+    { "id": "milei",      "name": "Javier Milei",           "emoji": "🇦🇷", "subCategoryId": "leaders", "tags": ["milei", "javier milei", "argentina", "president"] },
+    { "id": "erdogan",    "name": "Recep Tayyip Erdoğan",   "emoji": "🇹🇷", "subCategoryId": "leaders", "tags": ["erdogan", "recep erdogan", "turkey", "president"] },
+    { "id": "meloni",     "name": "Giorgia Meloni",         "emoji": "🇮🇹", "subCategoryId": "leaders", "tags": ["meloni", "giorgia meloni", "italy", "pm"] },
+    { "id": "starmer",    "name": "Keir Starmer",           "emoji": "🇬🇧", "subCategoryId": "leaders", "tags": ["starmer", "keir starmer", "uk", "britain", "pm"] },
+    { "id": "carney",     "name": "Mark Carney",            "emoji": "🇨🇦", "subCategoryId": "leaders", "tags": ["carney", "mark carney", "canada", "pm"] },
+    { "id": "scholz",     "name": "Olaf Scholz",            "emoji": "🇩🇪", "subCategoryId": "leaders", "tags": ["scholz", "olaf scholz", "germany", "chancellor"] },
+    { "id": "lula",       "name": "Luiz Lula da Silva",     "emoji": "🇧🇷", "subCategoryId": "leaders", "tags": ["lula", "lula da silva", "brazil", "president"] },
+    { "id": "khan",       "name": "Imran Khan",             "emoji": "🇵🇰", "subCategoryId": "leaders", "tags": ["imran khan", "khan", "pakistan", "former pm"] },
+    { "id": "ishiba",     "name": "Shigeru Ishiba",         "emoji": "🇯🇵", "subCategoryId": "leaders", "tags": ["ishiba", "shigeru ishiba", "japan", "pm"] },
+    { "id": "albanese",   "name": "Anthony Albanese",       "emoji": "🇦🇺", "subCategoryId": "leaders", "tags": ["albanese", "anthony albanese", "australia", "pm"] },
+    { "id": "ramaphosa",  "name": "Cyril Ramaphosa",        "emoji": "🇿🇦", "subCategoryId": "leaders", "tags": ["ramaphosa", "cyril ramaphosa", "south africa", "president"] }
+  ]
+}

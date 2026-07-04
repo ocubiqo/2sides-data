@@ -1,0 +1,42 @@
+{
+  "id": "russia",
+  "name": "Russia",
+  "shortName": "RUS",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇷🇺",
+  "stats": {
+    "gdp_trn": 2.1,
+    "gdp_per_capita_k": 14,
+    "gdp_growth_pct": 1.5,
+    "inflation_pct": 8.5,
+    "national_debt_gdp_pct": 17,
+    "military_spending_bn": 109,
+    "active_troops_k": 900,
+    "nuclear_warheads": 6257,
+    "military_power_score": 85,
+    "population_m": 143,
+    "hdi_score": 0.822,
+    "life_expectancy": 73,
+    "literacy_pct": 100,
+    "internet_penetration_pct": 88,
+    "corruption_score": 26,
+    "press_freedom_score": 22,
+    "democracy_index": 2.2,
+    "rule_of_law_score": 28,
+    "un_security_council": 1,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 4,
+    "sanctions_on_count": 18000,
+    "soft_power_score": 32,
+    "trade_partners_count": 8
+  },
+  "meta": {
+    "government": "Federal semi-presidential republic",
+    "current_leader": "Vladimir Putin",
+    "capital": "Moscow",
+    "region": "Eastern Europe / North Asia"
+  },
+  "tags": ["russia", "russian", "federation", "putin"]
+}

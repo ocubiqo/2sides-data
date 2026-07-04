@@ -1,0 +1,37 @@
+{
+  "id": "khan",
+  "name": "Imran Khan",
+  "shortName": "Imran Khan",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇵🇰",
+  "stats": {
+    "approval_rating": 55,
+    "social_media_followers_m": 52,
+    "global_influence_score": 58,
+    "gdp_growth_term_avg_pct": 3.1,
+    "inflation_term_avg_pct": 12.0,
+    "unemployment_rate_pct": 6.2,
+    "years_in_power": 3.5,
+    "elections_won": 2,
+    "leader_corruption_score": 27,
+    "leader_press_freedom": 38,
+    "leader_democracy_index": 4.3,
+    "age": 72,
+    "political_experience_yrs": 14,
+    "net_worth_bn": 0.002,
+    "education_score": 8,
+    "leader_allies_count": 4,
+    "sanctions_imposed_count": 0,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 0
+  },
+  "meta": {
+    "party": "PTI (Pakistan Tehreek-e-Insaf)",
+    "country": "Pakistan",
+    "role": "Former Prime Minister (2018–2022)",
+    "term_start": "2018"
+  },
+  "tags": ["imran khan", "khan", "pakistan", "pti", "cricket", "former pm"]
+}

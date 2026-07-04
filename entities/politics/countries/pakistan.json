@@ -1,0 +1,42 @@
+{
+  "id": "pakistan",
+  "name": "Pakistan",
+  "shortName": "PAK",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇵🇰",
+  "stats": {
+    "gdp_trn": 0.35,
+    "gdp_per_capita_k": 2,
+    "gdp_growth_pct": 2.5,
+    "inflation_pct": 24,
+    "national_debt_gdp_pct": 76,
+    "military_spending_bn": 10,
+    "active_troops_k": 660,
+    "nuclear_warheads": 170,
+    "military_power_score": 60,
+    "population_m": 231,
+    "hdi_score": 0.540,
+    "life_expectancy": 68,
+    "literacy_pct": 62,
+    "internet_penetration_pct": 48,
+    "corruption_score": 27,
+    "press_freedom_score": 38,
+    "democracy_index": 4.3,
+    "rule_of_law_score": 32,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 0,
+    "allies_count": 4,
+    "sanctions_on_count": 5,
+    "soft_power_score": 28,
+    "trade_partners_count": 6
+  },
+  "meta": {
+    "government": "Federal parliamentary republic",
+    "current_leader": "Shehbaz Sharif",
+    "capital": "Islamabad",
+    "region": "South Asia"
+  },
+  "tags": ["pakistan", "pakistani", "south asia"]
+}

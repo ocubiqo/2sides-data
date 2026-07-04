@@ -1,0 +1,42 @@
+{
+  "id": "argentina",
+  "name": "Argentina",
+  "shortName": "ARG",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇦🇷",
+  "stats": {
+    "gdp_trn": 0.68,
+    "gdp_per_capita_k": 15,
+    "gdp_growth_pct": -1.5,
+    "inflation_pct": 95,
+    "national_debt_gdp_pct": 85,
+    "military_spending_bn": 4,
+    "active_troops_k": 73,
+    "nuclear_warheads": 0,
+    "military_power_score": 40,
+    "population_m": 46,
+    "hdi_score": 0.842,
+    "life_expectancy": 77,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 88,
+    "corruption_score": 38,
+    "press_freedom_score": 62,
+    "democracy_index": 6.8,
+    "rule_of_law_score": 46,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 4,
+    "sanctions_on_count": 0,
+    "soft_power_score": 52,
+    "trade_partners_count": 8
+  },
+  "meta": {
+    "government": "Federal presidential republic",
+    "current_leader": "Javier Milei",
+    "capital": "Buenos Aires",
+    "region": "South America"
+  },
+  "tags": ["argentina", "argentinian", "milei", "south america"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "putin",
+  "name": "Vladimir Putin",
+  "shortName": "Putin",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇷🇺",
+  "stats": {
+    "approval_rating": 80,
+    "social_media_followers_m": 15,
+    "global_influence_score": 88,
+    "gdp_growth_term_avg_pct": 1.5,
+    "inflation_term_avg_pct": 7.5,
+    "unemployment_rate_pct": 3.2,
+    "years_in_power": 25,
+    "elections_won": 5,
+    "leader_corruption_score": 26,
+    "leader_press_freedom": 22,
+    "leader_democracy_index": 2.2,
+    "age": 73,
+    "political_experience_yrs": 30,
+    "net_worth_bn": 200,
+    "education_score": 8,
+    "leader_allies_count": 4,
+    "sanctions_imposed_count": 50,
+    "leader_un_sc": 1,
+    "leader_g7": 0,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "United Russia",
+    "country": "Russia",
+    "role": "President",
+    "term_start": "2000"
+  },
+  "tags": ["putin", "vladimir putin", "russia", "president", "kgb"]
+}

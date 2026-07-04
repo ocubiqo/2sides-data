@@ -1,0 +1,42 @@
+{
+  "id": "canada",
+  "name": "Canada",
+  "shortName": "CAN",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇨🇦",
+  "stats": {
+    "gdp_trn": 2.2,
+    "gdp_per_capita_k": 55,
+    "gdp_growth_pct": 1.5,
+    "inflation_pct": 2.7,
+    "national_debt_gdp_pct": 107,
+    "military_spending_bn": 30,
+    "active_troops_k": 68,
+    "nuclear_warheads": 0,
+    "military_power_score": 58,
+    "population_m": 40,
+    "hdi_score": 0.936,
+    "life_expectancy": 82,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 94,
+    "corruption_score": 74,
+    "press_freedom_score": 82,
+    "democracy_index": 8.9,
+    "rule_of_law_score": 85,
+    "un_security_council": 0,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 28,
+    "sanctions_on_count": 0,
+    "soft_power_score": 80,
+    "trade_partners_count": 10
+  },
+  "meta": {
+    "government": "Constitutional monarchy / Parliamentary democracy",
+    "current_leader": "Mark Carney",
+    "capital": "Ottawa",
+    "region": "North America"
+  },
+  "tags": ["canada", "canadian", "carney", "north america"]
+}

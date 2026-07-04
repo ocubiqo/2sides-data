@@ -1,0 +1,37 @@
+{
+  "id": "milei",
+  "name": "Javier Milei",
+  "shortName": "Milei",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇦🇷",
+  "stats": {
+    "approval_rating": 52,
+    "social_media_followers_m": 18,
+    "global_influence_score": 52,
+    "gdp_growth_term_avg_pct": -1.5,
+    "inflation_term_avg_pct": 80,
+    "unemployment_rate_pct": 7.2,
+    "years_in_power": 2.5,
+    "elections_won": 1,
+    "leader_corruption_score": 38,
+    "leader_press_freedom": 62,
+    "leader_democracy_index": 6.8,
+    "age": 54,
+    "political_experience_yrs": 4,
+    "net_worth_bn": 0.001,
+    "education_score": 7,
+    "leader_allies_count": 4,
+    "sanctions_imposed_count": 0,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "La Libertad Avanza",
+    "country": "Argentina",
+    "role": "President",
+    "term_start": "2023"
+  },
+  "tags": ["milei", "javier milei", "argentina", "libertarian", "chainsaw"]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "shortName": "JPN",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇯🇵",
+  "stats": {
+    "gdp_trn": 4.2,
+    "gdp_per_capita_k": 34,
+    "gdp_growth_pct": 1.0,
+    "inflation_pct": 3.2,
+    "national_debt_gdp_pct": 254,
+    "military_spending_bn": 56,
+    "active_troops_k": 247,
+    "nuclear_warheads": 0,
+    "military_power_score": 72,
+    "population_m": 124,
+    "hdi_score": 0.920,
+    "life_expectancy": 84,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 94,
+    "corruption_score": 73,
+    "press_freedom_score": 70,
+    "democracy_index": 8.4,
+    "rule_of_law_score": 82,
+    "un_security_council": 0,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 10,
+    "sanctions_on_count": 0,
+    "soft_power_score": 78,
+    "trade_partners_count": 12
+  },
+  "meta": {
+    "government": "Constitutional monarchy / Parliamentary democracy",
+    "current_leader": "Shigeru Ishiba",
+    "capital": "Tokyo",
+    "region": "East Asia"
+  },
+  "tags": ["japan", "japanese", "nihon", "ishiba", "asia"]
+}

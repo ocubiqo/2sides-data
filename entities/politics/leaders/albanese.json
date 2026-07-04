@@ -1,0 +1,37 @@
+{
+  "id": "albanese",
+  "name": "Anthony Albanese",
+  "shortName": "Albanese",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇦🇺",
+  "stats": {
+    "approval_rating": 38,
+    "social_media_followers_m": 0.8,
+    "global_influence_score": 52,
+    "gdp_growth_term_avg_pct": 2.2,
+    "inflation_term_avg_pct": 4.5,
+    "unemployment_rate_pct": 4.2,
+    "years_in_power": 4,
+    "elections_won": 1,
+    "leader_corruption_score": 75,
+    "leader_press_freedom": 82,
+    "leader_democracy_index": 9.0,
+    "age": 62,
+    "political_experience_yrs": 28,
+    "net_worth_bn": 0.001,
+    "education_score": 7,
+    "leader_allies_count": 10,
+    "sanctions_imposed_count": 3,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "Australian Labor Party",
+    "country": "Australia",
+    "role": "Prime Minister",
+    "term_start": "2022"
+  },
+  "tags": ["albanese", "anthony albanese", "australia", "labor", "pm", "aukus"]
+}

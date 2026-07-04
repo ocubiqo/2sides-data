@@ -1,0 +1,42 @@
+{
+  "id": "india",
+  "name": "India",
+  "shortName": "IND",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇮🇳",
+  "stats": {
+    "gdp_trn": 4.1,
+    "gdp_per_capita_k": 3,
+    "gdp_growth_pct": 6.8,
+    "inflation_pct": 5.4,
+    "national_debt_gdp_pct": 82,
+    "military_spending_bn": 86,
+    "active_troops_k": 1450,
+    "nuclear_warheads": 172,
+    "military_power_score": 76,
+    "population_m": 1440,
+    "hdi_score": 0.644,
+    "life_expectancy": 70,
+    "literacy_pct": 77,
+    "internet_penetration_pct": 52,
+    "corruption_score": 39,
+    "press_freedom_score": 31,
+    "democracy_index": 7.2,
+    "rule_of_law_score": 50,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 6,
+    "sanctions_on_count": 2,
+    "soft_power_score": 58,
+    "trade_partners_count": 12
+  },
+  "meta": {
+    "government": "Federal parliamentary republic",
+    "current_leader": "Narendra Modi",
+    "capital": "New Delhi",
+    "region": "South Asia"
+  },
+  "tags": ["india", "indian", "bharat", "modi", "asia"]
+}

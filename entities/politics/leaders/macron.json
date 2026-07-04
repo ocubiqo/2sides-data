@@ -1,0 +1,37 @@
+{
+  "id": "macron",
+  "name": "Emmanuel Macron",
+  "shortName": "Macron",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇫🇷",
+  "stats": {
+    "approval_rating": 26,
+    "social_media_followers_m": 35,
+    "global_influence_score": 78,
+    "gdp_growth_term_avg_pct": 1.8,
+    "inflation_term_avg_pct": 3.5,
+    "unemployment_rate_pct": 7.3,
+    "years_in_power": 9,
+    "elections_won": 2,
+    "leader_corruption_score": 71,
+    "leader_press_freedom": 78,
+    "leader_democracy_index": 8.1,
+    "age": 47,
+    "political_experience_yrs": 15,
+    "net_worth_bn": 0.006,
+    "education_score": 10,
+    "leader_allies_count": 29,
+    "sanctions_imposed_count": 5,
+    "leader_un_sc": 1,
+    "leader_g7": 1,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "Renaissance",
+    "country": "France",
+    "role": "President",
+    "term_start": "2017"
+  },
+  "tags": ["macron", "emmanuel macron", "france", "president", "eu"]
+}

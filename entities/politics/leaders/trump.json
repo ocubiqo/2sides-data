@@ -1,0 +1,37 @@
+{
+  "id": "trump",
+  "name": "Donald Trump",
+  "shortName": "Trump",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇺🇸",
+  "stats": {
+    "approval_rating": 44,
+    "social_media_followers_m": 350,
+    "global_influence_score": 96,
+    "gdp_growth_term_avg_pct": 2.8,
+    "inflation_term_avg_pct": 3.2,
+    "unemployment_rate_pct": 4.1,
+    "years_in_power": 5.5,
+    "elections_won": 2,
+    "leader_corruption_score": 65,
+    "leader_press_freedom": 66,
+    "leader_democracy_index": 7.9,
+    "age": 79,
+    "political_experience_yrs": 9,
+    "net_worth_bn": 6.5,
+    "education_score": 8,
+    "leader_allies_count": 32,
+    "sanctions_imposed_count": 3,
+    "leader_un_sc": 1,
+    "leader_g7": 1,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "Republican",
+    "country": "United States",
+    "role": "45th & 47th President",
+    "term_start": "2025"
+  },
+  "tags": ["trump", "donald trump", "usa", "president", "republican", "maga"]
+}

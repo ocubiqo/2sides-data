@@ -1,0 +1,42 @@
+{
+  "id": "china",
+  "name": "China",
+  "shortName": "CHN",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇨🇳",
+  "stats": {
+    "gdp_trn": 18.5,
+    "gdp_per_capita_k": 13,
+    "gdp_growth_pct": 4.8,
+    "inflation_pct": 1.2,
+    "national_debt_gdp_pct": 87,
+    "military_spending_bn": 296,
+    "active_troops_k": 2035,
+    "nuclear_warheads": 410,
+    "military_power_score": 88,
+    "population_m": 1410,
+    "hdi_score": 0.788,
+    "life_expectancy": 77,
+    "literacy_pct": 97,
+    "internet_penetration_pct": 75,
+    "corruption_score": 42,
+    "press_freedom_score": 18,
+    "democracy_index": 1.9,
+    "rule_of_law_score": 45,
+    "un_security_council": 1,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 5,
+    "sanctions_on_count": 120,
+    "soft_power_score": 60,
+    "trade_partners_count": 15
+  },
+  "meta": {
+    "government": "Unitary one-party socialist republic",
+    "current_leader": "Xi Jinping",
+    "capital": "Beijing",
+    "region": "East Asia"
+  },
+  "tags": ["china", "prc", "chinese", "superpower", "asia"]
+}

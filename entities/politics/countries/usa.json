@@ -1,0 +1,42 @@
+{
+  "id": "usa",
+  "name": "United States",
+  "shortName": "USA",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇺🇸",
+  "stats": {
+    "gdp_trn": 29.3,
+    "gdp_per_capita_k": 86,
+    "gdp_growth_pct": 2.5,
+    "inflation_pct": 3.2,
+    "national_debt_gdp_pct": 123,
+    "military_spending_bn": 886,
+    "active_troops_k": 1340,
+    "nuclear_warheads": 5550,
+    "military_power_score": 98,
+    "population_m": 335,
+    "hdi_score": 0.927,
+    "life_expectancy": 77,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 92,
+    "corruption_score": 65,
+    "press_freedom_score": 66,
+    "democracy_index": 7.9,
+    "rule_of_law_score": 73,
+    "un_security_council": 1,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 32,
+    "sanctions_on_count": 0,
+    "soft_power_score": 84,
+    "trade_partners_count": 15
+  },
+  "meta": {
+    "government": "Federal presidential republic",
+    "current_leader": "Donald Trump",
+    "capital": "Washington D.C.",
+    "region": "North America"
+  },
+  "tags": ["usa", "united states", "america", "us", "superpower"]
+}

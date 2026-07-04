@@ -1,0 +1,37 @@
+{
+  "id": "netanyahu",
+  "name": "Benjamin Netanyahu",
+  "shortName": "Netanyahu",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇮🇱",
+  "stats": {
+    "approval_rating": 38,
+    "social_media_followers_m": 6,
+    "global_influence_score": 68,
+    "gdp_growth_term_avg_pct": 3.2,
+    "inflation_term_avg_pct": 3.5,
+    "unemployment_rate_pct": 3.8,
+    "years_in_power": 18,
+    "elections_won": 5,
+    "leader_corruption_score": 64,
+    "leader_press_freedom": 63,
+    "leader_democracy_index": 7.8,
+    "age": 75,
+    "political_experience_yrs": 33,
+    "net_worth_bn": 0.004,
+    "education_score": 9,
+    "leader_allies_count": 3,
+    "sanctions_imposed_count": 2,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 0
+  },
+  "meta": {
+    "party": "Likud",
+    "country": "Israel",
+    "role": "Prime Minister",
+    "term_start": "2022"
+  },
+  "tags": ["netanyahu", "bibi", "israel", "likud", "pm", "middle east"]
+}

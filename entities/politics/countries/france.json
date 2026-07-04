@@ -1,0 +1,42 @@
+{
+  "id": "france",
+  "name": "France",
+  "shortName": "FRA",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇫🇷",
+  "stats": {
+    "gdp_trn": 3.1,
+    "gdp_per_capita_k": 48,
+    "gdp_growth_pct": 1.8,
+    "inflation_pct": 3.7,
+    "national_debt_gdp_pct": 110,
+    "military_spending_bn": 61,
+    "active_troops_k": 205,
+    "nuclear_warheads": 290,
+    "military_power_score": 80,
+    "population_m": 68,
+    "hdi_score": 0.910,
+    "life_expectancy": 82,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 92,
+    "corruption_score": 71,
+    "press_freedom_score": 78,
+    "democracy_index": 8.1,
+    "rule_of_law_score": 80,
+    "un_security_council": 1,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 29,
+    "sanctions_on_count": 0,
+    "soft_power_score": 82,
+    "trade_partners_count": 12
+  },
+  "meta": {
+    "government": "Unitary semi-presidential republic",
+    "current_leader": "Emmanuel Macron",
+    "capital": "Paris",
+    "region": "Western Europe"
+  },
+  "tags": ["france", "french", "macron", "europe"]
+}

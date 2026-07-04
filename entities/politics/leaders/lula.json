@@ -1,0 +1,37 @@
+{
+  "id": "lula",
+  "name": "Luiz Lula da Silva",
+  "shortName": "Lula",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇧🇷",
+  "stats": {
+    "approval_rating": 41,
+    "social_media_followers_m": 18,
+    "global_influence_score": 65,
+    "gdp_growth_term_avg_pct": 2.9,
+    "inflation_term_avg_pct": 5.0,
+    "unemployment_rate_pct": 6.8,
+    "years_in_power": 7,
+    "elections_won": 3,
+    "leader_corruption_score": 36,
+    "leader_press_freedom": 60,
+    "leader_democracy_index": 6.7,
+    "age": 79,
+    "political_experience_yrs": 30,
+    "net_worth_bn": 0.002,
+    "education_score": 6,
+    "leader_allies_count": 6,
+    "sanctions_imposed_count": 0,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 1
+  },
+  "meta": {
+    "party": "PT (Workers' Party)",
+    "country": "Brazil",
+    "role": "President",
+    "term_start": "2023"
+  },
+  "tags": ["lula", "lula da silva", "brazil", "pt", "president", "brics"]
+}

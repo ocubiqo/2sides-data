@@ -1,0 +1,42 @@
+{
+  "id": "germany",
+  "name": "Germany",
+  "shortName": "DEU",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇩🇪",
+  "stats": {
+    "gdp_trn": 4.6,
+    "gdp_per_capita_k": 55,
+    "gdp_growth_pct": 0.5,
+    "inflation_pct": 2.5,
+    "national_debt_gdp_pct": 65,
+    "military_spending_bn": 97,
+    "active_troops_k": 183,
+    "nuclear_warheads": 0,
+    "military_power_score": 68,
+    "population_m": 84,
+    "hdi_score": 0.942,
+    "life_expectancy": 81,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 94,
+    "corruption_score": 78,
+    "press_freedom_score": 82,
+    "democracy_index": 8.8,
+    "rule_of_law_score": 86,
+    "un_security_council": 0,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 29,
+    "sanctions_on_count": 0,
+    "soft_power_score": 84,
+    "trade_partners_count": 12
+  },
+  "meta": {
+    "government": "Federal parliamentary republic",
+    "current_leader": "Olaf Scholz",
+    "capital": "Berlin",
+    "region": "Western Europe"
+  },
+  "tags": ["germany", "german", "deutschland", "scholz", "europe"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "zelensky",
+  "name": "Volodymyr Zelensky",
+  "shortName": "Zelensky",
+  "categoryId": "politics",
+  "subCategoryId": "leaders",
+  "emoji": "🇺🇦",
+  "stats": {
+    "approval_rating": 57,
+    "social_media_followers_m": 45,
+    "global_influence_score": 78,
+    "gdp_growth_term_avg_pct": -5.5,
+    "inflation_term_avg_pct": 15.5,
+    "unemployment_rate_pct": 15.0,
+    "years_in_power": 7,
+    "elections_won": 1,
+    "leader_corruption_score": 35,
+    "leader_press_freedom": 52,
+    "leader_democracy_index": 5.5,
+    "age": 46,
+    "political_experience_yrs": 7,
+    "net_worth_bn": 0.03,
+    "education_score": 7,
+    "leader_allies_count": 3,
+    "sanctions_imposed_count": 0,
+    "leader_un_sc": 0,
+    "leader_g7": 0,
+    "leader_g20": 0
+  },
+  "meta": {
+    "party": "Servant of the People",
+    "country": "Ukraine",
+    "role": "President",
+    "term_start": "2019"
+  },
+  "tags": ["zelensky", "volodymyr zelensky", "ukraine", "war", "president"]
+}

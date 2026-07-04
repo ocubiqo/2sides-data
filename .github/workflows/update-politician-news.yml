@@ -1,0 +1,46 @@
+name: Update Politician News
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC daily — after WC update at 06:00, before FB post at 09:00
+  workflow_dispatch:
+    inputs:
+      leader_id:
+        description: 'Specific leader ID to update (leave blank for all 20)'
+        required: false
+        default: ''
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update politician news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEADER_ID: ${{ github.event.inputs.leader_id }}
+        run: node scripts/update-politician-news.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@2sides-data"
+          git add entities/politics/leaders/news/
+          git diff --staged --quiet || git commit -m "chore: update politician news $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push

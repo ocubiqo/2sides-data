@@ -1,0 +1,42 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "shortName": "AUS",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇦🇺",
+  "stats": {
+    "gdp_trn": 1.8,
+    "gdp_per_capita_k": 67,
+    "gdp_growth_pct": 2.2,
+    "inflation_pct": 3.8,
+    "national_debt_gdp_pct": 57,
+    "military_spending_bn": 42,
+    "active_troops_k": 60,
+    "nuclear_warheads": 0,
+    "military_power_score": 56,
+    "population_m": 27,
+    "hdi_score": 0.946,
+    "life_expectancy": 83,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 96,
+    "corruption_score": 75,
+    "press_freedom_score": 82,
+    "democracy_index": 9.0,
+    "rule_of_law_score": 83,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 10,
+    "sanctions_on_count": 0,
+    "soft_power_score": 72,
+    "trade_partners_count": 8
+  },
+  "meta": {
+    "government": "Constitutional monarchy / Parliamentary democracy",
+    "current_leader": "Anthony Albanese",
+    "capital": "Canberra",
+    "region": "Oceania"
+  },
+  "tags": ["australia", "australian", "oz", "albanese", "aukus"]
+}

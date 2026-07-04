@@ -1,0 +1,42 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "shortName": "RSA",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇿🇦",
+  "stats": {
+    "gdp_trn": 0.38,
+    "gdp_per_capita_k": 6,
+    "gdp_growth_pct": 1.5,
+    "inflation_pct": 5.5,
+    "national_debt_gdp_pct": 72,
+    "military_spending_bn": 3,
+    "active_troops_k": 79,
+    "nuclear_warheads": 0,
+    "military_power_score": 38,
+    "population_m": 63,
+    "hdi_score": 0.717,
+    "life_expectancy": 64,
+    "literacy_pct": 95,
+    "internet_penetration_pct": 72,
+    "corruption_score": 41,
+    "press_freedom_score": 68,
+    "democracy_index": 7.1,
+    "rule_of_law_score": 54,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 5,
+    "sanctions_on_count": 0,
+    "soft_power_score": 52,
+    "trade_partners_count": 8
+  },
+  "meta": {
+    "government": "Constitutional parliamentary republic",
+    "current_leader": "Cyril Ramaphosa",
+    "capital": "Pretoria",
+    "region": "Africa"
+  },
+  "tags": ["south africa", "rsa", "southafrica", "ramaphosa", "brics", "africa"]
+}

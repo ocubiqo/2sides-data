@@ -1,0 +1,26 @@
+{
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "entities": [
+    { "id": "usa",          "name": "United States",   "emoji": "🇺🇸", "subCategoryId": "countries", "tags": ["usa", "united states", "america", "us"] },
+    { "id": "china",        "name": "China",            "emoji": "🇨🇳", "subCategoryId": "countries", "tags": ["china", "prc", "chinese"] },
+    { "id": "russia",       "name": "Russia",           "emoji": "🇷🇺", "subCategoryId": "countries", "tags": ["russia", "russian", "federation"] },
+    { "id": "india",        "name": "India",            "emoji": "🇮🇳", "subCategoryId": "countries", "tags": ["india", "indian", "bharat"] },
+    { "id": "ukraine",      "name": "Ukraine",          "emoji": "🇺🇦", "subCategoryId": "countries", "tags": ["ukraine", "ukrainian"] },
+    { "id": "france",       "name": "France",           "emoji": "🇫🇷", "subCategoryId": "countries", "tags": ["france", "french"] },
+    { "id": "uk",           "name": "United Kingdom",   "emoji": "🇬🇧", "subCategoryId": "countries", "tags": ["uk", "britain", "england", "british"] },
+    { "id": "germany",      "name": "Germany",          "emoji": "🇩🇪", "subCategoryId": "countries", "tags": ["germany", "german", "deutschland"] },
+    { "id": "brazil",       "name": "Brazil",           "emoji": "🇧🇷", "subCategoryId": "countries", "tags": ["brazil", "brasil", "brazilian"] },
+    { "id": "israel",       "name": "Israel",           "emoji": "🇮🇱", "subCategoryId": "countries", "tags": ["israel", "israeli"] },
+    { "id": "turkey",       "name": "Turkey",           "emoji": "🇹🇷", "subCategoryId": "countries", "tags": ["turkey", "turkiye", "turkish"] },
+    { "id": "argentina",    "name": "Argentina",        "emoji": "🇦🇷", "subCategoryId": "countries", "tags": ["argentina", "argentinian"] },
+    { "id": "italy",        "name": "Italy",            "emoji": "🇮🇹", "subCategoryId": "countries", "tags": ["italy", "italian", "italia"] },
+    { "id": "japan",        "name": "Japan",            "emoji": "🇯🇵", "subCategoryId": "countries", "tags": ["japan", "japanese", "nihon"] },
+    { "id": "pakistan",     "name": "Pakistan",         "emoji": "🇵🇰", "subCategoryId": "countries", "tags": ["pakistan", "pakistani"] },
+    { "id": "canada",       "name": "Canada",           "emoji": "🇨🇦", "subCategoryId": "countries", "tags": ["canada", "canadian"] },
+    { "id": "australia",    "name": "Australia",        "emoji": "🇦🇺", "subCategoryId": "countries", "tags": ["australia", "australian", "oz"] },
+    { "id": "iran",         "name": "Iran",             "emoji": "🇮🇷", "subCategoryId": "countries", "tags": ["iran", "iranian", "persia"] },
+    { "id": "north-korea",  "name": "North Korea",      "emoji": "🇰🇵", "subCategoryId": "countries", "tags": ["north korea", "dprk", "kim"] },
+    { "id": "south-africa", "name": "South Africa",     "emoji": "🇿🇦", "subCategoryId": "countries", "tags": ["south africa", "rsa", "southafrica"] }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "brazil",
+  "name": "Brazil",
+  "shortName": "BRA",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇧🇷",
+  "stats": {
+    "gdp_trn": 2.2,
+    "gdp_per_capita_k": 11,
+    "gdp_growth_pct": 2.9,
+    "inflation_pct": 5.0,
+    "national_debt_gdp_pct": 88,
+    "military_spending_bn": 20,
+    "active_troops_k": 360,
+    "nuclear_warheads": 0,
+    "military_power_score": 65,
+    "population_m": 216,
+    "hdi_score": 0.760,
+    "life_expectancy": 75,
+    "literacy_pct": 95,
+    "internet_penetration_pct": 77,
+    "corruption_score": 36,
+    "press_freedom_score": 60,
+    "democracy_index": 6.7,
+    "rule_of_law_score": 52,
+    "un_security_council": 0,
+    "g7_member": 0,
+    "g20_member": 1,
+    "allies_count": 6,
+    "sanctions_on_count": 0,
+    "soft_power_score": 62,
+    "trade_partners_count": 10
+  },
+  "meta": {
+    "government": "Federal presidential republic",
+    "current_leader": "Luiz Inácio Lula da Silva",
+    "capital": "Brasília",
+    "region": "South America"
+  },
+  "tags": ["brazil", "brasil", "brazilian", "lula", "south america"]
+}

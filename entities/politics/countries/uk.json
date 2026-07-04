@@ -1,0 +1,42 @@
+{
+  "id": "uk",
+  "name": "United Kingdom",
+  "shortName": "UK",
+  "categoryId": "politics",
+  "subCategoryId": "countries",
+  "emoji": "🇬🇧",
+  "stats": {
+    "gdp_trn": 3.2,
+    "gdp_per_capita_k": 47,
+    "gdp_growth_pct": 1.5,
+    "inflation_pct": 3.4,
+    "national_debt_gdp_pct": 100,
+    "military_spending_bn": 74,
+    "active_troops_k": 148,
+    "nuclear_warheads": 225,
+    "military_power_score": 78,
+    "population_m": 68,
+    "hdi_score": 0.929,
+    "life_expectancy": 81,
+    "literacy_pct": 99,
+    "internet_penetration_pct": 96,
+    "corruption_score": 71,
+    "press_freedom_score": 79,
+    "democracy_index": 8.3,
+    "rule_of_law_score": 82,
+    "un_security_council": 1,
+    "g7_member": 1,
+    "g20_member": 1,
+    "allies_count": 28,
+    "sanctions_on_count": 0,
+    "soft_power_score": 82,
+    "trade_partners_count": 12
+  },
+  "meta": {
+    "government": "Constitutional monarchy / Parliamentary democracy",
+    "current_leader": "Keir Starmer",
+    "capital": "London",
+    "region": "Western Europe"
+  },
+  "tags": ["uk", "britain", "england", "british", "starmer", "europe"]
+}
