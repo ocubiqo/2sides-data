@@ -1,0 +1,42 @@
+{
+  "politicianId": "milei",
+  "updatedAt": "2026-07-05T09:42:02.281Z",
+  "sourceAgency": "Infobae",
+  "articles": [
+    {
+      "id": "0",
+      "title": "Javier Milei saludó a EEUU por el Día de la Independencia: 'Argentina fue un país fundado bajo este mismo anhelo'",
+      "summary": "President Milei shared a social media message on the US Independence Day, emphasizing that Argentina and the United States share the same desire to protect freedom and prosperity.",
+      "url": "https://www.infobae.com/politica/2026/07/04/javier-milei-saludo-a-eeuu-por-el-dia-de-la-independencia-argentina-fue-un-pais-fundado-bajo-este-mismo-anhelo/",
+      "publishedAt": "2026-07-04T10:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Javier Milei viajará a Tucumán por el acto del 9 de julio y se mostrará con el gobernador Osvaldo Jaldo",
+      "summary": "President Milei will travel to Tucumán with his cabinet to participate in the 210th anniversary celebrations of Argentina's Declaration of Independence on July 9.",
+      "url": "https://www.infobae.com/politica/2026/07/03/javier-milei-viajara-a-tucuman-por-el-acto-del-9-de-julio-y-se-mostrara-con-el-gobernador-osvaldo-jaldo/",
+      "publishedAt": "2026-07-03T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "'Analfabetos económicos': Milei cruzó a los ex titulares del BCRA que cuestionaron la reforma de la Carta Orgánica",
+      "summary": "President Milei responded to criticism from former central bank heads regarding his planned reforms to modify the Central Bank's charter, arguing the current structure has multiple conflicting objectives.",
+      "url": "https://www.infobae.com/economia/2026/07/02/analfabetos-economicos-milei-cruzo-a-los-ex-titulares-del-bcra-que-cuestionaron-la-reforma-de-la-carta-organica/",
+      "publishedAt": "2026-07-02T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Finalmente, Javier Milei no viajará a Estados Unidos por el Día de la Independencia",
+      "summary": "After various reports, President Milei ultimately did not travel to the United States for Independence Day celebrations, instead focusing on domestic political agenda.",
+      "url": "https://www.infobae.com/politica/2026/07/01/finalmente-javier-milei-no-viajara-a-estados-unidos-por-el-dia-de-la-independencia/",
+      "publishedAt": "2026-07-01T12:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Javier Milei participó de la celebración por el Día de la Independencia en la Embajada de EEUU y recibió otro respaldo del gobierno de Trump",
+      "summary": "President Milei attended the US Independence Day celebration at the US Embassy in Buenos Aires, becoming the first Argentine president to participate in such an event, receiving explicit support from the Trump administration.",
+      "url": "https://www.infobae.com/politica/2026/07/01/javier-milei-participo-de-la-celebracion-por-el-dia-de-la-independencia-en-la-embajada-de-eeuu-y-recibio-otro-respaldo-del-gobierno-de-trump/",
+      "publishedAt": "2026-07-01T08:00:00Z"
+    }
+  ]
+}

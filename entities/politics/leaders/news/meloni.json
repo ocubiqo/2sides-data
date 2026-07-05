@@ -1,0 +1,28 @@
+{
+  "politicianId": "meloni",
+  "updatedAt": "2026-07-05T09:42:27.370Z",
+  "sourceAgency": "ANSA",
+  "articles": [
+    {
+      "id": "0",
+      "title": "Meloni, Italia più solida e credibile, anche l'occupazione lo testimonia",
+      "summary": "Premier Meloni states that Italy's main macroeconomic indicators show a more solid and credible nation, with record employment rates and historic lows in unemployment.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/02/meloni-italia-piu-solida-e-credibile-anche-loccupazione-lo-testimonia_66d7a6e8-2f20-4bbf-a043-d0cd6219d4be.html",
+      "publishedAt": "2026-07-02T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
+      "summary": "Meloni states that a right-wing president of the Republic could cease to be a taboo if her coalition wins the next elections.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
+      "publishedAt": "2026-06-29T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
+      "summary": "Premier Meloni is available to testify as a civil party witness in Milan on September 28 in a defamation trial against Fabrizio Corona.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
+      "publishedAt": "2026-06-22T00:00:00Z"
+    }
+  ]
+}

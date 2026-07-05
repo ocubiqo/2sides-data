@@ -1,0 +1,21 @@
+{
+  "politicianId": "khan",
+  "updatedAt": "2026-07-05T09:43:10.046Z",
+  "sourceAgency": "APP (Pakistan)",
+  "articles": [
+    {
+      "id": "0",
+      "title": "IHC reserves ruling on maintainability of petitions alleging solitary confinement of PTI Founder, Bushra Bibi",
+      "summary": "The Islamabad High Court reserved its decision on maintainability of petitions challenging alleged solitary confinement of PTI founder Imran Khan and his wife Bushra Bibi in Adiala Jail.",
+      "url": "https://www.app.com.pk/national/ihc-reserves-ruling-on-maintainability-of-petitions-alleging-solitary-confinement-of-pti-founder-bushra-bibi/",
+      "publishedAt": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "IHC fixes June 29, for hearing PTI founder, Bushra Bibi Appeals in £190 Million case",
+      "summary": "The Islamabad High Court scheduled a hearing on June 29 for appeals filed by Imran Khan and his wife Bushra Bibi against their convictions in the £190 million case.",
+      "url": "https://www.app.com.pk/national/ihc-fixes-june-29-for-hearing-pti-founder-bushra-bibi-appeals-in-190-million-case/",
+      "publishedAt": "2026-06-24T00:00:00Z"
+    }
+  ]
+}

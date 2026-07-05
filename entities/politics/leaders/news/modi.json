@@ -1,0 +1,42 @@
+{
+  "politicianId": "modi",
+  "updatedAt": "2026-07-05T09:40:41.625Z",
+  "sourceAgency": "ANI / PTI",
+  "articles": [
+    {
+      "id": "0",
+      "title": "PM Modi inaugurates refinery-cum-petrochemical complex in Balotra, Rajasthan",
+      "summary": "Prime Minister Modi dedicated a Rs 80,000 crore Greenfield Refinery-cum-Petrochemical Complex developed as a joint venture between HPCL and the Rajasthan Government to the nation.",
+      "url": "https://aninews.in/news/national/general-news/proof-of-your-steadfast-resolve-rajasthan-cm-sharma-praises-pm-modi-on-refinery-cum-petrochemical-complex-inauguration-in-balotra20260704174304/",
+      "publishedAt": "2026-07-04T17:43:04Z"
+    },
+    {
+      "id": "1",
+      "title": "PM Modi to embark on three-nation visit to Indonesia, Australia, New Zealand",
+      "summary": "Prime Minister Modi is set to visit Indonesia (July 6-8), Australia (July 8-10), and New Zealand (July 10-11) to deepen bilateral partnerships and engage with Indian diaspora communities.",
+      "url": "https://aninews.in/news/world/asia/pm-modi-to-interact-with-top-biz-leaders-address-diaspora-during-three-nation-visit-to-indonesia-australia-new-zealand20260704004126/",
+      "publishedAt": "2026-07-04T00:41:26Z"
+    },
+    {
+      "id": "2",
+      "title": "PM Modi and Japanese PM Takaichi inaugurate Maruti Suzuki's Kharkhoda plant",
+      "summary": "Prime Minister Modi and Japanese Prime Minister Sanae Takaichi virtually inaugurated Maruti Suzuki India's Rs 35,000 crore advanced vehicle manufacturing facility at IMT Kharkhoda in Haryana.",
+      "url": "https://aninews.in/news/business/pm-modi-japan-pm-inaugurate-maruti-suzukis-kharkhoda-plant-favourable-policy-environment-says-toshihiro-suzuki20260702172348/",
+      "publishedAt": "2026-07-02T17:23:48Z"
+    },
+    {
+      "id": "3",
+      "title": "India-Japan sign agreements on economic security, AI, defence",
+      "summary": "Prime Minister Modi and Japanese PM Takaichi signed agreements on economic security, artificial intelligence, defence, and health sectors during the India-Japan Joint Economic Forum.",
+      "url": "https://aninews.in/news/world/asia/futuristic-and-limitless-partnership-india-japan-sign-agreements-on-economic-security-ai-defence-says-pm-modi20260702165816/",
+      "publishedAt": "2026-07-02T16:58:16Z"
+    },
+    {
+      "id": "4",
+      "title": "PM Modi holds bilateral talks with Japanese PM Takaichi at Hyderabad House",
+      "summary": "Prime Minister Modi held bilateral talks with Japanese Prime Minister Sanae Takaichi at the Hyderabad House to deepen India-Japan Special Strategic and Global Partnership.",
+      "url": "https://aninews.in/news/world/asia/pm-modi-holds-bilateral-level-talks-with-japanese-counterpart-sanae-takaichi-at-hyderabad-house20260702114308/",
+      "publishedAt": "2026-07-02T11:43:08Z"
+    }
+  ]
+}

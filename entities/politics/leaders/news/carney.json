@@ -1,0 +1,42 @@
+{
+  "politicianId": "carney",
+  "updatedAt": "2026-07-05T09:42:43.665Z",
+  "sourceAgency": "CBC",
+  "articles": [
+    {
+      "id": "0",
+      "title": "Carney promises Arctic investment will benefit Inuit during meeting with leadership",
+      "summary": "Prime Minister Mark Carney met with Inuit leadership in Kuujjuaq, Quebec to discuss Arctic defence and infrastructure investments, marking the first sitting prime minister visit in nearly 20 years.",
+      "url": "https://www.cbc.ca/news/politics/carney-kuujjuaq-icpc-meeting-9.7252693",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "North Coast oil tanker ban being upheld, Port of Vancouver expanding in multibillion-dollar B.C.-Ottawa deal",
+      "summary": "Prime Minister Mark Carney and B.C. Premier David Eby announced a Canada-British Columbia Cooperative Prosperity Agreement with $10 billion for Port of Vancouver upgrades and commitment to maintain the North Coast oil tanker ban.",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/eby-carney-british-columbia-economic-agreeement-pipeline-9.7255633",
+      "publishedAt": "2026-07-02T13:50:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Carney announces $200M for new school, updated health centre in Tumbler Ridge",
+      "summary": "Prime Minister Mark Carney announced $200 million in joint federal-provincial funding for a new secondary school and updated health centre in Tumbler Ridge, B.C.",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/carney-tumbler-ridge-health-care-centre-9.7010777",
+      "publishedAt": "2026-06-10T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "As Canadians face high food prices, Carney lays out $3B plan to boost local, affordable access",
+      "summary": "Prime Minister Mark Carney unveiled a $3.2 billion food security strategy over a decade to increase domestic food production and affordability, including investments in food terminals and crackdowns on surveillance pricing.",
+      "url": "https://www.cbc.ca/news/politics/food-security-strategy-9.7231361",
+      "publishedAt": "2026-06-11T14:07:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Carney announces new sanctions against Russia following G7 meeting with Zelenskyy",
+      "summary": "Prime Minister Mark Carney announced new sanctions against Russia during the G7 summit in France and met with Ukrainian President Zelenskyy to discuss continued support for Ukraine.",
+      "url": "https://www.cbc.ca/news/politics/carney-zelenskyy-sanctions-meeting-9.7236829",
+      "publishedAt": "2026-06-16T11:51:00Z"
+    }
+  ]
+}

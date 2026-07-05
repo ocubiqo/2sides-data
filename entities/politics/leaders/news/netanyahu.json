@@ -1,0 +1,21 @@
+{
+  "politicianId": "netanyahu",
+  "updatedAt": "2026-07-05T09:41:51.813Z",
+  "sourceAgency": "Jerusalem Post / Gov.il",
+  "articles": [
+    {
+      "id": "0",
+      "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
+      "summary": "Netanyahu announces his campaign strategy to end the political boycott against him and build a broader coalition ahead of elections scheduled for October 2026.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
+      "publishedAt": "2026-07-04T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Benjamin Netanyahu and Donald Trump spoke, agreed to meet in the US 'soon'",
+      "summary": "Netanyahu and Trump discussed US independence and agreed to meet soon in the United States, with Netanyahu emphasizing the close relationship between Israel and the US.",
+      "url": "https://www.jpost.com/israel-news/article-901357",
+      "publishedAt": "2026-07-03T00:00:00Z"
+    }
+  ]
+}
