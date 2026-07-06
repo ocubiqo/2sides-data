@@ -565,9 +565,9 @@ async function main() {
   // ── Instagram ──
   if (igUserId) {
     try {
-      let igPromptFn;
-      if (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
-      else                        igPromptFn = () => igResultPrompt(result.fixture, result.matchResult);
+      const igPromptFn = result.fixturesData
+        ? () => igPreviewPrompt(result.fixturesData)
+        : () => igResultPrompt(result.fixture, result.matchResult);
 
       const igCaption = await generateCopy(client, igPromptFn());
       console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
