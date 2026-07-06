@@ -1,28 +1,42 @@
 {
   "politicianId": "meloni",
-  "updatedAt": "2026-07-05T09:42:27.370Z",
+  "updatedAt": "2026-07-06T11:28:28.381Z",
   "sourceAgency": "ANSA",
   "articles": [
     {
       "id": "0",
-      "title": "Meloni, Italia più solida e credibile, anche l'occupazione lo testimonia",
-      "summary": "Premier Meloni states that Italy's main macroeconomic indicators show a more solid and credible nation, with record employment rates and historic lows in unemployment.",
-      "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/02/meloni-italia-piu-solida-e-credibile-anche-loccupazione-lo-testimonia_66d7a6e8-2f20-4bbf-a043-d0cd6219d4be.html",
-      "publishedAt": "2026-07-02T00:00:00Z"
+      "title": "Trump posta meme con Meloni, 'necessaria ordinanza restrittiva'",
+      "summary": "Donald Trump posted a meme featuring Meloni with a caption suggesting a restraining order is needed.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/05/trump-posta-meme-con-meloni-necessaria-ordinanza-restrittiva_c8c6226c-82e1-445c-848d-c0aee5eefa7b.html",
+      "publishedAt": "2026-07-05T23:40:00Z"
     },
     {
       "id": "1",
-      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
-      "summary": "Meloni states that a right-wing president of the Republic could cease to be a taboo if her coalition wins the next elections.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
-      "publishedAt": "2026-06-29T00:00:00Z"
+      "title": "Meloni, 'Italia al top del turismo in Europa, grande lavoro del comparto'",
+      "summary": "Meloni stated that Italy continues to lead in European tourism for summer 2026 and committed the government to supporting the sector.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/05/meloni-italia-al-top-del-turismo-in-europa-grande-lavoro-del-comparto_470a4066-f275-4c40-a50c-7d10bb92c149.html",
+      "publishedAt": "2026-07-05T15:09:00Z"
     },
     {
       "id": "2",
-      "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
-      "summary": "Premier Meloni is available to testify as a civil party witness in Milan on September 28 in a defamation trial against Fabrizio Corona.",
-      "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
-      "publishedAt": "2026-06-22T00:00:00Z"
+      "title": "Meloni al congresso Uil, prove d'intesa dai salari all'IA",
+      "summary": "Meloni addressed the Uil union congress in Padova, confirming government commitment to tax-free contractual wage increases and pledging zero tolerance against labor trafficking.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/02/meloni-in-manovra-confermiamo-la-detassazione-dei-rinnovi-contrattuali_6b0a2239-c793-46bc-a2f8-81bc71af2a12.html",
+      "publishedAt": "2026-07-02T21:28:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Meloni, il futuro dell'Italia è delle donne lavoratrici, resta la priorità",
+      "summary": "Meloni stated at the Uil congress that women workers are crucial to Italy's future and highlighted the achievement of record female employment rates.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/02/meloni-il-futuro-dellitalia-e-delle-donne-lavoratrici-resta-la-priorita_a8b62ef6-c2cf-4b15-a33b-c8a5012b5ae3.html",
+      "publishedAt": "2026-07-02T19:58:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Meloni, Italia più solida e credibile, anche l'occupazione lo testimonia",
+      "summary": "Meloni told Federmanager that Italy demonstrates greater stability and credibility through employment metrics including record occupation rates and historic low unemployment.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/02/meloni-italia-piu-solida-e-credibile-anche-loccupazione-lo-testimonia_66d7a6e8-2f20-4bbf-a043-d0cd6219d4be.html",
+      "publishedAt": "2026-07-02T08:00:00Z"
     }
   ]
 }

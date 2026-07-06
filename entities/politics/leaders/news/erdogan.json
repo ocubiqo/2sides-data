@@ -1,14 +1,42 @@
 {
   "politicianId": "erdogan",
-  "updatedAt": "2026-07-05T09:42:14.697Z",
+  "updatedAt": "2026-07-06T11:28:11.799Z",
   "sourceAgency": "Anadolu Agency",
   "articles": [
     {
       "id": "0",
-      "title": "Cumhurbaşkanı Erdoğan, Romanya Cumhurbaşkanı Dan ile görüştü",
-      "summary": "President Erdoğan met with Romania's President Nicuşor Dan in Istanbul following a naval ship delivery ceremony and discussed bilateral relations and regional security matters.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-romanya-cumhurbaskani-dan-ile-gorustu/3973017",
-      "publishedAt": "2026-06-21T00:00:00Z"
+      "title": "Turkish President Erdogan receives EU foreign policy chief ahead of NATO summit in Ankara",
+      "summary": "President Erdogan received EU foreign policy chief Kaja Kallas and her delegation for a closed-door meeting at the Presidential Complex in Ankara.",
+      "url": "https://aa.com.tr/en/turkiye/turkish-president-erdogan-receives-eu-foreign-policy-chief-ahead-of-nato-summit-in-ankara/3982374",
+      "publishedAt": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "President Erdogan receives delegation of Catholic bishops in Türkiye",
+      "summary": "Turkish President Recep Tayyip Erdogan received a delegation from the Conference of Catholic Bishops in Türkiye at the presidential complex in Ankara.",
+      "url": "https://www.aa.com.tr/en/turkiye/president-erdogan-receives-delegation-of-catholic-bishops-in-turkiye/3983994",
+      "publishedAt": "2026-07-02T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "NATO summit in Ankara to serve as 'strongest platform for sharing experience': President Erdogan",
+      "summary": "President Erdogan stated that the NATO summit in Ankara on July 7-8 will serve as the strongest platform for sharing experience, speaking at a luncheon in honor of NATO parliamentary speakers.",
+      "url": "https://www.aa.com.tr/en/world/nato-summit-in-ankara-to-serve-as-strongest-platform-for-sharing-experience-president-erdogan/3981175",
+      "publishedAt": "2026-06-29T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Erdogan says Türkiye, Poland aim to deepen cooperation ahead of NATO summit",
+      "summary": "President Erdogan said Türkiye and Poland are working to strengthen cooperation as NATO allies, with a new bilateral trade target of $15 billion set between the two countries.",
+      "url": "https://www.aa.com.tr/en/turkiye/erdogan-says-turkiye-poland-aim-to-deepen-cooperation-ahead-of-nato-summit/3975855",
+      "publishedAt": "2026-06-23T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Türkiye's President Erdogan announces country's new AI Action Plan",
+      "summary": "President Erdogan announced Türkiye's new AI Action Plan, which will mobilize at least $10 billion in private-sector investment for data centers, cloud computing, and artificial intelligence infrastructure.",
+      "url": "https://www.aa.com.tr/en/turkiye/turkiyes-president-erdogan-announces-countrys-new-ai-action-plan-/3966062",
+      "publishedAt": "2026-06-13T00:00:00Z"
     }
   ]
 }

@@ -1,21 +1,35 @@
 {
   "politicianId": "netanyahu",
-  "updatedAt": "2026-07-05T09:41:51.813Z",
+  "updatedAt": "2026-07-06T11:27:47.267Z",
   "sourceAgency": "Jerusalem Post / Gov.il",
   "articles": [
     {
       "id": "0",
-      "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
-      "summary": "Netanyahu announces his campaign strategy to end the political boycott against him and build a broader coalition ahead of elections scheduled for October 2026.",
-      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
-      "publishedAt": "2026-07-04T00:00:00Z"
+      "title": "Benjamin Netanyahu accuses Benny Gantz, Gadi Eisenkot of backing Hamas's terms in war cabinet",
+      "summary": "Netanyahu criticized opposition leaders Gantz and Eisenkot for positions he claimed would have accepted Hamas's terms, and defended the government's military strategy in Gaza and Lebanon.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901530",
+      "publishedAt": "2026-07-06T08:00:00Z"
     },
     {
       "id": "1",
-      "title": "Benjamin Netanyahu and Donald Trump spoke, agreed to meet in the US 'soon'",
-      "summary": "Netanyahu and Trump discussed US independence and agreed to meet soon in the United States, with Netanyahu emphasizing the close relationship between Israel and the US.",
-      "url": "https://www.jpost.com/israel-news/article-901357",
-      "publishedAt": "2026-07-03T00:00:00Z"
+      "title": "Benjamin Netanyahu, Katz: IDF to remain in Lebanon until Hezbollah disarmament",
+      "summary": "Netanyahu affirmed that IDF forces will remain in Lebanon's security zones until Hezbollah is fully disarmed and northern Israel's security is guaranteed.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-901080",
+      "publishedAt": "2026-07-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
+      "summary": "Netanyahu announced his intention to build an election campaign around ending the political boycott against him and forming a broad national unity coalition government.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
+      "publishedAt": "2026-07-03T13:47:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Benjamin Netanyahu backs ending US military aid to build Israel armaments independence",
+      "summary": "Netanyahu expressed support for phasing out American military assistance to Israel and transitioning to a partnership based on mutual defense projects and shared strategic interests.",
+      "url": "https://www.jpost.com/israel-news/article-900352",
+      "publishedAt": "2026-06-22T12:00:00Z"
     }
   ]
 }

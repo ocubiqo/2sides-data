@@ -1,33 +1,33 @@
 {
   "politicianId": "macron",
-  "updatedAt": "2026-07-05T09:41:32.631Z",
+  "updatedAt": "2026-07-06T11:27:23.562Z",
   "sourceAgency": "France 24",
   "articles": [
     {
       "id": "0",
       "title": "France sets presidential election date as Macron finishes final term",
-      "summary": "France announced the dates for its next presidential election as April 18 and May 2, 2027, marking the end of Macron's second and final term.",
+      "summary": "France announced its next presidential election will be held on April 18 and May 2, 2027, as Emmanuel Macron prepares to leave office after his final term.",
       "url": "https://www.france24.com/en/europe/20260630-france-sets-presidential-election-date-as-macron-finishes-final-term",
       "publishedAt": "2026-07-01T00:09:00Z"
     },
     {
       "id": "1",
-      "title": "Thailand denies viral claim Macron knelt before king",
-      "summary": "Thailand's foreign ministry denied claims from an AI-generated image that French President Macron knelt before Thailand's king during the king's state visit to Paris.",
-      "url": "https://www.france24.com/en/live-news/20260702-thailand-denies-viral-claim-macron-knelt-before-king",
-      "publishedAt": "2026-07-02T00:00:00Z"
-    },
-    {
-      "id": "2",
       "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
-      "summary": "Macron hosted the G7 summit at Versailles and courted President Trump, but analysts noted his diplomatic efforts have not consistently translated into lasting strategic influence.",
+      "summary": "French President Macron hosted a G7 summit at Versailles and entertained US President Trump, but analysts note his grand diplomatic gestures have not always translated into lasting strategic gains.",
       "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
       "publishedAt": "2026-06-18T00:00:00Z"
     },
     {
+      "id": "2",
+      "title": "In pictures: The Palace of Versailles, Macron's beloved soft-power tool",
+      "summary": "Macron hosted President Trump at a state dinner at the Palace of Versailles during the G7 summit to celebrate the 250th anniversary of American independence.",
+      "url": "https://www.france24.com/en/france/20260617-in-pictures-the-palace-of-versailles-macron-s-beloved-soft-power-tool",
+      "publishedAt": "2026-06-17T11:04:00Z"
+    },
+    {
       "id": "3",
       "title": "'For sure': Macron to preach stronger Europe vision at G7 swansong",
-      "summary": "Macron hosted his final G7 summit as French president, promoting his vision for European strategic autonomy while facing challenges in translating that vision into collective European action.",
+      "summary": "Macron hosted his last G7 summit as French president, advocating for European strategic autonomy and presenting his vision of a stronger, more independent Europe amid US policy shifts.",
       "url": "https://www.france24.com/en/live-news/20260615-for-sure-macron-to-preach-stronger-europe-vision-at-g7-swansong",
       "publishedAt": "2026-06-15T00:00:00Z"
     }

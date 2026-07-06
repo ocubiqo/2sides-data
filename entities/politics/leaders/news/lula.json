@@ -1,6 +1,21 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-05T09:43:00.914Z",
+  "updatedAt": "2026-07-06T11:29:04.469Z",
   "sourceAgency": "Agência Brasil",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Lula defende acordo do Mercosul com China durante Cúpula do bloco",
+      "summary": "President Lula defended the importance of Mercosur's economic and political role and advocated for the bloc to initiate trade negotiations with China during the Mercosur Summit in Paraguay.",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-06/lula-defende-acordo-do-mercosul-com-china-durante-cupula-do-bloco",
+      "publishedAt": "2026-06-30T14:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "\"Melhor arma que um país pode ter é alimento\", diz Lula",
+      "summary": "President Lula encouraged family farmers to use available financing resources and stated that government has sought to reduce interest rates for producer credit with public banks during the launch of the 2026/2027 Harvest Plan.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/melhor-arma-que-um-pais-pode-ter-e-alimento-diz-lula",
+      "publishedAt": "2026-06-30T21:54:00Z"
+    }
+  ]
 }
