@@ -1,12 +1,12 @@
 /**
  * Facebook + Instagram auto-poster for the 2 Sides football page.
- * Posts match previews, result recaps, and weekly app feature posts.
+ * Posts knockout match previews and result recaps — no weekly/feature posts.
  *
  * Env vars (required):
  *   ANTHROPIC_API_KEY       — Claude API key
  *   FB_PAGE_ACCESS_TOKEN    — Never-expiring Facebook Page Access Token
  *   FB_PAGE_ID              — Numeric Facebook Page ID
- *   POST_TYPE               — 'preview' | 'result' | 'feature' | 'auto'
+ *   POST_TYPE               — 'preview' | 'result' | 'auto'
  *
  * Env vars (optional — Instagram posting skipped if absent):
  *   IG_USER_ID              — Instagram Business Account ID
@@ -168,15 +168,17 @@ const WC2026_FIXTURES = [
   { id: 'l6', aId: 'croatia',            bId: 'ghana',              ko: '2026-06-27T19:00:00Z' },
 ];
 
-// ─── Feature topics (round-robin) ─────────────────────────────────────────────
+// ─── Knockout fixtures loader ──────────────────────────────────────────────────
 
-const FEATURE_TOPICS = [
-  { topic: 'head-to-head team comparison', detail: 'Pick any two WC2026 nations and compare them side by side — FIFA ranking, World Cup history, win rate, goals scored, clean sheets, and more. See exactly who has the statistical edge before a match.' },
-  { topic: 'match simulation', detail: 'Let the stats decide — run a simulation on any WC2026 matchup and see who wins on paper. Great for settling debates with friends before kickoff.' },
-  { topic: 'WC2026 group standings and scores', detail: 'See how every group is shaping up — updated match scores, group tables, and who is advancing. Catch up on all the results in one place.' },
-  { topic: 'pre-match notifications', detail: 'Enable WC2026 match reminders and get notified before kickoff so you never lose track of when the next big game is.' },
-  { topic: 'player and nation stats depth', detail: 'Beyond the scoreline — 2 Sides breaks down each nation\'s full WC pedigree: titles won, appearances, biggest wins, and tournament clean sheets, all in one clean comparison view.' },
-];
+function loadKnockoutFixtures() {
+  const path = join(WC_DIR, 'knockout-fixtures.json');
+  if (!existsSync(path)) return [];
+  try {
+    const data = JSON.parse(readFileSync(path, 'utf8'));
+    // Filter out placeholder entries where teams haven't been determined yet
+    return (data.fixtures ?? []).filter(f => f.aId && f.bId);
+  } catch { return []; }
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -193,6 +195,15 @@ function kickoffLabel(ko) {
   });
 }
 
+function roundLabel(fixture) {
+  // Use the round field from knockout-fixtures.json if present, else 'Group Stage'
+  return fixture.round ?? 'Group Stage';
+}
+
+function isKnockout(fixture) {
+  return !!fixture.round;
+}
+
 function loadJson(path, fallback) {
   if (!existsSync(path)) return fallback;
   try { return JSON.parse(readFileSync(path, 'utf8')); } catch { return fallback; }
@@ -205,9 +216,7 @@ function saveJson(path, data) {
 
 function resolvePostType(raw) {
   if (raw && raw !== 'auto') return raw;
-  const day = new Date().getUTCDay(); // 0=Sun, 1=Mon
-  if (day === 1) return 'feature';   // Monday → weekly app feature post
-  return 'result';                    // Other days → result recap (falls back to preview in auto mode)
+  return 'result'; // Always try result first → falls back to preview if no new results
 }
 
 // ─── Facebook API ─────────────────────────────────────────────────────────────
@@ -290,29 +299,34 @@ async function generateCopy(client, prompt) {
 }
 
 function previewPrompt(fixtures) {
+  const ko = fixtures.some(isKnockout);
   const matchLines = fixtures
-    .map(f => `- ${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
+    .map(f => `- [${roundLabel(f)}] ${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
     .join('\n');
 
   return `You are the social media manager for "2 Sides", a football comparison and simulation app.
 
 ABOUT THE APP (facts only — do not add or invent features):
-- 2 Sides lets fans compare any two WC2026 nations head-to-head using real stats (FIFA ranking, WC history, win rate, goals, clean sheets)
+- 2 Sides lets fans compare any two WC2026 nations head-to-head using real stats (FIFA ranking, WC history, win rate, goals scored, clean sheets)
 - Users can run a match simulation to see who wins on paper based on the stats
-- The app shows WC2026 group standings and match scores (updated daily)
 - NOT a live score streaming app — do not say "real-time", "instant updates", or "never miss a goal"
 
-Write an engaging Facebook post previewing these upcoming WC2026 matches:
+Write a DRAMATIC, high-energy Facebook post previewing these upcoming WC2026 ${ko ? 'KNOCKOUT' : ''} matches:
 ${matchLines}
 
-Rules:
-- Start with a bold hook line about the clash (use emojis)
+TONE & STYLE — drive maximum engagement:
+${ko ? `- This is KNOCKOUT football. One team GOES HOME TONIGHT. Use that tension.
+- Make a bold stats-backed prediction: "The numbers heavily favour [Team] — and [Other Team] knows it"
+- Use knockout language: "ELIMINATION NIGHT", "LAST CHANCE", "NO WAY BACK", "HISTORY ON THE LINE"
+- Finish with a debate starter: "Who advances? Drop your prediction 👇"
+- Make fans of BOTH teams feel something — either confident or afraid` :
+`- Make a bold claim fans will want to argue about
+- Use strong language: "This could get UGLY", "Don't sleep on [team]", "The stats are not kind to [team]"
+- Tease a shocking stat angle: "You won't believe what the head-to-head record shows..."`}
 - Mention both teams with their flag emojis
-- Tease the stats angle — "who has the better WC record?", "the numbers might surprise you"
-- End with CTA: "Compare the squads on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
+- End with CTA: "Back your side on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
 - Include 4–6 hashtags: #WC2026 #FIFAWorldCup #Football #2Sides plus team-specific ones
-- Total length: 120–180 words
-- Tone: passionate football fan, not corporate
+- Total length: 130–190 words
 - Output the post text only — no preamble, no quotes`;
 }
 
@@ -321,6 +335,8 @@ function resultPrompt(fixture, result) {
   const b    = TEAM[fixture.bId] ?? { name: fixture.bId, flag: '' };
   const aWon = result.aScore > result.bScore;
   const draw = result.aScore === result.bScore;
+  const ko   = isKnockout(fixture);
+  const round = roundLabel(fixture);
 
   let statsLine = '';
   if (result.stats) {
@@ -331,6 +347,11 @@ function resultPrompt(fixture, result) {
     if (parts.length) statsLine = `\nStats: ${parts.join(' | ')}`;
   }
 
+  const upset = ko && (
+    (aWon && ['argentina','brazil','france','england','spain','germany','portugal'].includes(fixture.bId)) ||
+    (!aWon && !draw && ['argentina','brazil','france','england','spain','germany','portugal'].includes(fixture.aId))
+  );
+
   return `You are the social media manager for "2 Sides", a football comparison and simulation app.
 
 ABOUT THE APP (facts only — do not add or invent features):
@@ -338,45 +359,26 @@ ABOUT THE APP (facts only — do not add or invent features):
 - Users can simulate matchups to see who wins on paper
 - NOT a live score app — do not say "real-time", "instant", or "live updates"
 
-Write an engaging Facebook post reporting this WC2026 result:
+Write a DRAMATIC, ragebait Facebook post about this WC2026 ${round} result:
 
 ${a.flag} ${a.name} ${result.aScore}–${result.bScore} ${b.name} ${b.flag}
-Outcome: ${draw ? 'Draw' : aWon ? `${a.name} win` : `${b.name} win`}${statsLine}
+Outcome: ${draw ? 'Draw' : aWon ? `${a.name} WIN — ${ko ? b.name + ' ELIMINATED' : ''}` : `${b.name} WIN — ${ko ? a.name + ' ELIMINATED' : ''}`}${statsLine}
 
-Rules:
-- Open with "⚽ FULL TIME" and the scoreline
-- One sentence on the match — dominant, shock result, close contest
-- Tie it back to the stats angle: "Did the numbers predict this?" or "What did the head-to-head say?"
-- End with CTA: "Run the matchup on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
+TONE & STYLE — maximise comments, shares, and reactions:
+${ko && upset ? `- SHOCK RESULT ENERGY: "THAT IS AN ELIMINATION. [Underdog] just sent [Favourite] HOME 🤯"
+- Rub salt in the wound respectfully: "The stats had [Favourite] as heavy favourites… football wrote a different story"
+- Demand reaction: "Comment 😭 if you're devastated or 🔥 if you called this"` :
+ko ? `- "IT'S OVER FOR [Eliminated team]. Full stop."
+- Make fans argue: frame a controversial angle on the result ("Was it deserved? The stats will spark debate")
+- Use: "HISTORY MADE", "DREAM IS OVER", or challenge fans to defend the loser` :
+draw ? `- Treat a draw as a controversy: "BOTH teams dropped points there. Who bottled it?"
+- Debate starter: "[Team A] fans livid or [Team B] fans disappointed — which is worse?"` :
+`- Bold take on the winning team: are they genuine contenders or flattered to deceive?
+- Stats callout: did the numbers back the winner or was this a heist?`}
+- Tie back to app: "What does the head-to-head comparison say? Check 2 Sides 👇"
+- End with CTA followed by: ${PLAY_STORE_URL}
 - Include 4–6 hashtags: #WC2026 #FIFAWorldCup #Football #2Sides plus team names
-- Total length: 100–150 words
-- Tone: excited football fan, grounded in stats
-- Output the post text only`;
-}
-
-function featurePrompt(topic) {
-  return `You are the social media manager for "2 Sides", a football comparison and simulation app.
-
-ABOUT THE APP (facts only — do not add or invent features):
-- Core feature: compare any two WC2026 nations head-to-head using real stats (FIFA ranking, WC titles, appearances, win rate, goals scored, clean sheets, and more)
-- Secondary feature: simulate any WC2026 matchup to see who wins on paper based on the stats
-- Also shows WC2026 group standings and match scores (updated daily — NOT live streaming)
-- Has pre-match notifications to remind users before kickoff
-- Simple, clean app — pick two sides, compare, simulate, decide
-- Do NOT mention: live scores, real-time updates, instant notifications, streaming, or any feature not listed above
-
-Write an engaging Facebook post promoting this specific feature:
-Feature: ${topic.topic}
-Detail: ${topic.detail}
-
-Rules:
-- Open with a punchy question or bold statement tied to WC2026 right now
-- Explain the feature in 2 sentences max — what it does, why it's useful during the tournament
-- Keep it honest and grounded — no exaggeration about what the app does
-- End with CTA: "Try it free on 2 Sides 👇" followed by: ${PLAY_STORE_URL}
-- Include 4–5 hashtags: #WC2026 #Football #FootballStats #2Sides #FIFAWorldCup
-- Total length: 100–150 words
-- Tone: confident, football-savvy fan — not hype, not corporate
+- Total length: 110–160 words
 - Output the post text only`;
 }
 
@@ -393,24 +395,28 @@ const APP_CONTEXT = `ABOUT 2 SIDES (facts only — never invent or exaggerate fe
 - Do NOT mention: live scores, real-time updates, instant goals, streaming, or anything not listed above`;
 
 function igPreviewPrompt(fixtures) {
+  const ko = fixtures.some(isKnockout);
   const matchLines = fixtures
-    .map(f => `${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
+    .map(f => `[${roundLabel(f)}] ${teamLabel(f.aId)} vs ${teamLabel(f.bId)} · ${kickoffLabel(f.ko)}`)
     .join('\n');
 
   return `You are the Instagram manager for "2 Sides", a football comparison and simulation app.
 
 ${APP_CONTEXT}
 
-Write an Instagram caption for a match preview post. Upcoming WC2026 matches:
+Write a DRAMATIC Instagram caption previewing these WC2026 ${ko ? 'KNOCKOUT' : ''} matches:
 ${matchLines}
 
 Rules:
-- First line must be a punchy 1-sentence hook using emojis (this shows before "more" is tapped)
-- 3–4 sentences total covering: teams, what's at stake, the stats angle ("who has the edge?")
-- End with: "Link in bio 👆 #2Sides"
-- Add 12–18 hashtags on a new line: mix of broad (#WC2026 #Football #WorldCup2026) and team-specific (#TeamName)
-- Total caption length: 80–130 words
-- Tone: direct, football-savvy fan
+- First line: explosive hook — under 10 words, emojis, maximum tension${ko ? ' ("ONE TEAM\'S DREAM ENDS TONIGHT")' : ''}
+- 2–3 sentences: teams, what's at stake, bold stats-backed prediction
+${ko ? `- Use elimination language: "NO SECOND CHANCE", "SURVIVE OR GO HOME"
+- Make a clear prediction and invite disagreement: "We're backing [Team] — fight us in the comments 🔥"` :
+`- Strong opinion fans will argue about: "The stats say this isn't even close"
+- Tease which team the numbers favour`}
+- End with: "Back your side on 2 Sides — link in bio 👆"
+- Add 14–20 hashtags on a new line: #WC2026 #Football #WorldCup2026 #FIFAWorldCup #2Sides plus team-specific
+- Total caption: 80–130 words
 - Output the caption only`;
 }
 
@@ -419,6 +425,8 @@ function igResultPrompt(fixture, result) {
   const b    = TEAM[fixture.bId] ?? { name: fixture.bId, flag: '' };
   const aWon = result.aScore > result.bScore;
   const draw = result.aScore === result.bScore;
+  const ko   = isKnockout(fixture);
+  const round = roundLabel(fixture);
 
   let statsLine = '';
   if (result.stats) {
@@ -433,37 +441,19 @@ function igResultPrompt(fixture, result) {
 
 ${APP_CONTEXT}
 
-Write an Instagram caption for this WC2026 result:
+Write a DRAMATIC Instagram caption for this WC2026 ${round} result:
 ${a.flag} ${a.name} ${result.aScore}–${result.bScore} ${b.name} ${b.flag}
-${draw ? 'Draw' : aWon ? `${a.name} win` : `${b.name} win`}${statsLine}
+Outcome: ${draw ? 'Draw' : aWon ? `${a.name} WIN${ko ? ` — ${b.name} ELIMINATED` : ''}` : `${b.name} WIN${ko ? ` — ${a.name} ELIMINATED` : ''}`}${statsLine}
 
 Rules:
-- First line: scoreline with emojis as the immediate hook
-- 2–3 sentences: what happened, did the stats predict it, what it means for the group
+- First line: the scoreline as the hook — make it land hard with emojis${ko ? ' ("THEY\'RE OUT. IT\'S OVER.")' : ''}
+- 2 sentences: what happened + a spicy take (robbery? deserved? stats said this all along?)
+${ko ? `- "Did the stats see this coming? Check the head-to-head on 2 Sides 👇"` :
+`- Tie to stats: "Did the numbers predict this?"
+- Invite argument: "Deserved or lucky? Drop your verdict 👇"`}
 - End with: "Compare on 2 Sides — link in bio 👆"
-- Add 12–16 hashtags on a new line
+- Add 12–18 hashtags on a new line
 - Total caption: 70–110 words
-- Tone: excited fan, grounded in stats
-- Output the caption only`;
-}
-
-function igFeaturePrompt(topic) {
-  return `You are the Instagram manager for "2 Sides", a football comparison and simulation app.
-
-${APP_CONTEXT}
-
-Write an Instagram caption promoting this feature during WC2026:
-Feature: ${topic.topic}
-Detail: ${topic.detail}
-
-Rules:
-- First line: bold question or statement — must hook in under 10 words with an emoji
-- 2–3 sentences: what the feature does and why it matters right now during WC2026
-- Stay strictly accurate — only describe what the app actually does
-- End with: "Try it free — link in bio 👆 #2Sides"
-- Add 12–18 hashtags on a new line: #WC2026 #Football #FootballStats #WorldCup2026 #FIFAWorldCup plus relevant ones
-- Total caption: 70–120 words
-- Tone: confident, fan-to-fan — not hype, not corporate
 - Output the caption only`;
 }
 
@@ -474,7 +464,8 @@ async function handlePreview(client) {
   const windowLo = nowMs + 16 * 3_600_000;  // 16h from now
   const windowHi = nowMs + 30 * 3_600_000;  // 30h from now
 
-  const upcoming = WC2026_FIXTURES.filter(f => {
+  const allFixtures = [...WC2026_FIXTURES, ...loadKnockoutFixtures()];
+  const upcoming = allFixtures.filter(f => {
     const koMs = new Date(f.ko).getTime();
     return koMs >= windowLo && koMs <= windowHi;
   });
@@ -490,18 +481,20 @@ async function handlePreview(client) {
 }
 
 async function handleResult(client) {
-  const results  = loadJson(join(WC_DIR, 'results.json'), { matches: {} });
-  const posted   = loadJson(join(WC_DIR, 'posted-results.json'), { posted: [] });
+  const results   = loadJson(join(WC_DIR, 'results.json'), { matches: {} });
+  const posted    = loadJson(join(WC_DIR, 'posted-results.json'), { posted: [] });
   const postedSet = new Set(posted.posted);
-  const nowMs    = Date.now();
+  const nowMs     = Date.now();
 
-  // Fixtures with scores, not yet posted, completed within last 20h
-  const toPost = WC2026_FIXTURES.filter(f => {
+  const allFixtures = [...WC2026_FIXTURES, ...loadKnockoutFixtures()];
+
+  // Fixtures with scores, not yet posted, completed within last 36h
+  const toPost = allFixtures.filter(f => {
     if (postedSet.has(f.id)) return false;
     const r = results.matches?.[f.id];
     if (!r?.played || r.aScore == null) return false;
     const koMs = new Date(f.ko).getTime();
-    return (nowMs - koMs) < 20 * 3_600_000;
+    return (nowMs - koMs) < 36 * 3_600_000;
   });
 
   if (toPost.length === 0) {
@@ -520,23 +513,7 @@ async function handleResult(client) {
   posted.posted.push(fixture.id);
   saveJson(join(WC_DIR, 'posted-results.json'), posted);
 
-  return { text, fixtureId: fixture.id, matchResult: result };
-}
-
-async function handleFeature(client) {
-  const indexFile = join(WC_DIR, 'feature-post-index.json');
-  const indexData = loadJson(indexFile, { lastIndex: -1 });
-  const nextIndex = (indexData.lastIndex + 1) % FEATURE_TOPICS.length;
-  const topic     = FEATURE_TOPICS[nextIndex];
-
-  console.log(`[fb-post] feature: topic index ${nextIndex} — "${topic.topic}"`);
-
-  const text = await generateCopy(client, featurePrompt(topic));
-
-  indexData.lastIndex = nextIndex;
-  saveJson(indexFile, indexData);
-
-  return { text, topicIndex: nextIndex };
+  return { text, fixtureId: fixture.id, matchResult: result, fixture };
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -563,9 +540,7 @@ async function main() {
   console.log(`[post] Using image: ${imageFilename}`);
 
   let result;
-  if (postType === 'feature') {
-    result = await handleFeature(client);
-  } else if (postType === 'result') {
+  if (postType === 'result') {
     result = await handleResult(client);
     if (!result && isAuto) {
       console.log('[post] No new results — falling back to match preview');
@@ -591,9 +566,8 @@ async function main() {
   if (igUserId) {
     try {
       let igPromptFn;
-      if      (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
-      else if (postType === 'result')  igPromptFn = () => igResultPrompt(WC2026_FIXTURES.find(f => f.id === result.fixtureId), result.matchResult);
-      else                             igPromptFn = () => igFeaturePrompt(FEATURE_TOPICS[result.topicIndex]);
+      if (postType === 'preview') igPromptFn = () => igPreviewPrompt(result.fixturesData ?? []);
+      else                        igPromptFn = () => igResultPrompt(result.fixture, result.matchResult);
 
       const igCaption = await generateCopy(client, igPromptFn());
       console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
