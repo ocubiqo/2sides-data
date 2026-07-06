@@ -24,7 +24,8 @@ const WC_DIR  = join(ROOT, 'wc2026');
 const PLAY_STORE_URL  = 'https://play.google.com/store/apps/details?id=com.ocubiqo.twosides';
 const ASSETS_BASE_URL = 'https://raw.githubusercontent.com/ocubiqo/2sides-data/main/assets';
 
-// Promo images rotated randomly across posts (promo-01 PNG excluded — too large for FB upload)
+// FB images: original portrait crops (704x1472)
+// IG images: 704x704 square center-crops — Instagram rejects ratios outside 0.8–1.91
 const PROMO_IMAGES = [
   'promo-02-top-players.jpg',
   'promo-03-deep-analysis.jpg',
@@ -34,8 +35,11 @@ const PROMO_IMAGES = [
   'promo-07-feature-graphic.jpg',
 ];
 
+const PROMO_IMAGES_IG = PROMO_IMAGES.map(f => f.replace('.jpg', '-ig.jpg'));
+
 function pickRandomImage() {
-  return PROMO_IMAGES[Math.floor(Math.random() * PROMO_IMAGES.length)];
+  const idx = Math.floor(Math.random() * PROMO_IMAGES.length);
+  return { fb: PROMO_IMAGES[idx], ig: PROMO_IMAGES_IG[idx] };
 }
 
 // ─── Team data ────────────────────────────────────────────────────────────────
@@ -533,11 +537,11 @@ async function main() {
   const postType = resolvePostType(process.env.POST_TYPE);
   console.log(`[post] Running post type: ${postType}${isAuto ? ' (auto)' : ''}`);
 
-  const client        = new Anthropic({ apiKey });
-  const imageFilename = pickRandomImage();
-  const imagePath     = join(ROOT, 'assets', imageFilename);
-  const imageUrl      = `${ASSETS_BASE_URL}/${imageFilename}`;
-  console.log(`[post] Using image: ${imageFilename}`);
+  const client     = new Anthropic({ apiKey });
+  const images     = pickRandomImage();
+  const imagePath  = join(ROOT, 'assets', images.fb);
+  const igImageUrl = `${ASSETS_BASE_URL}/${images.ig}`;
+  console.log(`[post] Using image: ${images.fb} (FB) / ${images.ig} (IG)`);
 
   let result;
   if (postType === 'result') {
@@ -559,7 +563,7 @@ async function main() {
 
   // ── Facebook ──
   console.log(`[fb-post] Generated copy (${result.text.length} chars):\n---\n${result.text}\n---`);
-  const photoId = await uploadPhoto(imagePath, imageFilename, fbToken, fbPageId);
+  const photoId = await uploadPhoto(imagePath, images.fb, fbToken, fbPageId);
   await createPost(result.text, photoId, fbToken, fbPageId);
 
   // ── Instagram ──
@@ -571,7 +575,7 @@ async function main() {
 
       const igCaption = await generateCopy(client, igPromptFn());
       console.log(`[ig-post] Generated caption (${igCaption.length} chars):\n---\n${igCaption}\n---`);
-      await postToInstagram(igCaption, imageUrl, fbToken, igUserId);
+      await postToInstagram(igCaption, igImageUrl, fbToken, igUserId);
     } catch (err) {
       console.warn('[ig-post] Skipped — Instagram posting failed (non-fatal):', err.message);
     }
