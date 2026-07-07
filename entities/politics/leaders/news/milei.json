@@ -1,42 +1,28 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-06T11:27:57.668Z",
+  "updatedAt": "2026-07-07T10:25:43.590Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
-      "title": "El Gobierno celebra el avance de la derecha en la región y mira con expectativa las elecciones de Brasil",
-      "summary": "President Milei celebrated right-wing victories in Peru and Colombia, confirmed attendance at both countries' presidential inaugurations, and expressed preference for a right-wing candidate in Brazil's October elections.",
-      "url": "https://www.infobae.com/politica/2026/07/05/el-gobierno-celebra-el-avance-de-la-derecha-en-la-region-y-mira-con-expectativa-las-elecciones-de-brasil/",
-      "publishedAt": "2026-07-05T14:00:00Z"
+      "title": "Javier Milei saludó a EEUU por el Día de la Independencia: \"Argentina fue un país fundado bajo este mismo anhelo\"",
+      "summary": "President Milei posted a message on social media for US Independence Day, drawing parallels between the values of both nations and emphasizing shared principles of freedom and democratic liberalism.",
+      "url": "https://www.infobae.com/politica/2026/07/04/javier-milei-saludo-a-eeuu-por-el-dia-de-la-independencia-argentina-fue-un-pais-fundado-bajo-este-mismo-anhelo/",
+      "publishedAt": "2026-07-04T08:00:00Z"
     },
     {
       "id": "1",
-      "title": "Javier Milei saludó a EEUU por el Día de la Independencia: \"Argentina fue un país fundado bajo este mismo anhelo\"",
-      "summary": "President Milei posted a message on social media equating Argentina and the United States as nations founded on liberal democracy principles protecting individual liberty.",
-      "url": "https://www.infobae.com/politica/2026/07/04/javier-milei-saludo-a-eeuu-por-el-dia-de-la-independencia-argentina-fue-un-pais-fundado-bajo-este-mismo-anhelo/",
-      "publishedAt": "2026-07-04T10:00:00Z"
+      "title": "Finalmente, Javier Milei no viajará a Estados Unidos por el Día de la Independencia",
+      "summary": "After several deliberations, President Milei did not travel to the United States for Independence Day celebrations as initially considered, focusing instead on domestic agenda changes including cabinet modifications.",
+      "url": "https://www.infobae.com/politica/2026/07/01/finalmente-javier-milei-no-viajara-a-estados-unidos-por-el-dia-de-la-independencia/",
+      "publishedAt": "2026-07-01T08:00:00Z"
     },
     {
       "id": "2",
-      "title": "Javier Milei viajará a Tucumán por el acto del 9 de julio y se mostrará con el gobernador Osvaldo Jaldo",
-      "summary": "President Milei will travel to Tucumán province to participate in the 210th anniversary celebrations of Argentina's Declaration of Independence alongside Governor Osvaldo Jaldo.",
-      "url": "https://www.infobae.com/politica/2026/07/03/javier-milei-viajara-a-tucuman-por-el-acto-del-9-de-julio-y-se-mostrara-con-el-gobernador-osvaldo-jaldo/",
-      "publishedAt": "2026-07-03T12:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "Finalmente, Javier Milei no viajará a Estados Unidos por el Día de la Independencia",
-      "summary": "President Milei cancelled his planned travel to the United States for Independence Day celebrations, prioritizing domestic agenda following cabinet changes.",
-      "url": "https://www.infobae.com/politica/2026/07/01/finalmente-javier-milei-no-viajara-a-estados-unidos-por-el-dia-de-la-independencia/",
-      "publishedAt": "2026-07-01T14:00:00Z"
-    },
-    {
-      "id": "4",
       "title": "Javier Milei participó de la celebración por el Día de la Independencia en la Embajada de EEUU y recibió otro respaldo del gobierno de Trump",
-      "summary": "President Milei attended US Independence Day celebrations at the US Embassy in Buenos Aires and swore in Diego Santilli as the new Cabinet Chief, receiving explicit support from the Trump administration.",
+      "summary": "President Milei attended the US Independence Day celebration at the US Ambassador's residence in Buenos Aires, with cabinet members present, and received explicit support from the Trump administration for deepening bilateral alliance.",
       "url": "https://www.infobae.com/politica/2026/07/01/javier-milei-participo-de-la-celebracion-por-el-dia-de-la-independencia-en-la-embajada-de-eeuu-y-recibio-otro-respaldo-del-gobierno-de-trump/",
-      "publishedAt": "2026-07-01T10:00:00Z"
+      "publishedAt": "2026-07-01T08:00:00Z"
     }
   ]
 }

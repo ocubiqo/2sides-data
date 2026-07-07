@@ -1,42 +1,42 @@
 {
   "politicianId": "modi",
-  "updatedAt": "2026-07-06T11:26:23.332Z",
+  "updatedAt": "2026-07-07T10:24:18.276Z",
   "sourceAgency": "ANI / PTI",
   "articles": [
     {
       "id": "0",
+      "title": "Big outcomes during PM Modi's Indonesia visit; India to support development of Indonesian EVMS, export Astra missiles",
+      "summary": "PM Modi's Indonesia state visit is expected to yield significant bilateral outcomes including India's support for Indonesian EVM development, export of Astra missiles, investment in critical minerals manufacturing, and joint development of Sabang port.",
+      "url": "https://aninews.in/news/world/asia/big-outcomes-during-pm-mods-indonesia-visit-india-to-support-development-of-indonesian-evms-export-astra-missiles20260707101133/",
+      "publishedAt": "2026-07-07T10:11:33Z"
+    },
+    {
+      "id": "1",
+      "title": "PM Narendra Modi receives grand ceremonial welcome in Jakarta",
+      "summary": "PM Modi received a grand ceremonial welcome in Jakarta upon arriving for his official state visit to Indonesia, marking the commencement of his three-nation diplomatic tour to strengthen bilateral strategic cooperation.",
+      "url": "https://aninews.in/news/world/asia/pm-narendra-modi-receives-grand-ceremonial-welcome-in-jakarta20260707085947/",
+      "publishedAt": "2026-07-07T08:59:47Z"
+    },
+    {
+      "id": "2",
+      "title": "\"Australia-India relationship of great importance\": Diaspora voices enthusiasm ahead of PM Modi's Australia visit",
+      "summary": "Indian diaspora members in Australia expressed enthusiasm ahead of PM Modi's scheduled visit to Australia from July 8-10, highlighting the growing strategic partnership between the two countries.",
+      "url": "https://www.aninews.in/news/world/pacific/australia-india-relationship-of-great-importance-diaspora-voices-enthusiasm-ahead-of-pm-modis-australia-visit20260707101416/",
+      "publishedAt": "2026-07-07T10:14:16Z"
+    },
+    {
+      "id": "3",
       "title": "PM Modi departs for 3-nation visit to Indonesia, Australia and New Zealand",
-      "summary": "Prime Minister Narendra Modi departed on July 6 for a three-nation state visit to Indonesia, Australia, and New Zealand aimed at strengthening India's strategic partnerships and economic cooperation.",
+      "summary": "PM Modi departed on July 6 for a three-nation diplomatic visit to Indonesia, Australia, and New Zealand aimed at strengthening India's Act East Policy and MAHASAGAR Vision for enhanced strategic cooperation.",
       "url": "https://aninews.in/news/world/asia/pm-modi-departs-for-3-nation-visit-to-indonesia-australia-and-new-zealand20260706094314/",
       "publishedAt": "2026-07-06T09:43:14Z"
     },
     {
-      "id": "1",
-      "title": "\"His vision continues to illuminate our path\": PM Modi pays tribute to Syama Prasad Mookerjee on 125th birth anniversary",
-      "summary": "Prime Minister Modi paid tribute to Bharatiya Jana Sangh founder Dr Syama Prasad Mookerjee on his 125th birth anniversary, highlighting his contributions to India's nation-building and development.",
-      "url": "https://aninews.in/news/national/general-news/his-vision-continues-to-illuminate-our-path-pm-modi-pays-tribute-to-syama-prasad-mookerjee-on-125th-birth-anniversary20260706091117/",
-      "publishedAt": "2026-07-06T09:11:17Z"
-    },
-    {
-      "id": "2",
-      "title": "PM Modi's visit will lift Comprehensive Strategic Partnership to \"higher level\"; deepen defence & critical minerals cooperation: Top Indonesian diplomat",
-      "summary": "Indonesian officials stated that Prime Minister Modi's three-day state visit will elevate bilateral ties and deepen cooperation in trade, defence, critical minerals, and digital economy sectors.",
-      "url": "https://aninews.in/news/world/asia/pm-modis-visit-will-lift-comprehensive-strategic-partnership-to-higher-level-deepen-defence-amp-critical-minerals-cooperation-top-indonesian-diplomat20260705183727/",
-      "publishedAt": "2026-07-05T18:37:27Z"
-    },
-    {
-      "id": "3",
-      "title": "\"Futuristic and limitless partnership\": India-Japan sign agreements on economic security, AI, defence, says PM Modi",
-      "summary": "India and Japan signed agreements on economic security, artificial intelligence, defence, and health sectors under Prime Minister Modi's bilateral engagement with Japanese PM Sanae Takaichi.",
-      "url": "https://aninews.in/news/world/asia/futuristic-and-limitless-partnership-india-japan-sign-agreements-on-economic-security-ai-defence-says-pm-modi20260702165816/",
-      "publishedAt": "2026-07-02T16:58:16Z"
-    },
-    {
       "id": "4",
-      "title": "PM Modi emplanes for New Delhi after concluding high-profile State visit to Seychelles",
-      "summary": "Prime Minister Modi concluded his state visit to Seychelles as Guest of Honour for the nation's 50th independence anniversary, securing a Rs 1,250 crore credit line and economic development package.",
-      "url": "https://aninews.in/news/world/others/pm-modi-emplanes-for-new-delhi-after-concluding-high-profile-state-visit-to-seychelles20260629134636/",
-      "publishedAt": "2026-06-29T13:46:36Z"
+      "title": "Trump reshares PM Modi's wishes on 250th anniversary of US independence",
+      "summary": "US President Trump reshared PM Modi's post extending congratulations to the United States on its 250th independence anniversary, highlighting India-US strategic partnership and shared democratic values.",
+      "url": "https://aninews.in/news/world/us/trump-reshares-pm-modis-wishes-on-250th-anniversary-of-us-independence20260706223851/",
+      "publishedAt": "2026-07-06T22:38:51Z"
     }
   ]
 }

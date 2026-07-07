@@ -1,35 +1,28 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-06T11:26:37.584Z",
+  "updatedAt": "2026-07-07T10:24:30.495Z",
   "sourceAgency": "TASS",
   "articles": [
     {
       "id": "0",
-      "title": "IN BRIEF: Putin's meeting on Konstantinovka liberation, special military operation course",
-      "summary": "Putin held a meeting at a command post where he was briefed on the liberation of Konstantinovka and Russian military progress, calling the city's capture key to liberating the entire Donetsk People's Republic.",
-      "url": "https://tass.com/politics/2155441",
-      "publishedAt": "2026-07-04T00:00:00Z"
+      "title": "IN BRIEF: Putin comments on Russia's strategic goals, security, Duma election",
+      "summary": "Putin stated at a United Russia party congress that Russia is pushing ahead with strategic plans despite external pressure, pledging to ensure national security during a crucial period of global transformation.",
+      "url": "https://tass.com/politics/2152699",
+      "publishedAt": "2026-06-28T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Russia's buffer zone on Ukrainian border evolves as military advances — Kremlin",
-      "summary": "Kremlin spokesman Dmitry Peskov stated that Russia is systematically creating a security buffer zone on the Ukrainian border as a response to the Kiev regime's aggressive nature.",
-      "url": "https://tass.com/politics/2155885",
-      "publishedAt": "2026-07-05T00:00:00Z"
+      "title": "Putin orders to minimize impact from Kiev's terrorist attacks on civilian infrastructure",
+      "summary": "Putin authorized efforts to minimize the impact of Ukrainian terrorist attacks on Russian civilian facilities during a meeting discussing domestic fuel supplies.",
+      "url": "https://tass.com/politics/2152691",
+      "publishedAt": "2026-06-28T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Russian army increases advance pace in DPR in June — military expert",
-      "summary": "Military expert reported that Russian forces increased their advance pace in the Donetsk People's Republic in June, with Putin announcing on June 28 that Russian forces controlled 96% of Konstantinovka.",
-      "url": "https://tass.com/politics/2154019",
-      "publishedAt": "2026-07-01T00:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "Kremlin delivers remarks on Putin-Lukashenko talks, Ukraine dialogue channels",
-      "summary": "Kremlin spokesman confirmed that Russia's position on Ukraine, outlined by Putin at the Russian Foreign Ministry two years ago, remains unchanged and discussed recent talks between Putin and Belarusian leader Lukashenko.",
-      "url": "https://tass.com/politics/2152969",
-      "publishedAt": "2026-06-29T00:00:00Z"
+      "title": "IN BRIEF: Putin's statements on Russia-ASEAN interaction, US-Iran agreements",
+      "summary": "Putin expressed hope that US-Iran agreements would form the basis for future peace and noted productive talks between Russia and ASEAN nations at the Kazan summit.",
+      "url": "https://tass.com/politics/2148483",
+      "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]
 }

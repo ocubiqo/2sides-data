@@ -1,35 +1,42 @@
 {
   "politicianId": "netanyahu",
-  "updatedAt": "2026-07-06T11:27:47.267Z",
+  "updatedAt": "2026-07-07T10:25:32.105Z",
   "sourceAgency": "Jerusalem Post / Gov.il",
   "articles": [
     {
       "id": "0",
-      "title": "Benjamin Netanyahu accuses Benny Gantz, Gadi Eisenkot of backing Hamas's terms in war cabinet",
-      "summary": "Netanyahu criticized opposition leaders Gantz and Eisenkot for positions he claimed would have accepted Hamas's terms, and defended the government's military strategy in Gaza and Lebanon.",
-      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901530",
-      "publishedAt": "2026-07-06T08:00:00Z"
+      "title": "Benjamin Netanyahu warns Donald Trump against sale of F-35s to Turkey",
+      "summary": "Netanyahu warned during a Fox News interview that providing F-35 fighter jets to Turkey would upset the regional balance of power and threaten Israeli air superiority, citing concerns about Turkish leadership and support for Hamas.",
+      "url": "https://www.jpost.com/israel-news/article-901613",
+      "publishedAt": "2026-07-07T02:00:00Z"
     },
     {
       "id": "1",
-      "title": "Benjamin Netanyahu, Katz: IDF to remain in Lebanon until Hezbollah disarmament",
-      "summary": "Netanyahu affirmed that IDF forces will remain in Lebanon's security zones until Hezbollah is fully disarmed and northern Israel's security is guaranteed.",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-901080",
-      "publishedAt": "2026-07-01T12:00:00Z"
+      "title": "Benjamin Netanyahu aiming to prevent strengthening of US-Turkey ties, F-35 deal",
+      "summary": "Analysis of Netanyahu's two consecutive Fox News appearances as a diplomatic strategy to pressure the Trump administration to block F-35 sales to Turkey ahead of Trump's NATO summit meeting with Turkish President Erdogan.",
+      "url": "https://www.jpost.com/israel-news/article-901644",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
-      "summary": "Netanyahu announced his intention to build an election campaign around ending the political boycott against him and forming a broad national unity coalition government.",
-      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
-      "publishedAt": "2026-07-03T13:47:00Z"
+      "title": "Benjamin Netanyahu: 'My relationship with President Donald Trump is excellent'",
+      "summary": "Netanyahu told Fox News that US-Israel relations are strong and that he has an excellent relationship with Trump, with both countries aligned on Iran policy and recent peace agreements including the Abraham Accords and Israel-Lebanon deal.",
+      "url": "https://www.jpost.com/israel-news/article-901501",
+      "publishedAt": "2026-07-05T08:00:00Z"
     },
     {
       "id": "3",
-      "title": "Benjamin Netanyahu backs ending US military aid to build Israel armaments independence",
-      "summary": "Netanyahu expressed support for phasing out American military assistance to Israel and transitioning to a partnership based on mutual defense projects and shared strategic interests.",
-      "url": "https://www.jpost.com/israel-news/article-900352",
-      "publishedAt": "2026-06-22T12:00:00Z"
+      "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
+      "summary": "Netanyahu's emerging campaign strategy aims to end the political boycott against him and build a broader coalition government as elections approach, framing consensus-based governance as necessary given Israel's external threats and internal divisions.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
+      "publishedAt": "2026-07-03T16:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Benjamin Netanyahu and Donald Trump spoke, agreed to meet in the US 'soon'",
+      "summary": "Netanyahu and Trump spoke on July 4th, with Netanyahu congratulating the US president on the nation's 250th independence anniversary; the two leaders agreed to meet soon in the United States.",
+      "url": "https://www.jpost.com/israel-news/article-901357",
+      "publishedAt": "2026-07-04T12:00:00Z"
     }
   ]
 }

@@ -1,21 +1,28 @@
 {
   "politicianId": "zelensky",
-  "updatedAt": "2026-07-06T11:26:59.874Z",
+  "updatedAt": "2026-07-07T10:24:58.184Z",
   "sourceAgency": "Ukrinform",
   "articles": [
     {
       "id": "0",
       "title": "Ukraine working to secure additional air defense systems and missiles – Zelensky",
-      "summary": "President Zelensky stated that Ukraine is continuing daily efforts to secure additional air defense systems and missiles through contacts with international partners including the Netherlands, Germany, Sweden, France, and the United States.",
+      "summary": "President Zelensky announced ongoing efforts to acquire additional air defense systems and missiles through contacts with international partners including the Netherlands, Germany, Sweden, France, and the United States.",
       "url": "https://www.ukrinform.net/rubric-ato/4141084-ukraine-working-to-secure-additional-air-defense-systems-and-missiles-zelensky.html",
-      "publishedAt": "2026-07-06T11:00:00Z"
+      "publishedAt": "2026-07-05T00:00:00Z"
     },
     {
       "id": "1",
+      "title": "Zelensky invites Ireland to join European anti-ballistic initiative under Drone Deal",
+      "summary": "President Zelensky invited Ireland to join a European anti-ballistic initiative and proposed a Drone Deal framework for cooperation on defense technologies during discussions with Irish Prime Minister Micheál Martin.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4139741-zelensky-invites-ireland-to-join-european-antiballistic-initiative-under-drone-deal.html",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "id": "2",
       "title": "Zelensky confirms second strike on oil refinery in Russia's Ufa",
-      "summary": "President Zelensky confirmed Ukraine's second strike on an oil refinery in the Russian city of Ufa, describing these attacks as long-range sanctions in response to Russia's continuation of the war.",
+      "summary": "President Zelensky confirmed a second strike on an oil refinery in Russia's Ufa city and announced strikes on strategic facilities in Russia's Penza region as part of Ukraine's response to Russia's prolongation of the war.",
       "url": "https://www.ukrinform.net/rubric-ato/4139405-zelensky-confirms-second-strike-on-oil-refinery-in-russias-ufa.html",
-      "publishedAt": "2026-07-01T08:00:00Z"
+      "publishedAt": "2026-06-30T00:00:00Z"
     }
   ]
 }

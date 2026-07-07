@@ -1,14 +1,14 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-06T11:28:46.506Z",
+  "updatedAt": "2026-07-07T10:26:19.801Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "Carney promises Arctic investment will benefit Inuit during meeting with leadership",
-      "summary": "Prime Minister Mark Carney met with Inuit leadership in Kuujjuaq, northern Quebec, and announced details of the government's $35-billion plan to protect Canada's Arctic region with a beefed-up military presence.",
-      "url": "https://www.cbc.ca/news/politics/carney-kuujjuaq-icpc-meeting-9.7252693",
-      "publishedAt": "2026-06-30T04:00:00Z"
+      "title": "Carney to choose Germany and Norway to build Canada's submarines",
+      "summary": "Prime Minister Mark Carney announced that German shipbuilder ThyssenKrupp Marine Systems is Canada's preferred choice to build a new fleet of submarines in a multibillion-dollar defence procurement.",
+      "url": "https://www.cbc.ca/news/politics/submarines-germany-canada-norway-south-korea-9.7259709",
+      "publishedAt": "2026-07-07T00:00:00Z"
     }
   ]
 }

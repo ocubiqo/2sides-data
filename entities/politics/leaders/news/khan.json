@@ -1,28 +1,14 @@
 {
   "politicianId": "khan",
-  "updatedAt": "2026-07-06T11:29:16.573Z",
+  "updatedAt": "2026-07-07T10:26:47.347Z",
   "sourceAgency": "APP (Pakistan)",
   "articles": [
     {
       "id": "0",
       "title": "IHC reserves ruling on maintainability of petitions alleging solitary confinement of PTI Founder, Bushra Bibi",
-      "summary": "The Islamabad High Court reserved its decision on petitions challenging alleged solitary confinement of PTI founder Imran Khan and his wife Bushra Bibi in Adiala Jail.",
+      "summary": "The Islamabad High Court reserved its decision on maintainability of petitions against alleged solitary confinement of PTI founder Imran Khan and his wife Bushra Bibi in Adiala Jail.",
       "url": "https://www.app.com.pk/national/ihc-reserves-ruling-on-maintainability-of-petitions-alleging-solitary-confinement-of-pti-founder-bushra-bibi/",
       "publishedAt": "2026-06-30T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "IHC fixes June 29, for hearing PTI founder, Bushra Bibi Appeals in £190 Million case",
-      "summary": "The Islamabad High Court scheduled a hearing for June 29 on appeals filed by Imran Khan and Bushra Bibi against their convictions in the £190 million case.",
-      "url": "https://www.app.com.pk/national/ihc-fixes-june-29-for-hearing-pti-founder-bushra-bibi-appeals-in-190-million-case/",
-      "publishedAt": "2026-06-24T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "ATC seeks response from PIMS over delay in submission of medical report in Nov 26 protest case",
-      "summary": "An Anti-Terrorism Court sought a response from PIMS regarding delays in submitting medical reports in a case related to November 26 protests, in which Imran Khan and other PTI leaders are nominated.",
-      "url": "https://www.app.com.pk/national/atc-seeks-response-from-pims-over-delay-in-submission-of-medical-report-in-nov-26-protest-case/",
-      "publishedAt": "2026-06-15T00:00:00Z"
     }
   ]
 }
