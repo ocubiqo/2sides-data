@@ -1,42 +1,35 @@
 {
   "politicianId": "netanyahu",
-  "updatedAt": "2026-07-07T10:25:32.105Z",
+  "updatedAt": "2026-07-08T09:26:21.752Z",
   "sourceAgency": "Jerusalem Post / Gov.il",
   "articles": [
     {
       "id": "0",
       "title": "Benjamin Netanyahu warns Donald Trump against sale of F-35s to Turkey",
-      "summary": "Netanyahu warned during a Fox News interview that providing F-35 fighter jets to Turkey would upset the regional balance of power and threaten Israeli air superiority, citing concerns about Turkish leadership and support for Hamas.",
+      "summary": "Netanyahu warned in a Fox News interview that if the US gives Turkey F-35 fighter jets, it may upset the balance of power in the Middle East and threaten Israeli air superiority.",
       "url": "https://www.jpost.com/israel-news/article-901613",
-      "publishedAt": "2026-07-07T02:00:00Z"
+      "publishedAt": "2026-07-07T12:00:00Z"
     },
     {
       "id": "1",
       "title": "Benjamin Netanyahu aiming to prevent strengthening of US-Turkey ties, F-35 deal",
-      "summary": "Analysis of Netanyahu's two consecutive Fox News appearances as a diplomatic strategy to pressure the Trump administration to block F-35 sales to Turkey ahead of Trump's NATO summit meeting with Turkish President Erdogan.",
+      "summary": "Netanyahu's two Fox News interviews were diplomatic moves designed to pressure Washington against an F-35 sale to Turkey before Trump's NATO Summit meeting with Erdogan.",
       "url": "https://www.jpost.com/israel-news/article-901644",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "publishedAt": "2026-07-07T12:00:00Z"
     },
     {
       "id": "2",
       "title": "Benjamin Netanyahu: 'My relationship with President Donald Trump is excellent'",
-      "summary": "Netanyahu told Fox News that US-Israel relations are strong and that he has an excellent relationship with Trump, with both countries aligned on Iran policy and recent peace agreements including the Abraham Accords and Israel-Lebanon deal.",
+      "summary": "Netanyahu asserted in a Fox News interview that Israel and the US are close allies, claiming he has an excellent relationship with Trump despite occasional disagreements.",
       "url": "https://www.jpost.com/israel-news/article-901501",
-      "publishedAt": "2026-07-05T08:00:00Z"
+      "publishedAt": "2026-07-05T12:00:00Z"
     },
     {
       "id": "3",
       "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
-      "summary": "Netanyahu's emerging campaign strategy aims to end the political boycott against him and build a broader coalition government as elections approach, framing consensus-based governance as necessary given Israel's external threats and internal divisions.",
+      "summary": "Netanyahu indicated his campaign objective is to end the political boycott against him and build a broader coalition government ahead of elections scheduled for October.",
       "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
-      "publishedAt": "2026-07-03T16:00:00Z"
-    },
-    {
-      "id": "4",
-      "title": "Benjamin Netanyahu and Donald Trump spoke, agreed to meet in the US 'soon'",
-      "summary": "Netanyahu and Trump spoke on July 4th, with Netanyahu congratulating the US president on the nation's 250th independence anniversary; the two leaders agreed to meet soon in the United States.",
-      "url": "https://www.jpost.com/israel-news/article-901357",
-      "publishedAt": "2026-07-04T12:00:00Z"
+      "publishedAt": "2026-07-03T12:00:00Z"
     }
   ]
 }

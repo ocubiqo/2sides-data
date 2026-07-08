@@ -1,14 +1,6 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-07T10:26:35.357Z",
+  "updatedAt": "2026-07-08T09:27:21.602Z",
   "sourceAgency": "Agência Brasil",
-  "articles": [
-    {
-      "id": "0",
-      "title": "PGR pede que Flávio Bolsonaro seja ouvido por calúnia contra Lula",
-      "summary": "The Attorney General requested that Senator Flávio Bolsonaro be heard in an inquiry investigating him for alleged slander against President Lula regarding posts made on social media.",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pgr-pede-que-flavio-bolsonaro-seja-ouvido-por-calunia-contra-lula",
-      "publishedAt": "2026-07-06T15:57:00Z"
-    }
-  ]
+  "articles": []
 }

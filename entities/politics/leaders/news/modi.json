@@ -1,42 +1,42 @@
 {
   "politicianId": "modi",
-  "updatedAt": "2026-07-07T10:24:18.276Z",
+  "updatedAt": "2026-07-08T09:24:59.130Z",
   "sourceAgency": "ANI / PTI",
   "articles": [
     {
       "id": "0",
-      "title": "Big outcomes during PM Modi's Indonesia visit; India to support development of Indonesian EVMS, export Astra missiles",
-      "summary": "PM Modi's Indonesia state visit is expected to yield significant bilateral outcomes including India's support for Indonesian EVM development, export of Astra missiles, investment in critical minerals manufacturing, and joint development of Sabang port.",
-      "url": "https://aninews.in/news/world/asia/big-outcomes-during-pm-mods-indonesia-visit-india-to-support-development-of-indonesian-evms-export-astra-missiles20260707101133/",
-      "publishedAt": "2026-07-07T10:11:33Z"
-    },
-    {
-      "id": "1",
       "title": "PM Narendra Modi receives grand ceremonial welcome in Jakarta",
-      "summary": "PM Modi received a grand ceremonial welcome in Jakarta upon arriving for his official state visit to Indonesia, marking the commencement of his three-nation diplomatic tour to strengthen bilateral strategic cooperation.",
+      "summary": "PM Modi received a grand ceremonial welcome upon arriving in Jakarta on Tuesday for his official state visit to Indonesia, with military fighter jets escorting his aircraft.",
       "url": "https://aninews.in/news/world/asia/pm-narendra-modi-receives-grand-ceremonial-welcome-in-jakarta20260707085947/",
       "publishedAt": "2026-07-07T08:59:47Z"
     },
     {
+      "id": "1",
+      "title": "\"Steel equivalent to 40 new Eiffel Towers or five Burj Khalifas, cabling could wrap the Earth twice\": PM Modi refers to materials used in Rajasthan refinery complex",
+      "summary": "PM Modi highlighted India's refining infrastructure, noting that a massive refinery complex inaugurated in Rajasthan utilized materials equivalent to 40 Eiffel Towers with cabling long enough to wrap the Earth twice.",
+      "url": "https://www.aninews.in/news/world/asia/steel-equivalent-to-40-new-eiffel-towers-or-five-burj-khalifas-cabling-could-wrap-the-earth-twice-pm-modi-refers-to-materials-used-in-rajasthan-refinery20260707221121/",
+      "publishedAt": "2026-07-07T22:11:21Z"
+    },
+    {
       "id": "2",
+      "title": "\"I am a great admirer of Narendra Modiji\": Indonesian President Prabowo Subianto",
+      "summary": "Indonesian President Prabowo Subianto praised PM Modi at an Indian diaspora event in Jakarta, saying he studied and adopted several of Modi's policies for governance.",
+      "url": "https://aninews.in/news/world/asia/i-am-a-great-admirer-of-narendra-modiji-indonesian-president-prabowo-subianto20260707193638/",
+      "publishedAt": "2026-07-07T19:36:38Z"
+    },
+    {
+      "id": "3",
       "title": "\"Australia-India relationship of great importance\": Diaspora voices enthusiasm ahead of PM Modi's Australia visit",
-      "summary": "Indian diaspora members in Australia expressed enthusiasm ahead of PM Modi's scheduled visit to Australia from July 8-10, highlighting the growing strategic partnership between the two countries.",
+      "summary": "Members of the Australia India Society of Victoria expressed enthusiasm over PM Modi's upcoming visit to Australia from July 8-10, with expectations of approximately 30,000-40,000 Indian diaspora members attending community events.",
       "url": "https://www.aninews.in/news/world/pacific/australia-india-relationship-of-great-importance-diaspora-voices-enthusiasm-ahead-of-pm-modis-australia-visit20260707101416/",
       "publishedAt": "2026-07-07T10:14:16Z"
     },
     {
-      "id": "3",
-      "title": "PM Modi departs for 3-nation visit to Indonesia, Australia and New Zealand",
-      "summary": "PM Modi departed on July 6 for a three-nation diplomatic visit to Indonesia, Australia, and New Zealand aimed at strengthening India's Act East Policy and MAHASAGAR Vision for enhanced strategic cooperation.",
-      "url": "https://aninews.in/news/world/asia/pm-modi-departs-for-3-nation-visit-to-indonesia-australia-and-new-zealand20260706094314/",
-      "publishedAt": "2026-07-06T09:43:14Z"
-    },
-    {
       "id": "4",
-      "title": "Trump reshares PM Modi's wishes on 250th anniversary of US independence",
-      "summary": "US President Trump reshared PM Modi's post extending congratulations to the United States on its 250th independence anniversary, highlighting India-US strategic partnership and shared democratic values.",
-      "url": "https://aninews.in/news/world/us/trump-reshares-pm-modis-wishes-on-250th-anniversary-of-us-independence20260706223851/",
-      "publishedAt": "2026-07-06T22:38:51Z"
+      "title": "Indonesia offers grand welcome to PM Narendra Modi as its fighter jets accompany PM's plane",
+      "summary": "PM Modi arrived in Jakarta on Monday where Indonesian Air Force fighter jets escorted his aircraft as part of a ceremonial welcome, marking the start of his three-nation tour.",
+      "url": "https://aninews.in/news/world/asia/indonesia-offers-grand-welcome-to-pm-narendra-modi-as-its-fighter-jets-accompany-pms-plane20260706165457/",
+      "publishedAt": "2026-07-06T16:54:57Z"
     }
   ]
 }

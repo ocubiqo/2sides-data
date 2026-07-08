@@ -1,6 +1,14 @@
 {
   "politicianId": "ramaphosa",
-  "updatedAt": "2026-07-07T10:27:08.676Z",
+  "updatedAt": "2026-07-08T09:27:54.686Z",
   "sourceAgency": "SABC News",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Put SA First movement plans national shutdown over Mkhwanazi protection, government accountability",
+      "summary": "The Put SA First movement announced a national shutdown for July 18 to protest government response to police officials' allegations, with criticism directed at President Ramaphosa's decision to establish a judicial commission of inquiry.",
+      "url": "http://web.sabc.co.za/sabc/home/channelafrica/news/details?id=a71d6bbd-38a9-431f-b8ef-b2d3e5a3f037&title=Put+SA+First+movement+plans+national+shutdown+over+Mkhwanazi+protection,+government+accountability",
+      "publishedAt": "2026-07-08T00:00:00Z"
+    }
+  ]
 }

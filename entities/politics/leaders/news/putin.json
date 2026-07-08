@@ -1,28 +1,42 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-07T10:24:30.495Z",
+  "updatedAt": "2026-07-08T09:25:11.562Z",
   "sourceAgency": "TASS",
   "articles": [
     {
       "id": "0",
-      "title": "IN BRIEF: Putin comments on Russia's strategic goals, security, Duma election",
-      "summary": "Putin stated at a United Russia party congress that Russia is pushing ahead with strategic plans despite external pressure, pledging to ensure national security during a crucial period of global transformation.",
-      "url": "https://tass.com/politics/2152699",
-      "publishedAt": "2026-06-28T00:00:00Z"
+      "title": "Support of Kiev by Europe and US direct participation in war against Russia — Kremlin",
+      "summary": "Kremlin spokesman Dmitry Peskov stated that weapons supplies, military advisers, and satellite intelligence provided by European countries and the United States to Kiev constitute direct participation in the war with Russia.",
+      "url": "https://tass.com/politics/2157109",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Putin orders to minimize impact from Kiev's terrorist attacks on civilian infrastructure",
-      "summary": "Putin authorized efforts to minimize the impact of Ukrainian terrorist attacks on Russian civilian facilities during a meeting discussing domestic fuel supplies.",
-      "url": "https://tass.com/politics/2152691",
-      "publishedAt": "2026-06-28T00:00:00Z"
+      "title": "Putin calls support for domestic exporters priority for Russia",
+      "summary": "President Putin stated that supporting Russian manufacturers and exporters is a priority for the economy during a meeting with the Russian Export Centre director.",
+      "url": "https://tass.com/economy/2156845",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "IN BRIEF: Putin's statements on Russia-ASEAN interaction, US-Iran agreements",
-      "summary": "Putin expressed hope that US-Iran agreements would form the basis for future peace and noted productive talks between Russia and ASEAN nations at the Kazan summit.",
-      "url": "https://tass.com/politics/2148483",
-      "publishedAt": "2026-06-18T00:00:00Z"
+      "title": "Putin notes formation of partnerships by Russian Export Center with friendly states",
+      "summary": "Putin acknowledged that the Russian Export Center is successfully establishing sustainable partnerships with friendly countries to increase exports by two-thirds by 2030.",
+      "url": "https://tass.com/politics/2156861",
+      "publishedAt": "2026-07-07T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Kremlin spokesman comments on Putin-Trump call, Russia-China drills",
+      "summary": "Kremlin spokesman Dmitry Peskov addressed the telephone conversation between Putin and Trump, noting Russia maintains contacts with the US through existing channels.",
+      "url": "https://tass.com/politics/2156249",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "IN BRIEF: Putin comments on Russia's strategic goals, security, Duma election",
+      "summary": "Putin pledged that all strategically important development programs will be implemented in full and confirmed that State Duma elections will be held in September as scheduled.",
+      "url": "https://tass.com/politics/2152699",
+      "publishedAt": "2026-06-28T00:00:00Z"
     }
   ]
 }

@@ -1,14 +1,21 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-07T10:26:19.801Z",
+  "updatedAt": "2026-07-08T09:27:09.027Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "Carney to choose Germany and Norway to build Canada's submarines",
-      "summary": "Prime Minister Mark Carney announced that German shipbuilder ThyssenKrupp Marine Systems is Canada's preferred choice to build a new fleet of submarines in a multibillion-dollar defence procurement.",
-      "url": "https://www.cbc.ca/news/politics/submarines-germany-canada-norway-south-korea-9.7259709",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
+      "summary": "Prime Minister Mark Carney appointed Tom Pitfield, one of his senior advisers, and Conservative MP Richard Martel to the Senate, signalling a shift toward restoring partisan voices to the upper house.",
+      "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
+      "publishedAt": "2026-07-07T13:36:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Carney hails submarine deal as NATO win, moves to ease South Korea's disappointment",
+      "summary": "Prime Minister Mark Carney celebrated Canada's submarine partnership with Germany and Norway at the NATO summit while meeting with South Korea's president to address their disappointment after losing the multibillion-dollar competition.",
+      "url": "https://www.cbc.ca/news/politics/submarines-south-korea-germany-canada-military-spending-9.7261919",
+      "publishedAt": "2026-07-07T22:04:00Z"
     }
   ]
 }

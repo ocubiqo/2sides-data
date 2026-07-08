@@ -1,35 +1,35 @@
 {
   "politicianId": "xi",
-  "updatedAt": "2026-07-07T10:24:41.423Z",
+  "updatedAt": "2026-07-08T09:25:26.798Z",
   "sourceAgency": "Xinhua",
   "articles": [
     {
       "id": "0",
-      "title": "Xi Jinping remits certificates of order to promote two military officers to general rank",
-      "summary": "Xi Jinping, president of China's Central Military Commission, presided over a ceremony to promote two military officers to the rank of general.",
+      "title": "Xi Jinping remets des certificats d'ordre pour promouvoir deux officiers militaires au grade de général",
+      "summary": "Xi Jinping, as chairman of the Central Military Commission, presided over a ceremony to promote two military officers to the rank of general on July 3, 2026.",
       "url": "http://french.xinhuanet.com/20260703/840f00c16b5c4fbfbe3ac491a2c745f6/c.html",
       "publishedAt": "2026-07-03T18:54:00Z"
     },
     {
       "id": "1",
-      "title": "Xi Jinping delivers speech at commemorative meeting for 105th anniversary of CCP founding",
-      "summary": "Xi Jinping, general secretary of the Communist Party of China, delivered a speech at the commemorative meeting for the Party's 105th anniversary.",
+      "title": "Xi pronuncia discurso en reunión conmemorativa por 105º aniversario de fundación del PCCh",
+      "summary": "Xi Jinping delivered a speech at a commemoration meeting for the 105th anniversary of the founding of the Communist Party of China on July 2, 2026.",
       "url": "https://spanish.xinhuanet.com/20260702/d05d6daceb95448582fef84a2cd43b9e/c.html",
       "publishedAt": "2026-07-02T04:09:15Z"
     },
     {
       "id": "2",
-      "title": "Xi Jinping: China ready to establish security partnership with Cambodia",
-      "summary": "Xi Jinping stated that China is willing to collaborate with Cambodia to preserve peace, advance development, and strengthen security cooperation.",
-      "url": "http://french.xinhuanet.com/20260626/9bcd9902949a4ffbb914493e60d6852e/c.html",
-      "publishedAt": "2026-06-26T22:14:00Z"
+      "title": "Xi Jinping appelle à des mesures solides pour moderniser l'agriculture et les zones rurales",
+      "summary": "Xi Jinping called for solid measures to advance agricultural and rural modernization during an inspection tour in Dezhou, Shandong province on June 24, 2026.",
+      "url": "http://french.xinhuanet.com/20260624/310af451099e417eade601c30ed7dcc0/c.html",
+      "publishedAt": "2026-06-24T22:18:00Z"
     },
     {
       "id": "3",
-      "title": "Xi Jinping calls for solid measures to modernize agriculture and rural areas",
-      "summary": "Xi Jinping called for comprehensive measures to advance the modernization of agriculture and rural areas during an inspection tour in Shandong province.",
-      "url": "http://french.xinhuanet.com/20260624/310af451099e417eade601c30ed7dcc0/c.html",
-      "publishedAt": "2026-06-24T22:18:00Z"
+      "title": "Xi pide adoptar medidas sólidas para modernizar agricultura y zonas rurales",
+      "summary": "Xi Jinping called for solid measures to advance agricultural and rural modernization during an inspection tour in Dezhou, Shandong province on June 25, 2026.",
+      "url": "https://spanish.xinhuanet.com/20260625/32b7a36650a542bc854f0ada5578550a/c.html",
+      "publishedAt": "2026-06-25T03:55:16Z"
     }
   ]
 }

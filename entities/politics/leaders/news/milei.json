@@ -1,28 +1,35 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-07T10:25:43.590Z",
+  "updatedAt": "2026-07-08T09:26:33.971Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
-      "title": "Javier Milei saludó a EEUU por el Día de la Independencia: \"Argentina fue un país fundado bajo este mismo anhelo\"",
-      "summary": "President Milei posted a message on social media for US Independence Day, drawing parallels between the values of both nations and emphasizing shared principles of freedom and democratic liberalism.",
-      "url": "https://www.infobae.com/politica/2026/07/04/javier-milei-saludo-a-eeuu-por-el-dia-de-la-independencia-argentina-fue-un-pais-fundado-bajo-este-mismo-anhelo/",
-      "publishedAt": "2026-07-04T08:00:00Z"
+      "title": "Giro a la derecha en América Latina: Javier Milei viajará a las asunciones de Keiko Fujimori en Perú y Abelardo de la Espriella en Colombia",
+      "summary": "President Milei will travel to Peru on July 28 and Colombia on August 7 to attend the inaugurations of Keiko Fujimori and Abelardo de la Espriella, marking a rightward political shift in the region.",
+      "url": "https://www.infobae.com/politica/2026/07/07/giro-a-la-derecha-en-america-latina-javier-milei-viajara-a-las-asunciones-de-keiko-fujimori-en-peru-y-abelardo-de-la-espriella-en-colombia/",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Finalmente, Javier Milei no viajará a Estados Unidos por el Día de la Independencia",
-      "summary": "After several deliberations, President Milei did not travel to the United States for Independence Day celebrations as initially considered, focusing instead on domestic agenda changes including cabinet modifications.",
-      "url": "https://www.infobae.com/politica/2026/07/01/finalmente-javier-milei-no-viajara-a-estados-unidos-por-el-dia-de-la-independencia/",
-      "publishedAt": "2026-07-01T08:00:00Z"
+      "title": "Javier Milei saludó a EEUU por el Día de la Independencia: \"Argentina fue un país fundado bajo este mismo anhelo\"",
+      "summary": "Milei posted a message on July 4 expressing that Argentina and the United States share the same democratic and libertarian values, establishing a parallel between both nations' founding principles.",
+      "url": "https://www.infobae.com/politica/2026/07/04/javier-milei-saludo-a-eeuu-por-el-dia-de-la-independencia-argentina-fue-un-pais-fundado-bajo-este-mismo-anhelo/",
+      "publishedAt": "2026-07-04T00:00:00Z"
     },
     {
       "id": "2",
+      "title": "Finalmente, Javier Milei no viajará a Estados Unidos por el Día de la Independencia",
+      "summary": "After deliberation, President Milei did not travel to the United States for July 4 celebrations, though he participated in a July 1 Independence Day event at the U.S. Embassy in Buenos Aires.",
+      "url": "https://www.infobae.com/politica/2026/07/01/finalmente-javier-milei-no-viajara-a-estados-unidos-por-el-dia-de-la-independencia/",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "id": "3",
       "title": "Javier Milei participó de la celebración por el Día de la Independencia en la Embajada de EEUU y recibió otro respaldo del gobierno de Trump",
-      "summary": "President Milei attended the US Independence Day celebration at the US Ambassador's residence in Buenos Aires, with cabinet members present, and received explicit support from the Trump administration for deepening bilateral alliance.",
+      "summary": "Milei attended an early Independence Day celebration at the U.S. Embassy residence in Buenos Aires on July 1, where U.S. Ambassador Peter Lamelas pledged support for deepening bilateral relations.",
       "url": "https://www.infobae.com/politica/2026/07/01/javier-milei-participo-de-la-celebracion-por-el-dia-de-la-independencia-en-la-embajada-de-eeuu-y-recibio-otro-respaldo-del-gobierno-de-trump/",
-      "publishedAt": "2026-07-01T08:00:00Z"
+      "publishedAt": "2026-07-01T00:00:00Z"
     }
   ]
 }
