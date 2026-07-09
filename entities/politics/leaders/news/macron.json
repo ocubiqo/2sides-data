@@ -1,21 +1,42 @@
 {
   "politicianId": "macron",
-  "updatedAt": "2026-07-08T09:25:56.779Z",
+  "updatedAt": "2026-07-09T10:23:46.062Z",
   "sourceAgency": "France 24",
   "articles": [
     {
       "id": "0",
-      "title": "Explosions rock Damascus on second day of Macron's visit to Syria",
-      "summary": "Explosions near a hotel in Damascus wounded at least 18 people during French President Macron's visit to Syria for talks with Syrian President Ahmad al-Sharaa.",
-      "url": "https://www.france24.com/en/middle-east/20260707-explosions-heard-in-damascus-during-french-president-macron-s-visit",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Macron addresses Ukraine, Greenland at NATO summit",
+      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the US would seize Greenland and addressed issues concerning Ukraine and Iran.",
+      "url": "https://www.france24.com/en/video/20260708-replay-macron-addresses-ukraine-greenland-at-nato-summit",
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "1",
+      "title": "Replay: French President Emmanuel Macron speaks after Damascus blasts",
+      "summary": "French President Emmanuel Macron held a press conference with Syrian President Ahmed al-Sharaa during his landmark visit to Damascus after two bombs exploded near his hotel.",
+      "url": "https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts",
+      "publishedAt": "2026-07-07T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Macron in Syria on first post-Assad visit by West European head of state",
+      "summary": "French President Emmanuel Macron arrived in Damascus on Monday for the first visit by a Western European head of state since Syria's new authorities took power, accompanied by French business leaders.",
+      "url": "https://www.france24.com/en/live-news/20260706-macron-in-syria-on-first-post-assad-visit-by-west-european-head-of-state",
+      "publishedAt": "2026-07-06T19:33:00Z"
+    },
+    {
+      "id": "3",
       "title": "Macron lands in Syria in first post-Assad visit by Western head of state",
-      "summary": "French President Emmanuel Macron arrived in Damascus on Monday alongside a business delegation in the first visit by a Western European head of state since Bashar al-Assad's 2024 ousting.",
+      "summary": "French President Emmanuel Macron landed in Syria on Monday alongside a delegation including representatives of French companies, marking the first visit by a Western head of state since the 2024 ousting of Bashar al-Assad.",
       "url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "publishedAt": "2026-07-06T09:50:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
+      "summary": "French President Emmanuel Macron hosted a G7 summit at Versailles where he courted US President Donald Trump, but analysts note he faces challenges translating diplomatic gestures into lasting strategic influence.",
+      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
+      "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]
 }

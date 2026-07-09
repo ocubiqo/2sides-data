@@ -1,6 +1,21 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-08T09:27:21.602Z",
+  "updatedAt": "2026-07-09T10:25:21.350Z",
   "sourceAgency": "Agência Brasil",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Lula alerta para possível especulação imobiliária em Itaparica, Bahia",
+      "summary": "President Lula participated in the ceremony marking the start of the Salvador-Itaparica Bridge construction, a R$ 11.6 billion infrastructure project part of the New PAC, while warning about potential real estate speculation that could affect island residents' quality of life.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/lula-alerta-para-possivel-especulacao-imobiliaria-em-itaparica-bahia",
+      "publishedAt": "2026-07-01T20:12:00Z"
+    },
+    {
+      "id": "1",
+      "title": "\"Melhor arma que um país pode ter é alimento\", diz Lula",
+      "summary": "President Lula launched the Harvest Plan for family farmers, announcing R$ 97.3 billion in credits and investments to strengthen food sovereignty and support agricultural diversification.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/melhor-arma-que-um-pais-pode-ter-e-alimento-diz-lula",
+      "publishedAt": "2026-06-30T21:54:00Z"
+    }
+  ]
 }

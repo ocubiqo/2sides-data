@@ -1,21 +1,42 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-08T09:27:09.027Z",
+  "updatedAt": "2026-07-09T10:25:02.393Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
-      "summary": "Prime Minister Mark Carney appointed Tom Pitfield, one of his senior advisers, and Conservative MP Richard Martel to the Senate, signalling a shift toward restoring partisan voices to the upper house.",
-      "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
-      "publishedAt": "2026-07-07T13:36:00Z"
+      "title": "Carney backs latest U.S. strikes on Iran as Trump slams NATO allies",
+      "summary": "Prime Minister Mark Carney endorsed recent U.S. strikes on Iran as justified response to ceasefire violations during NATO summit in Turkey.",
+      "url": "https://www.cbc.ca/news/politics/iran-war-us-carney-air-strikes-9.7262373",
+      "publishedAt": "2026-07-08T07:27:00Z"
     },
     {
       "id": "1",
-      "title": "Carney hails submarine deal as NATO win, moves to ease South Korea's disappointment",
-      "summary": "Prime Minister Mark Carney celebrated Canada's submarine partnership with Germany and Norway at the NATO summit while meeting with South Korea's president to address their disappointment after losing the multibillion-dollar competition.",
-      "url": "https://www.cbc.ca/news/politics/submarines-south-korea-germany-canada-military-spending-9.7261919",
-      "publishedAt": "2026-07-07T22:04:00Z"
+      "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
+      "summary": "Prime Minister Mark Carney appointed longtime Liberal strategist Tim Pitfield and Conservative MP Richard Martel to the Senate, signalling a shift away from non-partisan appointments.",
+      "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
+      "publishedAt": "2026-07-07T09:36:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Submarine showdown: Carney poised to choose Canada's next submarine fleet",
+      "summary": "Prime Minister Mark Carney is expected to announce the winner of Canada's submarine competition, choosing between German TKMS or South Korean Hanwha Ocean before the NATO summit.",
+      "url": "https://www.cbc.ca/news/politics/submarines-germany-canada-korea-defence-9.7259327",
+      "publishedAt": "2026-07-05T18:51:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Carney says Trudeau-era climate plan was 'too expensive' and 'divisive'",
+      "summary": "Prime Minister Mark Carney criticized the previous government's climate plan, stating it was unsustainable, and acknowledged his government's policies will result in higher carbon emissions in coming years.",
+      "url": "https://www.cbc.ca/news/politics/carney-trudeau-carbon-emissions-climate-change-9.7254619",
+      "publishedAt": "2026-06-30T18:39:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Canadians mark Canada Day as Carney urges unity, heat grips Central Canada",
+      "summary": "Prime Minister Mark Carney delivered a Canada Day address urging national unity, announced Canada will join Eurovision next year, and said the country will host the Francophonie Summit in 2028.",
+      "url": "https://www.cbc.ca/news/canada/canada-day-heat-wave-festivities-9.7255107",
+      "publishedAt": "2026-07-01T10:21:00Z"
     }
   ]
 }

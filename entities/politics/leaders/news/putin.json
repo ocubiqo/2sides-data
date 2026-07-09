@@ -1,42 +1,42 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-08T09:25:11.562Z",
+  "updatedAt": "2026-07-09T10:23:07.631Z",
   "sourceAgency": "TASS",
   "articles": [
     {
       "id": "0",
-      "title": "Support of Kiev by Europe and US direct participation in war against Russia — Kremlin",
-      "summary": "Kremlin spokesman Dmitry Peskov stated that weapons supplies, military advisers, and satellite intelligence provided by European countries and the United States to Kiev constitute direct participation in the war with Russia.",
-      "url": "https://tass.com/politics/2157109",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Putin calls support for domestic exporters priority for Russia",
-      "summary": "President Putin stated that supporting Russian manufacturers and exporters is a priority for the economy during a meeting with the Russian Export Centre director.",
-      "url": "https://tass.com/economy/2156845",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "2",
       "title": "Putin notes formation of partnerships by Russian Export Center with friendly states",
-      "summary": "Putin acknowledged that the Russian Export Center is successfully establishing sustainable partnerships with friendly countries to increase exports by two-thirds by 2030.",
+      "summary": "Putin met with Russian Export Center Director General Veronika Nikishina to discuss the establishment of sustainable partnerships with friendly countries to increase exports.",
       "url": "https://tass.com/politics/2156861",
       "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
-      "id": "3",
+      "id": "1",
       "title": "Kremlin spokesman comments on Putin-Trump call, Russia-China drills",
-      "summary": "Kremlin spokesman Dmitry Peskov addressed the telephone conversation between Putin and Trump, noting Russia maintains contacts with the US through existing channels.",
+      "summary": "Kremlin Spokesman Dmitry Peskov addressed Putin's telephone conversation with US President Donald Trump and Russia's joint naval drills with China.",
       "url": "https://tass.com/politics/2156249",
       "publishedAt": "2026-07-06T00:00:00Z"
     },
     {
+      "id": "2",
+      "title": "Putin gives signal to US about imminent liberation of Donbass",
+      "summary": "A State Duma deputy noted that Putin's position in resolving the Russia-Ukraine conflict has been key to US interest in maintaining dialogue.",
+      "url": "https://tass.com/politics/2155919",
+      "publishedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Russia-China joint naval drills not aimed against anyone — Kremlin",
+      "summary": "Kremlin Spokesman Peskov stated that the Russia-China Joint Sea 2026 naval exercise is not directed against any country and represents important security cooperation.",
+      "url": "https://tass.com/politics/2156247",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
       "id": "4",
-      "title": "IN BRIEF: Putin comments on Russia's strategic goals, security, Duma election",
-      "summary": "Putin pledged that all strategically important development programs will be implemented in full and confirmed that State Duma elections will be held in September as scheduled.",
-      "url": "https://tass.com/politics/2152699",
-      "publishedAt": "2026-06-28T00:00:00Z"
+      "title": "Trump's call with Putin shows Russia-US dialogue maintained, lawmaker argues",
+      "summary": "A State Duma lawmaker noted that Putin's telephone conversation with Trump demonstrated continued direct dialogue between Russia and the United States.",
+      "url": "https://tass.com/politics/2156135",
+      "publishedAt": "2026-07-06T00:00:00Z"
     }
   ]
 }

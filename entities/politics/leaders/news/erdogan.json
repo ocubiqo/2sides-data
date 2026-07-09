@@ -1,6 +1,42 @@
 {
   "politicianId": "erdogan",
-  "updatedAt": "2026-07-08T09:26:38.890Z",
+  "updatedAt": "2026-07-09T10:24:31.392Z",
   "sourceAgency": "Anadolu Agency",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Cumhurbaşkanı Erdoğan: NATO birbirine bağımlı ülkelerin değil, birbirine güç katan müttefiklerin ittifakı olmalıdır",
+      "summary": "President Erdogan held a press conference on NATO summit, stating that NATO should be an alliance of allies that strengthen each other rather than depend on one another, and highlighted Turkey's military capabilities.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-nato-birbirine-bagimli-ulkelerin-degil-birbirine-guc-katan-muttefiklerin-ittifaki-olmalidir/3991133",
+      "publishedAt": "2026-07-08T12:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Cumhurbaşkanı Erdoğan, 36. NATO Devlet ve Hükümet Başkanları Zirvesi kapsamında liderlerle bir araya geldi",
+      "summary": "President Erdogan held bilateral meetings with world leaders including France's Macron and Italy's Meloni during the 36th NATO Summit in Ankara.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-nato-ankara-zirvesi-kapsaminda-liderlerle-bir-araya-geldi/3990904",
+      "publishedAt": "2026-07-08T16:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Cumhurbaşkanı Erdoğan, ABD Başkanı Trump'ı resmi törenle karşıladı",
+      "summary": "President Erdogan welcomed U.S. President Donald Trump with an official ceremony at the Presidential Complex ahead of the NATO summit in Ankara.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-abd-baskani-trumpi-resmi-torenle-karsiladi/3988982",
+      "publishedAt": "2026-07-07T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Cumhurbaşkanı Erdoğan, F-35 konusunda Liderler Zirvesi'nden hayırlı bir karar çıkacağına inanıyorum",
+      "summary": "President Erdogan expressed optimism about obtaining F-35 fighter jets from the NATO summit, stating he believes a positive decision will emerge from the Leaders Summit.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-f-35-konusunda-liderler-zirvesinden-hayirli-bir-karar-cikacagina-inaniyorum/3988953",
+      "publishedAt": "2026-07-07T13:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Cumhurbaşkanı Erdoğan NATO Zirvesi'nde dünya liderlerini ağırlayacak",
+      "summary": "President Erdogan prepared to host 32 state and government leaders at the 36th NATO Summit in Ankara, with discussions planned on defense investments, Ukraine, and regional security.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-nato-zirvesinde-dunya-liderlerini-agirlayacak/3987280",
+      "publishedAt": "2026-07-06T18:00:00Z"
+    }
+  ]
 }
