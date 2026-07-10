@@ -1,42 +1,35 @@
 {
   "politicianId": "meloni",
-  "updatedAt": "2026-07-09T10:24:45.029Z",
+  "updatedAt": "2026-07-10T10:24:37.789Z",
   "sourceAgency": "ANSA",
   "articles": [
     {
       "id": "0",
       "title": "Meloni: 'Con Trump non mi pento di nulla, punto all'unità dell'Occidente'",
-      "summary": "Premier Meloni stated she regrets nothing about her political relationship with Trump and reaffirmed Italy's commitment to increase defense spending within NATO, while emphasizing Italy's refusal to participate in Iran attacks.",
+      "summary": "At the NATO summit in Ankara, Meloni stated she has no regrets about her political investment in relations with Trump and reaffirmed Italy's commitment to increasing defense spending in a sustainable manner while maintaining national priorities.",
       "url": "https://www.ansa.it/sito/notizie/politica/2026/07/08/meloni-rispettiamo-gli-impegni-nato-ma-in-modo-sostenibile-e-stabilendo-priorita_2cb2e676-df83-43a5-bde1-16f12431dbbf.html",
-      "publishedAt": "2026-07-08T08:00:00Z"
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
-      "summary": "Meloni suggested that if her coalition wins the next elections, a right-wing president of the Italian Republic could be possible, challenging traditional political norms.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
-      "publishedAt": "2026-06-29T08:00:00Z"
+      "title": "Meloni, l'Europa difenda i propri confini con umanità ma anche intransigenza",
+      "summary": "Meloni expressed support for a new European sanctions regime targeting criminal networks involved in migrant trafficking, stating that Europe must govern migration flows rather than being subjected to them.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/09/meloni-leuropa-difenda-i-propri-confini-con-umanita-ma-anche-intransigenza_99fa0746-eea4-4725-be8a-cebd6b8d5ebb.html",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
-      "summary": "Meloni confirmed her availability to testify in Milan on September 28 in a defamation trial against Fabrizio Corona regarding false allegations published in 2023.",
-      "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
-      "publishedAt": "2026-06-22T08:00:00Z"
+      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
+      "summary": "Meloni stated that if her political coalition wins the next elections, a right-wing president of the Republic could become possible, asserting that those outside the center-left have equal rights to the highest positions.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
+      "publishedAt": "2026-06-29T00:00:00Z"
     },
     {
       "id": "3",
-      "title": "Meloni attacca Vannacci: 'Fate il gioco della sinistra, altro che vera destra'",
-      "summary": "Meloni criticized Vannacci and Future National party in parliament, stating they act as an unwitting ally of the left and distancing them from the center-right coalition.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/11/meloni-una-figura-autorevole-per-lue-tratti-con-mosca.-definiremo_fa51c08a-9d23-46fa-a88e-bd84b24407dc.html",
-      "publishedAt": "2026-06-11T08:00:00Z"
-    },
-    {
-      "id": "4",
-      "title": "Meloni: 'No alla patrimoniale, ridurre il carico fiscale sul ceto medio'",
-      "summary": "Meloni announced her government's fiscal policy opposition to wealth taxes while committing to reduce income tax burden on the middle class at a Confcommercio assembly.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/10/meloni-allassemblea-di-confcommercio-litalia-non-e-la-repubblica-delle-banane-le-regole-si-rispettano_d0a9365f-37fc-484d-8c82-75f6daa850fa.html",
-      "publishedAt": "2026-06-10T08:00:00Z"
+      "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
+      "summary": "Meloni confirmed her availability to testify as a civil party witness in the Milan trial against Fabrizio Corona and another defendant, charged with aggravated defamation for false claims published in 2023.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
+      "publishedAt": "2026-06-22T00:00:00Z"
     }
   ]
 }

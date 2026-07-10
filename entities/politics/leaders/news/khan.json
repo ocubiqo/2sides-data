@@ -1,6 +1,14 @@
 {
   "politicianId": "khan",
-  "updatedAt": "2026-07-09T10:25:34.577Z",
+  "updatedAt": "2026-07-10T10:25:34.726Z",
   "sourceAgency": "APP (Pakistan)",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "IHC reserves ruling on maintainability of petitions alleging solitary confinement of PTI Founder, Bushra Bibi",
+      "summary": "The Islamabad High Court reserved its decision on petitions filed against alleged solitary confinement of Imran Khan and his wife Bushra Bibi in Adiala Jail.",
+      "url": "https://www.app.com.pk/national/ihc-reserves-ruling-on-maintainability-of-petitions-alleging-solitary-confinement-of-pti-founder-bushra-bibi/",
+      "publishedAt": "2026-06-30T00:00:00Z"
+    }
+  ]
 }

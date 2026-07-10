@@ -1,42 +1,6 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-09T10:23:07.631Z",
+  "updatedAt": "2026-07-10T10:22:19.430Z",
   "sourceAgency": "TASS",
-  "articles": [
-    {
-      "id": "0",
-      "title": "Putin notes formation of partnerships by Russian Export Center with friendly states",
-      "summary": "Putin met with Russian Export Center Director General Veronika Nikishina to discuss the establishment of sustainable partnerships with friendly countries to increase exports.",
-      "url": "https://tass.com/politics/2156861",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Kremlin spokesman comments on Putin-Trump call, Russia-China drills",
-      "summary": "Kremlin Spokesman Dmitry Peskov addressed Putin's telephone conversation with US President Donald Trump and Russia's joint naval drills with China.",
-      "url": "https://tass.com/politics/2156249",
-      "publishedAt": "2026-07-06T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "Putin gives signal to US about imminent liberation of Donbass",
-      "summary": "A State Duma deputy noted that Putin's position in resolving the Russia-Ukraine conflict has been key to US interest in maintaining dialogue.",
-      "url": "https://tass.com/politics/2155919",
-      "publishedAt": "2026-07-05T00:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "Russia-China joint naval drills not aimed against anyone — Kremlin",
-      "summary": "Kremlin Spokesman Peskov stated that the Russia-China Joint Sea 2026 naval exercise is not directed against any country and represents important security cooperation.",
-      "url": "https://tass.com/politics/2156247",
-      "publishedAt": "2026-07-06T00:00:00Z"
-    },
-    {
-      "id": "4",
-      "title": "Trump's call with Putin shows Russia-US dialogue maintained, lawmaker argues",
-      "summary": "A State Duma lawmaker noted that Putin's telephone conversation with Trump demonstrated continued direct dialogue between Russia and the United States.",
-      "url": "https://tass.com/politics/2156135",
-      "publishedAt": "2026-07-06T00:00:00Z"
-    }
-  ]
+  "articles": []
 }

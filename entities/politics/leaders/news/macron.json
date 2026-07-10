@@ -1,41 +1,41 @@
 {
   "politicianId": "macron",
-  "updatedAt": "2026-07-09T10:23:46.062Z",
+  "updatedAt": "2026-07-10T10:23:03.652Z",
   "sourceAgency": "France 24",
   "articles": [
     {
       "id": "0",
-      "title": "Macron addresses Ukraine, Greenland at NATO summit",
-      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the US would seize Greenland and addressed issues concerning Ukraine and Iran.",
+      "title": "REPLAY: Macron addresses Ukraine, Greenland at NATO summit",
+      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the US would seize Greenland, and addressed the war in Ukraine and Iran.",
       "url": "https://www.france24.com/en/video/20260708-replay-macron-addresses-ukraine-greenland-at-nato-summit",
-      "publishedAt": "2026-07-08T00:00:00Z"
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Replay: French President Emmanuel Macron speaks after Damascus blasts",
-      "summary": "French President Emmanuel Macron held a press conference with Syrian President Ahmed al-Sharaa during his landmark visit to Damascus after two bombs exploded near his hotel.",
-      "url": "https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Why are Macron's aviator glasses in the spotlight again?",
+      "summary": "The French president was again spotted wearing sunglasses indoors, examining the reasons behind his eyewear choice and its cultural significance regarding France's eyewear.",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20260709-why-are-macron-s-aviator-glasses-in-the-spotlight-again",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "2",
       "title": "Macron in Syria on first post-Assad visit by West European head of state",
-      "summary": "French President Emmanuel Macron arrived in Damascus on Monday for the first visit by a Western European head of state since Syria's new authorities took power, accompanied by French business leaders.",
+      "summary": "French President Emmanuel Macron arrived in Damascus on July 6 for the first visit by a Western European head of state since Syria's new authorities took power, meeting with President Ahmed al-Sharaa.",
       "url": "https://www.france24.com/en/live-news/20260706-macron-in-syria-on-first-post-assad-visit-by-west-european-head-of-state",
       "publishedAt": "2026-07-06T19:33:00Z"
     },
     {
       "id": "3",
-      "title": "Macron lands in Syria in first post-Assad visit by Western head of state",
-      "summary": "French President Emmanuel Macron landed in Syria on Monday alongside a delegation including representatives of French companies, marking the first visit by a Western head of state since the 2024 ousting of Bashar al-Assad.",
-      "url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
-      "publishedAt": "2026-07-06T09:50:00Z"
+      "title": "Replay: French President Emmanuel Macron speaks after Damascus blasts",
+      "summary": "Macron held a press conference with Syrian President Ahmed al-Sharaa during his landmark Damascus visit after two bombs exploded near his hotel.",
+      "url": "https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "4",
       "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
-      "summary": "French President Emmanuel Macron hosted a G7 summit at Versailles where he courted US President Donald Trump, but analysts note he faces challenges translating diplomatic gestures into lasting strategic influence.",
-      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
+      "summary": "Emmanuel Macron hosted a G7 summit at the Palace of Versailles in June 2026, where he hosted US President Donald Trump, though analysts noted his grand diplomatic gestures have not always yielded lasting strategic influence.",
+      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-a-decade-power",
       "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]

@@ -1,35 +1,42 @@
 {
   "politicianId": "zelensky",
-  "updatedAt": "2026-07-09T10:23:30.728Z",
+  "updatedAt": "2026-07-10T10:22:48.009Z",
   "sourceAgency": "Ukrinform",
   "articles": [
     {
       "id": "0",
-      "title": "Zelensky on his trip to Moscow: It's dangerous there now—there are too many Ukrainian drones",
-      "summary": "President Zelensky joked in response to U.S. President Trump's question about traveling to Moscow for talks, stating there were too many Ukrainian drones there.",
-      "url": "https://www.ukrinform.net/rubric-polytics/4142227-zelensky-on-his-trip-to-moscow-its-dangerous-there-nowthere-are-too-many-ukrainian-drones.html",
-      "publishedAt": "2026-07-09T08:00:00Z"
+      "title": "Zelensky arrives in Türkiye for NATO Summit",
+      "summary": "President Zelensky arrived in Ankara to participate in the NATO Summit, where he scheduled bilateral meetings with international leaders and discussed air defense capabilities and defense cooperation.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4141661-zelensky-arrives-in-turkiye-for-nato-summit.html",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "If Ukraine had licenses to produce Patriot systems, it could protect both itself partners, Zelensky says",
-      "summary": "President Zelensky stated that if Ukraine were granted U.S. licenses to produce Patriot systems, domestic production would be sufficient to protect Ukraine and help partners in need.",
-      "url": "https://www.ukrinform.net/amp/rubric-polytics/4141467-if-ukraine-had-licenses-to-produce-patriot-systems-it-could-protect-both-itself-partners-zelensky-says.html",
-      "publishedAt": "2026-07-06T08:00:00Z"
+      "title": "Zelensky on his trip to Moscow: It's dangerous there now—there are too many Ukrainian drones",
+      "summary": "President Zelensky responded to questions from U.S. President Trump about potential Moscow visits, jokingly citing the presence of Ukrainian drones as a reason not to travel there.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4142227-zelensky-on-his-trip-to-moscow-its-dangerous-there-nowthere-are-too-many-ukrainian-drones.html",
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "2",
       "title": "Zelensky discusses needs for urgent air defense missiles delivery with Rutte",
-      "summary": "President Zelensky met with NATO Secretary General Mark Rutte during the NATO summit to discuss urgent delivery of air defense missiles and contributions to the PURL initiative.",
+      "summary": "President Zelensky met with NATO Secretary General Mark Rutte during the NATO summit to discuss urgent delivery of air defense missiles and NATO countries' contributions to defense initiatives.",
       "url": "https://www.ukrinform.net/rubric-ato/4141814-zelensky-discusses-needs-for-urgent-air-defense-missiles-delivery-with-rutte.html",
-      "publishedAt": "2026-07-08T08:00:00Z"
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "3",
       "title": "Zelensky reiterates call for Ukraine's NATO membership: It will make us all stronger",
-      "summary": "President Zelensky stated that Ukraine's unique experience in modern warfare and defense capabilities would significantly strengthen NATO, and argued Ukraine should become a member of the Alliance.",
+      "summary": "President Zelensky stated that Ukraine's combat experience and defense capabilities in modern warfare would strengthen NATO, calling for Ukraine's membership in the Alliance.",
       "url": "https://www.ukrinform.net/rubric-polytics/4141749-zelensky-reiterates-call-for-ukraines-nato-membership-it-will-make-us-all-stronger.html",
-      "publishedAt": "2026-07-08T08:00:00Z"
+      "publishedAt": "2026-07-07T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "If Ukraine had licenses to produce Patriot systems, it could protect both itself partners, Zelensky says",
+      "summary": "President Zelensky stated that Ukraine could produce Patriot air defense systems domestically if granted U.S. licenses, sufficient to protect Ukraine and assist allied nations.",
+      "url": "https://www.ukrinform.net/amp/rubric-polytics/4141467-if-ukraine-had-licenses-to-produce-patriot-systems-it-could-protect-both-itself-partners-zelensky-says.html",
+      "publishedAt": "2026-07-06T00:00:00Z"
     }
   ]
 }

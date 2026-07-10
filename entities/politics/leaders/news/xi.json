@@ -1,6 +1,28 @@
 {
   "politicianId": "xi",
-  "updatedAt": "2026-07-09T10:23:21.491Z",
+  "updatedAt": "2026-07-10T10:22:38.290Z",
   "sourceAgency": "Xinhua",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Xi Jinping pronuncia discurso en reunión conmemorativa por 105º aniversario de fundación del PCCh",
+      "summary": "Xi Jinping delivered a speech at a commemorative meeting marking the 105th anniversary of the founding of the Communist Party of China.",
+      "url": "https://spanish.xinhuanet.com/20260702/d05d6daceb95448582fef84a2cd43b9e/c.html",
+      "publishedAt": "2026-07-02T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Xi pide adoptar medidas sólidas para modernizar agricultura y zonas rurales",
+      "summary": "Xi Jinping called for concrete measures to advance the modernization of agriculture and rural areas during an inspection tour.",
+      "url": "https://spanish.xinhuanet.com/20260625/32b7a36650a542bc854f0ada5578550a/c.html",
+      "publishedAt": "2026-06-25T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Xi insta a miembros del PCCh a llevar adelante las tradiciones revolucionarias",
+      "summary": "Xi Jinping urged Party members to carry forward revolutionary traditions in a response letter to a 102-year-old Party member.",
+      "url": "https://spanish.xinhuanet.com/20260618/6f5484ffb2104694bbffd053fb8e3a37/c.html",
+      "publishedAt": "2026-06-18T00:00:00Z"
+    }
+  ]
 }
