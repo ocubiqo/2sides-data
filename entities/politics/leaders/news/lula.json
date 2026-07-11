@@ -1,21 +1,6 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-10T10:25:27.362Z",
+  "updatedAt": "2026-07-11T08:47:26.105Z",
   "sourceAgency": "Agência Brasil",
-  "articles": [
-    {
-      "id": "0",
-      "title": "PGR pede que Flávio Bolsonaro seja ouvido por calúnia contra Lula",
-      "summary": "The Attorney General's Office requested that Senator Flávio Bolsonaro be questioned in an investigation into alleged slander against President Lula.",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pgr-pede-que-flavio-bolsonaro-seja-ouvido-por-calunia-contra-lula",
-      "publishedAt": "2026-07-06T15:57:00Z"
-    },
-    {
-      "id": "1",
-      "title": "\"Melhor arma que um país pode ter é alimento\", diz Lula",
-      "summary": "President Lula announced R$ 97.7 billion in credits for family farmers during the launch of the 2026/2027 Agricultural Plan and emphasized the importance of food sovereignty.",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/melhor-arma-que-um-pais-pode-ter-e-alimento-diz-lula",
-      "publishedAt": "2026-06-30T21:54:00Z"
-    }
-  ]
+  "articles": []
 }

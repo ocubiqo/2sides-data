@@ -1,42 +1,42 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-10T10:23:53.857Z",
+  "updatedAt": "2026-07-11T08:46:35.906Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
-      "title": "Tedeum, en vivo: ante Milei, García Cuerva defendió la inversión en discapacidad y pidió dejar atrás la 'mezquindad política'",
-      "summary": "President Milei participated in the traditional Te Deum ceremony for Independence Day at the Metropolitan Cathedral, accompanied by cabinet members and national authorities.",
-      "url": "https://www.infobea.com/politica/2026/07/09/javier-milei-en-el-tedeum-en-vivo-ultimas-noticias-hoy-9-de-julio-minuto-a-minuto/",
-      "publishedAt": "2026-07-09T11:45:00Z"
+      "title": "Desde Tucumán, Milei llamó a los gobernadores a 'sentar las bases para el futuro de una verdadera libertad'",
+      "summary": "President Milei addressed governors in Tucumán on July 8-9, highlighting his administration's achievements over two years including fiscal surplus, debt reduction, and security reforms, while calling for support on pending legislative priorities including electoral reform and Central Bank charter modifications.",
+      "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-encabeza-el-acto-por-el-9-de-julio-en-tucuman-estamos-desendeudando-al-pais/",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "El Gobierno define los cambios en la Carta Orgánica del BCRA y avanza con un proyecto de 'cierre' del Estado como en EEUU",
-      "summary": "President Milei met with economic team members to define modifications to the Central Bank's Organic Charter aimed at penalizing monetary emission without backing for deficit financing.",
-      "url": "https://www.infobea.com/economia/2026/07/07/milei-se-reune-con-caputo-sturzenegger-y-bausili-en-olivos-para-definir-los-cambios-en-la-carta-organica-del-bcra/",
-      "publishedAt": "2026-07-07T16:39:00Z"
+      "title": "Tedeum, en vivo: ante Milei, García Cuerva defendió la inversión en discapacidad y pidió dejar atrás la 'mezquindad política'",
+      "summary": "President Milei participated in the July 9 Independence Day Te Deum ceremony at the Metropolitan Cathedral, where the archbishop called for unity and criticized political divisiveness, while Milei prioritizes Central Bank charter reform as his key legislative objective.",
+      "url": "https://www.infobae.com/politica/2026/07/09/tedeum-en-vivo-ultimas-noticias-hoy-9-de-julio-minuto-a-minuto/",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Giro a la derecha en América Latina: Javier Milei viajará a las asunciones de Keiko Fujimori en Perú y Abelardo de la Espriella en Colombia",
-      "summary": "President Milei will travel to Peru and Colombia in late July and early August to attend the inauguration ceremonies of right-wing leaders Keiko Fujimori and Abelardo de la Espriella.",
-      "url": "https://www.infobea.com/politica/2026/07/07/giro-a-la-derecha-en-america-latina-javier-milei-viajara-a-las-asunciones-de-keiko-fujimori-en-peru-y-abelardo-de-la-espriella-en-colombia/",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Ahora juega la casta: Javier Milei movió primero y fuerte para 2027",
+      "summary": "The government is accelerating electoral strategy and legislative efforts to support Milei's 2027 reelection bid, including negotiations with governors to eliminate primary elections (PASO) and building party infrastructure with internal polling showing challenges.",
+      "url": "https://www.infobae.com/politica/2026/07/08/ahora-juega-la-casta-javier-milei-movio-primero-y-fuerte-para-2027/",
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "3",
-      "title": "Ahora juega la casta: Javier Milei movió primero y fuerte para 2027",
-      "summary": "The Milei government is advancing efforts to eliminate mandatory primary elections (PASO) and reform electoral systems to facilitate the president's reelection in 2027.",
-      "url": "https://www.infobea.com/politica/2026/07/08/ahora-juega-la-casta-javier-milei-movio-primero-y-fuerte-para-2027/",
-      "publishedAt": "2026-07-08T02:44:00Z"
+      "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente el día que la visiten",
+      "summary": "President Milei offered the Casa Rosada to the Argentine national soccer team for potential World Cup celebrations while working on Central Bank reform, capital markets reforms, and discussing inflation reduction strategy in a radio interview.",
+      "url": "https://www.infobae.com/politica/2026/07/08/javier-milei-puso-la-casa-rosada-a-disposicion-de-la-seleccion-y-prometio-no-estar-presente/",
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "Javier Milei quiere modificar la Carta Orgánica del Banco Central e impulsará la reforma política y cambios en Inocencia Fiscal",
-      "summary": "President Milei announced plans to Congress to modify the Central Bank's Organic Charter and advance political reform and changes to fiscal innocence legislation as his government's next priorities.",
-      "url": "https://www.infobea.com/politica/2026/07/01/javier-milei-quiere-modificar-la-carta-organica-del-banco-central-e-impulsara-la-reforma-politica-y-cambios-en-inocencia-fiscal/",
-      "publishedAt": "2026-07-01T12:32:00Z"
+      "title": "El efusivo canto de la Marcha de San Lorenzo que hizo Javier Milei junto a un granadero",
+      "summary": "President Milei participated in the July 9 Independence Day Te Deum ceremony and enthusiastically sang the San Lorenzo March with the National Guard while walking from the Cathedral to Casa Rosada.",
+      "url": "https://www.infobae.com/politica/2026/07/09/el-efusivo-canto-de-la-marcha-de-san-lorenzo-que-hizo-javier-milei-junto-a-un-granadero/",
+      "publishedAt": "2026-07-09T00:00:00Z"
     }
   ]
 }

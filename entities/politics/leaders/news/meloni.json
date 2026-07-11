@@ -1,35 +1,42 @@
 {
   "politicianId": "meloni",
-  "updatedAt": "2026-07-10T10:24:37.789Z",
+  "updatedAt": "2026-07-11T08:46:53.995Z",
   "sourceAgency": "ANSA",
   "articles": [
     {
       "id": "0",
       "title": "Meloni: 'Con Trump non mi pento di nulla, punto all'unità dell'Occidente'",
-      "summary": "At the NATO summit in Ankara, Meloni stated she has no regrets about her political investment in relations with Trump and reaffirmed Italy's commitment to increasing defense spending in a sustainable manner while maintaining national priorities.",
+      "summary": "Meloni stated at the NATO summit in Ankara that she regrets nothing in her relationship with Trump and affirmed Italy's commitment to increase defense spending in a sustainable manner with national priorities.",
       "url": "https://www.ansa.it/sito/notizie/politica/2026/07/08/meloni-rispettiamo-gli-impegni-nato-ma-in-modo-sostenibile-e-stabilendo-priorita_2cb2e676-df83-43a5-bde1-16f12431dbbf.html",
-      "publishedAt": "2026-07-08T00:00:00Z"
+      "publishedAt": "2026-07-09T10:45:00Z"
     },
     {
       "id": "1",
-      "title": "Meloni, l'Europa difenda i propri confini con umanità ma anche intransigenza",
-      "summary": "Meloni expressed support for a new European sanctions regime targeting criminal networks involved in migrant trafficking, stating that Europe must govern migration flows rather than being subjected to them.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/09/meloni-leuropa-difenda-i-propri-confini-con-umanita-ma-anche-intransigenza_99fa0746-eea4-4725-be8a-cebd6b8d5ebb.html",
-      "publishedAt": "2026-07-09T00:00:00Z"
+      "title": "Meloni accelera sui dossier interni, vertice a Chigi sulla sicurezza",
+      "summary": "Meloni prioritized domestic policy issues by conducting a review of pending government objectives and convened a security meeting with her deputy premiers and ministers.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/09/meloni-accelera-sui-dossier-interni-vertice-a-chigi-sulla-sicurezza_a2d182e4-91fb-478f-970a-9bc1b5163e67.html",
+      "publishedAt": "2026-07-09T21:07:00Z"
     },
     {
       "id": "2",
-      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
-      "summary": "Meloni stated that if her political coalition wins the next elections, a right-wing president of the Republic could become possible, asserting that those outside the center-left have equal rights to the highest positions.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
-      "publishedAt": "2026-06-29T00:00:00Z"
+      "title": "Meloni, l'Europa difenda i propri confini con umanità ma anche intransigenza",
+      "summary": "Meloni voiced support for the EU's new sanctions regime against criminal networks exploiting migrant trafficking and stated that Europe should govern migration flows rather than be subject to them.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/09/meloni-leuropa-difenda-i-propri-confini-con-umanita-ma-anche-intransigenza_a93da350-958b-43bc-957d-b9484727b473.html",
+      "publishedAt": "2026-07-09T15:40:00Z"
     },
     {
       "id": "3",
-      "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
-      "summary": "Meloni confirmed her availability to testify as a civil party witness in the Milan trial against Fabrizio Corona and another defendant, charged with aggravated defamation for false claims published in 2023.",
-      "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
-      "publishedAt": "2026-06-22T00:00:00Z"
+      "title": "Meloni, il futuro dell'Italia è delle donne lavoratrici, resta la priorità",
+      "summary": "At the UIL congress in Padua, Meloni stated that women workers are essential to Italy's future and highlighted achievements in female employment while calling for further progress.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/02/meloni-il-futuro-dellitalia-e-delle-donne-lavoratrici-resta-la-priorita_a8b62ef6-c2cf-4b15-a33b-c8a5012b5ae3.html",
+      "publishedAt": "2026-07-02T19:58:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Meloni, 'Italia al top del turismo in Europa, grande lavoro del comparto'",
+      "summary": "Meloni praised Italy's continued position as a leading European tourism destination for summer 2026.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/05/meloni-italia-al-top-del-turismo-in-europa-grande-lavoro-del-comparto_470a4066-f275-4c40-a50c-7d10bb92c149.html",
+      "publishedAt": "2026-07-05T00:00:00Z"
     }
   ]
 }

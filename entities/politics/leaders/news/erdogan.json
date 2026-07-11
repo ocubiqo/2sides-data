@@ -1,42 +1,6 @@
 {
   "politicianId": "erdogan",
-  "updatedAt": "2026-07-10T10:24:10.439Z",
+  "updatedAt": "2026-07-11T08:46:41.133Z",
   "sourceAgency": "Anadolu Agency",
-  "articles": [
-    {
-      "id": "0",
-      "title": "Cumhurbaşkanı Erdoğan'dan NATO Zirvesi'nde yoğun diplomasi trafiği",
-      "summary": "President Erdoğan conducted intensive diplomatic meetings with multiple world leaders including US President Trump, French President Macron, and other NATO allies during the 36th NATO Summit hosted in Ankara.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogandan-nato-zirvesinde-yogun-diplomasi-trafigi/3993167",
-      "publishedAt": "2026-07-09T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Cumhurbaşkanı Erdoğan, ülke liderleri ile görüşmelerini sürdürdü",
-      "summary": "President Erdoğan met with leaders from Slovakia, Albania, and Montenegro during the NATO Summit in Ankara, discussing bilateral relations and regional cooperation initiatives.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-ulke-liderleri-ile-gorusmelerini-surdurdu/3992906",
-      "publishedAt": "2026-07-09T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "Cumhurbaşkanı Erdoğan: F-35 konusunda Liderler Zirvesi'nden hayırlı bir karar çıkacağına inanıyorum",
-      "summary": "President Erdoğan expressed optimism about securing F-35 fighter jets during the NATO Leaders Summit and discussed Gaza ceasefire issues with US President Trump.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-f-35-konusunda-liderler-zirvesinden-hayirli-bir-karar-cikacagina-inaniyorum/3988953",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "Cumhurbaşkanı Erdoğan: Bölgemizde barış, istikrar ve refah için kardeş ülkelerle çalışmayı sürdüreceğiz",
-      "summary": "President Erdoğan held talks with Pakistan's Prime Minister Shahbaz Sharif in Istanbul, discussing regional peace, stability and cooperation against Israeli actions in Gaza.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-bolgemizde-baris-istikrar-ve-refah-icin-kardes-ulkelerle-calismayi-surdurecegiz/3986059",
-      "publishedAt": "2026-07-04T00:00:00Z"
-    },
-    {
-      "id": "4",
-      "title": "Cumhurbaşkanı Erdoğan, ABD Başkanı Trump'ı resmi törenle karşıladı",
-      "summary": "President Erdoğan welcomed US President Donald Trump to Turkey with an official ceremony at the Presidential Complex ahead of the NATO Summit in Ankara.",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-abd-baskani-trumpi-resmi-torenle-karsiladi/3988982",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    }
-  ]
+  "articles": []
 }

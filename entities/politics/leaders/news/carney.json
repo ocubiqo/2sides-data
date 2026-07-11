@@ -1,42 +1,42 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-10T10:24:53.689Z",
+  "updatedAt": "2026-07-11T08:47:10.441Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "Prime Minister Mark Carney speaks to the media after meetings in Saudi Arabia",
-      "summary": "Prime Minister Carney announced the results of his high-level meetings with Saudi Arabian officials and took questions from the media following his visit to the country.",
-      "url": "https://www.cbc.ca/player/play/video/9.7264136",
-      "publishedAt": "2026-07-10T09:00:00Z"
+      "title": "More than 2,000 Canadians have donated toward restoration of 24 Sussex Drive",
+      "summary": "Prime Minister Carney announced a national fundraising campaign to restore 24 Sussex Drive, with over 2,000 donors contributing and a design competition to select the winning restoration proposal.",
+      "url": "https://www.cbc.ca/news/politics/24-sussex-mark-carney-fundraising-public-donor-list-9.7266278",
+      "publishedAt": "2026-07-11T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
-      "summary": "Prime Minister Carney sought to deepen ties with Saudi Arabia while renewed U.S.-Iran fighting overshadowed his visit, with Canada condemning Iranian attacks and reaffirming regional security support.",
-      "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
-      "publishedAt": "2026-07-09T09:10:00Z"
+      "title": "Turkey's president gifted Carney a revolver at NATO summit. Carney gave him maple syrup",
+      "summary": "Turkish President Erdoğan gifted Prime Minister Carney and other NATO leaders custom engraved .357 magnum revolvers, which Carney said were deactivated and will be placed in a museum.",
+      "url": "https://www.cbc.ca/news/politics/mark-carney-recep-tayyip-erdogan-nato-summit-gun-9.7264610",
+      "publishedAt": "2026-07-09T19:21:00Z"
     },
     {
       "id": "2",
-      "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
-      "summary": "Prime Minister Carney made his first Senate appointments, including top adviser Tom Pitfield and Conservative MP Richard Martel, signaling a shift from his predecessor's nonpartisan approach.",
-      "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
-      "publishedAt": "2026-07-07T09:36:00Z"
+      "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
+      "summary": "Prime Minister Carney held high-level talks in Saudi Arabia to deepen diplomatic and economic ties, condemned Iranian attacks on Gulf shipping, and stated that engagement rather than lecturing is an effective diplomatic strategy.",
+      "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
+      "publishedAt": "2026-07-10T13:10:00Z"
     },
     {
       "id": "3",
       "title": "Carney backs latest U.S. strikes on Iran as Trump slams NATO allies",
-      "summary": "Prime Minister Carney endorsed the latest U.S. strikes on Iran as a justified response to ceasefire violations at the NATO summit in Ankara.",
+      "summary": "Prime Minister Carney endorsed U.S. strikes on Iran as a justified response to ceasefire violations and stated that NATO countries recognize they need to increase defence spending responsibility.",
       "url": "https://www.cbc.ca/news/politics/iran-war-us-carney-air-strikes-9.7262373",
-      "publishedAt": "2026-07-08T07:27:00Z"
+      "publishedAt": "2026-07-08T11:27:00Z"
     },
     {
       "id": "4",
-      "title": "Carney hails submarine deal as NATO win, moves to ease South Korea's disappointment",
-      "summary": "Prime Minister Carney celebrated Canada's submarine partnership with Germany and Norway at the NATO summit while meeting with South Korean officials to address their disappointment over losing the procurement competition.",
-      "url": "https://www.cbc.ca/news/politics/submarines-south-korea-germany-canada-military-spending-9.7261919",
-      "publishedAt": "2026-07-07T18:04:00Z"
+      "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
+      "summary": "Prime Minister Carney appointed senior adviser Tom Pitfield and Conservative MP Richard Martel to the Senate, departing from former PM Trudeau's decade-long practice of appointing non-partisan senators.",
+      "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
+      "publishedAt": "2026-07-08T13:36:00Z"
     }
   ]
 }

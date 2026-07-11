@@ -1,42 +1,42 @@
 {
   "politicianId": "modi",
-  "updatedAt": "2026-07-10T10:22:03.139Z",
+  "updatedAt": "2026-07-11T08:45:08.697Z",
   "sourceAgency": "ANI / PTI",
   "articles": [
     {
       "id": "0",
-      "title": "PM Narendra Modi meets Australia's Opposition Leader Angus Taylor during Melbourne visit",
-      "summary": "Prime Minister Modi met Australia's Opposition Leader Angus Taylor during his official visit to Melbourne.",
-      "url": "https://www.aninews.in/videos/world/pm-narendra-modi-meets-australias-opposition-leader-angus-taylor-during-melbourne-visit/",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "title": "PM Modi lands in Auckland, greeted by PM Luxon",
+      "summary": "PM Narendra Modi arrived in Auckland, New Zealand on July 10 for the first official visit by an Indian PM to the nation in four decades, where he will hold bilateral discussions with PM Christopher Luxon.",
+      "url": "https://aninews.in/news/world/asia/pm-modi-lands-in-auckland-greeted-by-pm-luxon20260710144603/",
+      "publishedAt": "2026-07-10T14:46:03Z"
     },
     {
       "id": "1",
+      "title": "'Bond with India remains unwavering': PM Modi after meeting diaspora in New Zealand",
+      "summary": "PM Modi met members of the Indian diaspora in Auckland on July 10, expressing gratitude to the community for their enthusiasm and noting their enduring connection to India after four decades.",
+      "url": "https://aninews.in/news/world/pacific/bond-with-india-remains-unwavering-pm-modi-after-meeting-diaspora-in-new-zealand20260710173353/",
+      "publishedAt": "2026-07-10T17:33:53Z"
+    },
+    {
+      "id": "2",
+      "title": "PM Modi emplanes for Auckland, New Zealand from Melbourne for final leg of his three-nation tour",
+      "summary": "PM Modi departed Melbourne for Auckland on July 10 after the third India-Australia Annual Summit, concluding his Australia visit with landmark defense and security agreements before proceeding to New Zealand.",
+      "url": "https://aninews.in/news/world/pacific/pm-modi-emplanes-for-auckland-new-zealand-from-melbourne-for-final-leg-of-his-three-nation-tour20260710104301/",
+      "publishedAt": "2026-07-10T10:43:01Z"
+    },
+    {
+      "id": "3",
       "title": "India aspires to be one of world's top three economies driven by 'Grow more, achieve more' motto: PM Modi",
-      "summary": "Prime Minister Modi addressed the Indian diaspora in Melbourne, emphasizing India's aspiration to become one of the world's top three economies through the 'Grow More, Achieve More' initiative.",
+      "summary": "PM Modi addressed the Indian diaspora in Melbourne on July 9, stating India aspires to become one of the world's top three economies driven by the motto 'Grow more, achieve more' and highlighting achievements in 5G and metro infrastructure.",
       "url": "https://aninews.in/news/world/pacific/india-aspires-to-be-one-of-worlds-top-three-economies-driven-by-grow-more-achieve-more-motto-pm-modi20260709165246/",
       "publishedAt": "2026-07-09T16:52:46Z"
     },
     {
-      "id": "2",
-      "title": "PM Modi holds delegation-level talks with Australian PM Albanese",
-      "summary": "Prime Minister Modi held bilateral talks with Australian Prime Minister Anthony Albanese, discussing strengthening cooperation in defence, security, trade and investment.",
-      "url": "https://aninews.in/news/world/pacific/pm-modi-holds-delegation-level-talks-with-australian-pm-albanese20260709104136/",
-      "publishedAt": "2026-07-09T10:41:36Z"
-    },
-    {
-      "id": "3",
-      "title": "PM Modi pays tribute to Syama Prasad Mookerjee on 125th birth anniversary",
-      "summary": "Prime Minister Modi paid tribute to Bharatiya Jana Sangh founder Dr Syama Prasad Mookerjee, recognizing his contributions as a nation-builder and his commitment to India's unity and integrity.",
-      "url": "https://aninews.in/news/national/general-news/his-vision-continues-to-illuminate-our-path-pm-modi-pays-tribute-to-syama-prasad-mookerjee-on-125th-birth-anniversary20260706091117/",
-      "publishedAt": "2026-07-06T09:11:17Z"
-    },
-    {
       "id": "4",
-      "title": "Steel equivalent to 40 new Eiffel towers or five Burj Khalifas, cabling could wrap the Earth twice: PM Modi refers to materials used in Rajasthan refinery complex",
-      "summary": "Prime Minister Modi highlighted the scale of construction materials used in India's newly inaugurated greenfield refinery-cum-petrochemical complex in Rajasthan, emphasizing India's rapid industrial progress.",
-      "url": "https://www.aninews.in/news/world/asia/steel-equivalent-to-40-new-eiffel-towers-or-five-burj-khalifas-cabling-could-wrap-the-earth-twice-pm-modi-refers-to-materials-used-in-rajasthan-refinery20260707221121/",
-      "publishedAt": "2026-07-07T22:11:21Z"
+      "title": "PM Narendra Modi receives grand ceremonial welcome in Jakarta",
+      "summary": "PM Modi arrived in Jakarta, Indonesia on July 7 for an official state visit focused on enhancing strategic cooperation and deepening bilateral relations, including engagement with the Indian diaspora.",
+      "url": "https://aninews.in/news/world/asia/pm-narendra-modi-receives-grand-ceremonial-welcome-in-jakarta20260707085947/",
+      "publishedAt": "2026-07-07T08:59:47Z"
     }
   ]
 }

@@ -1,42 +1,42 @@
 {
   "politicianId": "macron",
-  "updatedAt": "2026-07-10T10:23:03.652Z",
+  "updatedAt": "2026-07-11T08:46:07.549Z",
   "sourceAgency": "France 24",
   "articles": [
     {
       "id": "0",
-      "title": "REPLAY: Macron addresses Ukraine, Greenland at NATO summit",
-      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the US would seize Greenland, and addressed the war in Ukraine and Iran.",
-      "url": "https://www.france24.com/en/video/20260708-replay-macron-addresses-ukraine-greenland-at-nato-summit",
-      "publishedAt": "2026-07-09T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Why are Macron's aviator glasses in the spotlight again?",
-      "summary": "The French president was again spotted wearing sunglasses indoors, examining the reasons behind his eyewear choice and its cultural significance regarding France's eyewear.",
-      "url": "https://www.france24.com/en/tv-shows/entre-nous/20260709-why-are-macron-s-aviator-glasses-in-the-spotlight-again",
-      "publishedAt": "2026-07-09T00:00:00Z"
-    },
-    {
-      "id": "2",
       "title": "Macron in Syria on first post-Assad visit by West European head of state",
-      "summary": "French President Emmanuel Macron arrived in Damascus on July 6 for the first visit by a Western European head of state since Syria's new authorities took power, meeting with President Ahmed al-Sharaa.",
+      "summary": "French President Emmanuel Macron arrived in Damascus on July 6 for the first visit by a Western European head of state since Syria's new authorities took power, meeting with Syrian President Ahmed al-Sharaa to reaffirm France's commitment to Syria and discuss reconstruction and investments.",
       "url": "https://www.france24.com/en/live-news/20260706-macron-in-syria-on-first-post-assad-visit-by-west-european-head-of-state",
       "publishedAt": "2026-07-06T19:33:00Z"
     },
     {
+      "id": "1",
+      "title": "REPLAY: Macron addresses Ukraine, Greenland at NATO summit",
+      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the United States would seize Greenland and addressed broader security issues concerning Ukraine and Iran.",
+      "url": "https://www.france24.com/en/video/20260708-replay-macron-addresses-ukraine-greenland-at-nato-summit",
+      "publishedAt": "2026-07-08T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Why are Macron's aviator glasses in the spotlight again?",
+      "summary": "The French president was once again spotted wearing sunglasses indoors, prompting renewed discussion about the eyewear and what it reveals about France's eyewear industry.",
+      "url": "https://www.france24.com/en/tv-shows/entre-nous/20260709-why-are-macron-s-aviator-glasses-in-the-spotlight-again",
+      "publishedAt": "2026-07-09T00:00:00Z"
+    },
+    {
       "id": "3",
-      "title": "Replay: French President Emmanuel Macron speaks after Damascus blasts",
-      "summary": "Macron held a press conference with Syrian President Ahmed al-Sharaa during his landmark Damascus visit after two bombs exploded near his hotel.",
-      "url": "https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
+      "summary": "French President Emmanuel Macron hosted a G7 summit in June at the Palace of Versailles where he courted US President Donald Trump, though analysts noted his diplomatic gestures have not always translated into lasting strategic influence.",
+      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
+      "publishedAt": "2026-06-18T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
-      "summary": "Emmanuel Macron hosted a G7 summit at the Palace of Versailles in June 2026, where he hosted US President Donald Trump, though analysts noted his grand diplomatic gestures have not always yielded lasting strategic influence.",
-      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-a-decade-power",
-      "publishedAt": "2026-06-18T00:00:00Z"
+      "title": "'For sure': Macron to preach stronger Europe vision at G7 swansong",
+      "summary": "Emmanuel Macron hosted his last G7 summit as French president in June, advocating for European strategic autonomy and stating that Trump's policies have vindicated his earlier vision of a stronger, more independent Europe.",
+      "url": "https://www.france24.com/en/live-news/20260615-for-sure-macron-to-preach-stronger-europe-vision-at-g7-swansong",
+      "publishedAt": "2026-06-15T00:00:00Z"
     }
   ]
 }
