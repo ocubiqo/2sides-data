@@ -1,35 +1,6 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-11T08:45:19.515Z",
+  "updatedAt": "2026-07-12T09:02:27.402Z",
   "sourceAgency": "TASS",
-  "articles": [
-    {
-      "id": "0",
-      "title": "Putin discusses info threats posed by emerging technologies with Security Council",
-      "summary": "President Putin held a Security Council meeting focused on threats to Russia's information security from emerging technologies.",
-      "url": "https://tass.com/politics/2158719",
-      "publishedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Putin notes formation of partnerships by Russian Export Center with friendly states",
-      "summary": "Putin met with Russian Export Center Director General to discuss successful partnerships with friendly nations aimed at increasing exports by two-thirds by 2030.",
-      "url": "https://tass.com/politics/2156861",
-      "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "IN BRIEF: Putin comments on Russia's strategic goals, security, Duma election",
-      "summary": "Putin addressed a United Russia party congress, discussing Russia's strategic plans, national security, and pledging that elections will proceed as scheduled in September.",
-      "url": "https://tass.com/politics/2152699",
-      "publishedAt": "2026-06-28T00:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "West's preparations for war with Russia, its readiness to respond: Putin's comments",
-      "summary": "At a military academy meeting, Putin said Western countries are openly preparing for war with Russia and noted the Russian army is advancing on multiple fronts.",
-      "url": "https://tass.com/politics/2150351",
-      "publishedAt": "2026-06-23T00:00:00Z"
-    }
-  ]
+  "articles": []
 }

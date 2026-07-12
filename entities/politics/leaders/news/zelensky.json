@@ -1,21 +1,42 @@
 {
   "politicianId": "zelensky",
-  "updatedAt": "2026-07-11T08:45:50.974Z",
+  "updatedAt": "2026-07-12T09:02:50.920Z",
   "sourceAgency": "Ukrinform",
   "articles": [
     {
       "id": "0",
-      "title": "Zelensky calls Russia's fuel imports \"historical joke\"",
-      "summary": "Zelensky stated that Ukraine has significantly disrupted Russia's fuel supply, forcing the traditionally energy-exporting nation to import fuel through Belarus and other countries.",
-      "url": "https://www.ukrinform.net/rubric-polytics/4142722-zelensky-calls-russias-fuel-imports-historical-joke.html",
-      "publishedAt": "2026-07-09T19:00:00Z"
+      "title": "Zelensky meets with Senator Graham",
+      "summary": "President Zelensky held a meeting in Kyiv with U.S. Senator Lindsey Graham to discuss strengthening sanctions against Russia and Ukraine's urgent air defense needs.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4143043-zelensky-meets-with-senator-graham.html",
+      "publishedAt": "2026-07-10T20:00:00Z"
     },
     {
       "id": "1",
-      "title": "Zelensky reiterates call for Ukraine's NATO membership: It will make us all stronger",
-      "summary": "Zelensky stated that Ukraine's experience in modern warfare and defense capabilities would significantly strengthen NATO, and called for Ukraine's membership in the Alliance.",
-      "url": "https://www.ukrinform.net/rubric-polytics/4141749-zelensky-reiterates-call-for-ukraines-nato-membership-it-will-make-us-all-stronger.html",
-      "publishedAt": "2026-07-07T16:28:00Z"
+      "title": "Zelensky to attend Coalition of the Willing meeting in Paris",
+      "summary": "President Zelensky will participate in a Coalition of the Willing meeting in Paris on July 13 aimed at strengthening support for Ukraine and increasing pressure on Russia.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4143007-zelensky-to-attend-coalition-of-the-willing-meeting-in-paris.html",
+      "publishedAt": "2026-07-10T17:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Zelensky: Ukraine's peace proposals have support even within Putin's inner circle",
+      "summary": "President Zelensky stated in an evening address that Ukraine's peace proposals have support among international partners and within the Kremlin leader's inner circle.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4143065-zelensky-ukraines-peace-proposals-have-support-even-within-putins-inner-circle.html",
+      "publishedAt": "2026-07-10T21:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Zelensky calls Russia's fuel imports \"historical joke\"",
+      "summary": "President Zelensky stated that Ukraine has significantly disrupted Russia's fuel supply, forcing the country to import fuel despite traditionally exporting energy resources.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4142722-zelensky-calls-russias-fuel-imports-historical-joke.html",
+      "publishedAt": "2026-07-09T18:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Zelensky, Nawrocki agree to continue dialogue",
+      "summary": "President Zelensky met with Polish President Karol Nawrocki for over an hour on the sidelines of the NATO summit in Ankara, and both sides agreed to continue dialogue.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4142349-zelensky-nawrocki-agree-to-continue-dialogue.html",
+      "publishedAt": "2026-07-08T22:22:00Z"
     }
   ]
 }

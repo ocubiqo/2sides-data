@@ -1,42 +1,42 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-11T08:46:35.906Z",
+  "updatedAt": "2026-07-12T09:03:44.371Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
-      "title": "Desde Tucumán, Milei llamó a los gobernadores a 'sentar las bases para el futuro de una verdadera libertad'",
-      "summary": "President Milei addressed governors in Tucumán on July 8-9, highlighting his administration's achievements over two years including fiscal surplus, debt reduction, and security reforms, while calling for support on pending legislative priorities including electoral reform and Central Bank charter modifications.",
-      "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-encabeza-el-acto-por-el-9-de-julio-en-tucuman-estamos-desendeudando-al-pais/",
-      "publishedAt": "2026-07-09T00:00:00Z"
+      "title": "Tedeum, en vivo: ante Milei, García Cuerva defendió la inversión en discapacidad y pidió dejar atrás la \"mezquindad política\"",
+      "summary": "President Milei participated in the traditional Tedeum ceremony on July 9 at the Metropolitan Cathedral for Argentina's Independence Day, where Archbishop García Cuerva delivered a homily calling for unity and investment in vulnerable populations.",
+      "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-en-el-tedeum-en-vivo-ultimas-noticias-hoy-9-de-julio-minuto-a-minuto/",
+      "publishedAt": "2026-07-09T08:00:00Z"
     },
     {
       "id": "1",
-      "title": "Tedeum, en vivo: ante Milei, García Cuerva defendió la inversión en discapacidad y pidió dejar atrás la 'mezquindad política'",
-      "summary": "President Milei participated in the July 9 Independence Day Te Deum ceremony at the Metropolitan Cathedral, where the archbishop called for unity and criticized political divisiveness, while Milei prioritizes Central Bank charter reform as his key legislative objective.",
-      "url": "https://www.infobae.com/politica/2026/07/09/tedeum-en-vivo-ultimas-noticias-hoy-9-de-julio-minuto-a-minuto/",
-      "publishedAt": "2026-07-09T00:00:00Z"
+      "title": "Desde Tucumán, Milei llamó a los gobernadores a \"sentar las bases para el futuro de una verdadera libertad\"",
+      "summary": "President Milei delivered a speech during the July 9 vigil in Tucumán highlighting his administration's achievements including fiscal surplus, regulatory reforms, and calling governors to reaffirm commitment to the Pacto de Mayo.",
+      "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-encabeza-el-acto-por-el-9-de-julio-en-tucuman-estamos-desendeudando-al-pais/",
+      "publishedAt": "2026-07-09T08:00:00Z"
     },
     {
       "id": "2",
       "title": "Ahora juega la casta: Javier Milei movió primero y fuerte para 2027",
-      "summary": "The government is accelerating electoral strategy and legislative efforts to support Milei's 2027 reelection bid, including negotiations with governors to eliminate primary elections (PASO) and building party infrastructure with internal polling showing challenges.",
+      "summary": "The government is working to reform electoral rules by eliminating primary elections and implementing a system of party listings while pursuing political alliances with governors to support Milei's 2027 reelection bid.",
       "url": "https://www.infobae.com/politica/2026/07/08/ahora-juega-la-casta-javier-milei-movio-primero-y-fuerte-para-2027/",
-      "publishedAt": "2026-07-08T00:00:00Z"
+      "publishedAt": "2026-07-08T08:00:00Z"
     },
     {
       "id": "3",
-      "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente el día que la visiten",
-      "summary": "President Milei offered the Casa Rosada to the Argentine national soccer team for potential World Cup celebrations while working on Central Bank reform, capital markets reforms, and discussing inflation reduction strategy in a radio interview.",
+      "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente",
+      "summary": "President Milei offered Casa Rosada for the national football team's potential World Cup celebration while discussing his administration's financial reforms including Central Bank Charter modifications and capital markets development.",
       "url": "https://www.infobae.com/politica/2026/07/08/javier-milei-puso-la-casa-rosada-a-disposicion-de-la-seleccion-y-prometio-no-estar-presente/",
-      "publishedAt": "2026-07-08T00:00:00Z"
+      "publishedAt": "2026-07-08T08:00:00Z"
     },
     {
       "id": "4",
-      "title": "El efusivo canto de la Marcha de San Lorenzo que hizo Javier Milei junto a un granadero",
-      "summary": "President Milei participated in the July 9 Independence Day Te Deum ceremony and enthusiastically sang the San Lorenzo March with the National Guard while walking from the Cathedral to Casa Rosada.",
-      "url": "https://www.infobae.com/politica/2026/07/09/el-efusivo-canto-de-la-marcha-de-san-lorenzo-que-hizo-javier-milei-junto-a-un-granadero/",
-      "publishedAt": "2026-07-09T00:00:00Z"
+      "title": "El Gobierno celebra el avance de la derecha en la región y mira con expectativa las elecciones de Brasil",
+      "summary": "President Milei expressed support for right-wing electoral victories in Peru and Colombia, confirmed attendance at their presidential inaugurations, and openly backed opposition to Brazil's current government ahead of October elections.",
+      "url": "https://www.infobae.com/politica/2026/07/05/el-gobierno-celebra-el-avance-de-la-derecha-en-la-region-y-mira-con-expectativa-las-elecciones-de-brasil/",
+      "publishedAt": "2026-07-05T08:00:00Z"
     }
   ]
 }

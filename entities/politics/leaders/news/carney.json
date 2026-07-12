@@ -1,42 +1,42 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-11T08:47:10.441Z",
+  "updatedAt": "2026-07-12T09:04:20.954Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "More than 2,000 Canadians have donated toward restoration of 24 Sussex Drive",
-      "summary": "Prime Minister Carney announced a national fundraising campaign to restore 24 Sussex Drive, with over 2,000 donors contributing and a design competition to select the winning restoration proposal.",
-      "url": "https://www.cbc.ca/news/politics/24-sussex-mark-carney-fundraising-public-donor-list-9.7266278",
-      "publishedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "1",
       "title": "Turkey's president gifted Carney a revolver at NATO summit. Carney gave him maple syrup",
-      "summary": "Turkish President Erdoğan gifted Prime Minister Carney and other NATO leaders custom engraved .357 magnum revolvers, which Carney said were deactivated and will be placed in a museum.",
+      "summary": "Turkish President Erdoğan gifted NATO leaders including Carney a custom .357 magnum revolver at the Ankara summit, which Carney said was decommissioned and will be sent to a museum.",
       "url": "https://www.cbc.ca/news/politics/mark-carney-recep-tayyip-erdogan-nato-summit-gun-9.7264610",
       "publishedAt": "2026-07-09T19:21:00Z"
     },
     {
-      "id": "2",
+      "id": "1",
       "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
-      "summary": "Prime Minister Carney held high-level talks in Saudi Arabia to deepen diplomatic and economic ties, condemned Iranian attacks on Gulf shipping, and stated that engagement rather than lecturing is an effective diplomatic strategy.",
+      "summary": "Prime Minister Carney sought to deepen ties with Saudi Arabia while condemning Iranian attacks on Gulf shipping and signalling a pragmatic reset in relations after years of diplomatic estrangement.",
       "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
       "publishedAt": "2026-07-10T13:10:00Z"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "Carney backs latest U.S. strikes on Iran as Trump slams NATO allies",
-      "summary": "Prime Minister Carney endorsed U.S. strikes on Iran as a justified response to ceasefire violations and stated that NATO countries recognize they need to increase defence spending responsibility.",
+      "summary": "Prime Minister Carney endorsed the latest U.S. strikes on Iran as a justified response to ceasefire violations while speaking at a NATO summit in Turkey.",
       "url": "https://www.cbc.ca/news/politics/iran-war-us-carney-air-strikes-9.7262373",
       "publishedAt": "2026-07-08T11:27:00Z"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
-      "summary": "Prime Minister Carney appointed senior adviser Tom Pitfield and Conservative MP Richard Martel to the Senate, departing from former PM Trudeau's decade-long practice of appointing non-partisan senators.",
+      "summary": "Prime Minister Carney made his first Senate appointments including longtime Liberal strategist Tim Pitfield and Conservative MP Richard Martel, signalling a shift from former PM Trudeau's nonpartisan approach.",
       "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
       "publishedAt": "2026-07-08T13:36:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Carney hails submarine deal as NATO win, moves to ease South Korea's disappointment",
+      "summary": "Prime Minister Carney celebrated Canada's submarine partnership with Germany and Norway while also meeting with South Korea's president to reassure them after their bid was not selected.",
+      "url": "https://www.cbc.ca/news/politics/submarines-south-korea-germany-canada-military-spending-9.7261919",
+      "publishedAt": "2026-07-07T22:04:00Z"
     }
   ]
 }

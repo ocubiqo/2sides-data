@@ -1,42 +1,42 @@
 {
   "politicianId": "netanyahu",
-  "updatedAt": "2026-07-11T08:46:23.496Z",
+  "updatedAt": "2026-07-12T09:03:29.958Z",
   "sourceAgency": "Jerusalem Post / Gov.il",
   "articles": [
     {
       "id": "0",
       "title": "Benjamin Netanyahu says Iran will never have nuclear weapons 'with or without a deal'",
-      "summary": "Netanyahu stated at the IDF's 192nd pilot course graduation ceremony that Iran will not have nuclear weapons, emphasizing Israel's policy and past military operations against the Iranian regime.",
+      "summary": "Netanyahu declared that Iran will not acquire nuclear weapons and cited successful Israeli operations against Iran, speaking at an IDF pilot graduation ceremony.",
       "url": "https://www.jpost.com/israel-news/defense-news/article-902052",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "publishedAt": "2026-07-09T18:32:00Z"
     },
     {
       "id": "1",
-      "title": "Donald Trump, Benjamin Netanyahu hold call about renewed Iran conflict",
-      "summary": "Netanyahu spoke with Trump on Thursday night about American military moves in the Gulf and coordinated on concerns regarding Turkish F-35 acquisition and regional security zones.",
-      "url": "https://www.jpost.com/israel-news/article-902078",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "title": "Benjamin Netanyahu says Venezuela aid mission shows Israel's true colors",
+      "summary": "Netanyahu spoke with Israeli aid delegation leaders heading to Venezuela following earthquakes, praising their humanitarian mission.",
+      "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-902060",
+      "publishedAt": "2026-07-09T21:07:00Z"
     },
     {
       "id": "2",
-      "title": "Benjamin Netanyahu reiterates concerns about US-Turkey F-35 sale",
-      "summary": "Netanyahu told CNN that the proposed US sale of F-35 fighter jets to Turkey could disrupt regional power balance and expressed concerns about Ankara's ties to the Muslim Brotherhood and Hamas support.",
-      "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-901780",
+      "title": "Benjamin Netanyahu coalition removes clause from Torah study bill to advance Knesset vote",
+      "summary": "Netanyahu's coalition agreed to amend the controversial Basic Law: Torah Study bill ahead of a Knesset vote to advance haredi-backed legislation.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-902047",
       "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "3",
-      "title": "Benjamin Netanyahu: 'My relationship with President Donald Trump is excellent'",
-      "summary": "Netanyahu told Fox News that the US-Israel alliance remains strong despite occasional disagreements, and discussed shared goals regarding Iran's nuclear program and recent Middle East peace developments.",
-      "url": "https://www.jpost.com/israel-news/article-901501",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "title": "Benjamin Netanyahu reiterates concerns about US-Turkey F-35 sale",
+      "summary": "Netanyahu told CNN that the proposed US F-35 sale to Turkey would disrupt regional power balance, citing concerns about Ankara's ties to extremist organizations.",
+      "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-901780",
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "Benjamin Netanyahu warns Donald Trump against sale of F-35s to Turkey",
-      "summary": "Netanyahu warned in a Fox and Friends interview that providing Turkey with F-35 fighter jets would upset the Middle East power balance and threaten Israeli air superiority in the region.",
-      "url": "https://www.jpost.com/israel-news/article-901613",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "title": "Trump briefs Netanyahu on 'American moves in Gulf' in phone call after renewed US strikes on Iran",
+      "summary": "Netanyahu spoke with Trump about US military operations in the Gulf and reiterated concerns about the F-35 sale to Turkey and Turkish threats to Israel.",
+      "url": "https://www.jpost.com/israel-news/article-902078",
+      "publishedAt": "2026-07-10T00:00:00Z"
     }
   ]
 }

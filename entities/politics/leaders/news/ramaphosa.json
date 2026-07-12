@@ -1,14 +1,6 @@
 {
   "politicianId": "ramaphosa",
-  "updatedAt": "2026-07-11T08:47:56.127Z",
+  "updatedAt": "2026-07-12T09:05:11.112Z",
   "sourceAgency": "SABC News",
-  "articles": [
-    {
-      "id": "0",
-      "title": "DSA, Civil Rights Groups to march for President Ramaphosa's resignation",
-      "summary": "Civic movement Defend South Africa and other civil rights organisations announced a planned march calling for President Ramaphosa's immediate resignation, citing unaddressed socio-economic crisis.",
-      "url": "http://web.sabc.co.za/sabc/home/channelafrica/news/details?id=52ab3205-3ba4-4ef3-afca-30529e852698&title=DSA,+Civil+Rights+Groups+to+march+for+President+Ramaphosa%E2%80%99s+resignation+%C2%A0",
-      "publishedAt": "2026-07-10T00:00:00Z"
-    }
-  ]
+  "articles": []
 }

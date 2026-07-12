@@ -1,42 +1,35 @@
 {
   "politicianId": "xi",
-  "updatedAt": "2026-07-11T08:45:35.158Z",
+  "updatedAt": "2026-07-12T09:02:42.425Z",
   "sourceAgency": "Xinhua",
   "articles": [
     {
       "id": "0",
-      "title": "Xi Jinping appelle la Chine et la RPDC à continuer de faire avancer la cause socialiste et la modernisation",
-      "summary": "Xi Jinping met en avant la nécessité pour la Chine et la Corée du Nord de renforcer leur confiance stratégique lors d'une rencontre avec le Premier ministre nord-coréen à Beijing.",
+      "title": "Xi Jinping calls China and DPRK to advance socialist cause and modernization",
+      "summary": "Xi Jinping met with North Korea's Premier Pak Thae Song in Beijing and called for both nations to strengthen strategic confidence and advance their respective socialist causes and modernization efforts.",
       "url": "http://french.xinhuanet.com/20260710/724dc1a0cf5f41709b8ea24fe278d6e0/c.html",
       "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "习近平：深入排查整治各类风险隐患 抓实抓细安全生产措施落实 坚决防止重特大事故发生",
-      "summary": "Xi Jinping emphasizes thorough investigation and resolution of safety hazards and implementation of production safety measures.",
-      "url": "http://www.xinhuanet.com/politics/leaders/xijinping/",
-      "publishedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "Xinhua Noticias | Xi pronuncia discurso en reunión conmemorativa por 105º aniversario de fundación del PCCh",
-      "summary": "Xi Jinping delivered a speech at a commemorative gathering marking the 105th founding anniversary of the Communist Party of China.",
+      "title": "Xi Jinping delivers speech at commemorative meeting for CPC's 105th founding anniversary",
+      "summary": "Xi Jinping, as general secretary of the CPC Central Committee, delivered a speech at the commemorative gathering marking the 105th anniversary of the Communist Party of China's founding.",
       "url": "https://spanish.xinhuanet.com/20260702/d05d6daceb95448582fef84a2cd43b9e/c.html",
       "publishedAt": "2026-07-02T00:00:00Z"
     },
     {
-      "id": "3",
-      "title": "Publicados discursos de Xi sobre el trabajo a nivel de base",
-      "summary": "The Central Party Literature Press published a collection of Xi Jinping's speeches and instructions on grassroots-level work methods.",
-      "url": "http://spanish.xinhuanet.com/20260705/8805be411a49497a9009e1777d1ac2a5/c.html",
-      "publishedAt": "2026-07-05T00:00:00Z"
+      "id": "2",
+      "title": "Xi Jinping calls for solid measures to modernize agriculture and rural areas",
+      "summary": "Xi Jinping urged the adoption of solid measures to advance the modernization of agriculture and rural zones during an inspection tour in Shandong Province.",
+      "url": "http://french.xinhuanet.com/20260624/310af451099e417eade601c30ed7dcc0/c.html",
+      "publishedAt": "2026-06-24T00:00:00Z"
     },
     {
-      "id": "4",
-      "title": "Xinhua Noticias | Xi pide adoptar medidas sólidas para modernizar agricultura y zonas rurales",
-      "summary": "Xi Jinping called for concrete measures to advance modernization of agriculture and rural areas.",
-      "url": "https://spanish.xinhuanet.com/20260625/32b7a36650a542bc854f0ada5578550a/c.html",
-      "publishedAt": "2026-06-25T00:00:00Z"
+      "id": "3",
+      "title": "Xi urges Party members to carry forward revolutionary traditions in response to centenarian member",
+      "summary": "Xi Jinping responded to a 102-year-old Communist Party member, urging all Party members to maintain revolutionary traditions and continue efforts toward the Party's cause.",
+      "url": "https://spanish.xinhuanet.com/20260618/6f5484ffb2104694bbffd053fb8e3a37/c.html",
+      "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]
 }
