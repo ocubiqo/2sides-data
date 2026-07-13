@@ -1,6 +1,42 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-12T09:02:27.402Z",
+  "updatedAt": "2026-07-13T10:23:27.142Z",
   "sourceAgency": "TASS",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Putin discusses info threats posed by emerging technologies with Security Council",
+      "summary": "President Putin held a Friday meeting with permanent members of the Russian Security Council to focus on threats to Russia's information security from emerging technologies and their deployment.",
+      "url": "https://tass.com/politics/2158719",
+      "publishedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Kremlin comments on contact with Turkey over S-400s, Ukraine buffer zone",
+      "summary": "Kremlin Spokesman Peskov addressed Russia's communication with Turkey regarding S-400 missile systems, the expansion of a buffer zone along the border with Ukraine, and Kiev's attacks on nuclear infrastructure.",
+      "url": "https://tass.com/politics/2158643",
+      "publishedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "No phone call from Trump yesterday, but Putin always glad to speak — Kremlin",
+      "summary": "Kremlin Spokesman Peskov stated that US President Trump was busy and did not contact Putin as planned, but confirmed the Russian president is open to dialogue with his American counterpart.",
+      "url": "https://tass.com/politics/2158131",
+      "publishedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Key statements from President Putin's meeting with Cabinet on fuel situation",
+      "summary": "President Putin held a cabinet meeting on fuel and transport sectors operations, instructing officials to prioritize fuel supply decisions and noting that current difficulties are temporary while the energy sector maintains high safety margins.",
+      "url": "https://tass.com/politics/2157755",
+      "publishedAt": "2026-07-08T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Russia-China joint naval drills not aimed against anyone — Kremlin",
+      "summary": "Kremlin Spokesman Peskov stated that the Russia-China Joint Sea 2026 naval exercise is an important security cooperation measure and not directed against any regional country.",
+      "url": "https://tass.com/politics/2156247",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    }
+  ]
 }

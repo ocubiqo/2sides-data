@@ -1,42 +1,42 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-12T09:03:44.371Z",
+  "updatedAt": "2026-07-13T10:24:37.380Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
-      "title": "Tedeum, en vivo: ante Milei, García Cuerva defendió la inversión en discapacidad y pidió dejar atrás la \"mezquindad política\"",
-      "summary": "President Milei participated in the traditional Tedeum ceremony on July 9 at the Metropolitan Cathedral for Argentina's Independence Day, where Archbishop García Cuerva delivered a homily calling for unity and investment in vulnerable populations.",
-      "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-en-el-tedeum-en-vivo-ultimas-noticias-hoy-9-de-julio-minuto-a-minuto/",
-      "publishedAt": "2026-07-09T08:00:00Z"
+      "title": "El efusivo canto de la Marcha de San Lorenzo que hizo Javier Milei junto a un granadero",
+      "summary": "President Milei participated in the Independence Day Tedeum at the Metropolitan Cathedral and sang the San Lorenzo March with members of the presidential cabinet and provincial authorities.",
+      "url": "https://www.infobae.com/politica/2026/07/09/el-efusivo-canto-de-la-marcha-de-san-lorenzo-que-hizo-javier-milei-junto-a-un-granadero/",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "1",
       "title": "Desde Tucumán, Milei llamó a los gobernadores a \"sentar las bases para el futuro de una verdadera libertad\"",
-      "summary": "President Milei delivered a speech during the July 9 vigil in Tucumán highlighting his administration's achievements including fiscal surplus, regulatory reforms, and calling governors to reaffirm commitment to the Pacto de Mayo.",
+      "summary": "President Milei conducted an analysis of his administration at the Independence Day vigil in Tucumán, highlighting the Pact of May and identifying three legislative priorities including elimination of primary elections and Central Bank reform.",
       "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-encabeza-el-acto-por-el-9-de-julio-en-tucuman-estamos-desendeudando-al-pais/",
-      "publishedAt": "2026-07-09T08:00:00Z"
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "2",
       "title": "Ahora juega la casta: Javier Milei movió primero y fuerte para 2027",
-      "summary": "The government is working to reform electoral rules by eliminating primary elections and implementing a system of party listings while pursuing political alliances with governors to support Milei's 2027 reelection bid.",
+      "summary": "The Milei government launched a comprehensive campaign strategy for 2027 reelection, including electoral organizing, political reforms to eliminate primary elections, and negotiations with provincial governors.",
       "url": "https://www.infobae.com/politica/2026/07/08/ahora-juega-la-casta-javier-milei-movio-primero-y-fuerte-para-2027/",
-      "publishedAt": "2026-07-08T08:00:00Z"
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "3",
       "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente",
-      "summary": "President Milei offered Casa Rosada for the national football team's potential World Cup celebration while discussing his administration's financial reforms including Central Bank Charter modifications and capital markets development.",
+      "summary": "President Milei offered the Casa Rosada for a potential national football team World Cup celebration while stating he would vacate the building to avoid political interference in the team's achievements.",
       "url": "https://www.infobae.com/politica/2026/07/08/javier-milei-puso-la-casa-rosada-a-disposicion-de-la-seleccion-y-prometio-no-estar-presente/",
-      "publishedAt": "2026-07-08T08:00:00Z"
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "El Gobierno celebra el avance de la derecha en la región y mira con expectativa las elecciones de Brasil",
-      "summary": "President Milei expressed support for right-wing electoral victories in Peru and Colombia, confirmed attendance at their presidential inaugurations, and openly backed opposition to Brazil's current government ahead of October elections.",
-      "url": "https://www.infobae.com/politica/2026/07/05/el-gobierno-celebra-el-avance-de-la-derecha-en-la-region-y-mira-con-expectativa-las-elecciones-de-brasil/",
-      "publishedAt": "2026-07-05T08:00:00Z"
+      "title": "Giro a la derecha en América Latina: Javier Milei viajará a las asunciones de Keiko Fujimori en Perú y Abelardo de la Espriella en Colombia",
+      "summary": "President Milei will travel to Peru on July 28 and Colombia on August 7 to attend the inaugurations of right-wing leaders Keiko Fujimori and Abelardo de la Espriella, aligned with his ideology.",
+      "url": "https://www.infobae.com/politica/2026/07/07/giro-a-la-derecha-en-america-latina-javier-milei-viajara-a-las-asunciones-de-keiko-fujimori-en-peru-y-abelardo-de-la-espriella-en-colombia/",
+      "publishedAt": "2026-07-07T00:00:00Z"
     }
   ]
 }

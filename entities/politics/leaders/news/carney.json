@@ -1,42 +1,42 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-12T09:04:20.954Z",
+  "updatedAt": "2026-07-13T10:25:13.090Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "Turkey's president gifted Carney a revolver at NATO summit. Carney gave him maple syrup",
-      "summary": "Turkish President Erdoğan gifted NATO leaders including Carney a custom .357 magnum revolver at the Ankara summit, which Carney said was decommissioned and will be sent to a museum.",
-      "url": "https://www.cbc.ca/news/politics/mark-carney-recep-tayyip-erdogan-nato-summit-gun-9.7264610",
-      "publishedAt": "2026-07-09T19:21:00Z"
+      "title": "More than 2,000 Canadians have donated toward restoration of 24 Sussex Drive",
+      "summary": "Prime Minister Mark Carney announced a national campaign to raise funds for restoring the prime minister's official residence, with over 2,000 donors contributing and a public donor list released.",
+      "url": "https://www.cbc.ca/news/politics/24-sussex-mark-carney-fundraising-public-donor-list-9.7266278",
+      "publishedAt": "2026-07-11T00:00:00Z"
     },
     {
       "id": "1",
       "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
-      "summary": "Prime Minister Carney sought to deepen ties with Saudi Arabia while condemning Iranian attacks on Gulf shipping and signalling a pragmatic reset in relations after years of diplomatic estrangement.",
+      "summary": "Prime Minister Mark Carney sought to deepen ties with Saudi Arabia during a visit while condemning Iranian attacks and reaffirming support for regional security.",
       "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
-      "publishedAt": "2026-07-10T13:10:00Z"
+      "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
       "id": "2",
       "title": "Carney backs latest U.S. strikes on Iran as Trump slams NATO allies",
-      "summary": "Prime Minister Carney endorsed the latest U.S. strikes on Iran as a justified response to ceasefire violations while speaking at a NATO summit in Turkey.",
+      "summary": "Prime Minister Mark Carney endorsed the latest U.S. strikes on Iran as a justified response to ceasefire violations during a NATO Summit in Turkey.",
       "url": "https://www.cbc.ca/news/politics/iran-war-us-carney-air-strikes-9.7262373",
-      "publishedAt": "2026-07-08T11:27:00Z"
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "3",
       "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
-      "summary": "Prime Minister Carney made his first Senate appointments including longtime Liberal strategist Tim Pitfield and Conservative MP Richard Martel, signalling a shift from former PM Trudeau's nonpartisan approach.",
+      "summary": "Prime Minister Mark Carney made his first Senate appointments, including senior adviser Tim Pitfield and Conservative MP Richard Martel, moving away from the previous non-partisan approach.",
       "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
-      "publishedAt": "2026-07-08T13:36:00Z"
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "Carney hails submarine deal as NATO win, moves to ease South Korea's disappointment",
-      "summary": "Prime Minister Carney celebrated Canada's submarine partnership with Germany and Norway while also meeting with South Korea's president to reassure them after their bid was not selected.",
-      "url": "https://www.cbc.ca/news/politics/submarines-south-korea-germany-canada-military-spending-9.7261919",
-      "publishedAt": "2026-07-07T22:04:00Z"
+      "title": "ANALYSIS | Carney starts to leave his mark on the Senate",
+      "summary": "Prime Minister Mark Carney's initial Senate appointments and modifications to the Trudeau-era guidelines signal a shift toward restoring more partisan voices to the upper house.",
+      "url": "https://www.cbc.ca/news/politics/carney-senate-independent-pitfield-martel-analysis-9.7261876",
+      "publishedAt": "2026-07-08T00:00:00Z"
     }
   ]
 }

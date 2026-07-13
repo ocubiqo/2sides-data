@@ -1,28 +1,6 @@
 {
   "politicianId": "khan",
-  "updatedAt": "2026-07-12T09:04:52.538Z",
+  "updatedAt": "2026-07-13T10:25:31.673Z",
   "sourceAgency": "APP (Pakistan)",
-  "articles": [
-    {
-      "id": "0",
-      "title": "IHC reserves ruling on maintainability of petitions alleging solitary confinement of PTI Founder, Bushra Bibi",
-      "summary": "The Islamabad High Court reserved its decision on petitions challenging alleged solitary confinement of PTI founder Imran Khan and his wife Bushra Bibi in Adiala Jail.",
-      "url": "https://www.app.com.pk/national/ihc-reserves-ruling-on-maintainability-of-petitions-alleging-solitary-confinement-of-pti-founder-bushra-bibi/",
-      "publishedAt": "2026-06-30T00:00:00Z"
-    },
-    {
-      "id": "1",
-      "title": "IHC reserves verdict on objections against plea for KP CM's meeting with PTI founder",
-      "summary": "The Islamabad High Court reserved its decision on a petition by Khyber Pakhtunkhwa Chief Minister seeking a meeting with Imran Khan in jail regarding provincial budget consultation.",
-      "url": "https://www.app.com.pk/national/ihc-reserves-verdict-on-objections-against-plea-for-kp-cms-meeting-with-pti-founder/",
-      "publishedAt": "2026-06-18T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "IHC fixes June 29, for hearing PTI founder, Bushra Bibi Appeals in £190 Million case",
-      "summary": "The Islamabad High Court scheduled a hearing for June 29 on appeals filed by Imran Khan and Bushra Bibi against their convictions in the £190 million case.",
-      "url": "https://www.app.com.pk/national/ihc-fixes-june-29-for-hearing-pti-founder-bushra-bibi-appeals-in-190-million-case/",
-      "publishedAt": "2026-06-24T00:00:00Z"
-    }
-  ]
+  "articles": []
 }

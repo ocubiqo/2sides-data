@@ -1,35 +1,6 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-12T09:04:40.650Z",
+  "updatedAt": "2026-07-13T10:25:24.880Z",
   "sourceAgency": "Agência Brasil",
-  "articles": [
-    {
-      "id": "0",
-      "title": "Presidente da Venezuela agradece apoio do Brasil",
-      "summary": "Lula discussed with Venezuelan President Delcy Rodríguez Brazil's humanitarian assistance following earthquakes that killed over 4,000 people in late June, including medical supplies and a field hospital.",
-      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-07/presidente-da-venezuela-agradece-apoio-do-brasil",
-      "publishedAt": "2026-07-10T20:09:00Z"
-    },
-    {
-      "id": "1",
-      "title": "Lula defende acordo do Mercosul com China durante Cúpula do bloco",
-      "summary": "During the Mercosul Summit in Asunción, Lula advocated for the bloc to initiate negotiations with China for a trade agreement and criticized automatic alignment and exclusionary choices.",
-      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-06/lula-defende-acordo-do-mercosul-com-china-durante-cupula-do-bloco",
-      "publishedAt": "2026-06-30T15:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "\"Melhor arma que um país pode ter é alimento\", diz Lula",
-      "summary": "At the launch of the 2026/2027 Crop Plan, Lula encouraged family farmers to use available financing resources and discussed reducing interest rates for agricultural credit.",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/melhor-arma-que-um-pais-pode-ter-e-alimento-diz-lula",
-      "publishedAt": "2026-06-30T21:54:00Z"
-    },
-    {
-      "id": "3",
-      "title": "PF conclui que Flávio Bolsonaro cometeu calúnia contra Lula nas redes",
-      "summary": "The Federal Police concluded that Senator Flávio Bolsonaro committed libel against President Lula in social media posts falsely attributing crimes including drug trafficking and money laundering.",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/pf-conclui-que-flavio-bolsonaro-cometeu-calunia-contra-lula-nas-redes",
-      "publishedAt": "2026-06-26T19:33:00Z"
-    }
-  ]
+  "articles": []
 }

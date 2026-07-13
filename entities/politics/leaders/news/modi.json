@@ -1,42 +1,42 @@
 {
   "politicianId": "modi",
-  "updatedAt": "2026-07-12T09:02:20.575Z",
+  "updatedAt": "2026-07-13T10:23:14.726Z",
   "sourceAgency": "ANI / PTI",
   "articles": [
     {
       "id": "0",
       "title": "'Das Kadam, Das Ka Dam': Sambit Patra highlights 10 key outcomes of PM Modi's recent foreign visits",
-      "summary": "BJP MP Sambit Patra outlined ten key outcomes from PM Modi's recent visits to Indonesia, Australia, New Zealand and Seychelles, highlighting strengthened strategic, defence, economic and cultural partnerships with Indo-Pacific nations.",
+      "summary": "BJP MP Sambit Patra highlighted ten key outcomes from Prime Minister Modi's recent visits to Indonesia, Australia, and New Zealand, describing them as strengthening India's strategic, defence, economic and cultural partnerships with Indo-Pacific nations.",
       "url": "https://aninews.in/news/national/general-news/das-kadam-das-ka-dam-sambit-patra-highlights-10-key-outcomes-of-pm-modis-recent-foreign-visits20260712134330/",
-      "publishedAt": "2026-07-12T08:43:30Z"
+      "publishedAt": "2026-07-12T13:43:30Z"
     },
     {
       "id": "1",
       "title": "Deepened bonds, strengthened partnerships: PM Modi concludes three-nation visit, departs from NZ to India",
-      "summary": "PM Modi concluded his three-nation visit to Indonesia, Australia and New Zealand, with India-New Zealand ties elevated to a Strategic Partnership and 18 key outcomes announced across defence, trade, and cooperation sectors.",
+      "summary": "Prime Minister Modi concluded his three-nation visit to Indonesia, Australia and New Zealand, elevating India-New Zealand ties to a Strategic Partnership with an ambitious roadmap for cooperation across multiple sectors.",
       "url": "https://aninews.in/news/world/pacific/deepened-bonds-strengthened-partnerships-pm-modi-concludes-three-nation-visit-departs-from-nz-to-india20260711162914/",
       "publishedAt": "2026-07-11T16:29:14Z"
     },
     {
       "id": "2",
-      "title": "PM Modi is \"quintessential\" politician, prefers direct contact with electorate: MEA",
-      "summary": "India's Ministry of External Affairs stated that PM Modi, as a quintessential Indian politician, prefers direct contact with his electorate rather than press conferences during his official visit to New Zealand.",
-      "url": "https://aninews.in/news/world/pacific/pm-modi-is-quintessential-politician-prefers-direct-contact-with-electorate-mea20260711130616/",
-      "publishedAt": "2026-07-11T13:06:16Z"
-    },
-    {
-      "id": "3",
       "title": "\"When India's Chandrayaan landed on Moon, all of New Zealand rejoiced\": PM Modi hails increasing space sector collaboration",
-      "summary": "PM Modi highlighted India-New Zealand collaboration in the space sector, noting that New Zealand's technology contributed to India's Chandrayaan lunar mission success during his community address in Auckland.",
+      "summary": "Prime Minister Modi hailed increasing collaboration in the space sector between India and New Zealand, noting that New Zealand's technology contributed to the success of India's Chandrayaan moon landing mission.",
       "url": "https://aninews.in/news/world/pacific/when-indias-chandrayaan-landed-on-moon-all-of-new-zealand-rejoiced-pm-modi-hails-increasing-space-sector-collaboration20260711162130/",
       "publishedAt": "2026-07-11T16:21:30Z"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "'Bond with India remains unwavering': PM Modi after meeting diaspora in New Zealand",
-      "summary": "PM Modi met with members of the Indian diaspora in New Zealand, expressing gratitude for their enthusiasm and reaffirming their strong bond with India during the first Indian PM visit to the country in four decades.",
+      "summary": "Prime Minister Modi met with members of the Indian diaspora in New Zealand and expressed deep gratitude for their overwhelming enthusiasm, noting they had awaited an Indian Prime Minister's visit for four decades.",
       "url": "https://aninews.in/news/world/pacific/bond-with-india-remains-unwavering-pm-modi-after-meeting-diaspora-in-new-zealand20260710173353/",
       "publishedAt": "2026-07-10T17:33:53Z"
+    },
+    {
+      "id": "4",
+      "title": "PM Modi hails outcomes from Indonesia visit as \"comprehensive, substantive and futuristic\"",
+      "summary": "Prime Minister Modi welcomed the outcomes from his discussions with Indonesian President Prabowo Subianto, affirming that India-Indonesia bilateral relations will continue to scale new heights with 20 Memorandums of Understanding signed.",
+      "url": "https://aninews.in/news/world/pacific/pm-modi-hails-outcomes-from-indonesia-visit-as-comprehensive-substantive-and-futuristic20260707152507/",
+      "publishedAt": "2026-07-07T15:25:07Z"
     }
   ]
 }
