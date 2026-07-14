@@ -1,6 +1,8 @@
 /**
  * WC2026 live score updater for the 2 Sides app.
  * Called by GitHub Actions every 6 h — writes wc2026/results.json.
+ * Tracks both the 72 hardcoded group-stage fixtures and any knockout
+ * fixtures in wc2026/knockout-fixtures.json (once aId/bId are filled in).
  *
  * Env vars:
  *   ANTHROPIC_API_KEY  — required
@@ -14,6 +16,15 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT      = join(__dirname, '..');
 const WC_DIR    = join(ROOT, 'wc2026');
+
+function loadKnockoutFixtures() {
+  const path = join(WC_DIR, 'knockout-fixtures.json');
+  if (!existsSync(path)) return [];
+  try {
+    const data = JSON.parse(readFileSync(path, 'utf8'));
+    return (data.fixtures ?? []).filter(f => f.aId && f.bId && !f._skip);
+  } catch { return []; }
+}
 
 const WC2026_FIXTURES = [
   // MD1
@@ -96,8 +107,12 @@ const WC2026_FIXTURES = [
 const DONE_BUFFER_MS  = 2 * 3_600_000;
 const STATS_MAX_AGE_MS = 48 * 3_600_000; // stop retrying stats after 48h post-kickoff
 
+function getAllFixtures() {
+  return [...WC2026_FIXTURES, ...loadKnockoutFixtures()];
+}
+
 function getCompletedFixtures(nowMs) {
-  return WC2026_FIXTURES.filter(f => new Date(f.ko).getTime() + DONE_BUFFER_MS < nowMs);
+  return getAllFixtures().filter(f => new Date(f.ko).getTime() + DONE_BUFFER_MS < nowMs);
 }
 
 // Load existing results so we keep already-confirmed scores even if search misses them
@@ -114,16 +129,18 @@ function buildPrompt(fixtures) {
   const fixtureList = fixtures
     .map(f => {
       const date = f.ko.split('T')[0];
-      return `  ${f.id}: ${f.aId} — search for their FIFA World Cup 2026 match on ${date}`;
+      return f.round
+        ? `  ${f.id}: ${f.aId} vs ${f.bId} — FIFA World Cup 2026 ${f.round} on ${date}`
+        : `  ${f.id}: ${f.aId} — search for their FIFA World Cup 2026 group stage match on ${date}`;
     })
     .join('\n');
 
   return `Today: ${new Date().toUTCString()}
 
-Search FIFA.com, ESPN, or BBC Sport for these FIFA World Cup 2026 group stage results. For each item, find the match played by the listed team on (or around) that date — regardless of who the opponent was:
+Search FIFA.com, ESPN, or BBC Sport for these FIFA World Cup 2026 results. Some are group stage (opponent unknown — find whoever they played on that date); others are knockout matches with both teams already named:
 ${fixtureList}
 
-Search queries to use: "[team] FIFA World Cup 2026 match result [date]" or "[team] World Cup 2026 site:fifa.com"
+Search queries to use: "[team] FIFA World Cup 2026 match result [date]" or "[team A] vs [team B] World Cup 2026 site:fifa.com". For knockout matches, note extra time / penalty shootout outcomes if the match went beyond 90 minutes — record the score after extra time (before penalties) as the result, and if it was decided on penalties, mention that in nothing else (just report regulation/ET score; if it finished level after ET, use that scoreline).
 
 Return a JSON object with one key per match ID. Use the listed team as "team A". Include match stats if the official source shows them (possession %, shots, corners, cards):
 {"a1":{"played":true,"aScore":2,"bScore":0,"opponentId":"south-africa","stats":{"possession_a":58,"possession_b":42,"shots_a":14,"shots_b":5,"shots_on_target_a":6,"shots_on_target_b":1,"corners_a":7,"corners_b":2,"yellow_cards_a":1,"yellow_cards_b":0}}}
@@ -131,7 +148,7 @@ Return a JSON object with one key per match ID. Use the listed team as "team A".
 Rules:
 - Keys must be exactly the match IDs listed above
 - aScore = goals by the FIRST team listed, bScore = goals by their actual opponent
-- opponentId = actual opponent name (lowercase-hyphenated, e.g. "south-africa")
+- opponentId = actual opponent name (lowercase-hyphenated, e.g. "south-africa") — for knockout matches this should match the named second team
 - stats.*_a = first team's stats, stats.*_b = opponent's stats; possession_a + possession_b = 100
 - Omit the stats object entirely if you cannot find match stats — do NOT guess
 - Only include a match if you find a confirmed final score from an official or reliable source

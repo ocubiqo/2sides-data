@@ -179,8 +179,8 @@ function loadKnockoutFixtures() {
   if (!existsSync(path)) return [];
   try {
     const data = JSON.parse(readFileSync(path, 'utf8'));
-    // Filter out placeholder entries where teams haven't been determined yet
-    return (data.fixtures ?? []).filter(f => f.aId && f.bId);
+    // Filter out placeholder entries where teams haven't been determined yet, and any explicitly skipped
+    return (data.fixtures ?? []).filter(f => f.aId && f.bId && !f._skip);
   } catch { return []; }
 }
 
