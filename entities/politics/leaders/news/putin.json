@@ -1,42 +1,42 @@
 {
   "politicianId": "putin",
-  "updatedAt": "2026-07-13T10:23:27.142Z",
+  "updatedAt": "2026-07-14T09:03:23.711Z",
   "sourceAgency": "TASS",
   "articles": [
     {
       "id": "0",
+      "title": "Modernizing Russia's armed forces, fuel situation — Putin's remarks",
+      "summary": "Putin stated at a People's Front forum that Russia's strength lies in its ability to overcome difficulties, emphasizing that Russia is modernizing its armed forces and achieving new results in the defense industry despite fuel derivative problems caused by Ukrainian actions.",
+      "url": "https://tass.com/society/2159709",
+      "publishedAt": "2026-07-13T00:00:00Z"
+    },
+    {
+      "id": "1",
       "title": "Putin discusses info threats posed by emerging technologies with Security Council",
-      "summary": "President Putin held a Friday meeting with permanent members of the Russian Security Council to focus on threats to Russia's information security from emerging technologies and their deployment.",
+      "summary": "Putin held a meeting with permanent members of the Russian Security Council to discuss threats to Russia's information security stemming from the development and deployment of emerging technologies.",
       "url": "https://tass.com/politics/2158719",
       "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
-      "id": "1",
-      "title": "Kremlin comments on contact with Turkey over S-400s, Ukraine buffer zone",
-      "summary": "Kremlin Spokesman Peskov addressed Russia's communication with Turkey regarding S-400 missile systems, the expansion of a buffer zone along the border with Ukraine, and Kiev's attacks on nuclear infrastructure.",
-      "url": "https://tass.com/politics/2158643",
-      "publishedAt": "2026-07-10T00:00:00Z"
-    },
-    {
       "id": "2",
-      "title": "No phone call from Trump yesterday, but Putin always glad to speak — Kremlin",
-      "summary": "Kremlin Spokesman Peskov stated that US President Trump was busy and did not contact Putin as planned, but confirmed the Russian president is open to dialogue with his American counterpart.",
-      "url": "https://tass.com/politics/2158131",
-      "publishedAt": "2026-07-09T00:00:00Z"
-    },
-    {
-      "id": "3",
       "title": "Key statements from President Putin's meeting with Cabinet on fuel situation",
-      "summary": "President Putin held a cabinet meeting on fuel and transport sectors operations, instructing officials to prioritize fuel supply decisions and noting that current difficulties are temporary while the energy sector maintains high safety margins.",
+      "summary": "Putin held a meeting with the cabinet on the operation of the fuel and transport sectors, instructing officials to fast-track fuel supply decisions to Crimea and stating that Russia's fuel difficulties are temporary with high sector margins of safety.",
       "url": "https://tass.com/politics/2157755",
       "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
+      "id": "3",
+      "title": "Putin notes formation of partnerships by Russian Export Center with friendly states",
+      "summary": "Putin met with Russian Export Center Director General Veronika Nikishina and noted the successful establishment of sustainable partnerships with friendly countries, aimed at achieving a two-thirds increase in exports by 2030.",
+      "url": "https://tass.com/politics/2156861",
+      "publishedAt": "2026-07-07T00:00:00Z"
+    },
+    {
       "id": "4",
-      "title": "Russia-China joint naval drills not aimed against anyone — Kremlin",
-      "summary": "Kremlin Spokesman Peskov stated that the Russia-China Joint Sea 2026 naval exercise is an important security cooperation measure and not directed against any regional country.",
-      "url": "https://tass.com/politics/2156247",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "title": "Russia living through crucial time — Putin",
+      "summary": "Putin stated at a United Russia party congress that Russia is living through a crucial time and pledged to bring the Russian economy to a new technological level across all key spheres while ensuring national security.",
+      "url": "https://tass.com/politics/2152667",
+      "publishedAt": "2026-06-28T00:00:00Z"
     }
   ]
 }

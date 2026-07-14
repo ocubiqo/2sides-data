@@ -1,42 +1,42 @@
 {
   "politicianId": "modi",
-  "updatedAt": "2026-07-13T10:23:14.726Z",
+  "updatedAt": "2026-07-14T09:03:12.565Z",
   "sourceAgency": "ANI / PTI",
   "articles": [
     {
       "id": "0",
-      "title": "'Das Kadam, Das Ka Dam': Sambit Patra highlights 10 key outcomes of PM Modi's recent foreign visits",
-      "summary": "BJP MP Sambit Patra highlighted ten key outcomes from Prime Minister Modi's recent visits to Indonesia, Australia, and New Zealand, describing them as strengthening India's strategic, defence, economic and cultural partnerships with Indo-Pacific nations.",
-      "url": "https://aninews.in/news/national/general-news/das-kadam-das-ka-dam-sambit-patra-highlights-10-key-outcomes-of-pm-modis-recent-foreign-visits20260712134330/",
-      "publishedAt": "2026-07-12T13:43:30Z"
-    },
-    {
-      "id": "1",
       "title": "Deepened bonds, strengthened partnerships: PM Modi concludes three-nation visit, departs from NZ to India",
-      "summary": "Prime Minister Modi concluded his three-nation visit to Indonesia, Australia and New Zealand, elevating India-New Zealand ties to a Strategic Partnership with an ambitious roadmap for cooperation across multiple sectors.",
+      "summary": "PM Modi concluded his three-nation visit to Indonesia, Australia and New Zealand, with New Zealand ties elevated to a Strategic Partnership and an ambitious roadmap unveiled for cooperation across multiple sectors.",
       "url": "https://aninews.in/news/world/pacific/deepened-bonds-strengthened-partnerships-pm-modi-concludes-three-nation-visit-departs-from-nz-to-india20260711162914/",
       "publishedAt": "2026-07-11T16:29:14Z"
     },
     {
-      "id": "2",
-      "title": "\"When India's Chandrayaan landed on Moon, all of New Zealand rejoiced\": PM Modi hails increasing space sector collaboration",
-      "summary": "Prime Minister Modi hailed increasing collaboration in the space sector between India and New Zealand, noting that New Zealand's technology contributed to the success of India's Chandrayaan moon landing mission.",
+      "id": "1",
+      "title": "When India's Chandrayaan landed on Moon, all of New Zealand rejoiced: PM Modi hails increasing space sector collaboration",
+      "summary": "PM Modi praised India-New Zealand collaboration in the space sector, noting that New Zealand's technology contributed to India's successful Chandrayaan moon landing.",
       "url": "https://aninews.in/news/world/pacific/when-indias-chandrayaan-landed-on-moon-all-of-new-zealand-rejoiced-pm-modi-hails-increasing-space-sector-collaboration20260711162130/",
       "publishedAt": "2026-07-11T16:21:30Z"
     },
     {
+      "id": "2",
+      "title": "Das Kadam, Das Ka Dam: Sambit Patra highlights 10 key outcomes of PM Modi's recent foreign visits",
+      "summary": "BJP MP Sambit Patra outlined ten key outcomes from PM Modi's recent visits to Indonesia, Australia, New Zealand and Seychelles, highlighting strengthened strategic, defence, economic and cultural partnerships.",
+      "url": "https://aninews.in/news/national/general-news/das-kadam-das-ka-dam-sambit-patra-highlights-10-key-outcomes-of-pm-modis-recent-foreign-visits20260712134330/",
+      "publishedAt": "2026-07-12T13:43:30Z"
+    },
+    {
       "id": "3",
-      "title": "'Bond with India remains unwavering': PM Modi after meeting diaspora in New Zealand",
-      "summary": "Prime Minister Modi met with members of the Indian diaspora in New Zealand and expressed deep gratitude for their overwhelming enthusiasm, noting they had awaited an Indian Prime Minister's visit for four decades.",
-      "url": "https://aninews.in/news/world/pacific/bond-with-india-remains-unwavering-pm-modi-after-meeting-diaspora-in-new-zealand20260710173353/",
-      "publishedAt": "2026-07-10T17:33:53Z"
+      "title": "PM Modi hails outcomes from Indonesia visit as comprehensive, substantive and futuristic",
+      "summary": "PM Modi welcomed outcomes from discussions with Indonesian President Prabowo Subianto, including 20 Memorandums of Understanding on bilateral cooperation including the BrahMos missile system and educational institutes.",
+      "url": "https://aninews.in/news/world/pacific/pm-modi-hails-outcomes-from-indonesia-visit-as-comprehensive-substantive-and-futuristic20260707152507/",
+      "publishedAt": "2026-07-07T15:25:07Z"
     },
     {
       "id": "4",
-      "title": "PM Modi hails outcomes from Indonesia visit as \"comprehensive, substantive and futuristic\"",
-      "summary": "Prime Minister Modi welcomed the outcomes from his discussions with Indonesian President Prabowo Subianto, affirming that India-Indonesia bilateral relations will continue to scale new heights with 20 Memorandums of Understanding signed.",
-      "url": "https://aninews.in/news/world/pacific/pm-modi-hails-outcomes-from-indonesia-visit-as-comprehensive-substantive-and-futuristic20260707152507/",
-      "publishedAt": "2026-07-07T15:25:07Z"
+      "title": "PM Modi emplanes for New Delhi after concluding high-profile State visit to Seychelles",
+      "summary": "PM Modi concluded a three-day state visit to Seychelles as Guest of Honour for the nation's 50th independence anniversary, securing a $175 million economic development package and Rs 1,250 crore credit line.",
+      "url": "https://aninews.in/news/world/others/pm-modi-emplanes-for-new-delhi-after-concluding-high-profile-state-visit-to-seychelles20260629134636/",
+      "publishedAt": "2026-06-29T13:46:36Z"
     }
   ]
 }

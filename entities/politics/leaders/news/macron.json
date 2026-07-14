@@ -1,42 +1,42 @@
 {
   "politicianId": "macron",
-  "updatedAt": "2026-07-13T10:24:05.748Z",
+  "updatedAt": "2026-07-14T09:04:07.121Z",
   "sourceAgency": "France 24",
   "articles": [
     {
       "id": "0",
-      "title": "Macron addresses Ukraine, Greenland at NATO summit",
-      "summary": "French President Emmanuel Macron told reporters at the NATO summit that he does not believe the US would seize Greenland, while also addressing the war in Ukraine and Iran.",
-      "url": "https://www.france24.com/en/video/20260708-replay-macron-addresses-ukraine-greenland-at-nato-summit",
-      "publishedAt": "2026-07-08T00:00:00Z"
+      "title": "In final speech to armed forces, Macron urges European defence projects",
+      "summary": "French President Emmanuel Macron delivered his final address to armed forces on July 13, stating Europe was ready to defend itself and freedom with 'blood' if necessary, ahead of a meeting of Ukraine's allies.",
+      "url": "https://www.france24.com/en/in-final-speech-to-armed-forces-macron-urges-european-defence-porjects",
+      "publishedAt": "2026-07-13T20:00:00Z"
     },
     {
       "id": "1",
-      "title": "Macron in Syria on first post-Assad visit by West European head of state",
-      "summary": "French President Emmanuel Macron arrived in Damascus for the first visit by a Western European head of state since Syria's new authorities took power, meeting with President Ahmed al-Sharaa to reaffirm France's commitment to Syria and discuss reconstruction and investments.",
-      "url": "https://www.france24.com/en/live-news/20260706-macron-in-syria-on-first-post-assad-visit-by-west-european-head-of-state",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "title": "Replay: Macron speaks as Ukraine's 'Coalition of the Willing' meeting ends in Paris",
+      "summary": "French President Emmanuel Macron announced that Ukraine ordered 16 Rafale fighter jets and new surface-to-air defence batteries from France following a meeting of over 20 'Coalition of the Willing' leaders on July 14.",
+      "url": "https://www.france24.com/en/video/20260713-replay-macron-speaks-as-ukraine-s-coalition-of-the-willing-meeting-ends-in-paris",
+      "publishedAt": "2026-07-14T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
-      "summary": "Analysis of French President Emmanuel Macron's diplomatic strategy using the Palace of Versailles as a soft-power tool, examining successes and failures in translating grand gestures into lasting strategic influence during his tenure.",
-      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
-      "publishedAt": "2026-06-18T00:00:00Z"
+      "title": "'The facts are there': Macron salutes fulfilling pledge to boost defence spending",
+      "summary": "French President Emmanuel Macron vowed France and Europe will defend freedom at all costs and praised fulfilling France's commitment to rearm during his traditional July 14 speech to the armed forces.",
+      "url": "https://www.france24.com/en/the-facts-are-there-macron-salutes-fulfilling-pledge-to-boost-defence-spending",
+      "publishedAt": "2026-07-13T18:00:00Z"
     },
     {
       "id": "3",
-      "title": "'For sure': Macron to preach stronger Europe vision at G7 swansong",
-      "summary": "French President Emmanuel Macron hosts his last G7 summit as president, pushing his vision of a stronger, more autonomous Europe amid concerns about US protectionism and NATO commitments under Trump's administration.",
-      "url": "https://www.france24.com/en/live-news/20260615-for-sure-macron-to-preach-stronger-europe-vision-at-g7-swansong",
-      "publishedAt": "2026-06-15T00:00:00Z"
+      "title": "Macron in Syria on first post-Assad visit by West European head of state",
+      "summary": "French President Emmanuel Macron visited Damascus on July 6 as the first Western European head of state to visit Syria since new authorities took power, meeting with President Ahmed al-Sharaa to discuss France's commitment to Syria's sovereignty.",
+      "url": "https://www.france24.com/en/live-news/20260706-macron-in-syria-on-first-post-assad-visit-by-west-european-head-of-state",
+      "publishedAt": "2026-07-06T19:00:00Z"
     },
     {
       "id": "4",
-      "title": "Replay: French President Emmanuel Macron speaks after Damascus blasts",
-      "summary": "Video replay of French President Emmanuel Macron's press conference with Syrian President Ahmed al-Sharaa during his landmark visit to Damascus, conducted after two bombs exploded near Macron's hotel.",
-      "url": "https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Macron's 'Versailles diplomacy' yields mixed results after a decade in power",
+      "summary": "French President Emmanuel Macron hosted G7 leaders at the Palace of Versailles in June, but analysts noted his diplomatic initiatives have achieved mixed results in translating symbolic gestures into lasting strategic influence.",
+      "url": "https://www.france24.com/en/france/20260618-macron-versailles-diplomacy-yields-mixed-results-after-decade-power",
+      "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]
 }

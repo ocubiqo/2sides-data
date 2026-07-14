@@ -1,33 +1,33 @@
 {
   "politicianId": "meloni",
-  "updatedAt": "2026-07-13T10:24:56.208Z",
+  "updatedAt": "2026-07-14T09:05:06.033Z",
   "sourceAgency": "ANSA",
   "articles": [
     {
       "id": "0",
-      "title": "Meloni: l'Europa difenda i propri confini con umanità ma anche intransigenza",
-      "summary": "Meloni supports EU sanctions against human trafficking networks and says Europe is adopting the government's tougher immigration approach.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/09/meloni-leuropa-difenda-i-propri-confini-con-umanita-ma-anche-intransigenza_a93da350-958b-43bc-957d-b9484727b473.html",
-      "publishedAt": "2026-07-09T00:00:00Z"
+      "title": "Meloni vola a Palermo: 'Colpiremo chi la vuole terrorizzare'",
+      "summary": "Premier Meloni visited Palermo to pay tribute to Judge Giovanni Falcone and participate in a public order and security committee meeting, announcing decisive government action against criminal organizations and proposing possible military involvement in territorial control operations.",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/07/13/meloni-a-palermo-alla-riunione-del-comitato-provinciale-per-lordine-e-la-sicurezza_90c78ada-44ea-4f19-8d99-22acef8a04ed.html",
+      "publishedAt": "2026-07-13T00:00:00Z"
     },
     {
       "id": "1",
+      "title": "Meloni, l'Europa difenda i propri confini con umanità ma anche intransigenza",
+      "summary": "Premier Meloni endorsed EU sanctions against criminal networks exploiting migrant trafficking, stating that Europe should adopt the government's approach to manage migration flows and combat human trafficking organizations.",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/09/meloni-leuropa-difenda-i-propri-confini-con-umanita-ma-anche-intransigenza_99fa0746-eea4-4725-be8a-cebd6b8d5ebb.html",
+      "publishedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "id": "2",
       "title": "Meloni: 'Con Trump non mi pento di nulla, punto all'unità dell'Occidente'",
-      "summary": "At NATO summit in Ankara, Meloni reaffirms commitment to defense spending while rejecting Trump's criticism about refusing US military bases for Iran operations.",
+      "summary": "At the NATO summit in Ankara, Premier Meloni confirmed Italy's commitment to increase defense spending in a sustainable manner while maintaining national priorities, and stated she has no regrets about pursuing unity with Western allies.",
       "url": "https://www.ansa.it/sito/notizie/politica/2026/07/08/meloni-rispettiamo-gli-impegni-nato-ma-in-modo-sostenibile-e-stabilendo-priorita_2cb2e676-df83-43a5-bde1-16f12431dbbf.html",
       "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
-      "id": "2",
-      "title": "Meloni: 'Un presidente della Repubblica di destra potrebbe non essere più un tabù'",
-      "summary": "Meloni suggests that a right-wing president of the republic could become possible and challenges the idea that non-left figures are inferior political actors.",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/06/29/meloni-un-presidente-della-repubblica-di-destra-potrebbe-non-essere-piu-un-tabu_b21115e2-bf0c-40f0-b921-bdc362ebaeaf.html",
-      "publishedAt": "2026-06-29T00:00:00Z"
-    },
-    {
       "id": "3",
       "title": "'Diffamata da Corona', Giorgia Meloni pronta a testimoniare in aula a Milano",
-      "summary": "Meloni agrees to testify as witness in Milan court on September 28 in defamation case against Fabrizio Corona over false allegations published in October 2023.",
+      "summary": "Premier Meloni made herself available to testify as a witness in a Milan courtroom on September 28 in a defamation case against Fabrizio Corona and another defendant over alleged false statements published in 2023.",
       "url": "https://www.ansa.it/sito/notizie/topnews/2026/06/22/diffamata-da-corona-giorgia-meloni-pronta-a-testimoniare-in-aula-a-milano_7c72c6b6-c152-4d7b-8faa-fa5af46ecd6c.html",
       "publishedAt": "2026-06-22T00:00:00Z"
     }

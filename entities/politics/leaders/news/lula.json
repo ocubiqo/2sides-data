@@ -1,6 +1,42 @@
 {
   "politicianId": "lula",
-  "updatedAt": "2026-07-13T10:25:24.880Z",
+  "updatedAt": "2026-07-14T09:05:42.260Z",
   "sourceAgency": "Agência Brasil",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "Presidente da Venezuela agradece apoio do Brasil",
+      "summary": "President Lula spoke by phone with Venezuela's president Delcy Rodríguez to discuss Brazilian humanitarian aid sent after earthquakes that struck Venezuela in late June.",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-07/presidente-da-venezuela-agradece-apoio-do-brasil",
+      "publishedAt": "2026-07-10T20:09:00Z"
+    },
+    {
+      "id": "1",
+      "title": "PF conclui que Flávio Bolsonaro cometeu calúnia contra Lula nas redes",
+      "summary": "Brazil's Federal Police concluded that Senator Flávio Bolsonaro committed slander against President Lula in social media posts making accusations about drug trafficking and money laundering.",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/pf-conclui-que-flavio-bolsonaro-cometeu-calunia-contra-lula-nas-redes",
+      "publishedAt": "2026-06-26T19:33:00Z"
+    },
+    {
+      "id": "2",
+      "title": "O que Trump fez foi coisa desaforada, diz Lula sobre novo tarifaço",
+      "summary": "During the G7 summit in France, President Lula criticized U.S. President Donald Trump's suggestion of new tariffs against Brazil during ongoing bilateral negotiations.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/o-que-trump-fez-foi-coisa-desaforada-diz-lula-sobre-novo-tarifaco",
+      "publishedAt": "2026-06-17T15:25:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Lula diz que combate ao crime deve respeitar a soberania dos estados",
+      "summary": "At the G7 meeting, President Lula defended that drug trafficking enforcement must be comprehensive and respect state sovereignty while being linked to development agendas.",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-06/lula-diz-que-combate-ao-crime-deve-respeitar-soberania-dos-estados",
+      "publishedAt": "2026-06-16T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Convidado do G7, Brasil leva voz do Sul Global à Cúpula, diz Lula",
+      "summary": "President Lula participated in the G7 summit in Évian, France as an invited guest, representing the Global South's commitment to peace, multilateralism, and sustainable development.",
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-06/convidado-do-g7-brasil-leva-voz-do-sul-global-cupula-diz-lula",
+      "publishedAt": "2026-06-15T19:59:00Z"
+    }
+  ]
 }

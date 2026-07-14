@@ -1,42 +1,42 @@
 {
   "politicianId": "carney",
-  "updatedAt": "2026-07-13T10:25:13.090Z",
+  "updatedAt": "2026-07-14T09:05:22.916Z",
   "sourceAgency": "CBC",
   "articles": [
     {
       "id": "0",
-      "title": "More than 2,000 Canadians have donated toward restoration of 24 Sussex Drive",
-      "summary": "Prime Minister Mark Carney announced a national campaign to raise funds for restoring the prime minister's official residence, with over 2,000 donors contributing and a public donor list released.",
-      "url": "https://www.cbc.ca/news/politics/24-sussex-mark-carney-fundraising-public-donor-list-9.7266278",
-      "publishedAt": "2026-07-11T00:00:00Z"
+      "title": "At competing Stampede breakfasts, 2 very different visions for Alberta emerge",
+      "summary": "Prime Minister Mark Carney attended the Calgary Stampede, met with First Nation leaders, and engaged with Albertans amid political tensions over Alberta's October 19 referendum on separation.",
+      "url": "https://www.cbc.ca/news/canada/calgary/calgary-stampede-mark-carney-corey-hogan-keith-wilson-9.7267573",
+      "publishedAt": "2026-07-12T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
-      "summary": "Prime Minister Mark Carney sought to deepen ties with Saudi Arabia during a visit while condemning Iranian attacks and reaffirming support for regional security.",
-      "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
+      "title": "More than 2,000 Canadians have donated toward restoration of 24 Sussex Drive",
+      "summary": "Prime Minister Mark Carney announced a fundraising campaign and national design competition to restore the prime minister's official residence, with more than 2,000 individual donors already contributing.",
+      "url": "https://www.cbc.ca/news/politics/24-sussex-mark-carney-fundraising-public-donor-list-9.7266278",
       "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
       "id": "2",
+      "title": "Carney courts Saudi Arabia as U.S.-Iran ceasefire collapses",
+      "summary": "Prime Minister Mark Carney sought to deepen diplomatic and economic ties with Saudi Arabia, his first visit to the country in over two decades, while navigating renewed U.S.-Iran military conflict.",
+      "url": "https://www.cbc.ca/news/politics/saudi-economy-canada-iran-ceasefire-9.7263955",
+      "publishedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "id": "3",
       "title": "Carney backs latest U.S. strikes on Iran as Trump slams NATO allies",
-      "summary": "Prime Minister Mark Carney endorsed the latest U.S. strikes on Iran as a justified response to ceasefire violations during a NATO Summit in Turkey.",
+      "summary": "Prime Minister Mark Carney endorsed U.S. military strikes on Iran as justified responses to ceasefire violations while speaking at the NATO summit in Turkey.",
       "url": "https://www.cbc.ca/news/politics/iran-war-us-carney-air-strikes-9.7262373",
       "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Carney appoints one of his top advisers and a Conservative MP to Senate",
-      "summary": "Prime Minister Mark Carney made his first Senate appointments, including senior adviser Tim Pitfield and Conservative MP Richard Martel, moving away from the previous non-partisan approach.",
+      "summary": "Prime Minister Mark Carney appointed longtime Liberal strategist Tim Pitfield and Conservative MP Richard Martel to the Senate, signaling a shift toward more partisan appointments compared to his predecessor's approach.",
       "url": "https://www.cbc.ca/news/politics/mark-carney-senate-tom-pitfield-9.7261037",
       "publishedAt": "2026-07-07T00:00:00Z"
-    },
-    {
-      "id": "4",
-      "title": "ANALYSIS | Carney starts to leave his mark on the Senate",
-      "summary": "Prime Minister Mark Carney's initial Senate appointments and modifications to the Trudeau-era guidelines signal a shift toward restoring more partisan voices to the upper house.",
-      "url": "https://www.cbc.ca/news/politics/carney-senate-independent-pitfield-martel-analysis-9.7261876",
-      "publishedAt": "2026-07-08T00:00:00Z"
     }
   ]
 }

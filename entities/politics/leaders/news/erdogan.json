@@ -1,6 +1,35 @@
 {
   "politicianId": "erdogan",
-  "updatedAt": "2026-07-13T10:24:42.756Z",
+  "updatedAt": "2026-07-14T09:04:51.671Z",
   "sourceAgency": "Anadolu Agency",
-  "articles": []
+  "articles": [
+    {
+      "id": "0",
+      "title": "President Erdogan says NATO summit 'successfully' concluded, highlights Türkiye's defense capabilities",
+      "summary": "Erdoğan stated that the 2026 NATO summit in Ankara concluded successfully as a historic gathering that will shape the alliance's future during heightened security challenges.",
+      "url": "https://www.aa.com.tr/en/turkiye/president-erdogan-says-nato-summit-successfully-concluded-highlights-turkiyes-defense-capabilities/3992006",
+      "publishedAt": "2026-07-08T00:00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "President Erdogan gives NATO leaders book on his leadership, Türkiye's transformation",
+      "summary": "Erdoğan presented NATO leaders with an English-language book on his political career and Türkiye's transformation at a dinner following the NATO summit in Ankara.",
+      "url": "https://aa.com.tr/en/world/president-erdogan-gives-nato-leaders-book-on-his-leadership-turkiye-s-transformation/3993385",
+      "publishedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "CANLI- Cumhurbaşkanı Erdoğan konuşuyor",
+      "summary": "Live coverage of President Erdoğan delivering a speech.",
+      "url": "https://www.aa.com.tr/tr/gundem/canli-cumhurbaskani-erdogan-konusuyor/3996706",
+      "publishedAt": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Cumhurbaşkanı Erdoğan: Anlaşmanın uygulamalarını takip edecek, görev gücünde Türkiye olarak inşallah biz de yer alacağız",
+      "summary": "Erdoğan stated that Türkiye will monitor the implementation of the Gaza ceasefire agreement and participate in the monitoring mechanism.",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-anlasmanin-uygulamalarini-takip-edecek-gorev-gucunde-turkiye-olarak-insallah-biz-de-yer-alacagiz/3712423",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    }
+  ]
 }

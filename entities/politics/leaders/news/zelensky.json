@@ -1,42 +1,42 @@
 {
   "politicianId": "zelensky",
-  "updatedAt": "2026-07-13T10:23:49.884Z",
+  "updatedAt": "2026-07-14T09:03:50.952Z",
   "sourceAgency": "Ukrinform",
   "articles": [
     {
       "id": "0",
       "title": "Zelensky announces government reshuffle, changes in law enforcement leadership",
-      "summary": "President Zelensky announced an upcoming reshuffle of Ukraine's Cabinet of Ministers and changes in law enforcement leadership as part of a new political strategy, with priorities including strengthened cooperation with the United States, European defense initiatives, and Middle East partnerships.",
+      "summary": "President Zelensky announced an upcoming reshuffle of Ukraine's Cabinet of Ministers and changes in law enforcement leadership as part of a new political strategy.",
       "url": "https://www.ukrinform.net/rubric-polytics/4143463-zelensky-announces-government-reshuffle-changes-in-law-enforcement-leadership.html",
-      "publishedAt": "2026-07-12T00:00:00Z"
+      "publishedAt": "2026-07-12T17:59:00Z"
     },
     {
       "id": "1",
-      "title": "Zelensky discusses key challenges facing MIA with Klymenko",
-      "summary": "President Zelensky met with Internal Affairs Minister Ihor Klymenko to discuss pressing challenges facing Ukraine's Ministry of Internal Affairs and security services during wartime.",
-      "url": "https://www.ukrinform.net/rubric-polytics/4143481-zelensky-discusses-key-challenges-facing-mia-with-klymenko.html",
-      "publishedAt": "2026-07-12T00:00:00Z"
+      "title": "Zelensky meets with Senator Graham",
+      "summary": "President Zelensky met with U.S. Senator Lindsey Graham in Kyiv to discuss strengthening sanctions against Russia and Ukraine's urgent air defense needs.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4143043-zelensky-meets-with-senator-graham.html",
+      "publishedAt": "2026-07-10T07:30:00Z"
     },
     {
       "id": "2",
-      "title": "Zelensky discusses challenges facing Ukraine's energy sector with Naftogaz CEO",
-      "summary": "President Zelensky met with Naftogaz CEO Sergii Koretskyi to address challenges in Ukraine's energy and infrastructure sectors caused by Russian strikes and discuss steps to strengthen national resilience.",
-      "url": "https://www.ukrinform.net/rubric-economy/4143473-zelensky-discusses-challenges-facing-ukraines-energy-sector-with-naftogaz-ceo.html",
-      "publishedAt": "2026-07-12T00:00:00Z"
+      "title": "Zelensky to attend Coalition of the Willing meeting in Paris",
+      "summary": "President Zelensky will take part in a meeting of the Coalition of the Willing in Paris on July 13, aimed at strengthening support for Ukraine and increasing pressure on Russia.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4143007-zelensky-to-attend-coalition-of-the-willing-meeting-in-paris.html",
+      "publishedAt": "2026-07-10T16:18:00Z"
     },
     {
       "id": "3",
       "title": "Zelensky: Ukraine's peace proposals have support even within Putin's inner circle",
-      "summary": "President Zelensky stated in an evening address that Ukraine's peace proposals have international support and backing from within Putin's inner circle, while highlighting successful long-range strikes against Russian targets.",
+      "summary": "President Zelensky stated in an evening address that Ukraine's peace proposals have support from international partners and even from within Putin's inner circle.",
       "url": "https://www.ukrinform.net/rubric-polytics/4143065-zelensky-ukraines-peace-proposals-have-support-even-within-putins-inner-circle.html",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "publishedAt": "2026-07-10T14:20:00Z"
     },
     {
       "id": "4",
-      "title": "Zelensky to attend Coalition of the Willing meeting in Paris",
-      "summary": "President Zelensky will participate in a Coalition of the Willing meeting in Paris on July 13, aimed at strengthening support for Ukraine and increasing pressure on Russia with at least 25 heads of state and government expected to attend.",
-      "url": "https://www.ukrinform.net/rubric-polytics/4143007-zelensky-to-attend-coalition-of-the-willing-meeting-in-paris.html",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "title": "Zelensky calls Russia's fuel imports 'historical joke'",
+      "summary": "President Zelensky stated that Ukraine has significantly disrupted Russia's fuel supply, forcing the traditionally energy-exporting nation to import fuel.",
+      "url": "https://www.ukrinform.net/rubric-polytics/4142722-zelensky-calls-russias-fuel-imports-historical-joke.html",
+      "publishedAt": "2026-07-09T12:00:00Z"
     }
   ]
 }

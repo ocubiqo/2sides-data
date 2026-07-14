@@ -1,35 +1,28 @@
 {
   "politicianId": "xi",
-  "updatedAt": "2026-07-13T10:23:39.172Z",
+  "updatedAt": "2026-07-14T09:03:36.164Z",
   "sourceAgency": "Xinhua",
   "articles": [
     {
       "id": "0",
-      "title": "Xi Jinping appelle la Chine et la RPDC à continuer de faire avancer la cause socialiste et la modernisation",
-      "summary": "Xi Jinping met en avant l'importance que la Chine et la Corée du Nord renforcent leur confiance stratégique et continuent de promouvoir leurs efforts de modernisation.",
+      "title": "Xi Jinping calls on China and DPRK to advance socialist cause and modernization",
+      "summary": "Xi Jinping met with North Korea's Prime Minister Pak Thae Song in Beijing, urging bilateral relations to support both countries' socialist development and modernization efforts.",
       "url": "http://french.xinhuanet.com/20260710/724dc1a0cf5f41709b8ea24fe278d6e0/c.html",
       "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
       "id": "1",
-      "title": "Xi pronuncia discurso en reunión conmemorativa por 105º aniversario de fundación del PCCh",
-      "summary": "Xi Jinping pronunció un discurso en la reunión conmemorativa del 105º aniversario de la fundación del Partido Comunista de China.",
+      "title": "Xi delivers speech at commemoration meeting for 105th anniversary of CPC founding",
+      "summary": "Xi Jinping delivered a speech at a commemorative meeting marking the 105th anniversary of the Communist Party of China's founding on July 1.",
       "url": "https://spanish.xinhuanet.com/20260702/d05d6daceb95448582fef84a2cd43b9e/c.html",
       "publishedAt": "2026-07-02T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Xi pide adoptar medidas sólidas para modernizar agricultura y zonas rurales",
-      "summary": "Xi Jinping hizo un llamado a adoptar medidas concretas para impulsar la modernización de la agricultura y las zonas rurales de China.",
-      "url": "https://spanish.xinhuanet.com/20260625/32b7a36650a542bc854f0ada5578550a/c.html",
+      "title": "Xi calls for solid measures to modernize agriculture and rural areas",
+      "summary": "Xi Jinping called for adopting concrete measures to advance the modernization of agriculture and rural regions in China.",
+      "url": "https://spanish.xinhuanet.com/20250625/32b7a36650a542bc854f0ada5578550a/c.html",
       "publishedAt": "2026-06-25T00:00:00Z"
-    },
-    {
-      "id": "3",
-      "title": "Xi insta a miembros del PCCh a llevar adelante las tradiciones revolucionarias en su respuesta a un miembro centenario del Partido",
-      "summary": "Xi Jinping instó a los miembros del Partido a mantener vivas las tradiciones revolucionarias y trabajar por nuevos éxitos en la nueva era.",
-      "url": "https://spanish.xinhuanet.com/20260618/6f5484ffb2104694bbffd053fb8e3a37/c.html",
-      "publishedAt": "2026-06-18T00:00:00Z"
     }
   ]
 }

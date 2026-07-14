@@ -1,42 +1,42 @@
 {
   "politicianId": "milei",
-  "updatedAt": "2026-07-13T10:24:37.380Z",
+  "updatedAt": "2026-07-14T09:04:40.757Z",
   "sourceAgency": "Infobae",
   "articles": [
     {
       "id": "0",
+      "title": "Milei recibió a la cúpula global de Bayer en medio del debate por las patentes de medicamentos y la propiedad intelectual",
+      "summary": "President Milei met with Bayer executives at Casa Rosada to discuss intellectual property protection, patent frameworks, and regulatory policies for pharmaceutical innovation in Argentina.",
+      "url": "https://www.infobae.com/economia/2026/07/13/milei-recibio-a-la-cupula-global-de-bayer-en-medio-del-debate-por-las-patentes-de-medicamentos-y-la-propiedad-intelectual/",
+      "publishedAt": "2026-07-13T00:00:00Z"
+    },
+    {
+      "id": "1",
       "title": "El efusivo canto de la Marcha de San Lorenzo que hizo Javier Milei junto a un granadero",
-      "summary": "President Milei participated in the Independence Day Tedeum at the Metropolitan Cathedral and sang the San Lorenzo March with members of the presidential cabinet and provincial authorities.",
+      "summary": "President Milei participated in the July 9 Independence Day Te Deum at the Metropolitan Cathedral and sang the San Lorenzo March with cavalry officers during the official ceremony.",
       "url": "https://www.infobae.com/politica/2026/07/09/el-efusivo-canto-de-la-marcha-de-san-lorenzo-que-hizo-javier-milei-junto-a-un-granadero/",
       "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
-      "id": "1",
-      "title": "Desde Tucumán, Milei llamó a los gobernadores a \"sentar las bases para el futuro de una verdadera libertad\"",
-      "summary": "President Milei conducted an analysis of his administration at the Independence Day vigil in Tucumán, highlighting the Pact of May and identifying three legislative priorities including elimination of primary elections and Central Bank reform.",
+      "id": "2",
+      "title": "Desde Tucumán, Milei llamó a los gobernadores a 'sentar las bases para el futuro de una verdadera libertad'",
+      "summary": "During the July 9 Independence Day vigil in Tucumán, President Milei reviewed his administration's two-year record and outlined legislative priorities including Central Bank reform, fiscal zones, and political reforms.",
       "url": "https://www.infobae.com/politica/2026/07/09/javier-milei-encabeza-el-acto-por-el-9-de-julio-en-tucuman-estamos-desendeudando-al-pais/",
       "publishedAt": "2026-07-09T00:00:00Z"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Ahora juega la casta: Javier Milei movió primero y fuerte para 2027",
-      "summary": "The Milei government launched a comprehensive campaign strategy for 2027 reelection, including electoral organizing, political reforms to eliminate primary elections, and negotiations with provincial governors.",
+      "summary": "The government is preparing for Milei's 2027 reelection campaign, working on eliminating the primary election system (PASO), building political alliances with governors, and strengthening party organization.",
       "url": "https://www.infobae.com/politica/2026/07/08/ahora-juega-la-casta-javier-milei-movio-primero-y-fuerte-para-2027/",
       "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
-      "id": "3",
-      "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente",
-      "summary": "President Milei offered the Casa Rosada for a potential national football team World Cup celebration while stating he would vacate the building to avoid political interference in the team's achievements.",
-      "url": "https://www.infobae.com/politica/2026/07/08/javier-milei-puso-la-casa-rosada-a-disposicion-de-la-seleccion-y-prometio-no-estar-presente/",
-      "publishedAt": "2026-07-08T00:00:00Z"
-    },
-    {
       "id": "4",
-      "title": "Giro a la derecha en América Latina: Javier Milei viajará a las asunciones de Keiko Fujimori en Perú y Abelardo de la Espriella en Colombia",
-      "summary": "President Milei will travel to Peru on July 28 and Colombia on August 7 to attend the inaugurations of right-wing leaders Keiko Fujimori and Abelardo de la Espriella, aligned with his ideology.",
-      "url": "https://www.infobae.com/politica/2026/07/07/giro-a-la-derecha-en-america-latina-javier-milei-viajara-a-las-asunciones-de-keiko-fujimori-en-peru-y-abelardo-de-la-espriella-en-colombia/",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "title": "Javier Milei puso la Casa Rosada a disposición de la Selección y prometió no estar presente el día que la visiten",
+      "summary": "President Milei offered Casa Rosada for Argentina's national soccer team to celebrate if they win the World Cup, stating he would not be present to avoid political interference in their achievement.",
+      "url": "https://www.infobae.com/politica/2026/07/08/javier-milei-puso-la-casa-rosada-a-disposicion-de-la-seleccion-y-prometio-no-estar-presente-el-dia-que-la-visiten/",
+      "publishedAt": "2026-07-08T00:00:00Z"
     }
   ]
 }

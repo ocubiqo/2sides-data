@@ -1,42 +1,42 @@
 {
   "politicianId": "netanyahu",
-  "updatedAt": "2026-07-13T10:24:25.322Z",
+  "updatedAt": "2026-07-14T09:04:28.228Z",
   "sourceAgency": "Jerusalem Post / Gov.il",
   "articles": [
     {
       "id": "0",
-      "title": "Avigdor Liberman: Benjamin Netanyahu is a burden to Donald Trump, dismantled US-Israel ties",
-      "summary": "Opposition leader Avigdor Liberman criticized Netanyahu for damaging Israel's relationship with the US and becoming a burden to President Trump ahead of upcoming elections.",
-      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-902069",
-      "publishedAt": "2026-07-10T00:00:00Z"
+      "title": "Benjamin Netanyahu says there is 'vigilante effort' in West Bank, not pushed by settlers",
+      "summary": "Netanyahu stated during an NBC interview that settler violence in the West Bank is driven by about 150 juvenile delinquents rather than the broader settler community, emphasizing that 99% of settlers are law-abiding citizens.",
+      "url": "https://www.jpost.com/israel-news/article-902265",
+      "publishedAt": "2026-07-14T00:00:00Z"
     },
     {
       "id": "1",
       "title": "Benjamin Netanyahu reiterates concerns about US-Turkey F-35 sale",
-      "summary": "Netanyahu spoke to CNN about concerns that US sale of F-35 fighter jets to Turkey could disrupt the balance of power in the Middle East and threaten Israeli air superiority.",
+      "summary": "Netanyahu told CNN that he expressed concerns to President Trump about the potential F-35 sale to Turkey, arguing it could disrupt the regional balance of power and noting Turkey's ties to the Muslim Brotherhood.",
       "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-901780",
-      "publishedAt": "2026-07-07T00:00:00Z"
+      "publishedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "2",
-      "title": "Benjamin Netanyahu warns Donald Trump against sale of F-35s to Turkey",
-      "summary": "Netanyahu warned in a Fox and Friends interview that providing F-35s to Turkey could upset the regional balance of power and expressed concerns about Turkish leadership.",
-      "url": "https://www.jpost.com/israel-news/article-901613",
-      "publishedAt": "2026-07-06T00:00:00Z"
+      "title": "Benjamin Netanyahu: 'My relationship with President Donald Trump is excellent'",
+      "summary": "Netanyahu asserted in a Fox News interview that the US-Israel alliance is strong and that he and Trump agree on 99% of issues, though they may occasionally discuss disagreements openly on matters like Iran policy.",
+      "url": "https://www.jpost.com/israel-news/article-901501",
+      "publishedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "3",
       "title": "Netanyahu's unity government pivot could reshape Israeli politics, end boycott",
-      "summary": "Netanyahu is building his election campaign around ending the political boycott against him and forming a broader coalition government.",
+      "summary": "Netanyahu is building his election campaign around ending the political boycott against him and forming a broader unity coalition, arguing that Israel faces challenges too profound to be managed by another narrow government.",
       "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901282",
-      "publishedAt": "2026-07-02T00:00:00Z"
+      "publishedAt": "2026-07-01T00:00:00Z"
     },
     {
       "id": "4",
-      "title": "Benjamin Netanyahu: 'My relationship with President Donald Trump is excellent'",
-      "summary": "Netanyahu told Fox News that Israel and the US are close allies and that he has an excellent relationship with President Trump despite occasional disagreements on policy.",
-      "url": "https://www.jpost.com/israel-news/article-901501",
-      "publishedAt": "2026-06-28T00:00:00Z"
+      "title": "Benjamin Netanyahu backs ending US military aid to build Israel armaments independence",
+      "summary": "Netanyahu reiterated his commitment to phase out American military assistance and develop Israel's own independent armaments manufacturing network, saying the country needs to build strength and stand on its own feet.",
+      "url": "https://www.jpost.com/israel-news/article-900352",
+      "publishedAt": "2026-06-23T00:00:00Z"
     }
   ]
 }
