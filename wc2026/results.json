@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T07:41:30.260Z",
+  "updated": "2026-07-15T07:45:05.319Z",
   "matches": {
     "a1": {
       "played": true,
@@ -961,6 +961,24 @@
         "shots_b": 11,
         "shots_on_target_a": 1,
         "shots_on_target_b": 5
+      }
+    },
+    "sf-1": {
+      "played": true,
+      "aScore": 0,
+      "bScore": 2,
+      "opponentId": "spain",
+      "stats": {
+        "possession_a": 46,
+        "possession_b": 45,
+        "shots_a": 10,
+        "shots_b": 10,
+        "shots_on_target_a": 3,
+        "shots_on_target_b": 2,
+        "corners_a": 0,
+        "corners_b": 0,
+        "yellow_cards_a": 0,
+        "yellow_cards_b": 0
       }
     }
   }
