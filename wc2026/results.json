@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T07:45:05.319Z",
+  "updated": "2026-07-16T07:50:22.635Z",
   "matches": {
     "a1": {
       "played": true,
@@ -979,6 +979,24 @@
         "corners_b": 0,
         "yellow_cards_a": 0,
         "yellow_cards_b": 0
+      }
+    },
+    "sf-2": {
+      "played": true,
+      "aScore": 1,
+      "bScore": 2,
+      "opponentId": "argentina",
+      "stats": {
+        "possession_a": 35,
+        "possession_b": 56,
+        "shots_a": 5,
+        "shots_b": 15,
+        "shots_on_target_a": 2,
+        "shots_on_target_b": 5,
+        "corners_a": 1,
+        "corners_b": 6,
+        "yellow_cards_a": 3,
+        "yellow_cards_b": 2
       }
     }
   }
