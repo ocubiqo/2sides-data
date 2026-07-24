@@ -3,7 +3,7 @@ name: Update Football Entities
 on:
   workflow_dispatch:
   schedule:
-    # Runs daily at 03:00 UTC — before the WC2026 matchday window
+    # Runs daily at 03:00 UTC — builds the Football category CDN entities (teams/players)
     - cron: '0 3 * * *'
   push:
     paths:

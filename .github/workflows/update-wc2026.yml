@@ -1,8 +1,8 @@
 name: Update WC2026 Results
 
 on:
-  schedule:
-    - cron: '0 6 * * *'   # daily at 06:00 UTC — covers overnight match windows globally
+  # schedule:
+  #   - cron: '0 6 * * *'   # daily at 06:00 UTC — covers overnight match windows globally — PAUSED: WC2026 tournament ended
   workflow_dispatch:
 
 env:

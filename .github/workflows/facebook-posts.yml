@@ -1,8 +1,8 @@
 name: Facebook Auto Posts
 
 on:
-  schedule:
-    - cron: '0 9 * * *'   # 09:00 UTC daily — Mon=feature, result if scores dropped, else preview
+  # schedule:
+  #   - cron: '0 9 * * *'   # 09:00 UTC daily — PAUSED: WC2026 tournament ended, no more match content to post
   workflow_dispatch:
     inputs:
       post_type:
