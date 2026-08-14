@@ -1,0 +1,25 @@
+{
+  "id": "la-la-land",
+  "name": "La La Land",
+  "shortName": "La La Land",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 448,
+    "opening_weekend_m": 15,
+    "budget_m": 30,
+    "roi_pct": 1393,
+    "rotten_tomatoes_pct": 91,
+    "imdb_rating": 8.0,
+    "metacritic_score": 94,
+    "award_nominations": 20
+  },
+  "meta": {
+    "director": "Damien Chazelle",
+    "stars": "Ryan Gosling, Emma Stone",
+    "language": "English",
+    "studio": "Lionsgate"
+  },
+  "tags": ["hollywood", "movie", "english", "2016"]
+}

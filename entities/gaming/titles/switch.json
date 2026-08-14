@@ -1,0 +1,21 @@
+{
+  "id": "switch",
+  "name": "Nintendo Switch",
+  "shortName": "Switch",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🍄",
+  "stats": {
+    "units_sold_m": 152,
+    "teraflops": 0.4,
+    "exclusive_games": 60,
+    "launch_price_usd": 299,
+    "cross_platform": "No"
+  },
+  "meta": {
+    "manufacturer": "Nintendo",
+    "released": "2017",
+    "type": "Hybrid Console"
+  },
+  "tags": ["console", "nintendo", "handheld", "hardware"]
+}

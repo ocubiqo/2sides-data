@@ -1,0 +1,35 @@
+{
+  "id": "curry",
+  "name": "Stephen Curry",
+  "shortName": "Curry",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 4,
+    "nba_mvp_awards": 2,
+    "nba_finals_mvp": 1,
+    "career_points_nba": 24000,
+    "ppg_career": 24.8,
+    "all_star_selections_nba": 10,
+    "career_assists_nba": 6500,
+    "scoring_titles_nba": 1,
+    "career_earnings_m": 500,
+    "social_media_m": 90
+  },
+  "meta": {
+    "position": "Guard",
+    "team": "Golden State Warriors",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "Redefined the game from three-point range · 4× champion"
+  },
+  "tags": [
+    "curry",
+    "steph curry",
+    "stephen curry",
+    "warriors",
+    "guard",
+    "sharpshooter"
+  ]
+}

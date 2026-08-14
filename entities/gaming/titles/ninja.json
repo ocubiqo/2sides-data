@@ -1,0 +1,23 @@
+{
+  "id": "ninja",
+  "name": "Ninja",
+  "shortName": "Ninja",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🥷",
+  "stats": {
+    "career_earnings_m": 1,
+    "tournament_wins": 5,
+    "world_championships": 0,
+    "followers_m": 40,
+    "peak_viewers_m": 1,
+    "years_active": 14
+  },
+  "meta": {
+    "realName": "Tyler Blevins",
+    "region": "United States",
+    "games": "Fortnite",
+    "role": "Streamer"
+  },
+  "tags": ["streamer", "fortnite", "content-creator"]
+}

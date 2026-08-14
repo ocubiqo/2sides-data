@@ -1,0 +1,37 @@
+{
+  "id": "islam-makhachev",
+  "name": "Islam Makhachev",
+  "shortName": "Makhachev",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇷🇺",
+  "stats": {
+    "win_count": 27,
+    "loss_count": 1,
+    "ko_wins": 4,
+    "submission_wins": 11,
+    "win_streak": 16,
+    "title_reigns": 1,
+    "title_defenses": 6,
+    "years_active": 12,
+    "career_earnings_m": 18,
+    "ppv_buys_m": 6,
+    "social_followers_m": 4.2,
+    "reach_in": 70.5,
+    "weight_class": "Lightweight",
+    "sig_strikes_per_min": 3.1,
+    "striking_accuracy_pct": 52,
+    "takedown_accuracy_pct": 62,
+    "finish_rate_pct": 56,
+    "power_rating": 79
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Dagestani Wolf",
+    "team": "Eagles MMA / AKA",
+    "nationality": "Russia",
+    "record": "27-1",
+    "key_stat": "Khabib's training partner turned lightweight champion — pound-for-pound number one"
+  },
+  "tags": ["islam makhachev", "makhachev", "russia", "lightweight", "mma", "khabib"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "priyanka-chopra",
+  "name": "Priyanka Chopra",
+  "shortName": "Priyanka",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 1.0,
+    "opening_weekend_record_m": 15,
+    "movies_count": 65,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 5,
+    "instagram_followers_m": 89,
+    "avg_rotten_tomatoes_pct": 65
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Quantico, The White Tiger, Baywatch",
+    "era": "2002–present",
+    "nickname": "PeeCee"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

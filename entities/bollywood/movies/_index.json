@@ -71,6 +71,76 @@
       "emoji": "🇺🇸",
       "subCategoryId": "movies",
       "tags": ["hollywood", "movie", "english", "2010"]
+    },
+    {
+      "id": "baahubali-2",
+      "name": "Baahubali 2: The Conclusion",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "telugu", "2017"]
+    },
+    {
+      "id": "jawan",
+      "name": "Jawan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2023"]
+    },
+    {
+      "id": "animal",
+      "name": "Animal",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2023"]
+    },
+    {
+      "id": "gully-boy",
+      "name": "Gully Boy",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2019"]
+    },
+    {
+      "id": "gangubai-kathiawadi",
+      "name": "Gangubai Kathiawadi",
+      "emoji": "🇮🇳",
+      "subCategoryId": "movies",
+      "tags": ["bollywood", "movie", "hindi", "2022"]
+    },
+    {
+      "id": "titanic",
+      "name": "Titanic",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "1997"]
+    },
+    {
+      "id": "dark-knight",
+      "name": "The Dark Knight",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2008"]
+    },
+    {
+      "id": "la-la-land",
+      "name": "La La Land",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2016"]
+    },
+    {
+      "id": "avatar-way-of-water",
+      "name": "Avatar: The Way of Water",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2022"]
+    },
+    {
+      "id": "joker",
+      "name": "Joker",
+      "emoji": "🇺🇸",
+      "subCategoryId": "movies",
+      "tags": ["hollywood", "movie", "english", "2019"]
     }
   ]
 }

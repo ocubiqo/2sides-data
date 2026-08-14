@@ -1,0 +1,24 @@
+{
+  "id": "fortnite",
+  "name": "Fortnite",
+  "shortName": "Fortnite",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🪂",
+  "stats": {
+    "monthly_active_users_m": 90,
+    "peak_concurrent_players_m": 3.5,
+    "metacritic_score": 74,
+    "user_score": 6.8,
+    "esports_prize_pool_m": 150,
+    "franchise_revenue_bn": 26,
+    "genre": "Battle Royale",
+    "cross_platform": "Yes"
+  },
+  "meta": {
+    "developer": "Epic Games",
+    "released": "2017",
+    "platform": "Cross-Platform"
+  },
+  "tags": ["battle-royale", "epic-games", "esports", "cross-platform"]
+}

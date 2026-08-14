@@ -1,0 +1,25 @@
+{
+  "id": "gangubai-kathiawadi",
+  "name": "Gangubai Kathiawadi",
+  "shortName": "Gangubai",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 25,
+    "opening_weekend_m": 3.5,
+    "budget_m": 8,
+    "roi_pct": 213,
+    "rotten_tomatoes_pct": 91,
+    "imdb_rating": 7.3,
+    "metacritic_score": 68,
+    "award_nominations": 9
+  },
+  "meta": {
+    "director": "Sanjay Leela Bhansali",
+    "stars": "Alia Bhatt",
+    "language": "Hindi",
+    "studio": "Bhansali Productions"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2022"]
+}

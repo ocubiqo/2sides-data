@@ -1,0 +1,37 @@
+{
+  "id": "dricus-du-plessis",
+  "name": "Dricus Du Plessis",
+  "shortName": "Du Plessis",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇿🇦",
+  "stats": {
+    "win_count": 23,
+    "loss_count": 2,
+    "ko_wins": 13,
+    "submission_wins": 6,
+    "win_streak": 6,
+    "title_reigns": 1,
+    "title_defenses": 2,
+    "years_active": 11,
+    "career_earnings_m": 6,
+    "ppv_buys_m": 2.5,
+    "social_followers_m": 1.9,
+    "reach_in": 76,
+    "weight_class": "Middleweight",
+    "sig_strikes_per_min": 5.2,
+    "striking_accuracy_pct": 49,
+    "takedown_accuracy_pct": 42,
+    "finish_rate_pct": 83,
+    "power_rating": 84
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Stillknocks",
+    "team": "CIT Fight Team",
+    "nationality": "South Africa",
+    "record": "23-2",
+    "key_stat": "First South African UFC champion, known for a relentless volume-striking pace"
+  },
+  "tags": ["dricus du plessis", "stillknocks", "south africa", "middleweight", "mma"]
+}

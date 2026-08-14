@@ -1,0 +1,35 @@
+{
+  "id": "giannis",
+  "name": "Giannis Antetokounmpo",
+  "shortName": "Giannis",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 1,
+    "nba_mvp_awards": 2,
+    "nba_finals_mvp": 1,
+    "career_points_nba": 19000,
+    "ppg_career": 23.5,
+    "all_star_selections_nba": 8,
+    "career_assists_nba": 3800,
+    "scoring_titles_nba": 0,
+    "career_earnings_m": 280,
+    "social_media_m": 45
+  },
+  "meta": {
+    "position": "Forward",
+    "team": "Milwaukee Bucks",
+    "nationality": "Greece",
+    "form": "Active",
+    "key_stat": "The Greek Freak · brought Milwaukee its first title in 50 years"
+  },
+  "tags": [
+    "giannis",
+    "antetokounmpo",
+    "greek freak",
+    "bucks",
+    "forward",
+    "mvp"
+  ]
+}

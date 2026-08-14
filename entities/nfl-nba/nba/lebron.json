@@ -1,0 +1,35 @@
+{
+  "id": "lebron",
+  "name": "LeBron James",
+  "shortName": "LeBron",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 4,
+    "nba_mvp_awards": 4,
+    "nba_finals_mvp": 4,
+    "career_points_nba": 41000,
+    "ppg_career": 27.0,
+    "all_star_selections_nba": 20,
+    "career_assists_nba": 11000,
+    "scoring_titles_nba": 1,
+    "career_earnings_m": 620,
+    "social_media_m": 160
+  },
+  "meta": {
+    "position": "Forward",
+    "team": "Los Angeles Lakers",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "NBA's all-time leading scorer · 4× champion"
+  },
+  "tags": [
+    "lebron",
+    "lebron james",
+    "king james",
+    "lakers",
+    "goat",
+    "forward"
+  ]
+}

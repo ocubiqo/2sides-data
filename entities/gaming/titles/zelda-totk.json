@@ -1,0 +1,23 @@
+{
+  "id": "zelda-totk",
+  "name": "The Legend of Zelda: Tears of the Kingdom",
+  "shortName": "Zelda: TOTK",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🏹",
+  "stats": {
+    "units_sold_m": 21,
+    "metacritic_score": 96,
+    "user_score": 8.6,
+    "franchise_revenue_bn": 1.2,
+    "dlc_count": 0,
+    "genre": "Action-Adventure",
+    "cross_platform": "No"
+  },
+  "meta": {
+    "developer": "Nintendo",
+    "released": "2023",
+    "platform": "Nintendo Switch"
+  },
+  "tags": ["action-adventure", "nintendo", "zelda"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "kohli",
+  "name": "Virat Kohli",
+  "shortName": "Kohli",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇮🇳",
+  "stats": {
+    "batting_average": 53.5,
+    "strike_rate": 93.6,
+    "centuries": 82,
+    "total_runs_intl": 27700,
+    "icc_rating_points": 850,
+    "t20_league_runs": 8000,
+    "player_of_match_awards": 100,
+    "catches_intl": 280
+  },
+  "meta": {
+    "position": "Top-order Batsman",
+    "club": "Royal Challengers Bengaluru (IPL)",
+    "nationality": "India",
+    "form": "WWLWW",
+    "key_stat": "82 international centuries · 2011 & 2024 World Cup winner"
+  },
+  "tags": [
+    "kohli",
+    "virat kohli",
+    "chase master",
+    "india",
+    "rcb",
+    "batsman"
+  ]
+}

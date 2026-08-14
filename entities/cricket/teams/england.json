@@ -1,0 +1,35 @@
+{
+  "id": "england",
+  "name": "England",
+  "shortName": "ENG",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "icc_odi_wc_titles": 1,
+    "icc_t20_wc_titles": 2,
+    "wtc_titles": 0,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 24000,
+    "odi_win_rate_pct": 54,
+    "test_win_rate_pct": 48,
+    "t20i_win_rate_pct": 56,
+    "icc_odi_ranking": 4
+  },
+  "meta": {
+    "confederation": "Europe",
+    "coach": "Brendon McCullum",
+    "wc_best": "Winners",
+    "form": "WLWWL",
+    "key_players": "J. Root, B. Stokes, J. Buttler, H. Brook"
+  },
+  "tags": [
+    "england",
+    "eng",
+    "three lions",
+    "europe",
+    "root",
+    "ecb",
+    "bazball"
+  ]
+}

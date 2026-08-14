@@ -1,0 +1,37 @@
+{
+  "id": "anthony-joshua",
+  "name": "Anthony Joshua",
+  "shortName": "AJ",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇬🇧",
+  "stats": {
+    "win_count": 28,
+    "loss_count": 4,
+    "ko_wins": 25,
+    "submission_wins": 0,
+    "win_streak": 1,
+    "title_reigns": 2,
+    "title_defenses": 7,
+    "years_active": 12,
+    "career_earnings_m": 300,
+    "ppv_buys_m": 55,
+    "social_followers_m": 15,
+    "reach_in": 82,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 4.0,
+    "striking_accuracy_pct": 45,
+    "takedown_accuracy_pct": 0,
+    "finish_rate_pct": 89,
+    "power_rating": 96
+  },
+  "meta": {
+    "discipline": "Boxing",
+    "nickname": "AJ",
+    "team": "Team Joshua",
+    "nationality": "United Kingdom",
+    "record": "28-4",
+    "key_stat": "Olympic super-heavyweight gold medallist turned two-time unified heavyweight champion"
+  },
+  "tags": ["anthony joshua", "aj", "uk", "heavyweight", "boxing", "olympic gold"]
+}

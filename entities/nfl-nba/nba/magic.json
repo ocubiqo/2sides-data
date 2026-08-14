@@ -1,0 +1,35 @@
+{
+  "id": "magic",
+  "name": "Magic Johnson",
+  "shortName": "Magic",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 5,
+    "nba_mvp_awards": 3,
+    "nba_finals_mvp": 3,
+    "career_points_nba": 17707,
+    "ppg_career": 19.5,
+    "all_star_selections_nba": 12,
+    "career_assists_nba": 10141,
+    "scoring_titles_nba": 0,
+    "career_earnings_m": 40,
+    "social_media_m": 8
+  },
+  "meta": {
+    "position": "Guard",
+    "team": "Los Angeles Lakers (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "Showtime Lakers architect · all-time great playmaker"
+  },
+  "tags": [
+    "magic",
+    "magic johnson",
+    "earvin johnson",
+    "lakers",
+    "showtime",
+    "guard"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "smith",
+  "name": "Steve Smith",
+  "shortName": "Smith",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇦🇺",
+  "stats": {
+    "batting_average": 56.5,
+    "strike_rate": 87,
+    "centuries": 42,
+    "total_runs_intl": 17500,
+    "icc_rating_points": 890,
+    "t20_league_runs": 2500,
+    "player_of_match_awards": 35,
+    "catches_intl": 190
+  },
+  "meta": {
+    "position": "Middle-order Batsman",
+    "club": "Sydney Sixers (BBL)",
+    "nationality": "Australia",
+    "form": "WWWLW",
+    "key_stat": "Test batting average among the highest of any player in history"
+  },
+  "tags": [
+    "smith",
+    "steve smith",
+    "australia",
+    "batsman",
+    "test cricket"
+  ]
+}

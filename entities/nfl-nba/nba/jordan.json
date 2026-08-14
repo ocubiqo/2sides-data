@@ -1,0 +1,36 @@
+{
+  "id": "jordan",
+  "name": "Michael Jordan",
+  "shortName": "Jordan",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 6,
+    "nba_mvp_awards": 5,
+    "nba_finals_mvp": 6,
+    "career_points_nba": 32292,
+    "ppg_career": 30.1,
+    "all_star_selections_nba": 14,
+    "career_assists_nba": 5633,
+    "scoring_titles_nba": 10,
+    "career_earnings_m": 1900,
+    "social_media_m": 45
+  },
+  "meta": {
+    "position": "Guard",
+    "team": "Chicago Bulls (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "6-0 in NBA Finals · 10× scoring champion"
+  },
+  "tags": [
+    "jordan",
+    "michael jordan",
+    "mj",
+    "air jordan",
+    "bulls",
+    "goat",
+    "guard"
+  ]
+}

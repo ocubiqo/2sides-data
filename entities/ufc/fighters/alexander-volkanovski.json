@@ -1,0 +1,37 @@
+{
+  "id": "alexander-volkanovski",
+  "name": "Alexander Volkanovski",
+  "shortName": "Volkanovski",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇦🇺",
+  "stats": {
+    "win_count": 27,
+    "loss_count": 4,
+    "ko_wins": 13,
+    "submission_wins": 1,
+    "win_streak": 0,
+    "title_reigns": 1,
+    "title_defenses": 4,
+    "years_active": 13,
+    "career_earnings_m": 10,
+    "ppv_buys_m": 4,
+    "social_followers_m": 2.8,
+    "reach_in": 71.5,
+    "weight_class": "Featherweight",
+    "sig_strikes_per_min": 6.0,
+    "striking_accuracy_pct": 51,
+    "takedown_accuracy_pct": 48,
+    "finish_rate_pct": 52,
+    "power_rating": 80
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Great",
+    "team": "Freestyle Fighting Gym",
+    "nationality": "Australia",
+    "record": "27-4",
+    "key_stat": "Former rugby league player turned featherweight champion with elite volume striking"
+  },
+  "tags": ["alexander volkanovski", "the great", "australia", "featherweight", "mma"]
+}

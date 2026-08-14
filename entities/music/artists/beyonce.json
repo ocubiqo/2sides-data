@@ -1,0 +1,34 @@
+{
+  "id": "beyonce",
+  "name": "Beyoncé",
+  "shortName": "Beyoncé",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 45,
+    "spotify_followers_m": 40,
+    "instagram_followers_m": 320,
+    "tiktok_followers_m": 15,
+    "youtube_subscribers_m": 25,
+    "youtube_views_b": 20,
+    "grammy_nominations": 88,
+    "grammy_wins": 32,
+    "billboard_number_ones": 5,
+    "number_one_albums": 8,
+    "albums_sold_m": 200,
+    "studio_albums": 8,
+    "years_active": 27,
+    "tour_gross_m": 580,
+    "total_streams_b": 60,
+    "net_worth_m": 800,
+    "concert_attendance_m": 5
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "R&B / Pop",
+    "known_for": "Lemonade, Renaissance, Destiny's Child legacy",
+    "era": "1997–present"
+  },
+  "tags": ["music", "artist", "american", "rnb", "pop"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "billie-eilish",
+  "name": "Billie Eilish",
+  "shortName": "Billie",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 75,
+    "spotify_followers_m": 55,
+    "instagram_followers_m": 115,
+    "tiktok_followers_m": 30,
+    "youtube_subscribers_m": 40,
+    "youtube_views_b": 15,
+    "grammy_nominations": 30,
+    "grammy_wins": 9,
+    "billboard_number_ones": 2,
+    "number_one_albums": 3,
+    "albums_sold_m": 30,
+    "studio_albums": 3,
+    "years_active": 9,
+    "tour_gross_m": 85,
+    "total_streams_b": 50,
+    "net_worth_m": 60,
+    "concert_attendance_m": 2
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Alt-Pop",
+    "known_for": "When We All Fall Asleep, youngest artist to win all 4 top Grammy categories",
+    "era": "2015–present"
+  },
+  "tags": ["music", "artist", "american", "alt-pop"]
+}

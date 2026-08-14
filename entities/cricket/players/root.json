@@ -1,0 +1,32 @@
+{
+  "id": "root",
+  "name": "Joe Root",
+  "shortName": "Root",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "batting_average": 50.5,
+    "strike_rate": 75,
+    "centuries": 45,
+    "total_runs_intl": 21000,
+    "icc_rating_points": 890,
+    "t20_league_runs": 1500,
+    "player_of_match_awards": 40,
+    "catches_intl": 200
+  },
+  "meta": {
+    "position": "Top-order Batsman",
+    "club": "Yorkshire",
+    "nationality": "England",
+    "form": "WWLWL",
+    "key_stat": "England’s all-time leading Test run-scorer · former Test captain"
+  },
+  "tags": [
+    "root",
+    "joe root",
+    "england",
+    "yorkshire",
+    "batsman"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kareena-kapoor",
+  "name": "Kareena Kapoor",
+  "shortName": "Kareena",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 1.8,
+    "opening_weekend_record_m": 16,
+    "movies_count": 60,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 6,
+    "instagram_followers_m": 15,
+    "avg_rotten_tomatoes_pct": 68
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Jab We Met, 3 Idiots, Good Newwz",
+    "era": "2000–present",
+    "nickname": "Bebo"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

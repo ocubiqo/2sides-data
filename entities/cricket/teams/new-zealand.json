@@ -1,0 +1,34 @@
+{
+  "id": "new-zealand",
+  "name": "New Zealand",
+  "shortName": "NZ",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇳🇿",
+  "stats": {
+    "icc_odi_wc_titles": 0,
+    "icc_t20_wc_titles": 0,
+    "wtc_titles": 1,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 18199,
+    "odi_win_rate_pct": 52,
+    "test_win_rate_pct": 45,
+    "t20i_win_rate_pct": 53,
+    "icc_odi_ranking": 6
+  },
+  "meta": {
+    "confederation": "Oceania",
+    "coach": "Gary Stead",
+    "wc_best": "Runner-up",
+    "form": "WLWWL",
+    "key_players": "K. Williamson, T. Boult, T. Southee, D. Conway"
+  },
+  "tags": [
+    "new zealand",
+    "nz",
+    "black caps",
+    "oceania",
+    "williamson",
+    "nz cricket"
+  ]
+}

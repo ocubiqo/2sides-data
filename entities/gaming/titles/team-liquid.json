@@ -1,0 +1,22 @@
+{
+  "id": "team-liquid",
+  "name": "Team Liquid",
+  "shortName": "Liquid",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "💧",
+  "stats": {
+    "career_earnings_m": 40,
+    "tournament_wins": 85,
+    "world_championships": 4,
+    "followers_m": 6,
+    "peak_viewers_m": 2.5,
+    "years_active": 25
+  },
+  "meta": {
+    "region": "North America / Europe",
+    "founded": "2000",
+    "games": "Multi-title"
+  },
+  "tags": ["esports-org", "north-america", "multi-title"]
+}

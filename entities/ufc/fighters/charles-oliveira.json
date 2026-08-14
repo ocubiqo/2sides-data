@@ -1,0 +1,37 @@
+{
+  "id": "charles-oliveira",
+  "name": "Charles Oliveira",
+  "shortName": "Do Bronx",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇧🇷",
+  "stats": {
+    "win_count": 34,
+    "loss_count": 10,
+    "ko_wins": 11,
+    "submission_wins": 21,
+    "win_streak": 2,
+    "title_reigns": 1,
+    "title_defenses": 2,
+    "years_active": 17,
+    "career_earnings_m": 11,
+    "ppv_buys_m": 4,
+    "social_followers_m": 3.2,
+    "reach_in": 74,
+    "weight_class": "Lightweight",
+    "sig_strikes_per_min": 3.6,
+    "striking_accuracy_pct": 48,
+    "takedown_accuracy_pct": 39,
+    "finish_rate_pct": 94,
+    "power_rating": 78
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Do Bronx",
+    "team": "Chute Boxe Diamond",
+    "nationality": "Brazil",
+    "record": "34-10 (1 NC)",
+    "key_stat": "All-time UFC record holder for both submission wins and finishes"
+  },
+  "tags": ["charles oliveira", "do bronx", "brazil", "lightweight", "mma", "submissions"]
+}

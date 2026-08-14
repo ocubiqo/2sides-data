@@ -1,0 +1,34 @@
+{
+  "id": "one-direction",
+  "name": "One Direction",
+  "shortName": "One Direction",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇬🇧",
+  "stats": {
+    "monthly_listeners_m": 20,
+    "spotify_followers_m": 15,
+    "instagram_followers_m": 5,
+    "tiktok_followers_m": 1,
+    "youtube_subscribers_m": 30,
+    "youtube_views_b": 15,
+    "grammy_nominations": 0,
+    "grammy_wins": 0,
+    "billboard_number_ones": 0,
+    "number_one_albums": 4,
+    "albums_sold_m": 70,
+    "studio_albums": 5,
+    "years_active": 6,
+    "tour_gross_m": 282,
+    "total_streams_b": 20,
+    "net_worth_m": 25,
+    "concert_attendance_m": 5
+  },
+  "meta": {
+    "nationality": "British-Irish",
+    "genre": "Pop",
+    "known_for": "What Makes You Beautiful, formed on The X Factor UK, on indefinite hiatus since 2016",
+    "era": "2010–2016 (hiatus)"
+  },
+  "tags": ["music", "group", "british", "pop", "boy band"]
+}

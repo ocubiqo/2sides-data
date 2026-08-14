@@ -1,0 +1,37 @@
+{
+  "id": "khabib-nurmagomedov",
+  "name": "Khabib Nurmagomedov",
+  "shortName": "Khabib",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇷🇺",
+  "stats": {
+    "win_count": 29,
+    "loss_count": 0,
+    "ko_wins": 8,
+    "submission_wins": 11,
+    "win_streak": 29,
+    "title_reigns": 1,
+    "title_defenses": 3,
+    "years_active": 13,
+    "career_earnings_m": 42,
+    "ppv_buys_m": 15,
+    "social_followers_m": 45,
+    "reach_in": 70.5,
+    "weight_class": "Lightweight",
+    "sig_strikes_per_min": 4.6,
+    "striking_accuracy_pct": 49,
+    "takedown_accuracy_pct": 53,
+    "finish_rate_pct": 66,
+    "power_rating": 82
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Eagle",
+    "team": "Eagles MMA",
+    "nationality": "Russia",
+    "record": "29-0 (retired)",
+    "key_stat": "Retired undefeated — the only lightweight champion never to lose a round in his prime"
+  },
+  "tags": ["khabib nurmagomedov", "khabib", "the eagle", "russia", "lightweight", "mma", "retired", "undefeated"]
+}

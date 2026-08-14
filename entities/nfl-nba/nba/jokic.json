@@ -1,0 +1,35 @@
+{
+  "id": "jokic",
+  "name": "Nikola Jokić",
+  "shortName": "Jokić",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 1,
+    "nba_mvp_awards": 3,
+    "nba_finals_mvp": 1,
+    "career_points_nba": 15500,
+    "ppg_career": 20.6,
+    "all_star_selections_nba": 6,
+    "career_assists_nba": 6200,
+    "scoring_titles_nba": 0,
+    "career_earnings_m": 220,
+    "social_media_m": 20
+  },
+  "meta": {
+    "position": "Center",
+    "team": "Denver Nuggets",
+    "nationality": "Serbia",
+    "form": "Active",
+    "key_stat": "The Joker · a center who passes like a point guard"
+  },
+  "tags": [
+    "jokic",
+    "nikola jokic",
+    "joker",
+    "nuggets",
+    "center",
+    "mvp"
+  ]
+}

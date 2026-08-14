@@ -1,0 +1,34 @@
+{
+  "id": "bad-bunny",
+  "name": "Bad Bunny",
+  "shortName": "Bad Bunny",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇵🇷",
+  "stats": {
+    "monthly_listeners_m": 80,
+    "spotify_followers_m": 45,
+    "instagram_followers_m": 45,
+    "tiktok_followers_m": 15,
+    "youtube_subscribers_m": 30,
+    "youtube_views_b": 25,
+    "grammy_nominations": 10,
+    "grammy_wins": 3,
+    "billboard_number_ones": 1,
+    "number_one_albums": 6,
+    "albums_sold_m": 40,
+    "studio_albums": 6,
+    "years_active": 9,
+    "tour_gross_m": 435,
+    "total_streams_b": 80,
+    "net_worth_m": 180,
+    "concert_attendance_m": 5
+  },
+  "meta": {
+    "nationality": "Puerto Rican",
+    "genre": "Reggaeton / Latin Trap",
+    "known_for": "Un Verano Sin Ti, first Spanish-language Spotify Global No.1 album",
+    "era": "2016–present"
+  },
+  "tags": ["music", "artist", "puerto rican", "latin"]
+}

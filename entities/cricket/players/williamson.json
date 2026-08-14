@@ -1,0 +1,32 @@
+{
+  "id": "williamson",
+  "name": "Kane Williamson",
+  "shortName": "Williamson",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇳🇿",
+  "stats": {
+    "batting_average": 54,
+    "strike_rate": 81,
+    "centuries": 32,
+    "total_runs_intl": 15500,
+    "icc_rating_points": 830,
+    "t20_league_runs": 1800,
+    "player_of_match_awards": 30,
+    "catches_intl": 150
+  },
+  "meta": {
+    "position": "Top-order Batsman",
+    "club": "Gujarat Titans (IPL)",
+    "nationality": "New Zealand",
+    "form": "WLWWL",
+    "key_stat": "Led New Zealand to the inaugural World Test Championship title"
+  },
+  "tags": [
+    "williamson",
+    "kane williamson",
+    "new zealand",
+    "black caps",
+    "batsman"
+  ]
+}

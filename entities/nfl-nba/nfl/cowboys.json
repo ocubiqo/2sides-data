@@ -1,0 +1,29 @@
+{
+  "id": "cowboys",
+  "name": "Dallas Cowboys",
+  "shortName": "Cowboys",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 5,
+    "career_win_pct": 57,
+    "playoff_wins": 34,
+    "super_bowl_appearances": 8,
+    "social_media_m": 26
+  },
+  "meta": {
+    "conference": "NFC East",
+    "coach": "Brian Schottenheimer",
+    "sb_best": "Champions",
+    "form": "WLWWL",
+    "key_stat": "America's Team — the NFL's most valuable franchise"
+  },
+  "tags": [
+    "cowboys",
+    "dallas",
+    "america's team",
+    "nfc east",
+    "team"
+  ]
+}

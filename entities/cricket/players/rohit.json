@@ -1,0 +1,33 @@
+{
+  "id": "rohit",
+  "name": "Rohit Sharma",
+  "shortName": "Rohit",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇮🇳",
+  "stats": {
+    "batting_average": 48.5,
+    "strike_rate": 90,
+    "centuries": 49,
+    "total_runs_intl": 19500,
+    "icc_rating_points": 800,
+    "t20_league_runs": 6800,
+    "player_of_match_awards": 60,
+    "catches_intl": 180
+  },
+  "meta": {
+    "position": "Opening Batsman",
+    "club": "Mumbai Indians (IPL)",
+    "nationality": "India",
+    "form": "WWWLW",
+    "key_stat": "Three ODI double centuries · most sixes in T20 World Cup history"
+  },
+  "tags": [
+    "rohit",
+    "rohit sharma",
+    "hitman",
+    "india",
+    "mumbai indians",
+    "opener"
+  ]
+}

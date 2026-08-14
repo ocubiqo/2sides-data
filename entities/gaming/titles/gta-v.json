@@ -1,0 +1,22 @@
+{
+  "id": "gta-v",
+  "name": "Grand Theft Auto V",
+  "shortName": "GTA V",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🚗",
+  "stats": {
+    "units_sold_m": 210,
+    "metacritic_score": 96,
+    "user_score": 8.2,
+    "franchise_revenue_bn": 8.5,
+    "genre": "Action-Adventure",
+    "cross_platform": "Limited"
+  },
+  "meta": {
+    "developer": "Rockstar Games",
+    "released": "2013",
+    "platform": "Cross-Platform"
+  },
+  "tags": ["action-adventure", "rockstar", "open-world"]
+}

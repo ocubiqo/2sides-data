@@ -1,0 +1,35 @@
+{
+  "id": "shaq",
+  "name": "Shaquille O'Neal",
+  "shortName": "Shaq",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 4,
+    "nba_mvp_awards": 1,
+    "nba_finals_mvp": 3,
+    "career_points_nba": 28596,
+    "ppg_career": 23.7,
+    "all_star_selections_nba": 15,
+    "career_assists_nba": 3026,
+    "scoring_titles_nba": 2,
+    "career_earnings_m": 400,
+    "social_media_m": 30
+  },
+  "meta": {
+    "position": "Center",
+    "team": "Los Angeles Lakers (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "The Diesel · most physically dominant center of his era"
+  },
+  "tags": [
+    "shaq",
+    "shaquille o'neal",
+    "diesel",
+    "lakers",
+    "center",
+    "legend"
+  ]
+}

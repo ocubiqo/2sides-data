@@ -1,0 +1,37 @@
+{
+  "id": "stipe-miocic",
+  "name": "Stipe Miocic",
+  "shortName": "Miocic",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇺🇸",
+  "stats": {
+    "win_count": 20,
+    "loss_count": 4,
+    "ko_wins": 14,
+    "submission_wins": 1,
+    "win_streak": 0,
+    "title_reigns": 2,
+    "title_defenses": 4,
+    "years_active": 15,
+    "career_earnings_m": 22,
+    "ppv_buys_m": 8,
+    "social_followers_m": 2.1,
+    "reach_in": 80,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 4.2,
+    "striking_accuracy_pct": 52,
+    "takedown_accuracy_pct": 48,
+    "finish_rate_pct": 75,
+    "power_rating": 85
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Firefighter",
+    "team": "Strong Style Fight Team",
+    "nationality": "USA",
+    "record": "20-4",
+    "key_stat": "Most title defenses in UFC heavyweight history — an active firefighter throughout his career"
+  },
+  "tags": ["stipe miocic", "firefighter", "usa", "heavyweight", "mma"]
+}

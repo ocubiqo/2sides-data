@@ -1,0 +1,25 @@
+{
+  "id": "avatar-way-of-water",
+  "name": "Avatar: The Way of Water",
+  "shortName": "Avatar 2",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 2320,
+    "opening_weekend_m": 134,
+    "budget_m": 460,
+    "roi_pct": 404,
+    "rotten_tomatoes_pct": 76,
+    "imdb_rating": 7.5,
+    "metacritic_score": 67,
+    "award_nominations": 4
+  },
+  "meta": {
+    "director": "James Cameron",
+    "stars": "Sam Worthington, Zoe Saldana",
+    "language": "English",
+    "studio": "20th Century Studios"
+  },
+  "tags": ["hollywood", "movie", "english", "2022"]
+}

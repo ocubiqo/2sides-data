@@ -1,0 +1,37 @@
+{
+  "id": "francis-ngannou",
+  "name": "Francis Ngannou",
+  "shortName": "Ngannou",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇨🇲",
+  "stats": {
+    "win_count": 17,
+    "loss_count": 3,
+    "ko_wins": 12,
+    "submission_wins": 0,
+    "win_streak": 1,
+    "title_reigns": 1,
+    "title_defenses": 2,
+    "years_active": 9,
+    "career_earnings_m": 30,
+    "ppv_buys_m": 10,
+    "social_followers_m": 9.2,
+    "reach_in": 83,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 3.5,
+    "striking_accuracy_pct": 51,
+    "takedown_accuracy_pct": 41,
+    "finish_rate_pct": 88,
+    "power_rating": 99
+  },
+  "meta": {
+    "discipline": "MMA / Boxing",
+    "nickname": "The Predator",
+    "team": "UFC PI / MMA Factory",
+    "nationality": "Cameroon",
+    "record": "17-3 (MMA)",
+    "key_stat": "Holder of the hardest punch ever recorded in UFC power-staff testing"
+  },
+  "tags": ["francis ngannou", "predator", "cameroon", "heavyweight", "mma", "boxing crossover", "puncher"]
+}

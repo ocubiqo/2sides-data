@@ -1,0 +1,24 @@
+{
+  "id": "lol",
+  "name": "League of Legends",
+  "shortName": "LoL",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "⚔️",
+  "stats": {
+    "monthly_active_users_m": 150,
+    "peak_concurrent_players_m": 8,
+    "metacritic_score": 78,
+    "user_score": 7.1,
+    "esports_prize_pool_m": 180,
+    "franchise_revenue_bn": 13,
+    "genre": "MOBA",
+    "cross_platform": "No"
+  },
+  "meta": {
+    "developer": "Riot Games",
+    "released": "2009",
+    "platform": "PC"
+  },
+  "tags": ["moba", "riot", "esports", "pc"]
+}

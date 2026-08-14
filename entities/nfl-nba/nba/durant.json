@@ -1,0 +1,35 @@
+{
+  "id": "durant",
+  "name": "Kevin Durant",
+  "shortName": "Durant",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 2,
+    "nba_mvp_awards": 1,
+    "nba_finals_mvp": 2,
+    "career_points_nba": 30000,
+    "ppg_career": 27.3,
+    "all_star_selections_nba": 14,
+    "career_assists_nba": 4800,
+    "scoring_titles_nba": 4,
+    "career_earnings_m": 450,
+    "social_media_m": 70
+  },
+  "meta": {
+    "position": "Forward",
+    "team": "Phoenix Suns",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "4× scoring champion · unanimous scoring machine"
+  },
+  "tags": [
+    "durant",
+    "kevin durant",
+    "kd",
+    "suns",
+    "forward",
+    "scorer"
+  ]
+}

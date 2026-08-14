@@ -1,0 +1,33 @@
+{
+  "id": "rashid-khan",
+  "name": "Rashid Khan",
+  "shortName": "Rashid",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇦🇫",
+  "stats": {
+    "batting_average": 17,
+    "strike_rate": 145,
+    "total_runs_intl": 2200,
+    "wickets_taken": 550,
+    "bowling_average": 18.5,
+    "icc_rating_points": 860,
+    "player_of_match_awards": 40,
+    "catches_intl": 90
+  },
+  "meta": {
+    "position": "Leg-spinner",
+    "club": "Gujarat Titans (IPL)",
+    "nationality": "Afghanistan",
+    "form": "WWLWW",
+    "key_stat": "Fastest to 100 & 150 wickets in T20I history · former world No.1 T20I bowler"
+  },
+  "tags": [
+    "rashid khan",
+    "rashid",
+    "afghanistan",
+    "leg-spinner",
+    "gujarat titans",
+    "bowler"
+  ]
+}

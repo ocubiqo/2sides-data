@@ -1,0 +1,34 @@
+{
+  "id": "pakistan",
+  "name": "Pakistan",
+  "shortName": "PAK",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇵🇰",
+  "stats": {
+    "icc_odi_wc_titles": 1,
+    "icc_t20_wc_titles": 1,
+    "wtc_titles": 0,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 19989,
+    "odi_win_rate_pct": 55,
+    "test_win_rate_pct": 42,
+    "t20i_win_rate_pct": 58,
+    "icc_odi_ranking": 5
+  },
+  "meta": {
+    "confederation": "ACC (Asia)",
+    "coach": "Mike Hesson",
+    "wc_best": "Winners",
+    "form": "LWLWW",
+    "key_players": "B. Azam, S. Afridi, M. Rizwan, N. Shah"
+  },
+  "tags": [
+    "pakistan",
+    "pak",
+    "shaheens",
+    "asia",
+    "babar azam",
+    "pcb"
+  ]
+}

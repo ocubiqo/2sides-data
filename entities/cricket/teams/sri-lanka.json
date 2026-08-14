@@ -1,0 +1,34 @@
+{
+  "id": "sri-lanka",
+  "name": "Sri Lanka",
+  "shortName": "SL",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇱🇰",
+  "stats": {
+    "icc_odi_wc_titles": 1,
+    "icc_t20_wc_titles": 1,
+    "wtc_titles": 0,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 28016,
+    "odi_win_rate_pct": 48,
+    "test_win_rate_pct": 38,
+    "t20i_win_rate_pct": 50,
+    "icc_odi_ranking": 8
+  },
+  "meta": {
+    "confederation": "ACC (Asia)",
+    "coach": "Sanath Jayasuriya",
+    "wc_best": "Winners",
+    "form": "LWLWL",
+    "key_players": "K. Mendis, W. Hasaranga, P. Nissanka, D. Chameera"
+  },
+  "tags": [
+    "sri lanka",
+    "sl",
+    "lions",
+    "asia",
+    "sangakkara",
+    "sri lanka cricket"
+  ]
+}

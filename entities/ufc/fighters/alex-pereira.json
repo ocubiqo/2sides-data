@@ -1,0 +1,37 @@
+{
+  "id": "alex-pereira",
+  "name": "Alex Pereira",
+  "shortName": "Poatan",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇧🇷",
+  "stats": {
+    "win_count": 12,
+    "loss_count": 2,
+    "ko_wins": 9,
+    "submission_wins": 0,
+    "win_streak": 4,
+    "title_reigns": 3,
+    "title_defenses": 4,
+    "years_active": 6,
+    "career_earnings_m": 14,
+    "ppv_buys_m": 9,
+    "social_followers_m": 6.8,
+    "reach_in": 79,
+    "weight_class": "Light Heavyweight",
+    "sig_strikes_per_min": 5.8,
+    "striking_accuracy_pct": 59,
+    "takedown_accuracy_pct": 20,
+    "finish_rate_pct": 83,
+    "power_rating": 95
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Poatan",
+    "team": "Teixeira MMA / Fighting Nerds",
+    "nationality": "Brazil",
+    "record": "12-2",
+    "key_stat": "Former kickboxing champion turned two-division UFC champion in record time"
+  },
+  "tags": ["alex pereira", "poatan", "brazil", "light heavyweight", "middleweight", "mma", "kickboxing"]
+}

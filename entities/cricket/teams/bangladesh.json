@@ -1,0 +1,34 @@
+{
+  "id": "bangladesh",
+  "name": "Bangladesh",
+  "shortName": "BAN",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇧🇩",
+  "stats": {
+    "icc_odi_wc_titles": 0,
+    "icc_t20_wc_titles": 0,
+    "wtc_titles": 0,
+    "wc_appearances": 7,
+    "top_run_scorer_runs": 15000,
+    "odi_win_rate_pct": 38,
+    "test_win_rate_pct": 20,
+    "t20i_win_rate_pct": 32,
+    "icc_odi_ranking": 7
+  },
+  "meta": {
+    "confederation": "ACC (Asia)",
+    "coach": "Phil Simmons",
+    "wc_best": "Quarter-final",
+    "form": "LWLLW",
+    "key_players": "N. Hossain Shanto, M. Rahim, T. Hasan, M. Mahmudullah"
+  },
+  "tags": [
+    "bangladesh",
+    "ban",
+    "tigers",
+    "asia",
+    "shakib",
+    "bcb"
+  ]
+}

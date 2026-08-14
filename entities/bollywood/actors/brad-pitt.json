@@ -1,0 +1,24 @@
+{
+  "id": "brad-pitt",
+  "name": "Brad Pitt",
+  "shortName": "Brad Pitt",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 6.8,
+    "opening_weekend_record_m": 71,
+    "movies_count": 60,
+    "oscar_nominations": 5,
+    "oscar_wins": 2,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 0,
+    "avg_rotten_tomatoes_pct": 75
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Fight Club, Once Upon a Time in Hollywood, Se7en",
+    "era": "1987–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

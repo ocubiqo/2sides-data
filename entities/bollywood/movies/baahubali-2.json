@@ -1,0 +1,25 @@
+{
+  "id": "baahubali-2",
+  "name": "Baahubali 2: The Conclusion",
+  "shortName": "Baahubali 2",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 277,
+    "opening_weekend_m": 47,
+    "budget_m": 39,
+    "roi_pct": 610,
+    "rotten_tomatoes_pct": 82,
+    "imdb_rating": 8.0,
+    "metacritic_score": 74,
+    "award_nominations": 10
+  },
+  "meta": {
+    "director": "S.S. Rajamouli",
+    "stars": "Prabhas, Anushka Shetty",
+    "language": "Telugu",
+    "studio": "Arka Media Works"
+  },
+  "tags": ["bollywood", "movie", "telugu", "2017"]
+}

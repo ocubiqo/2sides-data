@@ -1,0 +1,34 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "shortName": "AUS",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇦🇺",
+  "stats": {
+    "icc_odi_wc_titles": 6,
+    "icc_t20_wc_titles": 1,
+    "wtc_titles": 1,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 27483,
+    "odi_win_rate_pct": 63,
+    "test_win_rate_pct": 58,
+    "t20i_win_rate_pct": 60,
+    "icc_odi_ranking": 2
+  },
+  "meta": {
+    "confederation": "Oceania",
+    "coach": "Andrew McDonald",
+    "wc_best": "Winners",
+    "form": "WWLWW",
+    "key_players": "P. Cummins, S. Smith, T. Head, M. Marsh"
+  },
+  "tags": [
+    "australia",
+    "aus",
+    "baggy green",
+    "oceania",
+    "smith",
+    "cricket australia"
+  ]
+}

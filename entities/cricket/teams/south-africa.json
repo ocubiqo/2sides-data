@@ -1,0 +1,34 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "shortName": "RSA",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇿🇦",
+  "stats": {
+    "icc_odi_wc_titles": 0,
+    "icc_t20_wc_titles": 0,
+    "wtc_titles": 1,
+    "wc_appearances": 9,
+    "top_run_scorer_runs": 25534,
+    "odi_win_rate_pct": 61,
+    "test_win_rate_pct": 55,
+    "t20i_win_rate_pct": 59,
+    "icc_odi_ranking": 3
+  },
+  "meta": {
+    "confederation": "Africa",
+    "coach": "Shukri Conrad",
+    "wc_best": "Semi-final",
+    "form": "WWWLW",
+    "key_players": "T. Bavuma, K. Rabada, A. Markram, D. Elgar"
+  },
+  "tags": [
+    "south africa",
+    "rsa",
+    "proteas",
+    "africa",
+    "rabada",
+    "csa"
+  ]
+}

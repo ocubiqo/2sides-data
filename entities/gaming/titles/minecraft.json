@@ -1,0 +1,23 @@
+{
+  "id": "minecraft",
+  "name": "Minecraft",
+  "shortName": "Minecraft",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "⛏️",
+  "stats": {
+    "units_sold_m": 300,
+    "monthly_active_users_m": 170,
+    "metacritic_score": 93,
+    "user_score": 8.3,
+    "franchise_revenue_bn": 3,
+    "genre": "Sandbox",
+    "cross_platform": "Yes"
+  },
+  "meta": {
+    "developer": "Mojang",
+    "released": "2011",
+    "platform": "Cross-Platform"
+  },
+  "tags": ["sandbox", "microsoft", "mojang", "cross-platform"]
+}

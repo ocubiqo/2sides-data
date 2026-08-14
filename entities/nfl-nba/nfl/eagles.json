@@ -1,0 +1,29 @@
+{
+  "id": "eagles",
+  "name": "Philadelphia Eagles",
+  "shortName": "Eagles",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 2,
+    "career_win_pct": 55,
+    "playoff_wins": 20,
+    "super_bowl_appearances": 4,
+    "social_media_m": 14
+  },
+  "meta": {
+    "conference": "NFC East",
+    "coach": "Nick Sirianni",
+    "sb_best": "Champions",
+    "form": "WWWLW",
+    "key_stat": "One of the NFL's most passionate fanbases"
+  },
+  "tags": [
+    "eagles",
+    "philadelphia",
+    "philly",
+    "nfc east",
+    "team"
+  ]
+}

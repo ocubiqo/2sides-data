@@ -1,0 +1,22 @@
+{
+  "id": "loud",
+  "name": "LOUD",
+  "shortName": "LOUD",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🔊",
+  "stats": {
+    "career_earnings_m": 8,
+    "tournament_wins": 25,
+    "world_championships": 1,
+    "followers_m": 9,
+    "peak_viewers_m": 3,
+    "years_active": 6
+  },
+  "meta": {
+    "region": "Brazil",
+    "founded": "2020",
+    "games": "Valorant / League of Legends"
+  },
+  "tags": ["esports-org", "brazil", "valorant"]
+}

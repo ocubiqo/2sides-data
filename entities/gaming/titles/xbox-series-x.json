@@ -1,0 +1,21 @@
+{
+  "id": "xbox-series-x",
+  "name": "Xbox Series X",
+  "shortName": "Xbox Series X",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🟩",
+  "stats": {
+    "units_sold_m": 28,
+    "teraflops": 12.15,
+    "exclusive_games": 30,
+    "launch_price_usd": 499,
+    "cross_platform": "Yes"
+  },
+  "meta": {
+    "manufacturer": "Microsoft",
+    "released": "2020",
+    "type": "Home Console"
+  },
+  "tags": ["console", "microsoft", "xbox", "hardware"]
+}

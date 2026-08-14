@@ -1,0 +1,37 @@
+{
+  "id": "deontay-wilder",
+  "name": "Deontay Wilder",
+  "shortName": "Wilder",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇺🇸",
+  "stats": {
+    "win_count": 43,
+    "loss_count": 3,
+    "ko_wins": 42,
+    "submission_wins": 0,
+    "win_streak": 0,
+    "title_reigns": 1,
+    "title_defenses": 10,
+    "years_active": 16,
+    "career_earnings_m": 190,
+    "ppv_buys_m": 40,
+    "social_followers_m": 7.5,
+    "reach_in": 83,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 3.2,
+    "striking_accuracy_pct": 39,
+    "takedown_accuracy_pct": 0,
+    "finish_rate_pct": 98,
+    "power_rating": 100
+  },
+  "meta": {
+    "discipline": "Boxing",
+    "nickname": "The Bronze Bomber",
+    "team": "Team Wilder",
+    "nationality": "USA",
+    "record": "43-3-1",
+    "key_stat": "42 knockouts from 43 wins — the highest KO ratio of any heavyweight champion in modern history"
+  },
+  "tags": ["deontay wilder", "bronze bomber", "usa", "heavyweight", "boxing", "puncher"]
+}

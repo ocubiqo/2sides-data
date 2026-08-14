@@ -1,0 +1,18 @@
+{
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "entities": [
+    { "id": "taylor-swift",  "name": "Taylor Swift",   "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "pop"] },
+    { "id": "beyonce",       "name": "Beyoncé",        "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "rnb", "pop"] },
+    { "id": "drake",         "name": "Drake",          "emoji": "🇨🇦", "subCategoryId": "artists", "tags": ["music", "artist", "canadian", "hip-hop"] },
+    { "id": "kendrick-lamar","name": "Kendrick Lamar", "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "hip-hop"] },
+    { "id": "the-weeknd",    "name": "The Weeknd",     "emoji": "🇨🇦", "subCategoryId": "artists", "tags": ["music", "artist", "canadian", "rnb"] },
+    { "id": "ed-sheeran",    "name": "Ed Sheeran",     "emoji": "🇬🇧", "subCategoryId": "artists", "tags": ["music", "artist", "british", "pop"] },
+    { "id": "ariana-grande", "name": "Ariana Grande",  "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "pop"] },
+    { "id": "bad-bunny",     "name": "Bad Bunny",      "emoji": "🇵🇷", "subCategoryId": "artists", "tags": ["music", "artist", "puerto rican", "latin"] },
+    { "id": "rihanna",       "name": "Rihanna",        "emoji": "🇧🇧", "subCategoryId": "artists", "tags": ["music", "artist", "barbadian", "pop"] },
+    { "id": "justin-bieber", "name": "Justin Bieber",  "emoji": "🇨🇦", "subCategoryId": "artists", "tags": ["music", "artist", "canadian", "pop"] },
+    { "id": "billie-eilish", "name": "Billie Eilish",  "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "alt-pop"] },
+    { "id": "bruno-mars",    "name": "Bruno Mars",     "emoji": "🇺🇸", "subCategoryId": "artists", "tags": ["music", "artist", "american", "funk"] }
+  ]
+}

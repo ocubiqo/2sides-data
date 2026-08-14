@@ -1,0 +1,33 @@
+{
+  "id": "gill",
+  "name": "Shubman Gill",
+  "shortName": "Gill",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇮🇳",
+  "stats": {
+    "batting_average": 45,
+    "strike_rate": 88,
+    "centuries": 15,
+    "total_runs_intl": 6500,
+    "icc_rating_points": 750,
+    "t20_league_runs": 3800,
+    "player_of_match_awards": 15,
+    "catches_intl": 60
+  },
+  "meta": {
+    "position": "Opening Batsman",
+    "club": "Gujarat Titans (IPL)",
+    "nationality": "India",
+    "form": "WWLWW",
+    "key_stat": "Youngest to captain India in a men's ODI World Cup cycle"
+  },
+  "tags": [
+    "gill",
+    "shubman gill",
+    "india",
+    "gujarat titans",
+    "opener",
+    "young star"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "linkin-park",
+  "name": "Linkin Park",
+  "shortName": "Linkin Park",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 35,
+    "spotify_followers_m": 25,
+    "instagram_followers_m": 15,
+    "tiktok_followers_m": 3,
+    "youtube_subscribers_m": 30,
+    "youtube_views_b": 20,
+    "grammy_nominations": 6,
+    "grammy_wins": 2,
+    "billboard_number_ones": 0,
+    "number_one_albums": 5,
+    "albums_sold_m": 100,
+    "studio_albums": 8,
+    "years_active": 25,
+    "tour_gross_m": 80,
+    "total_streams_b": 40,
+    "net_worth_m": 50,
+    "concert_attendance_m": 2
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Nu-Metal / Rock",
+    "known_for": "Hybrid Theory, In the End, best-selling debut rock album of the 2000s",
+    "era": "1996–present (with hiatus)"
+  },
+  "tags": ["music", "group", "american", "rock"]
+}

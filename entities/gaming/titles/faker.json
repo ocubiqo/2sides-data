@@ -1,0 +1,23 @@
+{
+  "id": "faker",
+  "name": "Faker",
+  "shortName": "Faker",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "👑",
+  "stats": {
+    "career_earnings_m": 8,
+    "tournament_wins": 40,
+    "world_championships": 5,
+    "followers_m": 5,
+    "peak_viewers_m": 6,
+    "years_active": 13
+  },
+  "meta": {
+    "realName": "Lee Sang-hyeok",
+    "region": "Korea",
+    "games": "League of Legends",
+    "team": "T1"
+  },
+  "tags": ["pro-player", "league-of-legends", "korea", "t1"]
+}

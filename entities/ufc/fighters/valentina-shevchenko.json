@@ -1,0 +1,37 @@
+{
+  "id": "valentina-shevchenko",
+  "name": "Valentina Shevchenko",
+  "shortName": "Shevchenko",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇰🇬",
+  "stats": {
+    "win_count": 24,
+    "loss_count": 4,
+    "ko_wins": 8,
+    "submission_wins": 6,
+    "win_streak": 1,
+    "title_reigns": 1,
+    "title_defenses": 7,
+    "years_active": 12,
+    "career_earnings_m": 9,
+    "ppv_buys_m": 3,
+    "social_followers_m": 3.5,
+    "reach_in": 67,
+    "weight_class": "Flyweight",
+    "sig_strikes_per_min": 4.1,
+    "striking_accuracy_pct": 50,
+    "takedown_accuracy_pct": 48,
+    "finish_rate_pct": 58,
+    "power_rating": 76
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Bullet",
+    "team": "Tiger Muay Thai",
+    "nationality": "Kyrgyzstan / Peru",
+    "record": "24-4",
+    "key_stat": "One of the most dominant flyweight champions ever, with a background in Muay Thai and Wushu sanda"
+  },
+  "tags": ["valentina shevchenko", "bullet", "kyrgyzstan", "peru", "flyweight", "mma"]
+}

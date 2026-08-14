@@ -1,0 +1,34 @@
+{
+  "id": "blackpink",
+  "name": "BLACKPINK",
+  "shortName": "BLACKPINK",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇰🇷",
+  "stats": {
+    "monthly_listeners_m": 35,
+    "spotify_followers_m": 25,
+    "instagram_followers_m": 95,
+    "tiktok_followers_m": 35,
+    "youtube_subscribers_m": 95,
+    "youtube_views_b": 35,
+    "grammy_nominations": 0,
+    "grammy_wins": 0,
+    "billboard_number_ones": 0,
+    "number_one_albums": 1,
+    "albums_sold_m": 5,
+    "studio_albums": 2,
+    "years_active": 9,
+    "tour_gross_m": 330,
+    "total_streams_b": 25,
+    "net_worth_m": 50,
+    "concert_attendance_m": 2
+  },
+  "meta": {
+    "nationality": "South Korean",
+    "genre": "K-Pop",
+    "known_for": "Most-subscribed music act on YouTube, Coachella headliners",
+    "era": "2016–present"
+  },
+  "tags": ["music", "group", "korean", "k-pop"]
+}

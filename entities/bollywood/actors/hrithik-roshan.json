@@ -1,0 +1,25 @@
+{
+  "id": "hrithik-roshan",
+  "name": "Hrithik Roshan",
+  "shortName": "Hrithik",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 2.2,
+    "opening_weekend_record_m": 25,
+    "movies_count": 35,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 6,
+    "instagram_followers_m": 45,
+    "avg_rotten_tomatoes_pct": 70
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "War, Jodhaa Akbar, Krrish",
+    "era": "2000–present",
+    "nickname": "Greek God"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

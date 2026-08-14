@@ -1,0 +1,34 @@
+{
+  "id": "mahomes",
+  "name": "Patrick Mahomes",
+  "shortName": "Mahomes",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 3,
+    "nfl_mvp_awards": 2,
+    "passing_yards_career": 30000,
+    "passing_tds_career": 230,
+    "pro_bowl_selections": 7,
+    "career_win_pct": 74,
+    "playoff_wins": 16,
+    "super_bowl_appearances": 4,
+    "career_earnings_m": 350,
+    "social_media_m": 25
+  },
+  "meta": {
+    "position": "Quarterback",
+    "team": "Kansas City Chiefs",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "3× Super Bowl champion · 2× MVP"
+  },
+  "tags": [
+    "mahomes",
+    "patrick mahomes",
+    "chiefs",
+    "quarterback",
+    "qb"
+  ]
+}

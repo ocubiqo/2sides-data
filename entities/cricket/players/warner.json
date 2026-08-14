@@ -1,0 +1,32 @@
+{
+  "id": "warner",
+  "name": "David Warner",
+  "shortName": "Warner",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇦🇺",
+  "stats": {
+    "batting_average": 44.5,
+    "strike_rate": 95.6,
+    "centuries": 49,
+    "total_runs_intl": 18000,
+    "icc_rating_points": 800,
+    "t20_league_runs": 6500,
+    "player_of_match_awards": 55,
+    "catches_intl": 160
+  },
+  "meta": {
+    "position": "Opening Batsman",
+    "club": "Delhi Capitals (IPL)",
+    "nationality": "Australia",
+    "form": "WWLWW",
+    "key_stat": "Explosive opener · 2019 World Cup Golden Bat runner-up"
+  },
+  "tags": [
+    "warner",
+    "david warner",
+    "australia",
+    "opener",
+    "ipl"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "amanda-nunes",
+  "name": "Amanda Nunes",
+  "shortName": "Nunes",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇧🇷",
+  "stats": {
+    "win_count": 23,
+    "loss_count": 5,
+    "ko_wins": 14,
+    "submission_wins": 4,
+    "win_streak": 0,
+    "title_reigns": 2,
+    "title_defenses": 9,
+    "years_active": 15,
+    "career_earnings_m": 12,
+    "ppv_buys_m": 5,
+    "social_followers_m": 4.8,
+    "reach_in": 69,
+    "weight_class": "Bantamweight",
+    "sig_strikes_per_min": 4.8,
+    "striking_accuracy_pct": 53,
+    "takedown_accuracy_pct": 44,
+    "finish_rate_pct": 74,
+    "power_rating": 85
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Lioness",
+    "team": "American Top Team",
+    "nationality": "Brazil",
+    "record": "23-5 (retired)",
+    "key_stat": "Retired as simultaneous two-division champion — widely called the greatest women's MMA fighter ever"
+  },
+  "tags": ["amanda nunes", "lioness", "brazil", "bantamweight", "featherweight", "mma", "retired", "goat"]
+}

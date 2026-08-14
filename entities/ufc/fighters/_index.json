@@ -1,0 +1,146 @@
+{
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "entities": [
+    {
+      "id": "jon-jones",
+      "name": "Jon Jones",
+      "emoji": "🇺🇸",
+      "subCategoryId": "fighters",
+      "tags": ["jon jones", "bones", "usa", "heavyweight", "light heavyweight", "mma", "goat"]
+    },
+    {
+      "id": "islam-makhachev",
+      "name": "Islam Makhachev",
+      "emoji": "🇷🇺",
+      "subCategoryId": "fighters",
+      "tags": ["islam makhachev", "makhachev", "russia", "lightweight", "mma", "khabib"]
+    },
+    {
+      "id": "alex-pereira",
+      "name": "Alex Pereira",
+      "emoji": "🇧🇷",
+      "subCategoryId": "fighters",
+      "tags": ["alex pereira", "poatan", "brazil", "light heavyweight", "middleweight", "mma", "kickboxing"]
+    },
+    {
+      "id": "israel-adesanya",
+      "name": "Israel Adesanya",
+      "emoji": "🇳🇬",
+      "subCategoryId": "fighters",
+      "tags": ["israel adesanya", "stylebender", "nigeria", "new zealand", "middleweight", "mma"]
+    },
+    {
+      "id": "khabib-nurmagomedov",
+      "name": "Khabib Nurmagomedov",
+      "emoji": "🇷🇺",
+      "subCategoryId": "fighters",
+      "tags": ["khabib nurmagomedov", "khabib", "the eagle", "russia", "lightweight", "mma", "retired", "undefeated"]
+    },
+    {
+      "id": "conor-mcgregor",
+      "name": "Conor McGregor",
+      "emoji": "🇮🇪",
+      "subCategoryId": "fighters",
+      "tags": ["conor mcgregor", "notorious", "ireland", "lightweight", "featherweight", "mma", "ppv king"]
+    },
+    {
+      "id": "francis-ngannou",
+      "name": "Francis Ngannou",
+      "emoji": "🇨🇲",
+      "subCategoryId": "fighters",
+      "tags": ["francis ngannou", "predator", "cameroon", "heavyweight", "mma", "boxing crossover", "puncher"]
+    },
+    {
+      "id": "stipe-miocic",
+      "name": "Stipe Miocic",
+      "emoji": "🇺🇸",
+      "subCategoryId": "fighters",
+      "tags": ["stipe miocic", "firefighter", "usa", "heavyweight", "mma"]
+    },
+    {
+      "id": "tyson-fury",
+      "name": "Tyson Fury",
+      "emoji": "🇬🇧",
+      "subCategoryId": "fighters",
+      "tags": ["tyson fury", "gypsy king", "uk", "heavyweight", "boxing"]
+    },
+    {
+      "id": "anthony-joshua",
+      "name": "Anthony Joshua",
+      "emoji": "🇬🇧",
+      "subCategoryId": "fighters",
+      "tags": ["anthony joshua", "aj", "uk", "heavyweight", "boxing", "olympic gold"]
+    },
+    {
+      "id": "deontay-wilder",
+      "name": "Deontay Wilder",
+      "emoji": "🇺🇸",
+      "subCategoryId": "fighters",
+      "tags": ["deontay wilder", "bronze bomber", "usa", "heavyweight", "boxing", "puncher"]
+    },
+    {
+      "id": "amanda-nunes",
+      "name": "Amanda Nunes",
+      "emoji": "🇧🇷",
+      "subCategoryId": "fighters",
+      "tags": ["amanda nunes", "lioness", "brazil", "bantamweight", "featherweight", "mma", "retired", "goat"]
+    },
+    {
+      "id": "valentina-shevchenko",
+      "name": "Valentina Shevchenko",
+      "emoji": "🇰🇬",
+      "subCategoryId": "fighters",
+      "tags": ["valentina shevchenko", "bullet", "kyrgyzstan", "peru", "flyweight", "mma"]
+    },
+    {
+      "id": "kamaru-usman",
+      "name": "Kamaru Usman",
+      "emoji": "🇳🇬",
+      "subCategoryId": "fighters",
+      "tags": ["kamaru usman", "nigerian nightmare", "nigeria", "welterweight", "mma"]
+    },
+    {
+      "id": "charles-oliveira",
+      "name": "Charles Oliveira",
+      "emoji": "🇧🇷",
+      "subCategoryId": "fighters",
+      "tags": ["charles oliveira", "do bronx", "brazil", "lightweight", "mma", "submissions"]
+    },
+    {
+      "id": "alexander-volkanovski",
+      "name": "Alexander Volkanovski",
+      "emoji": "🇦🇺",
+      "subCategoryId": "fighters",
+      "tags": ["alexander volkanovski", "the great", "australia", "featherweight", "mma"]
+    },
+    {
+      "id": "dricus-du-plessis",
+      "name": "Dricus Du Plessis",
+      "emoji": "🇿🇦",
+      "subCategoryId": "fighters",
+      "tags": ["dricus du plessis", "stillknocks", "south africa", "middleweight", "mma"]
+    },
+    {
+      "id": "canelo-alvarez",
+      "name": "Canelo Álvarez",
+      "emoji": "🇲🇽",
+      "subCategoryId": "fighters",
+      "tags": ["canelo alvarez", "canelo", "mexico", "super middleweight", "boxing", "pound for pound"]
+    },
+    {
+      "id": "oleksandr-usyk",
+      "name": "Oleksandr Usyk",
+      "emoji": "🇺🇦",
+      "subCategoryId": "fighters",
+      "tags": ["oleksandr usyk", "usyk", "ukraine", "heavyweight", "boxing", "undefeated"]
+    },
+    {
+      "id": "zhang-weili",
+      "name": "Zhang Weili",
+      "emoji": "🇨🇳",
+      "subCategoryId": "fighters",
+      "tags": ["zhang weili", "magnum", "china", "strawweight", "mma"]
+    }
+  ]
+}

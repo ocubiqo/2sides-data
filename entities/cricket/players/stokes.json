@@ -1,0 +1,34 @@
+{
+  "id": "stokes",
+  "name": "Ben Stokes",
+  "shortName": "Stokes",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "stats": {
+    "batting_average": 35.9,
+    "strike_rate": 92,
+    "centuries": 13,
+    "total_runs_intl": 8500,
+    "wickets_taken": 196,
+    "bowling_average": 32,
+    "icc_rating_points": 780,
+    "t20_league_runs": 2200,
+    "player_of_match_awards": 25,
+    "catches_intl": 140
+  },
+  "meta": {
+    "position": "All-rounder",
+    "club": "Durham",
+    "nationality": "England",
+    "form": "WLWWL",
+    "key_stat": "2019 World Cup Man of the Match in the final · Ashes hero"
+  },
+  "tags": [
+    "stokes",
+    "ben stokes",
+    "england",
+    "all-rounder",
+    "captain"
+  ]
+}

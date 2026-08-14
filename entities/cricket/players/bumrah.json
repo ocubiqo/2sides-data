@@ -1,0 +1,33 @@
+{
+  "id": "bumrah",
+  "name": "Jasprit Bumrah",
+  "shortName": "Bumrah",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇮🇳",
+  "stats": {
+    "batting_average": 8.5,
+    "strike_rate": 60,
+    "total_runs_intl": 600,
+    "wickets_taken": 430,
+    "bowling_average": 21.5,
+    "icc_rating_points": 890,
+    "player_of_match_awards": 20,
+    "catches_intl": 40
+  },
+  "meta": {
+    "position": "Fast Bowler",
+    "club": "Mumbai Indians (IPL)",
+    "nationality": "India",
+    "form": "WWLWW",
+    "key_stat": "Ranked world No.1 Test bowler · unorthodox action, elite yorkers"
+  },
+  "tags": [
+    "bumrah",
+    "jasprit bumrah",
+    "india",
+    "mumbai indians",
+    "fast bowler",
+    "yorker"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "titanic",
+  "name": "Titanic",
+  "shortName": "Titanic",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 2264,
+    "opening_weekend_m": 29,
+    "budget_m": 200,
+    "roi_pct": 1032,
+    "rotten_tomatoes_pct": 89,
+    "imdb_rating": 9.0,
+    "metacritic_score": 75,
+    "award_nominations": 14
+  },
+  "meta": {
+    "director": "James Cameron",
+    "stars": "Leonardo DiCaprio, Kate Winslet",
+    "language": "English",
+    "studio": "Paramount / 20th Century Fox"
+  },
+  "tags": ["hollywood", "movie", "english", "1997"]
+}

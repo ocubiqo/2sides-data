@@ -1,0 +1,37 @@
+{
+  "id": "israel-adesanya",
+  "name": "Israel Adesanya",
+  "shortName": "Adesanya",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇳🇬",
+  "stats": {
+    "win_count": 24,
+    "loss_count": 4,
+    "ko_wins": 16,
+    "submission_wins": 0,
+    "win_streak": 2,
+    "title_reigns": 2,
+    "title_defenses": 5,
+    "years_active": 10,
+    "career_earnings_m": 20,
+    "ppv_buys_m": 8,
+    "social_followers_m": 8.5,
+    "reach_in": 80,
+    "weight_class": "Middleweight",
+    "sig_strikes_per_min": 4.6,
+    "striking_accuracy_pct": 54,
+    "takedown_accuracy_pct": 39,
+    "finish_rate_pct": 71,
+    "power_rating": 87
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Last Stylebender",
+    "team": "City Kickboxing",
+    "nationality": "Nigeria / New Zealand",
+    "record": "24-4",
+    "key_stat": "Two-time middleweight champion known for elite kickboxing precision"
+  },
+  "tags": ["israel adesanya", "stylebender", "nigeria", "new zealand", "middleweight", "mma"]
+}

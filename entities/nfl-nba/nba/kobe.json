@@ -1,0 +1,35 @@
+{
+  "id": "kobe",
+  "name": "Kobe Bryant",
+  "shortName": "Kobe",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 5,
+    "nba_mvp_awards": 1,
+    "nba_finals_mvp": 2,
+    "career_points_nba": 33643,
+    "ppg_career": 25.0,
+    "all_star_selections_nba": 18,
+    "career_assists_nba": 6306,
+    "scoring_titles_nba": 2,
+    "career_earnings_m": 680,
+    "social_media_m": 45
+  },
+  "meta": {
+    "position": "Guard",
+    "team": "Los Angeles Lakers (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "Black Mamba · 5× champion, 81-point game"
+  },
+  "tags": [
+    "kobe",
+    "kobe bryant",
+    "black mamba",
+    "lakers",
+    "guard",
+    "legend"
+  ]
+}

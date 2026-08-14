@@ -1,0 +1,37 @@
+{
+  "id": "kamaru-usman",
+  "name": "Kamaru Usman",
+  "shortName": "Usman",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇳🇬",
+  "stats": {
+    "win_count": 20,
+    "loss_count": 4,
+    "ko_wins": 10,
+    "submission_wins": 1,
+    "win_streak": 0,
+    "title_reigns": 1,
+    "title_defenses": 5,
+    "years_active": 13,
+    "career_earnings_m": 16,
+    "ppv_buys_m": 7,
+    "social_followers_m": 4.0,
+    "reach_in": 76,
+    "weight_class": "Welterweight",
+    "sig_strikes_per_min": 3.9,
+    "striking_accuracy_pct": 51,
+    "takedown_accuracy_pct": 48,
+    "finish_rate_pct": 55,
+    "power_rating": 82
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Nigerian Nightmare",
+    "team": "Sanford MMA / Elevation Fight Team",
+    "nationality": "Nigeria / USA",
+    "record": "20-4",
+    "key_stat": "Tied the record for most consecutive welterweight title defenses in UFC history"
+  },
+  "tags": ["kamaru usman", "nigerian nightmare", "nigeria", "welterweight", "mma"]
+}

@@ -71,6 +71,76 @@
       "emoji": "🇺🇸",
       "subCategoryId": "actors",
       "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "priyanka-chopra",
+      "name": "Priyanka Chopra",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "ranveer-singh",
+      "name": "Ranveer Singh",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "kareena-kapoor",
+      "name": "Kareena Kapoor",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "hrithik-roshan",
+      "name": "Hrithik Roshan",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "anushka-sharma",
+      "name": "Anushka Sharma",
+      "emoji": "🇮🇳",
+      "subCategoryId": "actors",
+      "tags": ["bollywood", "actor", "indian"]
+    },
+    {
+      "id": "robert-downey-jr",
+      "name": "Robert Downey Jr.",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "emma-stone",
+      "name": "Emma Stone",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "tom-hanks",
+      "name": "Tom Hanks",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "scarlett-johansson",
+      "name": "Scarlett Johansson",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
+    },
+    {
+      "id": "brad-pitt",
+      "name": "Brad Pitt",
+      "emoji": "🇺🇸",
+      "subCategoryId": "actors",
+      "tags": ["hollywood", "actor", "american"]
     }
   ]
 }

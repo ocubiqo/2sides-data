@@ -1,0 +1,14 @@
+{
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "entities": [
+    { "id": "bts",             "name": "BTS",             "emoji": "🇰🇷", "subCategoryId": "groups", "tags": ["music", "group", "korean", "k-pop"] },
+    { "id": "blackpink",       "name": "BLACKPINK",       "emoji": "🇰🇷", "subCategoryId": "groups", "tags": ["music", "group", "korean", "k-pop"] },
+    { "id": "coldplay",        "name": "Coldplay",        "emoji": "🇬🇧", "subCategoryId": "groups", "tags": ["music", "group", "british", "rock"] },
+    { "id": "imagine-dragons", "name": "Imagine Dragons", "emoji": "🇺🇸", "subCategoryId": "groups", "tags": ["music", "group", "american", "rock"] },
+    { "id": "maroon-5",        "name": "Maroon 5",        "emoji": "🇺🇸", "subCategoryId": "groups", "tags": ["music", "group", "american", "pop-rock"] },
+    { "id": "linkin-park",     "name": "Linkin Park",     "emoji": "🇺🇸", "subCategoryId": "groups", "tags": ["music", "group", "american", "rock"] },
+    { "id": "onerepublic",     "name": "OneRepublic",     "emoji": "🇺🇸", "subCategoryId": "groups", "tags": ["music", "group", "american", "pop-rock"] },
+    { "id": "one-direction",   "name": "One Direction",   "emoji": "🇬🇧", "subCategoryId": "groups", "tags": ["music", "group", "british", "pop", "boy band"] }
+  ]
+}

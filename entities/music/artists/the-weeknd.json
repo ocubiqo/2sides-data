@@ -1,0 +1,34 @@
+{
+  "id": "the-weeknd",
+  "name": "The Weeknd",
+  "shortName": "Weeknd",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇨🇦",
+  "stats": {
+    "monthly_listeners_m": 90,
+    "spotify_followers_m": 65,
+    "instagram_followers_m": 55,
+    "tiktok_followers_m": 10,
+    "youtube_subscribers_m": 35,
+    "youtube_views_b": 25,
+    "grammy_nominations": 20,
+    "grammy_wins": 4,
+    "billboard_number_ones": 5,
+    "number_one_albums": 4,
+    "albums_sold_m": 75,
+    "studio_albums": 6,
+    "years_active": 15,
+    "tour_gross_m": 350,
+    "total_streams_b": 90,
+    "net_worth_m": 200,
+    "concert_attendance_m": 4
+  },
+  "meta": {
+    "nationality": "Canadian",
+    "genre": "R&B / Pop",
+    "known_for": "After Hours, Blinding Lights, Super Bowl LV halftime show",
+    "era": "2010–present"
+  },
+  "tags": ["music", "artist", "canadian", "rnb"]
+}

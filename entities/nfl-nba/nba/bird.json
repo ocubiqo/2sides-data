@@ -1,0 +1,35 @@
+{
+  "id": "bird",
+  "name": "Larry Bird",
+  "shortName": "Bird",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "emoji": "🏀",
+  "stats": {
+    "nba_championships": 3,
+    "nba_mvp_awards": 3,
+    "nba_finals_mvp": 2,
+    "career_points_nba": 21791,
+    "ppg_career": 24.3,
+    "all_star_selections_nba": 12,
+    "career_assists_nba": 5695,
+    "scoring_titles_nba": 0,
+    "career_earnings_m": 25,
+    "social_media_m": 3
+  },
+  "meta": {
+    "position": "Forward",
+    "team": "Boston Celtics (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "Larry Legend · sparked the 1980s NBA boom with Magic"
+  },
+  "tags": [
+    "bird",
+    "larry bird",
+    "larry legend",
+    "celtics",
+    "forward",
+    "legend"
+  ]
+}

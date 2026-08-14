@@ -1,0 +1,37 @@
+{
+  "id": "tyson-fury",
+  "name": "Tyson Fury",
+  "shortName": "Fury",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇬🇧",
+  "stats": {
+    "win_count": 34,
+    "loss_count": 1,
+    "ko_wins": 24,
+    "submission_wins": 0,
+    "win_streak": 0,
+    "title_reigns": 3,
+    "title_defenses": 6,
+    "years_active": 17,
+    "career_earnings_m": 250,
+    "ppv_buys_m": 60,
+    "social_followers_m": 13,
+    "reach_in": 85,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 3.8,
+    "striking_accuracy_pct": 42,
+    "takedown_accuracy_pct": 0,
+    "finish_rate_pct": 71,
+    "power_rating": 90
+  },
+  "meta": {
+    "discipline": "Boxing",
+    "nickname": "The Gypsy King",
+    "team": "Team Fury",
+    "nationality": "United Kingdom",
+    "record": "34-1-1",
+    "key_stat": "Ended Wladimir Klitschko's near-decade heavyweight reign, then reclaimed his own titles after public battles with depression"
+  },
+  "tags": ["tyson fury", "gypsy king", "uk", "heavyweight", "boxing"]
+}

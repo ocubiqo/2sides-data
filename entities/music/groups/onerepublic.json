@@ -1,0 +1,34 @@
+{
+  "id": "onerepublic",
+  "name": "OneRepublic",
+  "shortName": "OneRepublic",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 30,
+    "spotify_followers_m": 20,
+    "instagram_followers_m": 5,
+    "tiktok_followers_m": 1,
+    "youtube_subscribers_m": 15,
+    "youtube_views_b": 15,
+    "grammy_nominations": 2,
+    "grammy_wins": 0,
+    "billboard_number_ones": 0,
+    "number_one_albums": 0,
+    "albums_sold_m": 20,
+    "studio_albums": 6,
+    "years_active": 20,
+    "tour_gross_m": 40,
+    "total_streams_b": 25,
+    "net_worth_m": 30,
+    "concert_attendance_m": 2
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Pop-Rock",
+    "known_for": "Counting Stars, Apologize",
+    "era": "2002–present"
+  },
+  "tags": ["music", "group", "american", "pop-rock"]
+}

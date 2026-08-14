@@ -1,0 +1,34 @@
+{
+  "id": "ed-sheeran",
+  "name": "Ed Sheeran",
+  "shortName": "Sheeran",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇬🇧",
+  "stats": {
+    "monthly_listeners_m": 80,
+    "spotify_followers_m": 50,
+    "instagram_followers_m": 45,
+    "tiktok_followers_m": 10,
+    "youtube_subscribers_m": 55,
+    "youtube_views_b": 30,
+    "grammy_nominations": 14,
+    "grammy_wins": 4,
+    "billboard_number_ones": 3,
+    "number_one_albums": 5,
+    "albums_sold_m": 150,
+    "studio_albums": 6,
+    "years_active": 15,
+    "tour_gross_m": 776,
+    "total_streams_b": 100,
+    "net_worth_m": 250,
+    "concert_attendance_m": 9
+  },
+  "meta": {
+    "nationality": "British",
+    "genre": "Pop / Folk",
+    "known_for": "Divide, Shape of You, ÷ Tour (highest-grossing tour of its era)",
+    "era": "2011–present"
+  },
+  "tags": ["music", "artist", "british", "pop"]
+}

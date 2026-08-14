@@ -1,0 +1,37 @@
+{
+  "id": "zhang-weili",
+  "name": "Zhang Weili",
+  "shortName": "Zhang Weili",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇨🇳",
+  "stats": {
+    "win_count": 26,
+    "loss_count": 3,
+    "ko_wins": 11,
+    "submission_wins": 2,
+    "win_streak": 6,
+    "title_reigns": 2,
+    "title_defenses": 6,
+    "years_active": 13,
+    "career_earnings_m": 5,
+    "ppv_buys_m": 2,
+    "social_followers_m": 6.5,
+    "reach_in": 63,
+    "weight_class": "Strawweight",
+    "sig_strikes_per_min": 5.5,
+    "striking_accuracy_pct": 52,
+    "takedown_accuracy_pct": 45,
+    "finish_rate_pct": 50,
+    "power_rating": 79
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Magnum",
+    "team": "Team China / Xtreme Couture",
+    "nationality": "China",
+    "record": "26-3",
+    "key_stat": "First Chinese UFC champion, headlined the promotion's first-ever all-women's main event"
+  },
+  "tags": ["zhang weili", "magnum", "china", "strawweight", "mma"]
+}

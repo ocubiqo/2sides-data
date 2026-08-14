@@ -1,0 +1,25 @@
+{
+  "id": "joker",
+  "name": "Joker",
+  "shortName": "Joker",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 1074,
+    "opening_weekend_m": 96,
+    "budget_m": 55,
+    "roi_pct": 1853,
+    "rotten_tomatoes_pct": 68,
+    "imdb_rating": 8.4,
+    "metacritic_score": 59,
+    "award_nominations": 11
+  },
+  "meta": {
+    "director": "Todd Phillips",
+    "stars": "Joaquin Phoenix",
+    "language": "English",
+    "studio": "Warner Bros"
+  },
+  "tags": ["hollywood", "movie", "english", "2019"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "conor-mcgregor",
+  "name": "Conor McGregor",
+  "shortName": "McGregor",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇮🇪",
+  "stats": {
+    "win_count": 22,
+    "loss_count": 6,
+    "ko_wins": 19,
+    "submission_wins": 1,
+    "win_streak": 0,
+    "title_reigns": 2,
+    "title_defenses": 0,
+    "years_active": 13,
+    "career_earnings_m": 180,
+    "ppv_buys_m": 45,
+    "social_followers_m": 90,
+    "reach_in": 74,
+    "weight_class": "Lightweight",
+    "sig_strikes_per_min": 5.3,
+    "striking_accuracy_pct": 50,
+    "takedown_accuracy_pct": 27,
+    "finish_rate_pct": 86,
+    "power_rating": 93
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "The Notorious",
+    "team": "SBG Ireland",
+    "nationality": "Ireland",
+    "record": "22-6 (1 NC)",
+    "key_stat": "First fighter to hold two UFC titles in different weight classes simultaneously"
+  },
+  "tags": ["conor mcgregor", "notorious", "ireland", "lightweight", "featherweight", "mma", "ppv king"]
+}

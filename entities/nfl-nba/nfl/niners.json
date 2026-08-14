@@ -1,0 +1,29 @@
+{
+  "id": "niners",
+  "name": "San Francisco 49ers",
+  "shortName": "49ers",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 5,
+    "career_win_pct": 58,
+    "playoff_wins": 32,
+    "super_bowl_appearances": 7,
+    "social_media_m": 12
+  },
+  "meta": {
+    "conference": "NFC West",
+    "coach": "Kyle Shanahan",
+    "sb_best": "Champions",
+    "form": "WWLWW",
+    "key_stat": "Tied for the most Super Bowl wins in the NFC"
+  },
+  "tags": [
+    "49ers",
+    "niners",
+    "san francisco",
+    "nfc west",
+    "team"
+  ]
+}

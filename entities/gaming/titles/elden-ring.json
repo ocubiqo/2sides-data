@@ -1,0 +1,23 @@
+{
+  "id": "elden-ring",
+  "name": "Elden Ring",
+  "shortName": "Elden Ring",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🗡️",
+  "stats": {
+    "units_sold_m": 28,
+    "metacritic_score": 96,
+    "user_score": 8.4,
+    "franchise_revenue_bn": 1.5,
+    "dlc_count": 1,
+    "genre": "Action RPG",
+    "cross_platform": "No"
+  },
+  "meta": {
+    "developer": "FromSoftware",
+    "released": "2022",
+    "platform": "Cross-Platform"
+  },
+  "tags": ["action-rpg", "fromsoftware", "souls-like"]
+}

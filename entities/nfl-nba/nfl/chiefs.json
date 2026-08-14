@@ -1,0 +1,29 @@
+{
+  "id": "chiefs",
+  "name": "Kansas City Chiefs",
+  "shortName": "Chiefs",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 4,
+    "career_win_pct": 63,
+    "playoff_wins": 30,
+    "super_bowl_appearances": 6,
+    "social_media_m": 22
+  },
+  "meta": {
+    "conference": "AFC West",
+    "coach": "Andy Reid",
+    "sb_best": "Champions",
+    "form": "WWLWW",
+    "key_stat": "Back-to-back-to-back Super Bowl contenders behind Mahomes"
+  },
+  "tags": [
+    "chiefs",
+    "kansas city",
+    "kc",
+    "afc west",
+    "team"
+  ]
+}

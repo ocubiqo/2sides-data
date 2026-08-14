@@ -1,0 +1,25 @@
+{
+  "id": "animal",
+  "name": "Animal",
+  "shortName": "Animal",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 132,
+    "opening_weekend_m": 24,
+    "budget_m": 33,
+    "roi_pct": 300,
+    "rotten_tomatoes_pct": 47,
+    "imdb_rating": 6.2,
+    "metacritic_score": 45,
+    "award_nominations": 3
+  },
+  "meta": {
+    "director": "Sandeep Reddy Vanga",
+    "stars": "Ranbir Kapoor",
+    "language": "Hindi",
+    "studio": "T-Series"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2023"]
+}

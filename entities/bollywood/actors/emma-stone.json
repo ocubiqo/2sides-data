@@ -1,0 +1,24 @@
+{
+  "id": "emma-stone",
+  "name": "Emma Stone",
+  "shortName": "Emma Stone",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 4.2,
+    "opening_weekend_record_m": 88,
+    "movies_count": 30,
+    "oscar_nominations": 4,
+    "oscar_wins": 2,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 5,
+    "avg_rotten_tomatoes_pct": 85
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "La La Land, Poor Things, Easy A",
+    "era": "2007–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cloud9",
+  "name": "Cloud9",
+  "shortName": "Cloud9",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "☁️",
+  "stats": {
+    "career_earnings_m": 30,
+    "tournament_wins": 70,
+    "world_championships": 2,
+    "followers_m": 5,
+    "peak_viewers_m": 2,
+    "years_active": 14
+  },
+  "meta": {
+    "region": "North America",
+    "founded": "2013",
+    "games": "Multi-title"
+  },
+  "tags": ["esports-org", "north-america", "multi-title"]
+}

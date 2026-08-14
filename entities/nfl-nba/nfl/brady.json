@@ -1,0 +1,36 @@
+{
+  "id": "brady",
+  "name": "Tom Brady",
+  "shortName": "Brady",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 7,
+    "nfl_mvp_awards": 3,
+    "passing_yards_career": 89000,
+    "passing_tds_career": 649,
+    "pro_bowl_selections": 15,
+    "career_win_pct": 78,
+    "playoff_wins": 35,
+    "super_bowl_appearances": 10,
+    "career_earnings_m": 512,
+    "social_media_m": 20
+  },
+  "meta": {
+    "position": "Quarterback",
+    "team": "New England Patriots (retired)",
+    "nationality": "USA",
+    "form": "Retired",
+    "key_stat": "7× Super Bowl champion · most in NFL history"
+  },
+  "tags": [
+    "brady",
+    "tom brady",
+    "tb12",
+    "patriots",
+    "goat",
+    "quarterback",
+    "qb"
+  ]
+}

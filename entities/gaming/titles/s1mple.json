@@ -1,0 +1,23 @@
+{
+  "id": "s1mple",
+  "name": "s1mple",
+  "shortName": "s1mple",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🐐",
+  "stats": {
+    "career_earnings_m": 2,
+    "tournament_wins": 30,
+    "world_championships": 1,
+    "followers_m": 3,
+    "peak_viewers_m": 2,
+    "years_active": 12
+  },
+  "meta": {
+    "realName": "Oleksandr Kostyliev",
+    "region": "Ukraine",
+    "games": "Counter-Strike",
+    "team": "NAVI"
+  },
+  "tags": ["pro-player", "counter-strike", "ukraine"]
+}

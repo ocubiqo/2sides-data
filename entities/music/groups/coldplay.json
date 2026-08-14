@@ -1,0 +1,34 @@
+{
+  "id": "coldplay",
+  "name": "Coldplay",
+  "shortName": "Coldplay",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇬🇧",
+  "stats": {
+    "monthly_listeners_m": 55,
+    "spotify_followers_m": 40,
+    "instagram_followers_m": 20,
+    "tiktok_followers_m": 3,
+    "youtube_subscribers_m": 30,
+    "youtube_views_b": 20,
+    "grammy_nominations": 12,
+    "grammy_wins": 7,
+    "billboard_number_ones": 1,
+    "number_one_albums": 8,
+    "albums_sold_m": 100,
+    "studio_albums": 10,
+    "years_active": 28,
+    "tour_gross_m": 1200,
+    "total_streams_b": 60,
+    "net_worth_m": 130,
+    "concert_attendance_m": 10
+  },
+  "meta": {
+    "nationality": "British",
+    "genre": "Alt-Rock / Pop",
+    "known_for": "A Rush of Blood to the Head, Music of the Spheres World Tour",
+    "era": "1996–present"
+  },
+  "tags": ["music", "group", "british", "rock"]
+}

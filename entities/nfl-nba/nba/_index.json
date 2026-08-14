@@ -1,0 +1,76 @@
+{
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nba",
+  "entities": [
+    {
+      "id": "lebron",
+      "name": "LeBron James",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["lebron", "lebron james", "king james", "lakers", "goat", "forward"]
+    },
+    {
+      "id": "jordan",
+      "name": "Michael Jordan",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["jordan", "michael jordan", "mj", "air jordan", "bulls", "goat", "guard"]
+    },
+    {
+      "id": "curry",
+      "name": "Stephen Curry",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["curry", "steph curry", "stephen curry", "warriors", "guard", "sharpshooter"]
+    },
+    {
+      "id": "durant",
+      "name": "Kevin Durant",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["durant", "kevin durant", "kd", "suns", "forward", "scorer"]
+    },
+    {
+      "id": "giannis",
+      "name": "Giannis Antetokounmpo",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["giannis", "antetokounmpo", "greek freak", "bucks", "forward", "mvp"]
+    },
+    {
+      "id": "jokic",
+      "name": "Nikola Jokić",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["jokic", "nikola jokic", "joker", "nuggets", "center", "mvp"]
+    },
+    {
+      "id": "kobe",
+      "name": "Kobe Bryant",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["kobe", "kobe bryant", "black mamba", "lakers", "guard", "legend"]
+    },
+    {
+      "id": "magic",
+      "name": "Magic Johnson",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["magic", "magic johnson", "earvin johnson", "lakers", "showtime", "guard"]
+    },
+    {
+      "id": "bird",
+      "name": "Larry Bird",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["bird", "larry bird", "larry legend", "celtics", "forward", "legend"]
+    },
+    {
+      "id": "shaq",
+      "name": "Shaquille O'Neal",
+      "emoji": "🏀",
+      "subCategoryId": "nba",
+      "tags": ["shaq", "shaquille o'neal", "diesel", "lakers", "center", "legend"]
+    }
+  ]
+}

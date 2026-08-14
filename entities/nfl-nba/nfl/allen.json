@@ -1,0 +1,34 @@
+{
+  "id": "allen",
+  "name": "Josh Allen",
+  "shortName": "Allen",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 0,
+    "nfl_mvp_awards": 1,
+    "passing_yards_career": 26000,
+    "passing_tds_career": 200,
+    "pro_bowl_selections": 4,
+    "career_win_pct": 63,
+    "playoff_wins": 6,
+    "super_bowl_appearances": 0,
+    "career_earnings_m": 180,
+    "social_media_m": 8
+  },
+  "meta": {
+    "position": "Quarterback",
+    "team": "Buffalo Bills",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "Dual-threat MVP still chasing his first Super Bowl"
+  },
+  "tags": [
+    "allen",
+    "josh allen",
+    "bills",
+    "quarterback",
+    "qb"
+  ]
+}

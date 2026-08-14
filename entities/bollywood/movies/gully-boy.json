@@ -1,0 +1,25 @@
+{
+  "id": "gully-boy",
+  "name": "Gully Boy",
+  "shortName": "Gully Boy",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 21,
+    "opening_weekend_m": 3,
+    "budget_m": 6,
+    "roi_pct": 250,
+    "rotten_tomatoes_pct": 89,
+    "imdb_rating": 7.9,
+    "metacritic_score": 71,
+    "award_nominations": 13
+  },
+  "meta": {
+    "director": "Zoya Akhtar",
+    "stars": "Ranveer Singh, Alia Bhatt",
+    "language": "Hindi",
+    "studio": "Excel Entertainment"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2019"]
+}

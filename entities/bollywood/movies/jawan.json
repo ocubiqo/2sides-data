@@ -1,0 +1,25 @@
+{
+  "id": "jawan",
+  "name": "Jawan",
+  "shortName": "Jawan",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇮🇳",
+  "stats": {
+    "worldwide_gross_m": 172,
+    "opening_weekend_m": 30,
+    "budget_m": 32,
+    "roi_pct": 438,
+    "rotten_tomatoes_pct": 85,
+    "imdb_rating": 7.0,
+    "metacritic_score": 60,
+    "award_nominations": 5
+  },
+  "meta": {
+    "director": "Atlee",
+    "stars": "Shah Rukh Khan",
+    "language": "Hindi",
+    "studio": "Red Chillies Entertainment"
+  },
+  "tags": ["bollywood", "movie", "hindi", "2023"]
+}

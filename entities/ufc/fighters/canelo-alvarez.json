@@ -1,0 +1,37 @@
+{
+  "id": "canelo-alvarez",
+  "name": "Canelo Álvarez",
+  "shortName": "Canelo",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇲🇽",
+  "stats": {
+    "win_count": 63,
+    "loss_count": 2,
+    "ko_wins": 39,
+    "submission_wins": 0,
+    "win_streak": 3,
+    "title_reigns": 4,
+    "title_defenses": 15,
+    "years_active": 20,
+    "career_earnings_m": 400,
+    "ppv_buys_m": 70,
+    "social_followers_m": 18,
+    "reach_in": 70.5,
+    "weight_class": "Super Middleweight",
+    "sig_strikes_per_min": 3.4,
+    "striking_accuracy_pct": 48,
+    "takedown_accuracy_pct": 0,
+    "finish_rate_pct": 62,
+    "power_rating": 91
+  },
+  "meta": {
+    "discipline": "Boxing",
+    "nickname": "Canelo",
+    "team": "Canelo Team",
+    "nationality": "Mexico",
+    "record": "63-2-2",
+    "key_stat": "Undisputed champion across multiple weight classes and boxing's highest-paid fighter for years running"
+  },
+  "tags": ["canelo alvarez", "canelo", "mexico", "super middleweight", "boxing", "pound for pound"]
+}

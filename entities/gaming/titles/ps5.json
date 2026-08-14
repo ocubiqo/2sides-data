@@ -1,0 +1,21 @@
+{
+  "id": "ps5",
+  "name": "PlayStation 5",
+  "shortName": "PS5",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🎮",
+  "stats": {
+    "units_sold_m": 65,
+    "teraflops": 10.28,
+    "exclusive_games": 45,
+    "launch_price_usd": 499,
+    "cross_platform": "Limited"
+  },
+  "meta": {
+    "manufacturer": "Sony",
+    "released": "2020",
+    "type": "Home Console"
+  },
+  "tags": ["console", "sony", "playstation", "hardware"]
+}

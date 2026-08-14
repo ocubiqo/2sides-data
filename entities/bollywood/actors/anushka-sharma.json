@@ -1,0 +1,24 @@
+{
+  "id": "anushka-sharma",
+  "name": "Anushka Sharma",
+  "shortName": "Anushka",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 1.3,
+    "opening_weekend_record_m": 20,
+    "movies_count": 25,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 2,
+    "instagram_followers_m": 61,
+    "avg_rotten_tomatoes_pct": 71
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "PK, Sultan, NH10",
+    "era": "2008–present"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}

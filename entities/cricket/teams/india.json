@@ -1,0 +1,34 @@
+{
+  "id": "india",
+  "name": "India",
+  "shortName": "IND",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇮🇳",
+  "stats": {
+    "icc_odi_wc_titles": 2,
+    "icc_t20_wc_titles": 2,
+    "wtc_titles": 0,
+    "wc_appearances": 13,
+    "top_run_scorer_runs": 34357,
+    "odi_win_rate_pct": 66,
+    "test_win_rate_pct": 52,
+    "t20i_win_rate_pct": 65,
+    "icc_odi_ranking": 1
+  },
+  "meta": {
+    "confederation": "ACC (Asia)",
+    "coach": "Gautam Gambhir",
+    "wc_best": "Winners",
+    "form": "WWWLW",
+    "key_players": "R. Sharma, V. Kohli, J. Bumrah, S. Gill"
+  },
+  "tags": [
+    "india",
+    "ind",
+    "men in blue",
+    "asia",
+    "kohli",
+    "bcci"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "taylor-swift",
+  "name": "Taylor Swift",
+  "shortName": "Taylor",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 90,
+    "spotify_followers_m": 120,
+    "instagram_followers_m": 280,
+    "tiktok_followers_m": 55,
+    "youtube_subscribers_m": 60,
+    "youtube_views_b": 30,
+    "grammy_nominations": 52,
+    "grammy_wins": 14,
+    "billboard_number_ones": 12,
+    "number_one_albums": 14,
+    "albums_sold_m": 200,
+    "studio_albums": 11,
+    "years_active": 19,
+    "tour_gross_m": 2200,
+    "total_streams_b": 150,
+    "net_worth_m": 1600,
+    "concert_attendance_m": 10
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Pop / Country",
+    "known_for": "1989, Folklore, The Eras Tour",
+    "era": "2006–present"
+  },
+  "tags": ["music", "artist", "american", "pop"]
+}

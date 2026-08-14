@@ -1,0 +1,33 @@
+{
+  "id": "afghanistan",
+  "name": "Afghanistan",
+  "shortName": "AFG",
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "emoji": "🇦🇫",
+  "stats": {
+    "icc_odi_wc_titles": 0,
+    "icc_t20_wc_titles": 0,
+    "wtc_titles": 0,
+    "wc_appearances": 3,
+    "top_run_scorer_runs": 6000,
+    "odi_win_rate_pct": 48,
+    "test_win_rate_pct": 35,
+    "t20i_win_rate_pct": 55,
+    "icc_odi_ranking": 10
+  },
+  "meta": {
+    "confederation": "ACC (Asia)",
+    "coach": "Jonathan Trott",
+    "wc_best": "Semi-final",
+    "form": "WWLWW",
+    "key_players": "R. Khan, M. Nabi, R. Gurbaz, F. Zadran"
+  },
+  "tags": [
+    "afghanistan",
+    "afg",
+    "asia",
+    "rashid khan",
+    "acb"
+  ]
+}

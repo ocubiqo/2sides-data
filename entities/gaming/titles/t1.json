@@ -1,0 +1,22 @@
+{
+  "id": "t1",
+  "name": "T1",
+  "shortName": "T1",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🔱",
+  "stats": {
+    "career_earnings_m": 20,
+    "tournament_wins": 60,
+    "world_championships": 5,
+    "followers_m": 8,
+    "peak_viewers_m": 6,
+    "years_active": 20
+  },
+  "meta": {
+    "region": "Korea",
+    "founded": "2003",
+    "games": "League of Legends"
+  },
+  "tags": ["esports-org", "korea", "league-of-legends"]
+}

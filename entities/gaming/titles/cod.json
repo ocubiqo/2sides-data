@@ -1,0 +1,24 @@
+{
+  "id": "cod",
+  "name": "Call of Duty",
+  "shortName": "CoD",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "💣",
+  "stats": {
+    "units_sold_m": 500,
+    "monthly_active_users_m": 95,
+    "metacritic_score": 77,
+    "user_score": 6.5,
+    "esports_prize_pool_m": 40,
+    "franchise_revenue_bn": 30,
+    "genre": "Military FPS",
+    "cross_platform": "Yes"
+  },
+  "meta": {
+    "developer": "Activision",
+    "released": "2003",
+    "platform": "Cross-Platform"
+  },
+  "tags": ["fps", "activision", "esports", "military-shooter"]
+}

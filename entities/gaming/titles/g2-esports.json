@@ -1,0 +1,22 @@
+{
+  "id": "g2-esports",
+  "name": "G2 Esports",
+  "shortName": "G2",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🦁",
+  "stats": {
+    "career_earnings_m": 22,
+    "tournament_wins": 65,
+    "world_championships": 1,
+    "followers_m": 7,
+    "peak_viewers_m": 4,
+    "years_active": 10
+  },
+  "meta": {
+    "region": "Europe",
+    "founded": "2014",
+    "games": "Multi-title"
+  },
+  "tags": ["esports-org", "europe", "multi-title"]
+}

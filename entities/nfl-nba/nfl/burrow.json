@@ -1,0 +1,35 @@
+{
+  "id": "burrow",
+  "name": "Joe Burrow",
+  "shortName": "Burrow",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 0,
+    "nfl_mvp_awards": 0,
+    "passing_yards_career": 17000,
+    "passing_tds_career": 120,
+    "pro_bowl_selections": 2,
+    "career_win_pct": 54,
+    "playoff_wins": 3,
+    "super_bowl_appearances": 1,
+    "career_earnings_m": 90,
+    "social_media_m": 6
+  },
+  "meta": {
+    "position": "Quarterback",
+    "team": "Cincinnati Bengals",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "Led a Super Bowl run in just his second season"
+  },
+  "tags": [
+    "burrow",
+    "joe burrow",
+    "joe burreaux",
+    "bengals",
+    "quarterback",
+    "qb"
+  ]
+}

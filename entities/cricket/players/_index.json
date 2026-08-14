@@ -1,0 +1,18 @@
+{
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "entities": [
+    { "id": "kohli",       "name": "Virat Kohli",    "emoji": "🇮🇳", "subCategoryId": "players", "tags": ["kohli", "virat kohli", "chase master", "india", "rcb", "batsman"] },
+    { "id": "babar",       "name": "Babar Azam",     "emoji": "🇵🇰", "subCategoryId": "players", "tags": ["babar", "babar azam", "pakistan", "psl", "batsman"] },
+    { "id": "rohit",       "name": "Rohit Sharma",   "emoji": "🇮🇳", "subCategoryId": "players", "tags": ["rohit", "rohit sharma", "hitman", "india", "mumbai indians", "opener"] },
+    { "id": "root",        "name": "Joe Root",       "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "subCategoryId": "players", "tags": ["root", "joe root", "england", "yorkshire", "batsman"] },
+    { "id": "smith",       "name": "Steve Smith",    "emoji": "🇦🇺", "subCategoryId": "players", "tags": ["smith", "steve smith", "australia", "batsman", "test cricket"] },
+    { "id": "williamson",  "name": "Kane Williamson","emoji": "🇳🇿", "subCategoryId": "players", "tags": ["williamson", "kane williamson", "new zealand", "black caps", "batsman"] },
+    { "id": "bumrah",      "name": "Jasprit Bumrah", "emoji": "🇮🇳", "subCategoryId": "players", "tags": ["bumrah", "jasprit bumrah", "india", "mumbai indians", "fast bowler", "yorker"] },
+    { "id": "stokes",      "name": "Ben Stokes",     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "subCategoryId": "players", "tags": ["stokes", "ben stokes", "england", "all-rounder", "captain"] },
+    { "id": "warner",      "name": "David Warner",   "emoji": "🇦🇺", "subCategoryId": "players", "tags": ["warner", "david warner", "australia", "opener", "ipl"] },
+    { "id": "gill",        "name": "Shubman Gill",   "emoji": "🇮🇳", "subCategoryId": "players", "tags": ["gill", "shubman gill", "india", "gujarat titans", "opener", "young star"] },
+    { "id": "dhoni",       "name": "MS Dhoni",       "emoji": "🇮🇳", "subCategoryId": "players", "tags": ["dhoni", "ms dhoni", "captain cool", "india", "chennai super kings", "wicketkeeper", "legend"] },
+    { "id": "rashid-khan", "name": "Rashid Khan",    "emoji": "🇦🇫", "subCategoryId": "players", "tags": ["rashid khan", "rashid", "afghanistan", "leg-spinner", "gujarat titans", "bowler"] }
+  ]
+}

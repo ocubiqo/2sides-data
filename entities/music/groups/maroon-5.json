@@ -1,0 +1,34 @@
+{
+  "id": "maroon-5",
+  "name": "Maroon 5",
+  "shortName": "Maroon 5",
+  "categoryId": "music",
+  "subCategoryId": "groups",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 35,
+    "spotify_followers_m": 25,
+    "instagram_followers_m": 25,
+    "tiktok_followers_m": 3,
+    "youtube_subscribers_m": 20,
+    "youtube_views_b": 15,
+    "grammy_nominations": 8,
+    "grammy_wins": 3,
+    "billboard_number_ones": 5,
+    "number_one_albums": 1,
+    "albums_sold_m": 90,
+    "studio_albums": 7,
+    "years_active": 23,
+    "tour_gross_m": 90,
+    "total_streams_b": 35,
+    "net_worth_m": 60,
+    "concert_attendance_m": 3
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Pop-Rock",
+    "known_for": "Songs About Jane, Sugar, Super Bowl LIII halftime show",
+    "era": "2001–present"
+  },
+  "tags": ["music", "group", "american", "pop-rock"]
+}

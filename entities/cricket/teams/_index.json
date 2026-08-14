@@ -1,0 +1,16 @@
+{
+  "categoryId": "cricket",
+  "subCategoryId": "teams",
+  "entities": [
+    { "id": "india",        "name": "India",        "emoji": "🇮🇳", "subCategoryId": "teams", "tags": ["india", "ind", "men in blue", "asia", "kohli", "bcci"] },
+    { "id": "pakistan",     "name": "Pakistan",     "emoji": "🇵🇰", "subCategoryId": "teams", "tags": ["pakistan", "pak", "shaheens", "asia", "babar azam", "pcb"] },
+    { "id": "australia",    "name": "Australia",    "emoji": "🇦🇺", "subCategoryId": "teams", "tags": ["australia", "aus", "baggy green", "oceania", "smith", "cricket australia"] },
+    { "id": "england",      "name": "England",      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "subCategoryId": "teams", "tags": ["england", "eng", "three lions", "europe", "root", "ecb", "bazball"] },
+    { "id": "south-africa", "name": "South Africa", "emoji": "🇿🇦", "subCategoryId": "teams", "tags": ["south africa", "rsa", "proteas", "africa", "rabada", "csa"] },
+    { "id": "new-zealand",  "name": "New Zealand",  "emoji": "🇳🇿", "subCategoryId": "teams", "tags": ["new zealand", "nz", "black caps", "oceania", "williamson", "nz cricket"] },
+    { "id": "sri-lanka",    "name": "Sri Lanka",    "emoji": "🇱🇰", "subCategoryId": "teams", "tags": ["sri lanka", "sl", "lions", "asia", "sangakkara", "sri lanka cricket"] },
+    { "id": "west-indies",  "name": "West Indies",  "emoji": "🌴", "subCategoryId": "teams", "tags": ["west indies", "wi", "windies", "caribbean", "lara", "cwi"] },
+    { "id": "bangladesh",   "name": "Bangladesh",   "emoji": "🇧🇩", "subCategoryId": "teams", "tags": ["bangladesh", "ban", "tigers", "asia", "shakib", "bcb"] },
+    { "id": "afghanistan",  "name": "Afghanistan",  "emoji": "🇦🇫", "subCategoryId": "teams", "tags": ["afghanistan", "afg", "asia", "rashid khan", "acb"] }
+  ]
+}

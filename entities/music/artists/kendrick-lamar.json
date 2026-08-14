@@ -1,0 +1,34 @@
+{
+  "id": "kendrick-lamar",
+  "name": "Kendrick Lamar",
+  "shortName": "Kendrick",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 40,
+    "spotify_followers_m": 30,
+    "instagram_followers_m": 30,
+    "tiktok_followers_m": 8,
+    "youtube_subscribers_m": 12,
+    "youtube_views_b": 10,
+    "grammy_nominations": 57,
+    "grammy_wins": 17,
+    "billboard_number_ones": 3,
+    "number_one_albums": 5,
+    "albums_sold_m": 40,
+    "studio_albums": 6,
+    "years_active": 17,
+    "tour_gross_m": 120,
+    "total_streams_b": 40,
+    "net_worth_m": 75,
+    "concert_attendance_m": 2
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Hip-Hop",
+    "known_for": "To Pimp a Butterfly, Pulitzer Prize for Music, 'Not Like Us'",
+    "era": "2004–present"
+  },
+  "tags": ["music", "artist", "american", "hip-hop"]
+}

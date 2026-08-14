@@ -1,0 +1,24 @@
+{
+  "id": "valorant",
+  "name": "Valorant",
+  "shortName": "Valorant",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🎯",
+  "stats": {
+    "monthly_active_users_m": 25,
+    "peak_concurrent_players_m": 1.5,
+    "metacritic_score": 80,
+    "user_score": 7.6,
+    "esports_prize_pool_m": 30,
+    "franchise_revenue_bn": 0.9,
+    "genre": "Tactical FPS",
+    "cross_platform": "Limited"
+  },
+  "meta": {
+    "developer": "Riot Games",
+    "released": "2020",
+    "platform": "PC / Console"
+  },
+  "tags": ["fps", "riot", "esports", "pc", "tactical-shooter"]
+}

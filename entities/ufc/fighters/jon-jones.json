@@ -1,0 +1,37 @@
+{
+  "id": "jon-jones",
+  "name": "Jon Jones",
+  "shortName": "Jon Jones",
+  "categoryId": "ufc",
+  "subCategoryId": "fighters",
+  "emoji": "🇺🇸",
+  "stats": {
+    "win_count": 28,
+    "loss_count": 1,
+    "ko_wins": 10,
+    "submission_wins": 7,
+    "win_streak": 7,
+    "title_reigns": 3,
+    "title_defenses": 11,
+    "years_active": 17,
+    "career_earnings_m": 35,
+    "ppv_buys_m": 12,
+    "social_followers_m": 9.5,
+    "reach_in": 84.5,
+    "weight_class": "Heavyweight",
+    "sig_strikes_per_min": 4.3,
+    "striking_accuracy_pct": 48,
+    "takedown_accuracy_pct": 45,
+    "finish_rate_pct": 61,
+    "power_rating": 88
+  },
+  "meta": {
+    "discipline": "MMA",
+    "nickname": "Bones",
+    "team": "Jackson Wink MMA",
+    "nationality": "USA",
+    "record": "28-1 (1 NC)",
+    "key_stat": "Widely regarded as the greatest MMA fighter ever — champion in two weight classes"
+  },
+  "tags": ["jon jones", "bones", "usa", "heavyweight", "light heavyweight", "mma", "goat"]
+}

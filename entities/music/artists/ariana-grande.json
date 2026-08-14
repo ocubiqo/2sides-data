@@ -1,0 +1,34 @@
+{
+  "id": "ariana-grande",
+  "name": "Ariana Grande",
+  "shortName": "Ariana",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 60,
+    "spotify_followers_m": 45,
+    "instagram_followers_m": 380,
+    "tiktok_followers_m": 30,
+    "youtube_subscribers_m": 55,
+    "youtube_views_b": 25,
+    "grammy_nominations": 17,
+    "grammy_wins": 2,
+    "billboard_number_ones": 4,
+    "number_one_albums": 6,
+    "albums_sold_m": 90,
+    "studio_albums": 7,
+    "years_active": 13,
+    "tour_gross_m": 150,
+    "total_streams_b": 70,
+    "net_worth_m": 240,
+    "concert_attendance_m": 3
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Pop / R&B",
+    "known_for": "Thank U Next, Wicked (Galinda), most Instagram followers of any musician",
+    "era": "2013–present"
+  },
+  "tags": ["music", "artist", "american", "pop"]
+}

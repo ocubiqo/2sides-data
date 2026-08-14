@@ -1,0 +1,33 @@
+{
+  "id": "dhoni",
+  "name": "MS Dhoni",
+  "shortName": "Dhoni",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇮🇳",
+  "stats": {
+    "batting_average": 50.6,
+    "strike_rate": 87.6,
+    "centuries": 16,
+    "total_runs_intl": 17266,
+    "t20_league_runs": 5200,
+    "player_of_match_awards": 45,
+    "catches_intl": 350
+  },
+  "meta": {
+    "position": "Wicketkeeper-Batsman",
+    "club": "Chennai Super Kings (IPL)",
+    "nationality": "India",
+    "form": "N/A — retired",
+    "key_stat": "Only captain to win all three ICC white-ball trophies"
+  },
+  "tags": [
+    "dhoni",
+    "ms dhoni",
+    "captain cool",
+    "india",
+    "chennai super kings",
+    "wicketkeeper",
+    "legend"
+  ]
+}

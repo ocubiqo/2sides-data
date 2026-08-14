@@ -1,0 +1,34 @@
+{
+  "id": "jackson",
+  "name": "Lamar Jackson",
+  "shortName": "Jackson",
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "emoji": "🏈",
+  "stats": {
+    "super_bowl_rings": 0,
+    "nfl_mvp_awards": 2,
+    "passing_yards_career": 18000,
+    "passing_tds_career": 140,
+    "pro_bowl_selections": 4,
+    "career_win_pct": 68,
+    "playoff_wins": 3,
+    "super_bowl_appearances": 0,
+    "career_earnings_m": 210,
+    "social_media_m": 12
+  },
+  "meta": {
+    "position": "Quarterback",
+    "team": "Baltimore Ravens",
+    "nationality": "USA",
+    "form": "Active",
+    "key_stat": "2× unanimous-caliber MVP · electric dual-threat game"
+  },
+  "tags": [
+    "jackson",
+    "lamar jackson",
+    "ravens",
+    "quarterback",
+    "qb"
+  ]
+}

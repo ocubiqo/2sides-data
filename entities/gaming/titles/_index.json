@@ -1,0 +1,26 @@
+{
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "entities": [
+    { "id": "ps5", "name": "PlayStation 5", "emoji": "🎮", "subCategoryId": "titles", "tags": ["console", "sony", "playstation", "hardware"] },
+    { "id": "xbox-series-x", "name": "Xbox Series X", "emoji": "🟩", "subCategoryId": "titles", "tags": ["console", "microsoft", "xbox", "hardware"] },
+    { "id": "switch", "name": "Nintendo Switch", "emoji": "🍄", "subCategoryId": "titles", "tags": ["console", "nintendo", "handheld", "hardware"] },
+    { "id": "cs2", "name": "Counter-Strike 2", "emoji": "🔫", "subCategoryId": "titles", "tags": ["fps", "valve", "esports", "pc", "tactical-shooter"] },
+    { "id": "valorant", "name": "Valorant", "emoji": "🎯", "subCategoryId": "titles", "tags": ["fps", "riot", "esports", "pc", "tactical-shooter"] },
+    { "id": "fortnite", "name": "Fortnite", "emoji": "🪂", "subCategoryId": "titles", "tags": ["battle-royale", "epic-games", "esports", "cross-platform"] },
+    { "id": "minecraft", "name": "Minecraft", "emoji": "⛏️", "subCategoryId": "titles", "tags": ["sandbox", "microsoft", "mojang", "cross-platform"] },
+    { "id": "gta-v", "name": "Grand Theft Auto V", "emoji": "🚗", "subCategoryId": "titles", "tags": ["action-adventure", "rockstar", "open-world"] },
+    { "id": "lol", "name": "League of Legends", "emoji": "⚔️", "subCategoryId": "titles", "tags": ["moba", "riot", "esports", "pc"] },
+    { "id": "cod", "name": "Call of Duty", "emoji": "💣", "subCategoryId": "titles", "tags": ["fps", "activision", "esports", "military-shooter"] },
+    { "id": "elden-ring", "name": "Elden Ring", "emoji": "🗡️", "subCategoryId": "titles", "tags": ["action-rpg", "fromsoftware", "souls-like"] },
+    { "id": "zelda-totk", "name": "The Legend of Zelda: Tears of the Kingdom", "emoji": "🏹", "subCategoryId": "titles", "tags": ["action-adventure", "nintendo", "zelda"] },
+    { "id": "team-liquid", "name": "Team Liquid", "emoji": "💧", "subCategoryId": "titles", "tags": ["esports-org", "north-america", "multi-title"] },
+    { "id": "cloud9", "name": "Cloud9", "emoji": "☁️", "subCategoryId": "titles", "tags": ["esports-org", "north-america", "multi-title"] },
+    { "id": "t1", "name": "T1", "emoji": "🔱", "subCategoryId": "titles", "tags": ["esports-org", "korea", "league-of-legends"] },
+    { "id": "g2-esports", "name": "G2 Esports", "emoji": "🦁", "subCategoryId": "titles", "tags": ["esports-org", "europe", "multi-title"] },
+    { "id": "loud", "name": "LOUD", "emoji": "🔊", "subCategoryId": "titles", "tags": ["esports-org", "brazil", "valorant"] },
+    { "id": "faker", "name": "Faker", "emoji": "👑", "subCategoryId": "titles", "tags": ["pro-player", "league-of-legends", "korea", "t1"] },
+    { "id": "s1mple", "name": "s1mple", "emoji": "🐐", "subCategoryId": "titles", "tags": ["pro-player", "counter-strike", "ukraine"] },
+    { "id": "ninja", "name": "Ninja", "emoji": "🥷", "subCategoryId": "titles", "tags": ["streamer", "fortnite", "content-creator"] }
+  ]
+}

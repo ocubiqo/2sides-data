@@ -1,0 +1,76 @@
+{
+  "categoryId": "nfl-nba",
+  "subCategoryId": "nfl",
+  "entities": [
+    {
+      "id": "mahomes",
+      "name": "Patrick Mahomes",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["mahomes", "patrick mahomes", "chiefs", "quarterback", "qb"]
+    },
+    {
+      "id": "brady",
+      "name": "Tom Brady",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["brady", "tom brady", "tb12", "patriots", "goat", "quarterback", "qb"]
+    },
+    {
+      "id": "allen",
+      "name": "Josh Allen",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["allen", "josh allen", "bills", "quarterback", "qb"]
+    },
+    {
+      "id": "rodgers",
+      "name": "Aaron Rodgers",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["rodgers", "aaron rodgers", "packers", "quarterback", "qb"]
+    },
+    {
+      "id": "burrow",
+      "name": "Joe Burrow",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["burrow", "joe burrow", "joe burreaux", "bengals", "quarterback", "qb"]
+    },
+    {
+      "id": "jackson",
+      "name": "Lamar Jackson",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["jackson", "lamar jackson", "ravens", "quarterback", "qb"]
+    },
+    {
+      "id": "chiefs",
+      "name": "Kansas City Chiefs",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["chiefs", "kansas city", "kc", "afc west", "team"]
+    },
+    {
+      "id": "eagles",
+      "name": "Philadelphia Eagles",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["eagles", "philadelphia", "philly", "nfc east", "team"]
+    },
+    {
+      "id": "cowboys",
+      "name": "Dallas Cowboys",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["cowboys", "dallas", "america's team", "nfc east", "team"]
+    },
+    {
+      "id": "niners",
+      "name": "San Francisco 49ers",
+      "emoji": "🏈",
+      "subCategoryId": "nfl",
+      "tags": ["49ers", "niners", "san francisco", "nfc west", "team"]
+    }
+  ]
+}

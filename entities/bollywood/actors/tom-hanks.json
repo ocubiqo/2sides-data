@@ -1,0 +1,24 @@
+{
+  "id": "tom-hanks",
+  "name": "Tom Hanks",
+  "shortName": "Tom Hanks",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇺🇸",
+  "stats": {
+    "total_box_office_bn": 9.9,
+    "opening_weekend_record_m": 70,
+    "movies_count": 70,
+    "oscar_nominations": 6,
+    "oscar_wins": 2,
+    "filmfare_wins": 0,
+    "instagram_followers_m": 8,
+    "avg_rotten_tomatoes_pct": 79
+  },
+  "meta": {
+    "nationality": "American",
+    "known_for": "Forrest Gump, Cast Away, Toy Story",
+    "era": "1980–present"
+  },
+  "tags": ["hollywood", "actor", "american"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "babar",
+  "name": "Babar Azam",
+  "shortName": "Babar",
+  "categoryId": "cricket",
+  "subCategoryId": "players",
+  "emoji": "🇵🇰",
+  "stats": {
+    "batting_average": 48.7,
+    "strike_rate": 88,
+    "centuries": 32,
+    "total_runs_intl": 15500,
+    "icc_rating_points": 780,
+    "t20_league_runs": 3500,
+    "player_of_match_awards": 45,
+    "catches_intl": 120
+  },
+  "meta": {
+    "position": "Top-order Batsman",
+    "club": "Peshawar Zalmi (PSL)",
+    "nationality": "Pakistan",
+    "form": "LWLWW",
+    "key_stat": "Fastest to multiple ODI run milestones · former world No.1 batter"
+  },
+  "tags": [
+    "babar",
+    "babar azam",
+    "pakistan",
+    "psl",
+    "batsman"
+  ]
+}

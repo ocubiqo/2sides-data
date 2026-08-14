@@ -1,0 +1,24 @@
+{
+  "id": "cs2",
+  "name": "Counter-Strike 2",
+  "shortName": "CS2",
+  "categoryId": "gaming",
+  "subCategoryId": "titles",
+  "emoji": "🔫",
+  "stats": {
+    "monthly_active_users_m": 30,
+    "peak_concurrent_players_m": 1.8,
+    "metacritic_score": 81,
+    "user_score": 7.9,
+    "esports_prize_pool_m": 25,
+    "franchise_revenue_bn": 1.7,
+    "genre": "Tactical FPS",
+    "cross_platform": "No"
+  },
+  "meta": {
+    "developer": "Valve",
+    "released": "2023",
+    "platform": "PC"
+  },
+  "tags": ["fps", "valve", "esports", "pc", "tactical-shooter"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bruno-mars",
+  "name": "Bruno Mars",
+  "shortName": "Bruno Mars",
+  "categoryId": "music",
+  "subCategoryId": "artists",
+  "emoji": "🇺🇸",
+  "stats": {
+    "monthly_listeners_m": 55,
+    "spotify_followers_m": 35,
+    "instagram_followers_m": 25,
+    "tiktok_followers_m": 5,
+    "youtube_subscribers_m": 20,
+    "youtube_views_b": 20,
+    "grammy_nominations": 21,
+    "grammy_wins": 15,
+    "billboard_number_ones": 9,
+    "number_one_albums": 3,
+    "albums_sold_m": 130,
+    "studio_albums": 4,
+    "years_active": 15,
+    "tour_gross_m": 260,
+    "total_streams_b": 60,
+    "net_worth_m": 175,
+    "concert_attendance_m": 4
+  },
+  "meta": {
+    "nationality": "American",
+    "genre": "Pop / Funk",
+    "known_for": "24K Magic, Uptown Funk, Silk Sonic",
+    "era": "2010–present"
+  },
+  "tags": ["music", "artist", "american", "funk"]
+}

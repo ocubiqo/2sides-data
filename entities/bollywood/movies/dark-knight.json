@@ -1,0 +1,25 @@
+{
+  "id": "dark-knight",
+  "name": "The Dark Knight",
+  "shortName": "Dark Knight",
+  "categoryId": "bollywood",
+  "subCategoryId": "movies",
+  "emoji": "🇺🇸",
+  "stats": {
+    "worldwide_gross_m": 1006,
+    "opening_weekend_m": 158,
+    "budget_m": 185,
+    "roi_pct": 444,
+    "rotten_tomatoes_pct": 94,
+    "imdb_rating": 9.0,
+    "metacritic_score": 84,
+    "award_nominations": 8
+  },
+  "meta": {
+    "director": "Christopher Nolan",
+    "stars": "Christian Bale, Heath Ledger",
+    "language": "English",
+    "studio": "Warner Bros"
+  },
+  "tags": ["hollywood", "movie", "english", "2008"]
+}

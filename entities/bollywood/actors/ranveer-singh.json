@@ -1,0 +1,24 @@
+{
+  "id": "ranveer-singh",
+  "name": "Ranveer Singh",
+  "shortName": "Ranveer",
+  "categoryId": "bollywood",
+  "subCategoryId": "actors",
+  "emoji": "🇮🇳",
+  "stats": {
+    "total_box_office_bn": 1.6,
+    "opening_weekend_record_m": 18,
+    "movies_count": 30,
+    "oscar_nominations": 0,
+    "oscar_wins": 0,
+    "filmfare_wins": 4,
+    "instagram_followers_m": 47,
+    "avg_rotten_tomatoes_pct": 74
+  },
+  "meta": {
+    "nationality": "Indian",
+    "known_for": "Gully Boy, Padmaavat, 83",
+    "era": "2010–present"
+  },
+  "tags": ["bollywood", "actor", "indian"]
+}
