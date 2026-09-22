@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-upi-government",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "tech",
+  "status": "published",
+  "question": "Should India adopt UPI for all government transactions?",
+  "context": "A push to route every central and state disbursement through UPI rails. Backers cite traceability and speed. Critics warn about outages and exclusion of low-connectivity districts.",
+  "sides": {
+    "yes": "YES",
+    "no": "NO"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/india/upi-government-transactions-2026-09-15/",
+      "verified": true,
+      "publishedAt": "2026-09-15"
+    }
+  ],
+  "tags": [],
+  "trendScore": 74,
+  "publishedAt": "2026-09-17T17:02:50.389Z",
+  "activeFrom": "2026-09-17T17:02:50.389Z",
+  "activeUntil": "2026-09-28T17:02:50.389Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "auto_approved",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-opus-5",
+    "pipelineRun": "2026-09-17T17:02:50.389Z",
+    "generatedAt": "2026-09-17T17:02:50.389Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 8200
+}

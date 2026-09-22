@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ocubiqo/2sides-data/schemas/topic.schema.json",
+  "title": "2 Sides Topic",
+  "description": "Editorial content for one voting topic. Vote counts live in tallies/<country>/<id>.json and are merged in by build-feed.js — never stored here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "schemaVersion", "contentVersion", "country", "category", "status",
+    "question", "context", "sides", "sources", "publishedAt", "activeFrom", "activeUntil",
+    "review", "generation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[0-9]{4}-[0-9]{2}-[a-z0-9-]+$",
+      "description": "e.g. in-2026-09-four-day-week. Immutable."
+    },
+    "schemaVersion":  { "type": "integer", "const": 1 },
+    "contentVersion": { "type": "integer", "minimum": 1, "description": "Bumped on every edit; invalidates the client cache." },
+    "country":  { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "category": {
+      "type": "string",
+      "enum": ["politics", "cricket", "tech", "jobs", "bollywood", "education"],
+      "description": "Must match an id in config/categories.json — these are the onboarding interest chips."
+    },
+    "status":   { "type": "string", "enum": ["draft", "in_review", "published", "expired", "retracted"] },
+
+    "question": { "type": "string", "minLength": 15, "maxLength": 120 },
+    "context": {
+      "type": "string", "minLength": 60, "maxLength": 320,
+      "description": "2-3 neutral lines. Renders at 14px/1.6 under the question."
+    },
+
+    "sides": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["yes", "no"],
+      "description": "Button labels. IMMUTABLE after publish — changing the meaning of a side requires a new topic id, or existing votes silently change meaning.",
+      "properties": {
+        "yes": { "type": "string", "minLength": 2, "maxLength": 18 },
+        "no":  { "type": "string", "minLength": 2, "maxLength": 18 }
+      }
+    },
+
+    "sources": {
+      "type": "array", "minItems": 1, "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url", "verified"],
+        "properties": {
+          "name": { "type": "string", "minLength": 2, "maxLength": 40 },
+          "url":  { "type": "string", "format": "uri", "pattern": "^https://" },
+          "verified": {
+            "type": "boolean",
+            "description": "Set by validate.js: true only when the domain is on the allow-list AND the URL returned 2xx. Drives the green Verified badge."
+          },
+          "publishedAt": { "type": "string", "format": "date" }
+        }
+      }
+    },
+
+    "tags":       { "type": "array", "items": { "type": "string" }, "maxItems": 6 },
+    "trendScore": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "bookmarks": {
+      "type": "integer", "minimum": 0, "default": 0,
+      "description": "Save count shown in the card footer. Written back by the aggregate job, not by editors."
+    },
+
+    "publishedAt": { "type": "string", "format": "date-time" },
+    "activeFrom":  { "type": "string", "format": "date-time" },
+    "activeUntil": {
+      "type": "string", "format": "date-time",
+      "description": "Rendered as 'Closes in 2d'. build-feed.js archives the topic once passed."
+    },
+
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tier", "state"],
+      "properties": {
+        "tier":       { "type": "string", "enum": ["auto_publish", "review_required"] },
+        "state":      { "type": "string", "enum": ["pending", "auto_approved", "approved", "rejected"] },
+        "reviewedBy": { "type": ["string", "null"] },
+        "reviewedAt": { "type": ["string", "null"], "format": "date-time" },
+        "reason":     { "type": ["string", "null"] }
+      }
+    },
+
+    "generation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "generatedAt"],
+      "properties": {
+        "model":       { "type": "string" },
+        "pipelineRun": { "type": "string" },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "sourceCount": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

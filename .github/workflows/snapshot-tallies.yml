@@ -1,0 +1,57 @@
+name: Snapshot tallies
+
+# Appends one point to every active topic's history, then rebuilds the feed.
+# Without this job there is no trend series, so the sentiment chart and the
+# saved-row sparkline have nothing to draw.
+#
+# Every 6h = 4 points/day = 28 over the chart's week window, which is enough
+# resolution for a 7-point downsample without bloating the committed files.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      country:
+        description: Country code
+        default: IN
+        required: false
+
+concurrency:
+  group: tallies
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci --omit=optional || npm install
+
+      - name: Snapshot live tallies
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node scripts/pipeline/snapshot-tallies.js --country "${{ inputs.country || 'IN' }}"
+
+      - name: Rebuild feed
+        run: node scripts/pipeline/build-feed.js --country "${{ inputs.country || 'IN' }}"
+
+      - name: Validate before committing
+        run: node scripts/pipeline/validate-data.js
+
+      - name: Commit
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add tallies feeds
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "chore: tally snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

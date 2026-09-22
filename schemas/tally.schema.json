@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ocubiqo/2sides-data/schemas/tally.schema.json",
+  "title": "2 Sides Tally History",
+  "description": "Machine-written vote data for one topic. Kept out of the topic file so editorial diffs stay reviewable — this file churns on every snapshot, topic files do not.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["topicId", "schemaVersion", "current", "history"],
+  "properties": {
+    "topicId":       { "type": "string" },
+    "schemaVersion": { "type": "integer", "const": 1 },
+
+    "current": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["yes", "no", "total", "pct", "asOf"],
+      "properties": {
+        "yes":   { "type": "integer", "minimum": 0 },
+        "no":    { "type": "integer", "minimum": 0 },
+        "total": { "type": "integer", "minimum": 0 },
+        "pct": {
+          "type": "integer", "minimum": 0, "maximum": 100,
+          "description": "YES share, rounded. Precomputed so the client never divides."
+        },
+        "asOf": { "type": "string", "format": "date-time" },
+        "velocity": {
+          "type": "number", "minimum": 0,
+          "description": "Votes/hour over the last snapshot window. Seeds the live ticker's rate."
+        }
+      }
+    },
+
+    "history": {
+      "type": "array",
+      "description": "Append-only, oldest first. One point per snapshot run. Drives the sentiment chart and the saved-row sparkline.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["at", "pct", "total"],
+        "properties": {
+          "at":    { "type": "string", "format": "date-time" },
+          "pct":   { "type": "integer", "minimum": 0, "maximum": 100 },
+          "total": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+
+    "regions": {
+      "type": "array",
+      "description": "Sub-national breakdown. Suppressed below minVotes (see config/regions.json) so a thin sample is never shown as a finding.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "label", "pct", "votes"],
+        "properties": {
+          "code":  { "type": "string", "description": "ISO 3166-2 subdivision, e.g. IN-KA." },
+          "label": { "type": "string", "description": "Display name, e.g. Karnataka." },
+          "pct":   { "type": "integer", "minimum": 0, "maximum": 100 },
+          "votes": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+
+    "suspect": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Votes flagged by the velocity/anomaly check. Excluded from every published figure; retained so tallies can be recomputed.",
+      "properties": {
+        "yes":   { "type": "integer", "minimum": 0 },
+        "no":    { "type": "integer", "minimum": 0 },
+        "total": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

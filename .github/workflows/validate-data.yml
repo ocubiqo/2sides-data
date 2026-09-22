@@ -1,0 +1,36 @@
+name: Validate data
+
+# Schema-gates every change to topics/ or tallies/. A malformed topic reaches
+# every user at once, so this blocks the merge rather than warning after it.
+
+on:
+  pull_request:
+    paths:
+      - 'topics/**'
+      - 'tallies/**'
+      - 'config/**'
+      - 'schemas/**'
+      - 'scripts/pipeline/**'
+  push:
+    branches: [main]
+    paths:
+      - 'topics/**'
+      - 'tallies/**'
+      - 'config/**'
+      - 'schemas/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci --omit=optional || npm install
+      - run: node scripts/pipeline/validate-data.js
+      # Proves the feed still assembles from the changed data before it ships.
+      - run: node scripts/pipeline/build-feed.js

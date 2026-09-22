@@ -1,0 +1,33 @@
+{
+  "IN": {
+    "nationalLabel": "India",
+    "minVotesToPublish": 500,
+    "maxRegionsInFeed": 2,
+    "note": "The result screen shows the national figure plus the top `maxRegionsInFeed` regions by vote count that clear `minVotesToPublish`. A region below the floor is omitted entirely rather than shown with a caveat — a thin sample presented as a finding is worse than no finding.",
+    "subdivisions": [
+      { "code": "IN-AP", "label": "Andhra Pradesh" },
+      { "code": "IN-AS", "label": "Assam" },
+      { "code": "IN-BR", "label": "Bihar" },
+      { "code": "IN-CT", "label": "Chhattisgarh" },
+      { "code": "IN-DL", "label": "Delhi" },
+      { "code": "IN-GA", "label": "Goa" },
+      { "code": "IN-GJ", "label": "Gujarat" },
+      { "code": "IN-HR", "label": "Haryana" },
+      { "code": "IN-HP", "label": "Himachal Pradesh" },
+      { "code": "IN-JH", "label": "Jharkhand" },
+      { "code": "IN-JK", "label": "Jammu and Kashmir" },
+      { "code": "IN-KA", "label": "Karnataka" },
+      { "code": "IN-KL", "label": "Kerala" },
+      { "code": "IN-MP", "label": "Madhya Pradesh" },
+      { "code": "IN-MH", "label": "Maharashtra" },
+      { "code": "IN-OR", "label": "Odisha" },
+      { "code": "IN-PB", "label": "Punjab" },
+      { "code": "IN-RJ", "label": "Rajasthan" },
+      { "code": "IN-TN", "label": "Tamil Nadu" },
+      { "code": "IN-TG", "label": "Telangana" },
+      { "code": "IN-UP", "label": "Uttar Pradesh" },
+      { "code": "IN-UT", "label": "Uttarakhand" },
+      { "code": "IN-WB", "label": "West Bengal" }
+    ]
+  }
+}

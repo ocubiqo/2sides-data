@@ -1,0 +1,14 @@
+{
+  "feedVersion": "2026-09-22T17:13:28.623Z-8a3e78",
+  "topicCount": 4,
+  "generatedAt": "2026-09-22T17:13:28.623Z",
+  "minAppVersion": "3.0.0",
+  "ads": {
+    "enabled": true,
+    "graceVotes": 10,
+    "interstitialEveryNVotes": 5,
+    "interstitialMinGapSec": 90,
+    "nativeEveryNTopics": 0,
+    "rewardedInsights": false
+  }
+}

@@ -6,9 +6,16 @@
   "description": "Scheduled news data store for the 2 Sides app — updated hourly by Claude AI",
   "scripts": {
     "update": "node scripts/update-news.js",
-    "update:conflict": "node scripts/update-news.js"
+    "update:conflict": "node scripts/update-news.js",
+    "validate": "node scripts/pipeline/validate-data.js",
+    "snapshot": "node scripts/pipeline/snapshot-tallies.js",
+    "build:feed": "node scripts/pipeline/build-feed.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "country": "IN",
+  "note": "Ids and emoji match the onboarding interest grid in design/2Sides-Rich-V2.html. Accent is the rail/fill colour; every category uses the navy/terracotta pair for YES/NO, so accent only tints chrome.",
+  "categories": [
+    { "id": "politics",  "label": "Politics",  "emoji": "🏛️", "accent": "#0A1A3D" },
+    { "id": "cricket",   "label": "Cricket",   "emoji": "🏏",       "accent": "#1E3A8A" },
+    { "id": "tech",      "label": "Tech",      "emoji": "💻",       "accent": "#1E3A8A" },
+    { "id": "jobs",      "label": "Jobs",      "emoji": "💼",       "accent": "#0A1A3D" },
+    { "id": "bollywood", "label": "Bollywood", "emoji": "🎬",       "accent": "#C26A45" },
+    { "id": "education", "label": "Education", "emoji": "🎓",       "accent": "#0A1A3D" }
+  ]
+}
