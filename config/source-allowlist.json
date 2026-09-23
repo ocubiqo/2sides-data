@@ -1,0 +1,30 @@
+{
+  "note": "Domains whose reporting earns the green 'Verified' badge in the app. A source NOT on this list is still kept and still linked — it just shows unbadged. The list controls a trust signal, not whether a topic can cite something.",
+  "matching": "A domain matches itself and any subdomain, so \"thehindu.com\" covers \"www.thehindu.com\". Matching is on the registrable domain only — never on a path, so a hostile path on a listed domain cannot inherit the badge.",
+  "domains": [
+    "thehindu.com",
+    "indianexpress.com",
+    "hindustantimes.com",
+    "timesofindia.indiatimes.com",
+    "indiatimes.com",
+    "livemint.com",
+    "business-standard.com",
+    "economictimes.indiatimes.com",
+    "ndtv.com",
+    "thewire.in",
+    "theprint.in",
+    "scroll.in",
+    "deccanherald.com",
+    "thehindubusinessline.com",
+    "moneycontrol.com",
+    "espncricinfo.com",
+    "reuters.com",
+    "apnews.com",
+    "bbc.com",
+    "bbc.co.uk",
+    "pib.gov.in",
+    "prsindia.org",
+    "rbi.org.in",
+    "sci.gov.in"
+  ]
+}
