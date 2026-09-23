@@ -1,0 +1,133 @@
+name: Apply review decision
+
+# Fires when someone edits a topic-review issue, i.e. ticks a checkbox — in the
+# GitHub mobile app, this is the entire approval mechanism.
+#
+# Trust model:
+#  - only repo collaborators with write/admin may decide
+#  - the bot's own edits are ignored, or annotating the issue would re-trigger
+#    this workflow indefinitely
+#  - decisions come from checkbox state and the hidden hash markers ONLY; every
+#    piece of topic text is re-read from disk, never from the issue body, which
+#    anyone able to edit an issue could otherwise rewrite
+#  - promote-topics.js rechecks each hash, so a topic edited after the issue was
+#    rendered cannot inherit its approval
+
+on:
+  issues:
+    types: [edited]
+
+concurrency:
+  group: topic-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  decide:
+    if: |
+      contains(github.event.issue.labels.*.name, 'topic-review') &&
+      github.event.sender.login != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      COUNTRY: IN
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ACTOR: ${{ github.event.sender.login }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Anyone can comment on or (with a fork) interact with an issue; only
+      # collaborators may publish content to every user of the app.
+      - name: Check the actor may decide
+        id: perm
+        run: |
+          LEVEL=$(gh api "repos/${{ github.repository }}/collaborators/$ACTOR/permission" \
+                    --jq '.permission' 2>/dev/null || echo "none")
+          echo "level=$LEVEL"
+          if [ "$LEVEL" != "admin" ] && [ "$LEVEL" != "write" ] && [ "$LEVEL" != "maintain" ]; then
+            gh issue comment "$ISSUE_NUMBER" \
+              --body "@$ACTOR has \`$LEVEL\` permission on this repo, so that edit was ignored. Publishing a topic requires write access."
+            echo "allowed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "allowed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.perm.outputs.allowed == 'true'
+        with:
+          node-version: '20'
+
+      - run: npm ci --omit=optional || npm install
+        if: steps.perm.outputs.allowed == 'true'
+
+      # The issue body is untrusted input. Passing it through env and writing it
+      # with printf keeps it out of the shell's parser entirely — never
+      # interpolate ${{ github.event.* }} into a run block.
+      - name: Capture issue body
+        if: steps.perm.outputs.allowed == 'true'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          mkdir -p .pipeline
+          printf '%s' "$ISSUE_BODY" > .pipeline/issue-body.md
+          wc -l .pipeline/issue-body.md
+
+      - name: Parse decisions
+        id: parse
+        if: steps.perm.outputs.allowed == 'true'
+        run: |
+          node scripts/pipeline/review-issue.js parse \
+            --body-file .pipeline/issue-body.md \
+            --out .pipeline/decisions.json
+          COUNT=$(node -e "const d=require('./.pipeline/decisions.json');console.log(d.approve.length+d.reject.length)")
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "$COUNT decision(s)"
+
+      - name: Apply decisions
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: |
+          node scripts/pipeline/promote-topics.js \
+            --country "$COUNTRY" \
+            --decisions .pipeline/decisions.json \
+            --approver "$ACTOR"
+
+      - name: Seed sample tallies for newly published topics
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: node scripts/pipeline/seed-sample-tallies.js --country "$COUNTRY" --only-missing
+
+      - name: Rebuild feed
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: node scripts/pipeline/build-feed.js --country "$COUNTRY" --allow-empty
+
+      - name: Validate before committing
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: node scripts/pipeline/validate-data.js
+
+      - name: Commit
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add topics tallies feeds
+          git diff --staged --quiet && echo "nothing changed" && exit 0
+          git commit -m "content(review): decisions applied by @$ACTOR (issue #$ISSUE_NUMBER)"
+          git push
+
+      - name: Report back and close when nothing is left
+        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        run: |
+          PENDING=$(ls -1 "topics/$COUNTRY/pending"/*.json 2>/dev/null | wc -l | tr -d ' ')
+          APPROVED=$(node -e "console.log(require('./.pipeline/decisions.json').approve.map(a=>a.id).join(', ')||'none')")
+          REJECTED=$(node -e "console.log(require('./.pipeline/decisions.json').reject.map(r=>r.id).join(', ')||'none')")
+          gh issue comment "$ISSUE_NUMBER" --body "Applied by @$ACTOR.
+
+          **Published:** $APPROVED
+          **Rejected:** $REJECTED
+
+          $PENDING topic(s) still pending."
+          if [ "$PENDING" = "0" ]; then
+            gh issue close "$ISSUE_NUMBER" --comment "All topics in this batch have been decided."
+          fi

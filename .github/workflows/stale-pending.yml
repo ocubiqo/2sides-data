@@ -1,0 +1,82 @@
+name: Expire stale pending topics
+
+# A topic nobody reviewed inside the window is about something that has already
+# moved on, and publishing it late is worse than not publishing it. This rejects
+# anything past expirePendingHours and nudges the open review issue at
+# stalePendingHours so it does not simply go quiet.
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: topic-review     # shares promote-topics.js with review-decision.yml
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  expire:
+    runs-on: ubuntu-latest
+    env:
+      COUNTRY: IN
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count pending
+        id: check
+        run: |
+          COUNT=$(ls -1 "topics/$COUNTRY/pending"/*.json 2>/dev/null | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "$COUNT pending"
+
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.count != '0'
+        with:
+          node-version: '20'
+
+      - run: npm ci --omit=optional || npm install
+        if: steps.check.outputs.count != '0'
+
+      - name: Nudge on topics older than the stale threshold
+        if: steps.check.outputs.count != '0'
+        run: |
+          STALE_H=$(node -e "console.log(require('./config/review-tiers.json').stalePendingHours ?? 8)")
+          NUDGE=$(node -e "
+            const fs=require('fs'), path=require('path');
+            const dir=path.join('topics', process.env.COUNTRY, 'pending');
+            const cutoff=Date.now() - $STALE_H*3600e3;
+            const old=fs.readdirSync(dir).filter(f=>f.endsWith('.json')).filter(f=>{
+              const t=JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));
+              return new Date(t.generation?.generatedAt ?? 0).getTime() < cutoff;
+            });
+            console.log(old.join(' '));
+          ")
+          if [ -n "$NUDGE" ]; then
+            ISSUE=$(gh issue list --label topic-review --state open --limit 1 --json number --jq '.[0].number // empty')
+            if [ -n "$ISSUE" ]; then
+              gh issue comment "$ISSUE" --body "Reminder: these topics have been pending more than ${STALE_H}h and will be expired automatically once past the cutoff.
+
+          \`\`\`
+          $NUDGE
+          \`\`\`"
+            fi
+          fi
+
+      - name: Expire anything past the cutoff
+        if: steps.check.outputs.count != '0'
+        run: node scripts/pipeline/promote-topics.js --country "$COUNTRY" --expire-stale
+
+      - name: Commit
+        if: steps.check.outputs.count != '0'
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add topics
+          git diff --staged --quiet && echo "nothing expired" && exit 0
+          git commit -m "content: expire unreviewed topics past the cutoff"
+          git push

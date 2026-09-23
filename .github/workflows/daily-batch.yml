@@ -1,0 +1,126 @@
+name: Daily topic batch
+
+# Discovers, generates and source-checks new topics, then opens a review issue.
+# Nothing reaches the live feed from this workflow — every topic lands in
+# topics/<country>/pending and waits for a human checkbox (review-decision.yml).
+#
+# Manual for now. The schedule below is deliberately left commented until the
+# output has been watched for a while; switching it on is a one-line change.
+
+on:
+  workflow_dispatch:
+    inputs:
+      country:
+        description: Country code
+        default: IN
+        required: false
+      per_category:
+        description: Candidates to discover per category
+        default: '2'
+        required: false
+      count:
+        description: Topics to generate (3-5 is the intended daily volume)
+        default: '4'
+        required: false
+      dry_run:
+        description: Run discovery and generation without writing or opening an issue
+        type: boolean
+        default: false
+
+  # schedule:
+  #   - cron: '30 2 * * *'   # 08:00 IST
+
+concurrency:
+  group: topic-batch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    env:
+      COUNTRY: ${{ inputs.country || 'IN' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci --omit=optional || npm install
+
+      # Fail before spending any API calls if the repo itself is inconsistent.
+      - name: Pre-flight
+        run: |
+          npm test
+          node scripts/pipeline/validate-data.js --fixtures
+
+      - name: Discover candidates
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/pipeline/discover-topics.js \
+            --country "$COUNTRY" \
+            --per-category "${{ inputs.per_category || '2' }}" \
+            --out .pipeline/candidates.json
+
+      - name: Generate topics
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/pipeline/generate-topics.js \
+            --country "$COUNTRY" \
+            --in .pipeline/candidates.json \
+            --count "${{ inputs.count || '4' }}" \
+            --rationale .pipeline/rationale.json \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Verify source liveness
+        if: ${{ !inputs.dry_run }}
+        run: node scripts/pipeline/verify-sources.js --dir "topics/$COUNTRY/pending"
+
+      # Schema-gate the drafts before a human is asked to look at them.
+      - name: Validate pending topics
+        if: ${{ !inputs.dry_run }}
+        run: node scripts/pipeline/validate-data.js --dir "topics/$COUNTRY/pending"
+
+      - name: Render review issue body
+        id: render
+        if: ${{ !inputs.dry_run }}
+        run: |
+          set +e
+          node scripts/pipeline/review-issue.js render \
+            --country "$COUNTRY" \
+            --rationale .pipeline/rationale.json \
+            --out .pipeline/issue-body.md
+          code=$?
+          set -e
+          # 2 means "nothing pending" — not a failure, just nothing to review.
+          if [ "$code" = "2" ]; then echo "empty=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          [ "$code" = "0" ] || exit "$code"
+          echo "empty=false" >> "$GITHUB_OUTPUT"
+
+      - name: Commit pending topics
+        if: ${{ !inputs.dry_run && steps.render.outputs.empty == 'false' }}
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add "topics/$COUNTRY/pending"
+          git diff --staged --quiet && echo "no new topics" && exit 0
+          git commit -m "content: $(ls -1 topics/$COUNTRY/pending/*.json | wc -l | tr -d ' ') topic(s) awaiting review"
+          git push
+
+      - name: Open review issue
+        if: ${{ !inputs.dry_run && steps.render.outputs.empty == 'false' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COUNT=$(ls -1 "topics/$COUNTRY/pending"/*.json | wc -l | tr -d ' ')
+          TITLE="Topic review — $(date -u +%Y-%m-%d) ($COUNT pending)"
+          gh issue create \
+            --title "$TITLE" \
+            --label topic-review \
+            --body-file .pipeline/issue-body.md
