@@ -8,6 +8,7 @@ on:
     paths:
       - 'topics/**'
       - 'tallies/**'
+      - 'fixtures/**'
       - 'config/**'
       - 'schemas/**'
       - 'scripts/pipeline/**'
@@ -16,8 +17,10 @@ on:
     paths:
       - 'topics/**'
       - 'tallies/**'
+      - 'fixtures/**'
       - 'config/**'
       - 'schemas/**'
+      - 'scripts/pipeline/**'
 
 permissions:
   contents: read
@@ -31,6 +34,18 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci --omit=optional || npm install
-      - run: node scripts/pipeline/validate-data.js
+
+      # Fixtures first, and this is the load-bearing step: it proves the rules
+      # actually reject bad data. Without it, an empty topics/IN/active makes
+      # the real-data run below pass having checked nothing.
+      - name: Validate fixtures (asserts invalid-* are rejected)
+        run: node scripts/pipeline/validate-data.js --fixtures
+
+      - name: Validate real topics and tallies
+        run: node scripts/pipeline/validate-data.js
+
       # Proves the feed still assembles from the changed data before it ships.
-      - run: node scripts/pipeline/build-feed.js
+      # --allow-empty because an in-progress migration may legitimately have no
+      # published topics; the daily batch does NOT pass it.
+      - name: Build feed
+        run: node scripts/pipeline/build-feed.js --allow-empty

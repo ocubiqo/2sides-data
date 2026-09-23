@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-01-fixture-valid",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "published",
+  "question": "Should India move to a four-day work week?",
+  "context": "A proposal to reduce the standard workweek from 5 days to 4 while keeping 40 hours. Supporters point to productivity and well-being. Opponents cite economic challenges.",
+  "sides": {
+    "yes": "YES",
+    "no": "NO"
+  },
+  "sources": [
+    {
+      "name": "Fixture Publisher",
+      "url": "https://example.com/fixture/four-day-week",
+      "verified": false,
+      "publishedAt": "2026-01-10"
+    }
+  ],
+  "tags": ["labour", "economy"],
+  "trendScore": 91,
+  "publishedAt": "2026-01-10T06:00:00.000Z",
+  "activeFrom": "2026-01-10T06:00:00.000Z",
+  "activeUntil": "2026-01-17T06:00:00.000Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "fixture",
+    "reviewedAt": "2026-01-10T05:30:00.000Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001",
+    "pipelineRun": "fixture",
+    "generatedAt": "2026-01-10T05:00:00.000Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

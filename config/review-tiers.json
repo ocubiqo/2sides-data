@@ -1,5 +1,7 @@
 {
   "note": "jobs and education sit in review_required because Indian topics in both are usually policy questions — the design's own sample ('four-day work week') is filed under JOBS and is squarely policy.",
+  "autoPublishEnabled": false,
+  "autoPublishNote": "While false, promote-topics.js refuses to auto-approve anything and EVERY topic waits for a checkbox in the review issue, regardless of the auto_publish list below. Flip to true only once the pipeline's output quality has been observed for a while — the list is a plan, not a live rule, until then.",
   "auto_publish": ["cricket", "tech", "bollywood"],
   "review_required": ["politics", "jobs", "education"],
   "escalation_keywords": [

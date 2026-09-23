@@ -36,18 +36,32 @@ jobs:
 
       - run: npm ci --omit=optional || npm install
 
+      # Nothing published yet means there is nothing to snapshot, and rebuilding
+      # would hit build-feed's empty-feed guard. Skip rather than fail, so this
+      # cron stays quiet until the first batch is approved.
+      - name: Check for published topics
+        id: check
+        run: |
+          COUNT=$(ls -1 topics/"${{ inputs.country || 'IN' }}"/active/*.json 2>/dev/null | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "$COUNT published topic(s)"
+
       - name: Snapshot live tallies
+        if: steps.check.outputs.count != '0'
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: node scripts/pipeline/snapshot-tallies.js --country "${{ inputs.country || 'IN' }}"
 
       - name: Rebuild feed
+        if: steps.check.outputs.count != '0'
         run: node scripts/pipeline/build-feed.js --country "${{ inputs.country || 'IN' }}"
 
       - name: Validate before committing
+        if: steps.check.outputs.count != '0'
         run: node scripts/pipeline/validate-data.js
 
       - name: Commit
+        if: steps.check.outputs.count != '0'
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@users.noreply.github.com"

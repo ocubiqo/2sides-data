@@ -61,6 +61,12 @@
       }
     },
 
+    "synthetic": {
+      "type": "boolean",
+      "description": "True when this tally was minted by seed-sample-tallies.js rather than derived from real votes. validate-data.js refuses to pass a synthetic tally while the published manifest says dataMode is \"live\" — that interlock is what forces synthetic files to be deleted before the flip to live data.",
+      "default": false
+    },
+
     "suspect": {
       "type": "object",
       "additionalProperties": false,

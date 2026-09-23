@@ -21,10 +21,11 @@ const ROOT = path.resolve(__dirname, '../..');
 const TREND_POINTS = 7;
 
 function parseArgs(argv) {
-  const args = { country: 'IN', limit: 60 };
+  const args = { country: 'IN', limit: 60, allowEmpty: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--country') args.country = argv[++i];
     else if (argv[i] === '--limit') args.limit = Number(argv[++i]);
+    else if (argv[i] === '--allow-empty') args.allowEmpty = true;
   }
   return args;
 }
@@ -88,7 +89,7 @@ function interleave(topics) {
 }
 
 function main() {
-  const { country, limit } = parseArgs(process.argv.slice(2));
+  const { country, limit, allowEmpty } = parseArgs(process.argv.slice(2));
   const activeDir = path.join(ROOT, 'topics', country, 'active');
   if (!fs.existsSync(activeDir)) {
     console.error(`✗ no topics/${country}/active directory`);
@@ -158,6 +159,24 @@ function main() {
     enriched.sort((a, b) => b.score - a.score).slice(0, limit).map(e => e.topic),
   );
 
+  // Publishing an empty feed is a silent outage: every user gets "no topics"
+  // and the cause looks like a network problem. An empty active/ is almost
+  // always a mistake, so it has to be asked for explicitly.
+  if (topics.length === 0 && !allowEmpty) {
+    console.error(`✗ refusing to publish an empty feed for ${country} — topics/${country}/active has no publishable topic`);
+    console.error('  pass --allow-empty if that is genuinely intended');
+    process.exit(1);
+  }
+
+  // "sample" means the tallies are synthetic and the app must badge every
+  // number as such. validate-data.js refuses to pass a synthetic tally while
+  // this says "live", so the flip cannot happen while invented data remains.
+  const dataMode = process.env.DATA_MODE ?? 'sample';
+  if (!['sample', 'live'].includes(dataMode)) {
+    console.error(`✗ DATA_MODE must be "sample" or "live", got "${dataMode}"`);
+    process.exit(1);
+  }
+
   const body = { schemaVersion: 1, country, generatedAt: nowIso, categories: categories.categories, topics };
   const feedVersion = `${nowIso}-${crypto.createHash('sha1')
     .update(JSON.stringify(topics)).digest('hex').slice(0, 6)}`;
@@ -167,7 +186,10 @@ function main() {
     feedVersion,
     topicCount: topics.length,
     generatedAt: nowIso,
-    minAppVersion: '3.0.0',
+    dataMode,
+    // Must stay <= the shipped app.json version or the client-side gate this
+    // feeds would lock every existing install out of the app.
+    minAppVersion: '2.3.0',
     ads: {
       enabled: true,
       graceVotes: 10,
@@ -179,7 +201,7 @@ function main() {
   });
 
   const withTrend = topics.filter(t => t.tally.trend.length > 0).length;
-  console.log(`✓ feed: ${topics.length} topic(s), ${withTrend} with a trend series`);
+  console.log(`✓ feed: ${topics.length} topic(s), ${withTrend} with a trend series · dataMode=${dataMode}`);
   console.log(`  feedVersion ${feedVersion}`);
 }
 
