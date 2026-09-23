@@ -1,0 +1,33 @@
+{
+  "_comment": "Recorded shape of a Claude response using the server-side web_search tool, for `discover-topics.js --mock`. Two things are deliberately planted: <cite> markup in the text block (must be stripped), and a fabricated URL inside the prose — https://www.thehindu.com/FABRICATED-must-not-appear.ece — which must NEVER reach allowedUrls, because only web_search_tool_result URLs are trusted.",
+  "id": "msg_fixture",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-haiku-4-5-20251001",
+  "content": [
+    {
+      "type": "web_search_tool_result",
+      "tool_use_id": "srvtoolu_fixture01",
+      "content": [
+        {
+          "type": "web_search_result",
+          "url": "https://www.thehindu.com/business/Economy/gig-worker-social-security-code/article69100001.ece",
+          "title": "Panel proposes social security cover for gig workers",
+          "page_age": "3 days ago"
+        },
+        {
+          "type": "web_search_result",
+          "url": "https://www.livemint.com/economy/gig-economy-benefits-debate-11758900000000.html",
+          "title": "Industry pushes back on gig worker levy",
+          "page_age": "5 days ago"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Based on my search <cite index=\"0\">of recent reporting</cite>, here are the contested items. For reference I also saw https://www.thehindu.com/FABRICATED-must-not-appear.ece\n\n```json\n{\"items\":[{\"headline\":\"Panel proposes mandatory social security cover for gig workers\",\"oneLineSummary\":\"A labour ministry panel wants aggregators to fund provident fund and insurance for platform workers.\",\"whyContested\":\"Worker unions want guaranteed benefits while aggregators say a levy would raise costs and cut the number of available gigs.\",\"publishedAt\":\"__FRESH_DATE__\",\"trendScore\":78}]}\n```"
+    }
+  ],
+  "stop_reason": "end_turn",
+  "usage": { "input_tokens": 1200, "output_tokens": 320 }
+}

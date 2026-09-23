@@ -35,7 +35,13 @@ jobs:
           node-version: '20'
       - run: npm ci --omit=optional || npm install
 
-      # Fixtures first, and this is the load-bearing step: it proves the rules
+      # Guards the URL-provenance rule: a source is trusted only if the search
+      # tool returned it. If this regresses, the app ships "Verified" badges on
+      # links that 404 — which is exactly what the retired seed data did.
+      - name: Unit tests
+        run: npm test
+
+      # Fixtures next, and this is the load-bearing step: it proves the rules
       # actually reject bad data. Without it, an empty topics/IN/active makes
       # the real-data run below pass having checked nothing.
       - name: Validate fixtures (asserts invalid-* are rejected)

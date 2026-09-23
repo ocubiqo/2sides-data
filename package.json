@@ -14,7 +14,8 @@
     "build:feed": "node scripts/pipeline/build-feed.js",
     "validate": "node scripts/pipeline/validate-data.js",
     "validate:fixtures": "node scripts/pipeline/validate-data.js --fixtures",
-    "check": "npm run validate:fixtures && npm run validate"
+    "test": "node --test \"scripts/**/*.test.js\"",
+    "check": "npm test && npm run validate:fixtures && npm run validate"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

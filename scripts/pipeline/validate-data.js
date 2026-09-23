@@ -137,7 +137,9 @@ function runFixtures() {
 
   let failures = 0;
   const files = [];
-  walk(dir, f => files.push(f));
+  // Only the topic and tally fixtures are schema-validated. fixtures/ also holds
+  // recorded API responses for --mock, which are neither.
+  for (const sub of ['topics', 'tallies']) walk(path.join(dir, sub), f => files.push(f));
   files.sort();
 
   for (const file of files) {
