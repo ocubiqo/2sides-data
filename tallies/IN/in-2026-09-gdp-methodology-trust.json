@@ -1,0 +1,69 @@
+{
+  "topicId": "in-2026-09-gdp-methodology-trust",
+  "schemaVersion": 1,
+  "synthetic": true,
+  "current": {
+    "yes": 111472,
+    "no": 120761,
+    "total": 232233,
+    "pct": 48,
+    "asOf": "2026-09-24T13:10:57.205Z",
+    "velocity": 887
+  },
+  "history": [
+    {
+      "at": "2026-09-18T13:10:57.205Z",
+      "pct": 39,
+      "total": 104505
+    },
+    {
+      "at": "2026-09-19T13:10:57.205Z",
+      "pct": 38,
+      "total": 125793
+    },
+    {
+      "at": "2026-09-20T13:10:57.205Z",
+      "pct": 44,
+      "total": 147081
+    },
+    {
+      "at": "2026-09-21T13:10:57.205Z",
+      "pct": 41,
+      "total": 168369
+    },
+    {
+      "at": "2026-09-22T13:10:57.205Z",
+      "pct": 46,
+      "total": 189657
+    },
+    {
+      "at": "2026-09-23T13:10:57.205Z",
+      "pct": 46,
+      "total": 210945
+    },
+    {
+      "at": "2026-09-24T13:10:57.205Z",
+      "pct": 48,
+      "total": 232233
+    }
+  ],
+  "regions": [
+    {
+      "code": "IN-JH",
+      "label": "Jharkhand",
+      "pct": 39,
+      "votes": 12120
+    },
+    {
+      "code": "IN-UP",
+      "label": "Uttar Pradesh",
+      "pct": 54,
+      "votes": 21549
+    }
+  ],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}

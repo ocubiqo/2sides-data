@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-gdp-methodology-trust",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "published",
+  "question": "Should India's GDP growth figures be trusted despite the new methodology?",
+  "context": "MoSPI's revised GDP series, with a 2022-23 base year and updated deflators, showed 7.8% growth for Q1 FY27 — above the RBI's own 7% estimate. Critics say the changes make headline growth look stronger than it is; MoSPI and outside reviewers say the comparisons are apples-to-oranges with the old series.",
+  "sides": {
+    "yes": "TRUST IT",
+    "no": "QUESTION IT"
+  },
+  "sources": [
+    {
+      "name": "Business Today",
+      "url": "https://www.businesstoday.in/latest/economy/story/at-davos-2026-gita-gopinath-was-asked-about-indias-gdp-data-methodology-her-response-553267-2026-09-03",
+      "verified": true,
+      "publishedAt": "2026-09-03"
+    }
+  ],
+  "tags": [],
+  "trendScore": 78,
+  "publishedAt": "2026-09-24T13:10:53.004Z",
+  "activeFrom": "2026-09-24T13:10:53.004Z",
+  "activeUntil": "2026-10-01T13:06:56.739110Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:10:53.004Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-1",
+    "generatedAt": "2026-09-24T13:06:56.739110Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

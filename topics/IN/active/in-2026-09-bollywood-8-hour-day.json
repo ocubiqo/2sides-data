@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-bollywood-8-hour-day",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "bollywood",
+  "status": "published",
+  "question": "Should Bollywood adopt a mandatory 8-hour shooting day?",
+  "context": "Actors including Suniel Shetty, Kajol and filmmaker Shekhar Kapur back capping shifts, arguing schedules disproportionately burden women. Ali Fazal and Chitrangda Singh say rigid hours ignore weather and equipment delays crews cannot control.",
+  "sides": {
+    "yes": "CAP HOURS",
+    "no": "KEEP FLEXIBLE"
+  },
+  "sources": [
+    {
+      "name": "The Star",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/02/bollywood-divided-over-bid-to-cap-punishing-work-hours",
+      "verified": false,
+      "publishedAt": "2026-06-02"
+    }
+  ],
+  "tags": [],
+  "trendScore": 65,
+  "publishedAt": "2026-09-24T13:10:53.004Z",
+  "activeFrom": "2026-09-24T13:10:53.004Z",
+  "activeUntil": "2026-10-01T13:06:56.739110Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:10:53.004Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-1",
+    "generatedAt": "2026-09-24T13:06:56.739110Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

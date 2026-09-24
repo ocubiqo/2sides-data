@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-trophy-protest-politics",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "cricket",
+  "status": "published",
+  "question": "Should Indian teams decline trophy presentations over political tensions?",
+  "context": "India's women's cricket team declined the Asia Cup trophy from Asian Cricket Council president Mohsin Naqvi after beating Sri Lanka, citing India-Pakistan tensions. BCCI says the stance reflects public sentiment; critics say sport should stay separate from diplomacy.",
+  "sides": {
+    "yes": "TAKE A STAND",
+    "no": "KEEP SEPARATE"
+  },
+  "sources": [
+    {
+      "name": "Outlook India",
+      "url": "https://www.outlookindia.com/sports/cricket/india-vs-sri-lanka-womens-asia-cup-2026-mohsin-naqvi-trophy-controversy-explained-amol-muzumdar",
+      "verified": true,
+      "publishedAt": "2026-09-14"
+    }
+  ],
+  "tags": [],
+  "trendScore": 82,
+  "publishedAt": "2026-09-24T13:10:53.004Z",
+  "activeFrom": "2026-09-24T13:10:53.004Z",
+  "activeUntil": "2026-10-01T13:06:56.739110Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:10:53.004Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-1",
+    "generatedAt": "2026-09-24T13:06:56.739110Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

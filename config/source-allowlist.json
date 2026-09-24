@@ -1,6 +1,6 @@
 {
-  "note": "Domains whose reporting earns the green 'Verified' badge in the app. A source NOT on this list is still kept and still linked — it just shows unbadged. The list controls a trust signal, not whether a topic can cite something.",
-  "matching": "A domain matches itself and any subdomain, so \"thehindu.com\" covers \"www.thehindu.com\". Matching is on the registrable domain only — never on a path, so a hostile path on a listed domain cannot inherit the badge.",
+  "note": "Domains whose reporting earns the green 'Verified' badge in the app. A source NOT on this list is still kept and still linked \u2014 it just shows unbadged. The list controls a trust signal, not whether a topic can cite something.",
+  "matching": "A domain matches itself and any subdomain, so \"thehindu.com\" covers \"www.thehindu.com\". Matching is on the registrable domain only \u2014 never on a path, so a hostile path on a listed domain cannot inherit the badge.",
   "domains": [
     "thehindu.com",
     "indianexpress.com",
@@ -30,6 +30,8 @@
     "rbi.org.in",
     "sci.gov.in",
     "labour.gov.in",
-    "peoplematters.in"
+    "peoplematters.in",
+    "businesstoday.in",
+    "outlookindia.com"
   ]
 }
