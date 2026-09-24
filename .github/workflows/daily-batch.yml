@@ -113,6 +113,19 @@ jobs:
           git commit -m "content: $(ls -1 topics/$COUNTRY/pending/*.json | wc -l | tr -d ' ') topic(s) awaiting review"
           git push
 
+      # gh issue create --label fails outright if the label doesn't exist yet.
+      # --force makes this idempotent (create-or-update) so a missing label
+      # can never block a run.
+      - name: Ensure the topic-review label exists
+        if: ${{ !inputs.dry_run && steps.render.outputs.empty == 'false' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create topic-review \
+            --color 0E8A16 \
+            --description "Pending topics awaiting a human approve/reject decision" \
+            --force
+
       - name: Open review issue
         if: ${{ !inputs.dry_run && steps.render.outputs.empty == 'false' }}
         env:
