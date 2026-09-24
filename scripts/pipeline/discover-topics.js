@@ -15,7 +15,11 @@
  *   node scripts/pipeline/discover-topics.js [--country IN] [--per-category 2]
  *                                            [--out .pipeline/candidates.json]
  *                                            [--mock <recorded-response.json>] [--dry-run]
- *                                            [--record <dir>]
+ *                                            [--record <dir>] [--max-tokens N]
+ *
+ * --max-tokens overrides the auto-scaled budget (BASE_TOKENS + perCategory *
+ * TOKENS_PER_ITEM). Usually unnecessary — the default already scales with
+ * --per-category — but there if a category's items are unusually verbose.
  *
  * --record <dir> saves the RAW response for every real API call (skipped
  * entirely under --mock, which has nothing new to save) as
@@ -41,17 +45,25 @@ const ROOT = path.resolve(__dirname, '../..');
 const MODEL = 'claude-haiku-4-5-20251001';
 const MAX_ARTICLE_AGE_DAYS = 30;
 const CALL_SPACING_MS = 2000;
+// ~150-250 tokens per JSON item once headline/summary/whyContested are all
+// filled in. The old fixed 2048 cap silently truncated the response (and so
+// returned zero items) for anything above roughly --per-category 8 — a
+// truncated response isn't a retry-able error, it's just invisible data loss,
+// so this scales with what's actually being asked for rather than staying fixed.
+const TOKENS_PER_ITEM = 260;
+const BASE_TOKENS = 512;
 
 function parseArgs(argv) {
   const args = {
     country: 'IN', perCategory: 2,
-    out: '.pipeline/candidates.json', mock: null, dryRun: false, record: null,
+    out: '.pipeline/candidates.json', mock: null, dryRun: false, record: null, maxTokens: null,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--country') args.country = argv[++i];
     else if (a === '--per-category') args.perCategory = Number(argv[++i]);
     else if (a === '--out') args.out = argv[++i];
+    else if (a === '--max-tokens') args.maxTokens = Number(argv[++i]);
     else if (a === '--mock') args.mock = argv[++i];
     else if (a === '--dry-run') args.dryRun = true;
     else if (a === '--record') args.record = argv[++i];
@@ -149,23 +161,26 @@ function parseItems(parsed, category) {
   return { items: out, rejected };
 }
 
-async function callForCategory(client, category, perCategory, avoid, mockMessage) {
+async function callForCategory(client, category, perCategory, avoid, mockMessage, maxTokens) {
   if (mockMessage) return mockMessage;
   return client.messages.create({
     model: MODEL,
-    max_tokens: 2048,
+    max_tokens: maxTokens,
     tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
     messages: [{ role: 'user', content: buildPrompt(category, perCategory, avoid) }],
   });
 }
 
 async function main() {
-  const { country, perCategory, out, mock, dryRun, record } = parseArgs(process.argv.slice(2));
+  const { country, perCategory, out, mock, dryRun, record, maxTokens: maxTokensArg } =
+    parseArgs(process.argv.slice(2));
 
   if (!mock && !process.env.ANTHROPIC_API_KEY) {
     console.error('✗ ANTHROPIC_API_KEY is required (or pass --mock <file> to replay a recorded response)');
     process.exit(1);
   }
+
+  const maxTokens = maxTokensArg ?? Math.max(2048, BASE_TOKENS + perCategory * TOKENS_PER_ITEM);
 
   const categories = readJson(path.join(ROOT, 'config/categories.json'), { categories: [] }).categories;
   if (categories.length === 0) {
@@ -174,7 +189,7 @@ async function main() {
   }
 
   const avoid = [...recentQuestions(country)];
-  console.log(`· ${categories.length} categories · avoiding ${avoid.length} recent question(s)`);
+  console.log(`· ${categories.length} categories · avoiding ${avoid.length} recent question(s) · max_tokens ${maxTokens}`);
 
   const client = mock ? null : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   let mockMessage = null;
@@ -196,7 +211,7 @@ async function main() {
   for (const [i, category] of categories.entries()) {
     if (i > 0 && !mock) await sleep(CALL_SPACING_MS);
     try {
-      const message = await callForCategory(client, category, perCategory, avoid, mockMessage);
+      const message = await callForCategory(client, category, perCategory, avoid, mockMessage, maxTokens);
 
       // Save the real response before anything else touches it, so even a
       // run that goes on to fail downstream still leaves a usable fixture —

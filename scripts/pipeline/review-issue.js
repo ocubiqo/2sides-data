@@ -8,9 +8,17 @@
  * Usage:
  *   node scripts/pipeline/review-issue.js render [--country IN]
  *        [--rationale .pipeline/rationale.json] [--out .pipeline/issue-body.md]
+ *        [--max N]
  *
  *   node scripts/pipeline/review-issue.js parse --body-file body.md
  *        [--out .pipeline/decisions.json]
+ *
+ * --max N caps how many pending topics go into ONE rendered issue — needed
+ * because GitHub issue bodies are capped at 65,536 characters, and a batch
+ * larger than ~15-20 topics can exceed that in a single render. Takes the
+ * first N pending files (sorted), no offset needed: once those are approved
+ * or rejected they leave pending/, so running render again naturally picks
+ * up the next chunk.
  */
 
 import fs from 'fs';
@@ -30,7 +38,7 @@ function parseArgs(argv) {
   const args = {
     command: argv[0], country: 'IN',
     rationale: '.pipeline/rationale.json',
-    bodyFile: null, out: null,
+    bodyFile: null, out: null, max: null,
   };
   for (let i = 1; i < argv.length; i++) {
     const a = argv[i];
@@ -38,6 +46,7 @@ function parseArgs(argv) {
     else if (a === '--rationale') args.rationale = argv[++i];
     else if (a === '--body-file') args.bodyFile = argv[++i];
     else if (a === '--out') args.out = argv[++i];
+    else if (a === '--max') args.max = Number(argv[++i]);
   }
   return args;
 }
@@ -56,19 +65,25 @@ function doRender(args) {
     ? fs.readdirSync(pendingDir).filter(f => f.endsWith('.json')).sort()
     : [];
 
-  const topics = files
+  const allTopics = files
     .map(f => readJson(path.join(pendingDir, f)))
     .filter(t => t?.id)
     .map(topic => ({ topic, hash: contentHash(topic) }));
 
-  if (topics.length === 0) {
+  if (allTopics.length === 0) {
     console.error('· nothing pending — no issue to render');
     process.exit(2);   // distinct from a failure; the workflow skips on 2
   }
 
+  // Takes the FIRST --max (sorted by id), no offset needed: once those are
+  // approved or rejected they leave pending/, so re-running render naturally
+  // surfaces the next chunk without any pagination state to track.
+  const topics = args.max ? allTopics.slice(0, args.max) : allTopics;
+
   const rationale = readJson(path.resolve(ROOT, args.rationale), {}) || {};
   write(args.out, renderIssueBody(topics, rationale));
-  console.error(`· rendered ${topics.length} topic(s)`);
+  const remaining = allTopics.length - topics.length;
+  console.error(`· rendered ${topics.length} topic(s)${remaining > 0 ? ` (${remaining} more pending, not included)` : ''}`);
 }
 
 function doParse(args) {
