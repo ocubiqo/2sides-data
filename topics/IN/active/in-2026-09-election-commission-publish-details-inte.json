@@ -4,7 +4,7 @@
   "contentVersion": 1,
   "country": "IN",
   "category": "politics",
-  "status": "in_review",
+  "status": "published",
   "question": "Should the Election Commission publish details of internal objections to leadership decisions?",
   "context": "The Election Commission faced 14 formal objections over 10 months regarding electoral roll decisions. One side argues transparency on internal dissent strengthens democratic accountability. The other contends that publishing internal disagreements undermines institutional unity and may be misused politically.",
   "sides": {
@@ -33,14 +33,14 @@
   ],
   "tags": [],
   "trendScore": 68,
-  "publishedAt": "2026-09-24T12:20:40.849Z",
-  "activeFrom": "2026-09-24T12:20:40.849Z",
+  "publishedAt": "2026-09-24T12:33:22.959Z",
+  "activeFrom": "2026-09-24T12:33:22.959Z",
   "activeUntil": "2026-10-01T12:20:40.849Z",
   "review": {
     "tier": "review_required",
-    "state": "pending",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T12:33:22.959Z",
     "reason": null
   },
   "generation": {

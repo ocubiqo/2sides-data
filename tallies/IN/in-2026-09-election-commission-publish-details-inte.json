@@ -1,0 +1,69 @@
+{
+  "topicId": "in-2026-09-election-commission-publish-details-inte",
+  "schemaVersion": 1,
+  "synthetic": true,
+  "current": {
+    "yes": 113310,
+    "no": 61013,
+    "total": 174323,
+    "pct": 65,
+    "asOf": "2026-09-24T12:33:23.019Z",
+    "velocity": 665.8
+  },
+  "history": [
+    {
+      "at": "2026-09-18T12:33:23.019Z",
+      "pct": 55,
+      "total": 78445
+    },
+    {
+      "at": "2026-09-19T12:33:23.019Z",
+      "pct": 60,
+      "total": 94425
+    },
+    {
+      "at": "2026-09-20T12:33:23.019Z",
+      "pct": 62,
+      "total": 110405
+    },
+    {
+      "at": "2026-09-21T12:33:23.019Z",
+      "pct": 64,
+      "total": 126384
+    },
+    {
+      "at": "2026-09-22T12:33:23.019Z",
+      "pct": 61,
+      "total": 142364
+    },
+    {
+      "at": "2026-09-23T12:33:23.019Z",
+      "pct": 62,
+      "total": 158343
+    },
+    {
+      "at": "2026-09-24T12:33:23.019Z",
+      "pct": 65,
+      "total": 174323
+    }
+  ],
+  "regions": [
+    {
+      "code": "IN-GA",
+      "label": "Goa",
+      "pct": 72,
+      "votes": 8209
+    },
+    {
+      "code": "IN-OR",
+      "label": "Odisha",
+      "pct": 68,
+      "votes": 20340
+    }
+  ],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}

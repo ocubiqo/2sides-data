@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-23T16:58:00.329Z",
+  "generatedAt": "2026-09-24T12:33:23.088Z",
   "categories": [
     {
       "id": "politics",
@@ -40,6 +40,97 @@
       "accent": "#0A1A3D"
     }
   ],
-  "topics": [],
-  "feedVersion": "2026-09-23T16:58:00.329Z-97d170"
+  "topics": [
+    {
+      "id": "in-2026-09-election-commission-publish-details-inte",
+      "category": "politics",
+      "question": "Should the Election Commission publish details of internal objections to leadership decisions?",
+      "context": "The Election Commission faced 14 formal objections over 10 months regarding electoral roll decisions. One side argues transparency on internal dissent strengthens democratic accountability. The other contends that publishing internal disagreements undermines institutional unity and may be misused politically.",
+      "sides": {
+        "yes": "PUBLISH DETAILS",
+        "no": "KEEP INTERNAL"
+      },
+      "sources": [
+        {
+          "name": "Oneindia News",
+          "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+          "verified": false,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+          "verified": false,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "Tribune India",
+          "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+          "verified": false,
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:33:22.959Z",
+      "activeUntil": "2026-10-01T12:20:40.849Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 113310,
+        "no": 61013,
+        "total": 174323,
+        "pct": 65,
+        "asOf": "2026-09-24T12:33:23.019Z",
+        "velocity": 665.8,
+        "trend": [
+          {
+            "at": "2026-09-18T12:33:23.019Z",
+            "pct": 55
+          },
+          {
+            "at": "2026-09-19T12:33:23.019Z",
+            "pct": 60
+          },
+          {
+            "at": "2026-09-20T12:33:23.019Z",
+            "pct": 62
+          },
+          {
+            "at": "2026-09-21T12:33:23.019Z",
+            "pct": 64
+          },
+          {
+            "at": "2026-09-22T12:33:23.019Z",
+            "pct": 61
+          },
+          {
+            "at": "2026-09-23T12:33:23.019Z",
+            "pct": 62
+          },
+          {
+            "at": "2026-09-24T12:33:23.019Z",
+            "pct": 65
+          }
+        ],
+        "delta": "+10",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 65,
+            "votes": 174323
+          },
+          {
+            "label": "Goa",
+            "pct": 72,
+            "votes": 8209
+          },
+          {
+            "label": "Odisha",
+            "pct": 68,
+            "votes": 20340
+          }
+        ]
+      }
+    }
+  ],
+  "feedVersion": "2026-09-24T12:33:23.088Z-b5dd80"
 }
