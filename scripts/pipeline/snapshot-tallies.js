@@ -3,14 +3,24 @@
  * snapshot-tallies.js — appends one point to each active topic's tally history.
  *
  * This is what makes the sentiment chart and the saved-row sparkline possible.
- * The live tally in Firestore is a single mutable number; without this job there
- * is no "was 54%, now 61%" to draw. Runs on a cron (see snapshot-tallies.yml)
- * and commits the result, so history is append-only and git-auditable.
+ * The live tally in D1 is a single mutable row per topic; without this job
+ * there is no "was 54%, now 61%" to draw. Runs on a cron (see
+ * snapshot-tallies.yml) and commits the result, so history is append-only
+ * and git-auditable.
  *
  * Source of counts:
- *   - Firebase Admin, when FIREBASE_SERVICE_ACCOUNT is set (production).
- *   - tallies/<country>/<id>.json's existing `current`, otherwise — which makes
- *     the job a no-op rather than a data-destroyer when credentials are missing.
+ *   - GET /api/admin/tallies on the Cloudflare-hosted vote backend (see
+ *     web/functions/api/admin/tallies.ts in the 2sides repo), when
+ *     VOTE_API_BASE and VOTE_API_ADMIN_TOKEN are both set (production).
+ *   - tallies/<country>/<id>.json's existing `current`, otherwise — which
+ *     makes the job a no-op rather than a data-destroyer when credentials
+ *     are missing. This is also today's actual state: neither is set yet,
+ *     since the Cloudflare domain isn't connected and no real votes exist —
+ *     see the multi-channel reach plan, Phase D4.
+ *
+ * (Superseded an earlier Firebase-Admin/Firestore-backed version — that
+ * phase was never built, FIREBASE_SERVICE_ACCOUNT was never set in
+ * production, so this replacement changes no live behavior.)
  *
  * Usage: node scripts/pipeline/snapshot-tallies.js [--country IN] [--dry-run]
  */
@@ -59,49 +69,38 @@ function activeTopicIds(country) {
 
 /**
  * Returns { [topicId]: { yes, no, regions: { [code]: { yes, no } }, suspect } }.
- * Falls back to an empty map when Firebase is not configured, so the caller
- * keeps the existing `current` rather than zeroing it.
+ * Falls back to an empty map when the vote backend isn't configured, so the
+ * caller keeps the existing `current` rather than zeroing it.
+ *
+ * The backend (web/functions/api/admin/tallies.ts) doesn't track per-region
+ * breakdowns or a bot-suspect count yet — `regions`/`suspect` are always
+ * empty here. That's not a regression: buildRegions() already renders []
+ * gracefully when `regions` is empty (a thin/absent sample is dropped
+ * entirely rather than shown, per this file's own filtering rule below), and
+ * `suspect` only ever fed a value nothing currently reads.
  */
 async function fetchLiveCounts(topicIds) {
-  const raw = process.env.FIREBASE_SERVICE_ACCOUNT;
-  if (!raw) {
-    console.log('· FIREBASE_SERVICE_ACCOUNT unset — reusing stored counts (no-op snapshot)');
+  const base = process.env.VOTE_API_BASE;
+  const token = process.env.VOTE_API_ADMIN_TOKEN;
+  if (!base || !token) {
+    console.log('· VOTE_API_BASE/VOTE_API_ADMIN_TOKEN unset — reusing stored counts (no-op snapshot)');
     return {};
   }
 
-  let admin;
-  try { admin = (await import('firebase-admin')).default; }
-  catch {
-    console.error('✗ firebase-admin not installed; run `npm i firebase-admin`');
-    process.exit(1);
+  const res = await fetch(`${base}/api/admin/tallies`, {
+    headers: { authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) {
+    console.error(`✗ GET ${base}/api/admin/tallies -> HTTP ${res.status}; reusing stored counts`);
+    return {};
   }
-
-  if (!admin.apps.length) {
-    admin.initializeApp({ credential: admin.credential.cert(JSON.parse(raw)) });
-  }
-  const db = admin.firestore();
+  const { tallies } = await res.json();
 
   const out = {};
   for (const id of topicIds) {
-    // Sharded counters: sum shards rather than reading one hot document.
-    const shards = await db.collection('tallies').doc(id).collection('shards').get();
-    let yes = 0, no = 0;
-    const regions = {};
-    shards.forEach(doc => {
-      const d = doc.data();
-      yes += d.a || 0;
-      no  += d.b || 0;
-      for (const [code, r] of Object.entries(d.regions || {})) {
-        regions[code] = regions[code] || { yes: 0, no: 0 };
-        regions[code].yes += r.a || 0;
-        regions[code].no  += r.b || 0;
-      }
-    });
-
-    const suspectDoc = await db.collection('tallies').doc(id).get();
-    const suspect = (suspectDoc.data() || {}).suspect || { yes: 0, no: 0 };
-
-    out[id] = { yes, no, regions, suspect };
+    const row = tallies[id];
+    if (!row) continue; // no votes recorded yet for this topic — leave existing counts alone
+    out[id] = { yes: row.yes, no: row.no, regions: {}, suspect: { yes: 0, no: 0 } };
   }
   return out;
 }

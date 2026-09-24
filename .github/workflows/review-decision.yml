@@ -107,14 +107,33 @@ jobs:
         run: node scripts/pipeline/validate-data.js
 
       - name: Commit
+        id: commit
         if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@users.noreply.github.com"
           git add topics tallies feeds
-          git diff --staged --quiet && echo "nothing changed" && exit 0
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git commit -m "content(review): decisions applied by @$ACTOR (issue #$ISSUE_NUMBER)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Cross-repo trigger — see snapshot-tallies.yml's matching step and the
+      # plan's Phase D4/trap T4. Inert until CLOUDFLARE_PAGES_DEPLOY_HOOK is set.
+      - name: Trigger Cloudflare Pages rebuild
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "· CLOUDFLARE_PAGES_DEPLOY_HOOK unset — feed changed but the site won't rebuild yet"
+            exit 0
+          fi
+          curl -fsS -X POST "$HOOK"
 
       - name: Report back and close when nothing is left
         if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'

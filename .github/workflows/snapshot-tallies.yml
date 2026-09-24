@@ -49,7 +49,11 @@ jobs:
       - name: Snapshot live tallies
         if: steps.check.outputs.count != '0'
         env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          # Both unset today (no-op snapshot — see the script's own header
+          # comment) until the Cloudflare domain is connected and secrets are
+          # set here. See the multi-channel reach plan, Phase D4.
+          VOTE_API_BASE: ${{ secrets.VOTE_API_BASE }}
+          VOTE_API_ADMIN_TOKEN: ${{ secrets.VOTE_API_ADMIN_TOKEN }}
         run: node scripts/pipeline/snapshot-tallies.js --country "${{ inputs.country || 'IN' }}"
 
       - name: Rebuild feed
@@ -61,11 +65,31 @@ jobs:
         run: node scripts/pipeline/validate-data.js
 
       - name: Commit
+        id: commit
         if: steps.check.outputs.count != '0'
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@users.noreply.github.com"
           git add tallies feeds
-          git diff --staged --quiet && echo "no change" && exit 0
+          if git diff --staged --quiet; then
+            echo "no change"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git commit -m "chore: tally snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Cross-repo trigger — the website only rebuilds when this fires. See
+      # the multi-channel reach plan, Phase D4/trap T4. No-ops (curl skipped)
+      # until CLOUDFLARE_PAGES_DEPLOY_HOOK is set, so this is inert today.
+      - name: Trigger Cloudflare Pages rebuild
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "· CLOUDFLARE_PAGES_DEPLOY_HOOK unset — feed changed but the site won't rebuild yet"
+            exit 0
+          fi
+          curl -fsS -X POST "$HOOK"
