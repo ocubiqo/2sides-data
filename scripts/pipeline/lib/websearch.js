@@ -74,8 +74,11 @@ export function harvestSearchUrls(message) {
 }
 
 /**
- * Pulls the first JSON value out of a model response. Never throws — a parse
- * failure returns null so one bad item cannot abort a whole batch.
+ * Pulls the first JSON value out of a single block of text. Never throws — a
+ * parse failure returns null so one bad item cannot abort a whole batch.
+ *
+ * Only safe to call on ONE model text block, not on several concatenated
+ * together — see extractJsonFromMessage for why.
  */
 export function extractJson(text, { array = false } = {}) {
   if (!text) return null;
@@ -83,6 +86,34 @@ export function extractJson(text, { array = false } = {}) {
   const match = array ? clean.match(/\[[\s\S]*\]/) : clean.match(/\{[\s\S]*\}/);
   if (!match) return null;
   try { return JSON.parse(match[0]); } catch { return null; }
+}
+
+/**
+ * Extracts JSON from a model response by trying each TEXT block on its own,
+ * last first, rather than concatenating every block into one string first.
+ *
+ * This is the fix for a real failure: with web_search enabled, Claude
+ * interleaves commentary text blocks with tool calls — "Let me search for
+ * X...", [search], "Based on what I found...", [search], then a final block
+ * with the actual JSON answer. textOf()-style concatenation joins all of that
+ * into one string before extractJson's greedy `{...}` match runs, and if an
+ * EARLIER commentary block contains any brace-like fragment at all (a quoted
+ * bill number, an example, anything), the match spans from that stray brace
+ * all the way to the real JSON's closing brace — producing a blob that is not
+ * valid JSON even though the model's actual answer parses fine in isolation.
+ * Observed live: this silently zeroed out every category in one batch run.
+ *
+ * Scanning last-to-first is deliberate: the model's final answer is normally
+ * the last text block once all searching is done, so checking it first is
+ * also the common-case fast path.
+ */
+export function extractJsonFromMessage(message, opts = {}) {
+  const blocks = (message.content || []).filter(b => b.type === 'text');
+  for (let i = blocks.length - 1; i >= 0; i--) {
+    const parsed = extractJson(stripCitations(blocks[i].text), opts);
+    if (parsed) return parsed;
+  }
+  return null;
 }
 
 /**

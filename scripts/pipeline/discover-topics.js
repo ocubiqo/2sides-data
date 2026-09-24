@@ -23,7 +23,7 @@ import { fileURLToPath } from 'url';
 import Anthropic from '@anthropic-ai/sdk';
 import { normalizeQuestion } from './lib/normalize.js';
 import {
-  textOf, harvestSearchUrls, filterArticleUrls, extractJson, isFresh, sleep,
+  harvestSearchUrls, filterArticleUrls, extractJsonFromMessage, isFresh, sleep,
 } from './lib/websearch.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -109,17 +109,24 @@ Rules:
 - Do not include URLs in your reply; they are taken from the search results directly.`;
 }
 
-function parseItems(raw, category) {
-  const parsed = extractJson(raw);
+/**
+ * @param parsed  the already-extracted JSON value (see extractJsonFromMessage),
+ *                or null if nothing in the response parsed
+ * @returns {items, rejected}  rejected counts *why* items were dropped, so a
+ *          category returning zero has a diagnosable reason instead of a flat
+ *          "no contested items returned"
+ */
+function parseItems(parsed, category) {
   const items = Array.isArray(parsed?.items) ? parsed.items : [];
   const out = [];
+  const rejected = { incomplete: 0, stale: 0 };
 
   for (const it of items) {
     const headline = typeof it.headline === 'string' ? it.headline.trim() : '';
     const summary = typeof it.oneLineSummary === 'string' ? it.oneLineSummary.trim() : '';
     const why = typeof it.whyContested === 'string' ? it.whyContested.trim() : '';
-    if (!headline || !summary || !why) continue;
-    if (!isFresh(it.publishedAt, MAX_ARTICLE_AGE_DAYS)) continue;
+    if (!headline || !summary || !why) { rejected.incomplete++; continue; }
+    if (!isFresh(it.publishedAt, MAX_ARTICLE_AGE_DAYS)) { rejected.stale++; continue; }
 
     const score = Number(it.trendScore);
     out.push({
@@ -129,7 +136,7 @@ function parseItems(raw, category) {
       trendScore: Number.isFinite(score) ? Math.max(0, Math.min(100, Math.round(score))) : 50,
     });
   }
-  return out;
+  return { items: out, rejected };
 }
 
 async function callForCategory(client, category, perCategory, avoid, mockMessage) {
@@ -208,9 +215,26 @@ async function main() {
         console.log(`  · ${category.id}: dropped ${hubDropped} hub/section URL(s), ${urls.length} article URL(s) remain`);
       }
 
-      const items = parseItems(textOf(message), category);
+      const parsedJson = extractJsonFromMessage(message);
+      if (!parsedJson) {
+        // Not the same as "the model found nothing" — this means the response
+        // never contained a parseable JSON object at all, worth surfacing
+        // distinctly since it points at a prompt/response-shape problem
+        // rather than a quiet news day.
+        const blocks = (message.content || []).filter(b => b.type === 'text');
+        const lastText = blocks[blocks.length - 1]?.text ?? '(no text block at all)';
+        console.warn(`  ✗ ${category.id}: response had no parseable JSON (${blocks.length} text block(s))`);
+        console.warn(`      last block: ${lastText.slice(0, 200).replace(/\n/g, ' ')}${lastText.length > 200 ? '…' : ''}`);
+        failures++;
+        continue;
+      }
+
+      const { items, rejected } = parseItems(parsedJson, category);
       if (items.length === 0) {
-        console.log(`  · ${category.id}: no contested items returned`);
+        const reason = rejected.incomplete > 0 || rejected.stale > 0
+          ? ` (${rejected.incomplete} incomplete, ${rejected.stale} stale)`
+          : '';
+        console.log(`  · ${category.id}: no contested items returned${reason}`);
         continue;
       }
 

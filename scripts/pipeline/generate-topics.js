@@ -27,7 +27,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import Anthropic from '@anthropic-ai/sdk';
-import { extractJson, sleep } from './lib/websearch.js';
+import { extractJsonFromMessage, sleep } from './lib/websearch.js';
 import { vetTopic, resolveTier, SPLIT_MIN, SPLIT_MAX } from './lib/vet-topic.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -179,9 +179,11 @@ async function main() {
         messages: [{ role: 'user', content: buildPrompt(candidate) }],
       });
 
-      const raw = extractJson(
-        (message.content || []).filter(b => b.type === 'text').map(b => b.text).join('\n'),
-      );
+      // Scans blocks individually rather than concatenating them — this stage
+      // runs with no tools so a single text block is the common case, but
+      // scanning per-block is free insurance against the same failure mode
+      // discover-topics.js hit (see extractJsonFromMessage's doc comment).
+      const raw = extractJsonFromMessage(message);
       if (!raw) { rejected.push(`[${candidate.category}] unparseable response`); continue; }
 
       const result = vetTopic(raw, candidate, allowedSet);

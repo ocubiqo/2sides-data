@@ -9,7 +9,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  harvestSearchUrls, stripCitations, textOf, extractJson, isFresh,
+  harvestSearchUrls, stripCitations, textOf, extractJson, extractJsonFromMessage, isFresh,
   looksLikeArticleUrl, filterArticleUrls,
 } from './websearch.js';
 
@@ -101,6 +101,87 @@ test('extractJson survives fences, prose and bad JSON', () => {
   assert.equal(extractJson('{not json}'), null);
   assert.equal(extractJson('no json here'), null);
   assert.equal(extractJson(''), null);
+});
+
+// ── extractJsonFromMessage: the fix for a real batch-run failure ───────────
+//
+// With web_search enabled, Claude interleaves commentary text blocks with
+// tool calls. Concatenating every block into one string before running a
+// single greedy JSON match (what extractJson(textOf(message)) does) can span
+// from a stray brace in EARLY commentary through to the real JSON's closing
+// brace in the FINAL block — producing a blob that fails to parse even though
+// the model's actual answer is valid JSON on its own. This silently zeroed
+// every category in one live daily-batch run.
+
+test('the exact failure this fixes: a stray brace in early commentary breaks concatenation-based parsing', () => {
+  const message = {
+    content: [
+      { type: 'text', text: 'Let me search for recent debates in India {ref: not real json}.' },
+      { type: 'web_search_tool_result', content: [{ url: 'https://real.example/story' }] },
+      {
+        type: 'text',
+        text: 'Based on my research, here is the result:\n\n```json\n' +
+          '{"items":[{"headline":"Real headline","oneLineSummary":"s","whyContested":"w","publishedAt":"2026-09-20","trendScore":80}]}' +
+          '\n```',
+      },
+    ],
+  };
+
+  // Demonstrates the bug is real: the naive concatenation approach fails.
+  assert.equal(extractJson(textOf(message)), null);
+
+  // The fix recovers the real answer by trying each block independently.
+  const parsed = extractJsonFromMessage(message);
+  assert.equal(parsed.items.length, 1);
+  assert.equal(parsed.items[0].headline, 'Real headline');
+});
+
+test('checks the LAST text block first, matching where the model puts its final answer', () => {
+  const message = {
+    content: [
+      { type: 'text', text: 'thinking out loud, no JSON here' },
+      { type: 'text', text: '{"items":[{"headline":"final"}]}' },
+    ],
+  };
+  assert.deepEqual(extractJsonFromMessage(message), { items: [{ headline: 'final' }] });
+});
+
+test('falls back to an earlier block if the last one has no JSON', () => {
+  const message = {
+    content: [
+      { type: 'text', text: '{"items":[{"headline":"early but valid"}]}' },
+      { type: 'text', text: 'a trailing remark with no JSON in it' },
+    ],
+  };
+  assert.deepEqual(extractJsonFromMessage(message), { items: [{ headline: 'early but valid' }] });
+});
+
+test('strips citations before parsing each block', () => {
+  const message = {
+    content: [
+      { type: 'text', text: '<cite index="0">noise</cite>{"items":[{"headline":"h"}]}' },
+    ],
+  };
+  assert.deepEqual(extractJsonFromMessage(message), { items: [{ headline: 'h' }] });
+});
+
+test('returns null, not throws, when no block has JSON', () => {
+  const message = { content: [{ type: 'text', text: 'no json anywhere' }] };
+  assert.equal(extractJsonFromMessage(message), null);
+});
+
+test('returns null on a message with no text blocks at all', () => {
+  assert.equal(extractJsonFromMessage({ content: [] }), null);
+  assert.equal(extractJsonFromMessage({}), null);
+  assert.equal(
+    extractJsonFromMessage({ content: [{ type: 'web_search_tool_result', content: [] }] }),
+    null,
+  );
+});
+
+test('supports the array form for generate-topics.js-style responses', () => {
+  const message = { content: [{ type: 'text', text: '[{"a":1}]' }] };
+  assert.deepEqual(extractJsonFromMessage(message, { array: true }), [{ a: 1 }]);
 });
 
 test('isFresh rejects stale, future and unparseable dates', () => {
