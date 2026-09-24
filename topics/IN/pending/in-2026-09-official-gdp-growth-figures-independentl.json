@@ -1,0 +1,53 @@
+{
+  "id": "in-2026-09-official-gdp-growth-figures-independentl",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "in_review",
+  "question": "Should official GDP growth figures be independently audited?",
+  "context": "The government reports 7.8% Q2 GDP growth. Some economists and former officials question whether official statistics accurately reflect economic performance, while the government defends its data as credible. The debate centers on statistical methodology and verification.",
+  "sides": {
+    "yes": "INDEPENDENT AUDIT",
+    "no": "CURRENT SYSTEM"
+  },
+  "sources": [
+    {
+      "name": "ThePrint",
+      "url": "https://theprint.in/category/politics/",
+      "verified": true,
+      "publishedAt": "2025-01-01"
+    },
+    {
+      "name": "Business Today",
+      "url": "https://www.businesstoday.in/latest/politics",
+      "verified": false,
+      "publishedAt": "2025-01-01"
+    },
+    {
+      "name": "The India Forum",
+      "url": "https://www.theindiaforum.in/public-policy",
+      "verified": false,
+      "publishedAt": "2025-01-01"
+    }
+  ],
+  "tags": [],
+  "trendScore": 68,
+  "publishedAt": "2026-09-24T11:02:12.096Z",
+  "activeFrom": "2026-09-24T11:02:12.096Z",
+  "activeUntil": "2026-10-01T11:02:12.096Z",
+  "review": {
+    "tier": "review_required",
+    "state": "pending",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001",
+    "pipelineRun": "35990512539",
+    "generatedAt": "2026-09-24T11:02:12.096Z",
+    "sourceCount": 3
+  },
+  "bookmarks": 0
+}
