@@ -1,0 +1,69 @@
+{
+  "topicId": "in-2026-09-employers-allowed-exclude-job-applicants",
+  "schemaVersion": 1,
+  "synthetic": true,
+  "current": {
+    "yes": 171763,
+    "no": 96617,
+    "total": 268380,
+    "pct": 64,
+    "asOf": "2026-09-24T12:51:12.240Z",
+    "velocity": 1025
+  },
+  "history": [
+    {
+      "at": "2026-09-18T12:51:12.240Z",
+      "pct": 64,
+      "total": 120771
+    },
+    {
+      "at": "2026-09-19T12:51:12.240Z",
+      "pct": 63,
+      "total": 145373
+    },
+    {
+      "at": "2026-09-20T12:51:12.240Z",
+      "pct": 66,
+      "total": 169974
+    },
+    {
+      "at": "2026-09-21T12:51:12.240Z",
+      "pct": 66,
+      "total": 194576
+    },
+    {
+      "at": "2026-09-22T12:51:12.240Z",
+      "pct": 66,
+      "total": 219177
+    },
+    {
+      "at": "2026-09-23T12:51:12.240Z",
+      "pct": 65,
+      "total": 243779
+    },
+    {
+      "at": "2026-09-24T12:51:12.240Z",
+      "pct": 64,
+      "total": 268380
+    }
+  ],
+  "regions": [
+    {
+      "code": "IN-GA",
+      "label": "Goa",
+      "pct": 60,
+      "votes": 29299
+    },
+    {
+      "code": "IN-OR",
+      "label": "Odisha",
+      "pct": 60,
+      "votes": 19074
+    }
+  ],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}

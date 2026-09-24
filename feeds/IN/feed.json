@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-24T12:36:45.535Z",
+  "generatedAt": "2026-09-24T12:51:12.336Z",
   "categories": [
     {
       "id": "politics",
@@ -41,6 +41,186 @@
     }
   ],
   "topics": [
+    {
+      "id": "in-2026-09-election-commissions-special-intensive-r",
+      "category": "politics",
+      "question": "Should the Election Commission's Special Intensive Review of electoral rolls proceed?",
+      "context": "The Election Commission is conducting a mass review to remove illegal migrants from voter lists. Supporters say it ensures electoral integrity. Critics argue it disproportionately targets opposition voters and was timed to advantage the ruling party.",
+      "sides": {
+        "yes": "PROCEED",
+        "no": "HALT/REVIEW"
+      },
+      "sources": [
+        {
+          "name": "Oneindia News",
+          "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "Tribune India",
+          "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:51:08.120Z",
+      "activeUntil": "2026-10-01T12:20:33.731Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 536782,
+        "no": 328996,
+        "total": 865778,
+        "pct": 62,
+        "asOf": "2026-09-24T12:51:12.192Z",
+        "velocity": 3306.8,
+        "trend": [
+          {
+            "at": "2026-09-18T12:51:12.192Z",
+            "pct": 58
+          },
+          {
+            "at": "2026-09-19T12:51:12.192Z",
+            "pct": 60
+          },
+          {
+            "at": "2026-09-20T12:51:12.192Z",
+            "pct": 64
+          },
+          {
+            "at": "2026-09-21T12:51:12.192Z",
+            "pct": 59
+          },
+          {
+            "at": "2026-09-22T12:51:12.192Z",
+            "pct": 60
+          },
+          {
+            "at": "2026-09-23T12:51:12.192Z",
+            "pct": 60
+          },
+          {
+            "at": "2026-09-24T12:51:12.192Z",
+            "pct": 62
+          }
+        ],
+        "delta": "+4",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 62,
+            "votes": 865778
+          },
+          {
+            "label": "Goa",
+            "pct": 67,
+            "votes": 60253
+          },
+          {
+            "label": "Odisha",
+            "pct": 69,
+            "votes": 45679
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-employers-allowed-exclude-job-applicants",
+      "category": "jobs",
+      "question": "Should employers be allowed to exclude job applicants based on their state of origin?",
+      "context": "A tech company announced it will not hire male candidates from four northern states, citing safety and workplace culture concerns. Supporters argue employment decisions can reflect genuine risk data; opponents contend this violates anti-discrimination law regardless of stated rationale.",
+      "sides": {
+        "yes": "Allow it",
+        "no": "Prohibit it"
+      },
+      "sources": [
+        {
+          "name": "People Matters",
+          "url": "https://www.peoplematters.in/news/recruiting-and-onboarding/bengaluru-ceo-says-he-wont-hire-men-from-up-bihar-rajasthan-mp-faces-backlash-52277",
+          "verified": true,
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "name": "India Policy Hub",
+          "url": "https://indiapolicyhub.in/2026/02/27/india-new-labour-codes-2026-50-percent-wage-rule-gig-workers/",
+          "verified": false,
+          "publishedAt": "2026-02-27"
+        },
+        {
+          "name": "Ministry of Labour & Employment",
+          "url": "https://www.labour.gov.in/static/uploads/2026/06/4b7ec0e8206aa4860576d6f75b432e97.pdf",
+          "verified": true,
+          "publishedAt": "2026-06-01"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:51:08.120Z",
+      "activeUntil": "2026-10-01T12:20:47.098Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 171763,
+        "no": 96617,
+        "total": 268380,
+        "pct": 64,
+        "asOf": "2026-09-24T12:51:12.240Z",
+        "velocity": 1025,
+        "trend": [
+          {
+            "at": "2026-09-18T12:51:12.240Z",
+            "pct": 64
+          },
+          {
+            "at": "2026-09-19T12:51:12.240Z",
+            "pct": 63
+          },
+          {
+            "at": "2026-09-20T12:51:12.240Z",
+            "pct": 66
+          },
+          {
+            "at": "2026-09-21T12:51:12.240Z",
+            "pct": 66
+          },
+          {
+            "at": "2026-09-22T12:51:12.240Z",
+            "pct": 66
+          },
+          {
+            "at": "2026-09-23T12:51:12.240Z",
+            "pct": 65
+          },
+          {
+            "at": "2026-09-24T12:51:12.240Z",
+            "pct": 64
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 64,
+            "votes": 268380
+          },
+          {
+            "label": "Goa",
+            "pct": 60,
+            "votes": 29299
+          },
+          {
+            "label": "Odisha",
+            "pct": 60,
+            "votes": 19074
+          }
+        ]
+      }
+    },
     {
       "id": "in-2026-09-election-commission-publish-details-inte",
       "category": "politics",
@@ -132,5 +312,5 @@
       }
     }
   ],
-  "feedVersion": "2026-09-24T12:36:45.535Z-08849e"
+  "feedVersion": "2026-09-24T12:51:12.336Z-db4670"
 }

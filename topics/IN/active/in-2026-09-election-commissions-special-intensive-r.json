@@ -4,7 +4,7 @@
   "contentVersion": 1,
   "country": "IN",
   "category": "politics",
-  "status": "in_review",
+  "status": "published",
   "question": "Should the Election Commission's Special Intensive Review of electoral rolls proceed?",
   "context": "The Election Commission is conducting a mass review to remove illegal migrants from voter lists. Supporters say it ensures electoral integrity. Critics argue it disproportionately targets opposition voters and was timed to advantage the ruling party.",
   "sides": {
@@ -33,14 +33,14 @@
   ],
   "tags": [],
   "trendScore": 78,
-  "publishedAt": "2026-09-24T12:20:33.731Z",
-  "activeFrom": "2026-09-24T12:20:33.731Z",
+  "publishedAt": "2026-09-24T12:51:08.120Z",
+  "activeFrom": "2026-09-24T12:51:08.120Z",
   "activeUntil": "2026-10-01T12:20:33.731Z",
   "review": {
     "tier": "review_required",
-    "state": "pending",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T12:51:08.120Z",
     "reason": null
   },
   "generation": {

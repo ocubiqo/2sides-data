@@ -4,7 +4,7 @@
   "contentVersion": 1,
   "country": "IN",
   "category": "jobs",
-  "status": "in_review",
+  "status": "published",
   "question": "Should employers be allowed to exclude job applicants based on their state of origin?",
   "context": "A tech company announced it will not hire male candidates from four northern states, citing safety and workplace culture concerns. Supporters argue employment decisions can reflect genuine risk data; opponents contend this violates anti-discrimination law regardless of stated rationale.",
   "sides": {
@@ -33,14 +33,14 @@
   ],
   "tags": [],
   "trendScore": 72,
-  "publishedAt": "2026-09-24T12:20:47.098Z",
-  "activeFrom": "2026-09-24T12:20:47.098Z",
+  "publishedAt": "2026-09-24T12:51:08.120Z",
+  "activeFrom": "2026-09-24T12:51:08.120Z",
   "activeUntil": "2026-10-01T12:20:47.098Z",
   "review": {
     "tier": "review_required",
-    "state": "pending",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T12:51:08.120Z",
     "reason": null
   },
   "generation": {
