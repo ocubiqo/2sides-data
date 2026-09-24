@@ -1,0 +1,53 @@
+{
+  "id": "in-2026-09-employers-allowed-exclude-job-applicants",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "in_review",
+  "question": "Should employers be allowed to exclude job applicants based on their state of origin?",
+  "context": "A tech company announced it will not hire male candidates from four northern states, citing safety and workplace culture concerns. Supporters argue employment decisions can reflect genuine risk data; opponents contend this violates anti-discrimination law regardless of stated rationale.",
+  "sides": {
+    "yes": "Allow it",
+    "no": "Prohibit it"
+  },
+  "sources": [
+    {
+      "name": "People Matters",
+      "url": "https://www.peoplematters.in/news/recruiting-and-onboarding/bengaluru-ceo-says-he-wont-hire-men-from-up-bihar-rajasthan-mp-faces-backlash-52277",
+      "verified": false,
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "name": "India Policy Hub",
+      "url": "https://indiapolicyhub.in/2026/02/27/india-new-labour-codes-2026-50-percent-wage-rule-gig-workers/",
+      "verified": false,
+      "publishedAt": "2026-02-27"
+    },
+    {
+      "name": "Ministry of Labour & Employment",
+      "url": "https://www.labour.gov.in/static/uploads/2026/06/4b7ec0e8206aa4860576d6f75b432e97.pdf",
+      "verified": false,
+      "publishedAt": "2026-06-01"
+    }
+  ],
+  "tags": [],
+  "trendScore": 72,
+  "publishedAt": "2026-09-24T12:20:47.098Z",
+  "activeFrom": "2026-09-24T12:20:47.098Z",
+  "activeUntil": "2026-10-01T12:20:47.098Z",
+  "review": {
+    "tier": "review_required",
+    "state": "pending",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001",
+    "pipelineRun": "35998288263",
+    "generatedAt": "2026-09-24T12:20:47.098Z",
+    "sourceCount": 3
+  },
+  "bookmarks": 0
+}

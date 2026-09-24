@@ -1,0 +1,53 @@
+{
+  "id": "in-2026-09-election-commissions-special-intensive-r",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "in_review",
+  "question": "Should the Election Commission's Special Intensive Review of electoral rolls proceed?",
+  "context": "The Election Commission is conducting a mass review to remove illegal migrants from voter lists. Supporters say it ensures electoral integrity. Critics argue it disproportionately targets opposition voters and was timed to advantage the ruling party.",
+  "sides": {
+    "yes": "PROCEED",
+    "no": "HALT/REVIEW"
+  },
+  "sources": [
+    {
+      "name": "Oneindia News",
+      "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "name": "The Week",
+      "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "name": "Tribune India",
+      "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    }
+  ],
+  "tags": [],
+  "trendScore": 78,
+  "publishedAt": "2026-09-24T12:20:33.731Z",
+  "activeFrom": "2026-09-24T12:20:33.731Z",
+  "activeUntil": "2026-10-01T12:20:33.731Z",
+  "review": {
+    "tier": "review_required",
+    "state": "pending",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001",
+    "pipelineRun": "35998288263",
+    "generatedAt": "2026-09-24T12:20:33.731Z",
+    "sourceCount": 3
+  },
+  "bookmarks": 0
+}

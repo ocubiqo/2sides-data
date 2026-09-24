@@ -1,0 +1,53 @@
+{
+  "id": "in-2026-09-election-commission-publish-details-inte",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "in_review",
+  "question": "Should the Election Commission publish details of internal objections to leadership decisions?",
+  "context": "The Election Commission faced 14 formal objections over 10 months regarding electoral roll decisions. One side argues transparency on internal dissent strengthens democratic accountability. The other contends that publishing internal disagreements undermines institutional unity and may be misused politically.",
+  "sides": {
+    "yes": "PUBLISH DETAILS",
+    "no": "KEEP INTERNAL"
+  },
+  "sources": [
+    {
+      "name": "Oneindia News",
+      "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "name": "The Week",
+      "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "name": "Tribune India",
+      "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+      "verified": false,
+      "publishedAt": "2026-09-23"
+    }
+  ],
+  "tags": [],
+  "trendScore": 68,
+  "publishedAt": "2026-09-24T12:20:40.849Z",
+  "activeFrom": "2026-09-24T12:20:40.849Z",
+  "activeUntil": "2026-10-01T12:20:40.849Z",
+  "review": {
+    "tier": "review_required",
+    "state": "pending",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001",
+    "pipelineRun": "35998288263",
+    "generatedAt": "2026-09-24T12:20:40.849Z",
+    "sourceCount": 3
+  },
+  "bookmarks": 0
+}
