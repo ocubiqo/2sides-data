@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-24T13:15:00.675Z",
+  "generatedAt": "2026-09-24T13:18:14.813Z",
   "categories": [
     {
       "id": "politics",
@@ -278,6 +278,84 @@
             "label": "Uttar Pradesh",
             "pct": 54,
             "votes": 21549
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-wfh-patriotic-duty",
+      "category": "jobs",
+      "question": "Should employees work from home to help conserve fuel, as PM Modi urged?",
+      "context": "PM Modi asked Indians to revive work-from-home to cut commuting and fuel use amid the West Asia crisis, calling it a patriotic duty. The appeal reopened a settled fight: 72% of IT firms mandate in-office presence, arguing physical offices remain essential for productivity.",
+      "sides": {
+        "yes": "WFH FOR THE CAUSE",
+        "no": "OFFICE MATTERS"
+      },
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news/pm-modi-work-from-home-india-inc-return-office-debate-126051100654_1.html",
+          "verified": true,
+          "publishedAt": "2026-05-11"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:18:14.597Z",
+      "activeUntil": "2026-10-01T13:16:26.452486Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 322839,
+        "no": 224345,
+        "total": 547184,
+        "pct": 59,
+        "asOf": "2026-09-24T13:18:14.736Z",
+        "velocity": 2090,
+        "trend": [
+          {
+            "at": "2026-09-18T13:18:14.736Z",
+            "pct": 47
+          },
+          {
+            "at": "2026-09-19T13:18:14.736Z",
+            "pct": 54
+          },
+          {
+            "at": "2026-09-20T13:18:14.736Z",
+            "pct": 54
+          },
+          {
+            "at": "2026-09-21T13:18:14.736Z",
+            "pct": 57
+          },
+          {
+            "at": "2026-09-22T13:18:14.736Z",
+            "pct": 58
+          },
+          {
+            "at": "2026-09-23T13:18:14.736Z",
+            "pct": 55
+          },
+          {
+            "at": "2026-09-24T13:18:14.736Z",
+            "pct": 59
+          }
+        ],
+        "delta": "+12",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 59,
+            "votes": 547184
+          },
+          {
+            "label": "Gujarat",
+            "pct": 65,
+            "votes": 32056
+          },
+          {
+            "label": "West Bengal",
+            "pct": 55,
+            "votes": 75851
           }
         ]
       }
@@ -685,6 +763,84 @@
       }
     },
     {
+      "id": "in-2026-09-ott-cbfc-certification",
+      "category": "bollywood",
+      "question": "Should films released directly on streaming platforms need CBFC certification?",
+      "context": "The government is weighing mandatory film-board certification for OTT releases after a platform pulled a political thriller over national security concerns. Industry warns unpredictable approvals push early self-censorship; supporters say certification gives consistent content standards streaming lacks.",
+      "sides": {
+        "yes": "REQUIRE IT",
+        "no": "SELF-REGULATE"
+      },
+      "sources": [
+        {
+          "name": "Storyboard18",
+          "url": "https://www.storyboard18.com/media-and-entertainment/india-eyes-mandatory-cbfc-for-ott-films-ws-l-104557.htm",
+          "verified": true,
+          "publishedAt": "2026-07-17"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:18:14.597Z",
+      "activeUntil": "2026-10-01T13:16:26.452486Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 31531,
+        "no": 35557,
+        "total": 67088,
+        "pct": 47,
+        "asOf": "2026-09-24T13:18:14.691Z",
+        "velocity": 256.3,
+        "trend": [
+          {
+            "at": "2026-09-18T13:18:14.691Z",
+            "pct": 37
+          },
+          {
+            "at": "2026-09-19T13:18:14.691Z",
+            "pct": 39
+          },
+          {
+            "at": "2026-09-20T13:18:14.691Z",
+            "pct": 40
+          },
+          {
+            "at": "2026-09-21T13:18:14.691Z",
+            "pct": 42
+          },
+          {
+            "at": "2026-09-22T13:18:14.691Z",
+            "pct": 43
+          },
+          {
+            "at": "2026-09-23T13:18:14.691Z",
+            "pct": 45
+          },
+          {
+            "at": "2026-09-24T13:18:14.691Z",
+            "pct": 47
+          }
+        ],
+        "delta": "+10",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 47,
+            "votes": 67088
+          },
+          {
+            "label": "Jammu and Kashmir",
+            "pct": 53,
+            "votes": 7039
+          },
+          {
+            "label": "Delhi",
+            "pct": 53,
+            "votes": 5145
+          }
+        ]
+      }
+    },
+    {
       "id": "in-2026-09-election-commission-publish-details-inte",
       "category": "politics",
       "question": "Should the Election Commission publish details of internal objections to leadership decisions?",
@@ -775,5 +931,5 @@
       }
     }
   ],
-  "feedVersion": "2026-09-24T13:15:00.675Z-4b91fb"
+  "feedVersion": "2026-09-24T13:18:14.813Z-d16bd0"
 }

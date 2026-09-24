@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-ott-cbfc-certification",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "bollywood",
+  "status": "published",
+  "question": "Should films released directly on streaming platforms need CBFC certification?",
+  "context": "The government is weighing mandatory film-board certification for OTT releases after a platform pulled a political thriller over national security concerns. Industry warns unpredictable approvals push early self-censorship; supporters say certification gives consistent content standards streaming lacks.",
+  "sides": {
+    "yes": "REQUIRE IT",
+    "no": "SELF-REGULATE"
+  },
+  "sources": [
+    {
+      "name": "Storyboard18",
+      "url": "https://www.storyboard18.com/media-and-entertainment/india-eyes-mandatory-cbfc-for-ott-films-ws-l-104557.htm",
+      "verified": true,
+      "publishedAt": "2026-07-17"
+    }
+  ],
+  "tags": [],
+  "trendScore": 70,
+  "publishedAt": "2026-09-24T13:18:14.597Z",
+  "activeFrom": "2026-09-24T13:18:14.597Z",
+  "activeUntil": "2026-10-01T13:16:26.452486Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:18:14.597Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-3",
+    "generatedAt": "2026-09-24T13:16:26.452486Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

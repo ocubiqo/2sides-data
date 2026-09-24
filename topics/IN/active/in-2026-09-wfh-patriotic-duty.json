@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-wfh-patriotic-duty",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "published",
+  "question": "Should employees work from home to help conserve fuel, as PM Modi urged?",
+  "context": "PM Modi asked Indians to revive work-from-home to cut commuting and fuel use amid the West Asia crisis, calling it a patriotic duty. The appeal reopened a settled fight: 72% of IT firms mandate in-office presence, arguing physical offices remain essential for productivity.",
+  "sides": {
+    "yes": "WFH FOR THE CAUSE",
+    "no": "OFFICE MATTERS"
+  },
+  "sources": [
+    {
+      "name": "Business Standard",
+      "url": "https://www.business-standard.com/companies/news/pm-modi-work-from-home-india-inc-return-office-debate-126051100654_1.html",
+      "verified": true,
+      "publishedAt": "2026-05-11"
+    }
+  ],
+  "tags": [],
+  "trendScore": 74,
+  "publishedAt": "2026-09-24T13:18:14.597Z",
+  "activeFrom": "2026-09-24T13:18:14.597Z",
+  "activeUntil": "2026-10-01T13:16:26.452486Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:18:14.597Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-3",
+    "generatedAt": "2026-09-24T13:16:26.452486Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}
