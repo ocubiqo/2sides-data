@@ -161,8 +161,15 @@ export function looksLikeArticleUrl(url) {
   // Wikipedia's /wiki/Specific_Title pages are always a specific subject.
   if (/(^|\.)wikipedia\.org$/i.test(u.hostname) && /^\/wiki\//i.test(u.pathname)) return true;
 
-  const segments = u.pathname.split('/').filter(Boolean);
-  if (segments.length === 0) return false;   // bare homepage
+  // AMP is a rendering variant, not content — "amp" as its own path segment
+  // (prefix, as in deccanherald.com/amp/story/..., or suffix, as in
+  // wionews.com/.../headline-1775214164383/amp) carries no hyphens or digits
+  // of its own. Left in, it becomes whichever segment the specificity check
+  // below reads, and a perfectly good article slug sitting right next to it
+  // gets ignored. Real Indian news sites serve AMP constantly, so this isn't
+  // an edge case worth accepting false rejections over.
+  const segments = u.pathname.split('/').filter(s => s && s.toLowerCase() !== 'amp');
+  if (segments.length === 0) return false;   // bare homepage (or homepage + /amp)
 
   if (segments.some(s => HUB_PATH_MARKERS.has(s.toLowerCase()))) return false;
 

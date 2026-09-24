@@ -254,6 +254,28 @@ test('does not crash on unparseable input', () => {
   assert.equal(looksLikeArticleUrl(''), false);
 });
 
+test('ignores an "amp" path segment, prefix or suffix, so a real article slug is still read', () => {
+  // Found live: this exact WION URL was rejected before the fix, because the
+  // specificity check reads the LAST segment, and "amp" as a trailing
+  // rendering-variant suffix has no hyphens or digits of its own — the real
+  // slug sitting right next to it was never even looked at.
+  assert.equal(
+    looksLikeArticleUrl('https://www.wionews.com/india-news/india-new-digital-rules-2026-social-media-regulation-digital-authoritarianism-1775214164383/amp'),
+    true,
+  );
+  // Same issue the other way round — amp as a path PREFIX, as several Indian
+  // outlets (Deccan Herald among them) structure their AMP URLs.
+  assert.equal(
+    looksLikeArticleUrl('https://www.deccanherald.com/amp/story/india/some-real-headline-about-a-policy-debate-4105306'),
+    true,
+  );
+});
+
+test('a bare "amp" segment with nothing else is still a homepage, not an article', () => {
+  assert.equal(looksLikeArticleUrl('https://example.com/amp'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/amp/'), false);
+});
+
 test('filterArticleUrls keeps only the article-shaped entries, preserving their fields', () => {
   const urls = [
     { url: 'https://theprint.in/category/politics/', title: 'ThePrint politics' },
