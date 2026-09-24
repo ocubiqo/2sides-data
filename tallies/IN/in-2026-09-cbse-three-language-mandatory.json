@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-cbse-three-language-mandatory",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 101308,
     "no": 105442,
     "total": 206750,
     "pct": 49,
-    "asOf": "2026-09-24T13:15:00.521Z",
-    "velocity": 789.7
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:15:00.521Z",
+      "pct": 49,
+      "total": 206750
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 49,
       "total": 206750
     }

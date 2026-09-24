@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-wfh-patriotic-duty",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 322839,
     "no": 224345,
     "total": 547184,
     "pct": 59,
-    "asOf": "2026-09-24T13:18:14.736Z",
-    "velocity": 2090
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:18:14.736Z",
+      "pct": 59,
+      "total": 547184
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 59,
       "total": 547184
     }

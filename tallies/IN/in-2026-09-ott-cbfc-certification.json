@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-ott-cbfc-certification",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 31531,
     "no": 35557,
     "total": 67088,
     "pct": 47,
-    "asOf": "2026-09-24T13:18:14.691Z",
-    "velocity": 256.3
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:18:14.691Z",
+      "pct": 47,
+      "total": 67088
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 47,
       "total": 67088
     }

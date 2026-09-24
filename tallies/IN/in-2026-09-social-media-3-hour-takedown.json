@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-social-media-3-hour-takedown",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 180801,
     "no": 384203,
     "total": 565004,
     "pct": 32,
-    "asOf": "2026-09-24T13:15:00.588Z",
-    "velocity": 2158
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:15:00.588Z",
+      "pct": 32,
+      "total": 565004
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 32,
       "total": 565004
     }

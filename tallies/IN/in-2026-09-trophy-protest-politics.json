@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-trophy-protest-politics",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 254444,
     "no": 216748,
     "total": 471192,
     "pct": 54,
-    "asOf": "2026-09-24T13:10:57.206Z",
-    "velocity": 1799.7
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:10:57.206Z",
+      "pct": 54,
+      "total": 471192
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 54,
       "total": 471192
     }

@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-ipl-impact-player-2027",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 52070,
     "no": 56409,
     "total": 108479,
     "pct": 48,
-    "asOf": "2026-09-24T13:15:00.587Z",
-    "velocity": 414.3
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:15:00.587Z",
+      "pct": 48,
+      "total": 108479
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 48,
       "total": 108479
     }

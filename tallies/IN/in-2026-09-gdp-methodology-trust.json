@@ -1,14 +1,13 @@
 {
   "topicId": "in-2026-09-gdp-methodology-trust",
   "schemaVersion": 1,
-  "synthetic": true,
   "current": {
     "yes": 111472,
     "no": 120761,
     "total": 232233,
     "pct": 48,
-    "asOf": "2026-09-24T13:10:57.205Z",
-    "velocity": 887
+    "asOf": "2026-09-24T16:02:21.775Z",
+    "velocity": 0
   },
   "history": [
     {
@@ -43,6 +42,11 @@
     },
     {
       "at": "2026-09-24T13:10:57.205Z",
+      "pct": 48,
+      "total": 232233
+    },
+    {
+      "at": "2026-09-24T16:02:21.775Z",
       "pct": 48,
       "total": 232233
     }
