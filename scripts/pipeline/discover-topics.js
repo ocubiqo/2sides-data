@@ -23,7 +23,7 @@ import { fileURLToPath } from 'url';
 import Anthropic from '@anthropic-ai/sdk';
 import { normalizeQuestion } from './lib/normalize.js';
 import {
-  textOf, harvestSearchUrls, extractJson, isFresh, sleep,
+  textOf, harvestSearchUrls, filterArticleUrls, extractJson, isFresh, sleep,
 } from './lib/websearch.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -103,6 +103,7 @@ Return the ${perCategory} strongest items as JSON only, no prose:
 
 Rules:
 - Every item must be reported by a source you actually found in search.
+- Search for the specific article or story reporting this, not just the general subject — a reader needs to be able to open one piece of reporting and get the details, not land on a section front page.
 - publishedAt must be a real date from the reporting, within the last ${MAX_ARTICLE_AGE_DAYS} days.
 - If you cannot find ${perCategory} genuinely contested items, return fewer. An empty list is a valid answer.
 - Do not include URLs in your reply; they are taken from the search results directly.`;
@@ -180,15 +181,31 @@ async function main() {
     try {
       const message = await callForCategory(client, category, perCategory, avoid, mockMessage);
 
-      const urls = harvestSearchUrls(message);
+      const rawUrls = harvestSearchUrls(message);
       // No tool-result URLs means either the search never ran or the response
       // shape changed. Either way we have nothing citable, and falling back to
       // the model's prose URLs is precisely the bug this pipeline exists to
       // avoid — so drop the category rather than degrade.
-      if (urls.length === 0) {
+      if (rawUrls.length === 0) {
         console.warn(`  ✗ ${category.id}: no web_search_tool_result URLs — skipping`);
         failures++;
         continue;
+      }
+
+      // A URL can pass provenance (the tool really returned it) and would pass
+      // liveness (it resolves 200) while still being a category/section front
+      // page rather than a story — e.g. theprint.in/category/politics/. Those
+      // clear both of the checks above but don't lead a reader anywhere
+      // specific, so they are filtered out before a topic can ever cite one.
+      const urls = filterArticleUrls(rawUrls);
+      const hubDropped = rawUrls.length - urls.length;
+      if (urls.length === 0) {
+        console.warn(`  ✗ ${category.id}: all ${rawUrls.length} URL(s) looked like hub/section pages — skipping`);
+        failures++;
+        continue;
+      }
+      if (hubDropped > 0) {
+        console.log(`  · ${category.id}: dropped ${hubDropped} hub/section URL(s), ${urls.length} article URL(s) remain`);
       }
 
       const items = parseItems(textOf(message), category);

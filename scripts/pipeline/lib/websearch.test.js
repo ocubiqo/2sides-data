@@ -10,6 +10,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   harvestSearchUrls, stripCitations, textOf, extractJson, isFresh,
+  looksLikeArticleUrl, filterArticleUrls,
 } from './websearch.js';
 
 test('harvests URLs from web_search_tool_result blocks', () => {
@@ -110,4 +111,75 @@ test('isFresh rejects stale, future and unparseable dates', () => {
   assert.ok(!isFresh(iso(Date.now() + 5 * day)), 'a future date means the model invented it');
   assert.ok(!isFresh('not-a-date'));
   assert.ok(!isFresh(undefined));
+});
+
+// ── looksLikeArticleUrl: real examples from the first live daily-batch run ──
+//
+// Every one of these cleared provenance (the tool really returned it) and
+// would have cleared liveness (they resolve 2xx) — hub pages are real, live
+// URLs. This is the check that catches "real and live, but not a story".
+
+test('rejects the actual hub pages the first batch run produced', () => {
+  assert.equal(looksLikeArticleUrl('https://theprint.in/category/politics/'), false);
+  assert.equal(looksLikeArticleUrl('https://www.businesstoday.in/latest/politics'), false);
+  assert.equal(looksLikeArticleUrl('https://www.theindiaforum.in/public-policy'), false);
+});
+
+test('accepts the actual article URLs the same run produced', () => {
+  assert.equal(looksLikeArticleUrl('https://en.wikipedia.org/wiki/2025_Indian_electoral_controversy'), true);
+  assert.equal(
+    looksLikeArticleUrl('https://carnegieendowment.org/podcasts/grand-tamasha/the-state-of-indian-politics-in-2026'),
+    true,
+  );
+  assert.equal(looksLikeArticleUrl('https://en.wikipedia.org/wiki/2026_elections_in_India'), true);
+});
+
+test('accepts realistic article URL shapes from major Indian and international outlets', () => {
+  assert.equal(
+    looksLikeArticleUrl('https://www.thehindu.com/business/four-day-week-proposal/article12345678.ece'),
+    true,
+  );
+  assert.equal(
+    looksLikeArticleUrl('https://www.livemint.com/economy/shorter-week-india-11758000000000.html'),
+    true,
+  );
+  assert.equal(
+    looksLikeArticleUrl('https://www.espncricinfo.com/story/ipl-dedicated-window-debate-1234567'),
+    true,
+  );
+  assert.equal(
+    looksLikeArticleUrl('https://www.reuters.com/world/india/upi-government-transactions-2026-09-15/'),
+    true,
+  );
+  // bbc.com/news/... is a real BBC article shape despite "news" being a
+  // generic word — it's not the LAST segment, so the length-3 slug carries it.
+  assert.equal(looksLikeArticleUrl('https://www.bbc.com/news/world-asia-india-67890123'), true);
+  // A query-string article id (common on .gov.in sites) still counts.
+  assert.equal(looksLikeArticleUrl('https://pib.gov.in/PressReleasePage.aspx?PRID=1234567'), true);
+});
+
+test('rejects taxonomy/listing URLs generally, not just the specific ones seen', () => {
+  assert.equal(looksLikeArticleUrl('https://example.com/tag/elections/'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/author/jane-doe/'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/topics/technology'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/section/world/'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/news'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com/'), false);
+  assert.equal(looksLikeArticleUrl('https://example.com'), false);
+});
+
+test('does not crash on unparseable input', () => {
+  assert.equal(looksLikeArticleUrl('not a url'), false);
+  assert.equal(looksLikeArticleUrl(''), false);
+});
+
+test('filterArticleUrls keeps only the article-shaped entries, preserving their fields', () => {
+  const urls = [
+    { url: 'https://theprint.in/category/politics/', title: 'ThePrint politics' },
+    { url: 'https://en.wikipedia.org/wiki/2026_elections_in_India', title: '2026 elections in India' },
+  ];
+  const kept = filterArticleUrls(urls);
+  assert.equal(kept.length, 1);
+  assert.equal(kept[0].url, 'https://en.wikipedia.org/wiki/2026_elections_in_India');
+  assert.equal(kept[0].title, '2026 elections in India');
 });

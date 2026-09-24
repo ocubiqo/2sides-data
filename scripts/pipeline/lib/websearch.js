@@ -85,6 +85,77 @@ export function extractJson(text, { array = false } = {}) {
   try { return JSON.parse(match[0]); } catch { return null; }
 }
 
+/**
+ * Structural taxonomy markers. If any of these appears as a literal path
+ * segment, the URL is almost never an individual article — real CMSes reserve
+ * these paths for the archive/listing itself, not for a specific story.
+ */
+const HUB_PATH_MARKERS = new Set([
+  'category', 'categories', 'tag', 'tags', 'topic', 'topics',
+  'section', 'sections', 'author', 'authors', 'archive', 'archives',
+]);
+
+/**
+ * Generic subject words that, standing alone as the FINAL path segment, mean
+ * the URL ends at a section front page rather than a specific piece — e.g.
+ * theprint.in/category/politics/ or businesstoday.in/latest/politics.
+ * Checked only against the last segment, so an article whose slug merely
+ * *contains* one of these words (common) is unaffected.
+ */
+const GENERIC_LAST_SEGMENT = new Set([
+  'politics', 'business', 'sports', 'entertainment', 'technology',
+  'national', 'world', 'opinion', 'news', 'latest', 'general', 'india',
+  'public-policy', 'economy',
+]);
+
+/**
+ * Heuristic: true when a URL looks like a specific article rather than a
+ * category/section/tag hub page.
+ *
+ * This matters because provenance and liveness are not enough. A hub page is
+ * a real URL the search tool genuinely returned, and it resolves with a 2xx —
+ * so it clears both of those gates — but it doesn't lead a reader to a story,
+ * only to an index of many. Know More should point at one piece of reporting
+ * or nothing; a source that "answers" every question in a category isn't
+ * really sourcing any of them.
+ *
+ * Pattern matching, not content inspection, so it is necessarily imperfect —
+ * it errs toward rejecting ambiguous cases. Losing a plausibly-good source is
+ * the safe failure mode here; keeping a bad one is not.
+ */
+export function looksLikeArticleUrl(url) {
+  let u;
+  try { u = new URL(url); } catch { return false; }
+
+  // Wikipedia's /wiki/Specific_Title pages are always a specific subject.
+  if (/(^|\.)wikipedia\.org$/i.test(u.hostname) && /^\/wiki\//i.test(u.pathname)) return true;
+
+  const segments = u.pathname.split('/').filter(Boolean);
+  if (segments.length === 0) return false;   // bare homepage
+
+  if (segments.some(s => HUB_PATH_MARKERS.has(s.toLowerCase()))) return false;
+
+  const last = segments[segments.length - 1].toLowerCase();
+  if (GENERIC_LAST_SEGMENT.has(last)) return false;
+
+  // Real article slugs/ids are almost always either multi-word-hyphenated or
+  // carry a numeric id/date — include the query string too, since some CMSes
+  // (government sites especially) put the id there instead of the path.
+  const hyphenCount = (last.match(/-/g) || []).length;
+  const hasNumericId = /\d{4,}/.test(last + u.search) || /\d{4}[-/]\d{2}[-/]\d{2}/.test(u.pathname);
+
+  return hyphenCount >= 2 || hasNumericId;
+}
+
+/**
+ * Filters a harvested-URL list down to ones that look like specific articles.
+ * Applied once, at discovery, so generate-topics.js is never offered a hub
+ * page to cite in the first place.
+ */
+export function filterArticleUrls(urls) {
+  return urls.filter(u => looksLikeArticleUrl(u.url));
+}
+
 /** True when `iso` parses and falls inside [now - maxAgeDays, now]. */
 export function isFresh(iso, maxAgeDays = 30) {
   const t = iso ? new Date(iso).getTime() : NaN;
