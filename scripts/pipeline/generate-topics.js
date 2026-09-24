@@ -21,6 +21,11 @@
  * Usage:
  *   node scripts/pipeline/generate-topics.js [--country IN] [--in .pipeline/candidates.json]
  *        [--count 4] [--min 3] [--rationale .pipeline/rationale.json] [--dry-run]
+ *        [--record <dir>]
+ *
+ * --record <dir> saves the RAW response for every call as
+ * <dir>/generate-<n>-<category>.json — see discover-topics.js's --record for
+ * why: turns a real, paid run into a reusable, free fixture for future testing.
  */
 
 import fs from 'fs';
@@ -40,7 +45,7 @@ const CALL_SPACING_MS = 2000;
 function parseArgs(argv) {
   const args = {
     country: 'IN', in: '.pipeline/candidates.json', count: 4, min: 3,
-    rationale: '.pipeline/rationale.json', dryRun: false,
+    rationale: '.pipeline/rationale.json', dryRun: false, record: null,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -50,6 +55,7 @@ function parseArgs(argv) {
     else if (a === '--min') args.min = Number(argv[++i]);
     else if (a === '--rationale') args.rationale = argv[++i];
     else if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--record') args.record = argv[++i];
   }
   return args;
 }
@@ -137,7 +143,7 @@ Hard rules:
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const { country, count, min, dryRun } = args;
+  const { country, count, min, dryRun, record } = args;
 
   if (!process.env.ANTHROPIC_API_KEY) {
     console.error('✗ ANTHROPIC_API_KEY is required');
@@ -178,6 +184,15 @@ async function main() {
         max_tokens: 1500,
         messages: [{ role: 'user', content: buildPrompt(candidate) }],
       });
+
+      if (record) {
+        const recordDir = path.resolve(ROOT, record);
+        fs.mkdirSync(recordDir, { recursive: true });
+        fs.writeFileSync(
+          path.join(recordDir, `generate-${accepted.length + rejected.length}-${candidate.category}.json`),
+          JSON.stringify(message, null, 2) + '\n',
+        );
+      }
 
       // Scans blocks individually rather than concatenating them — this stage
       // runs with no tools so a single text block is the common case, but

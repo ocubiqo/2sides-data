@@ -6,6 +6,19 @@ name: Daily topic batch
 #
 # Manual for now. The schedule below is deliberately left commented until the
 # output has been watched for a while; switching it on is a one-line change.
+#
+# COST NOTE: `dry_run` does NOT skip the Anthropic API calls — it only skips
+# the final commit/issue. Discovery and generation both call the API for real
+# either way (6 category calls + up to `count` generation calls). If you want
+# to test changes to this workflow or the scripts with ZERO API cost, do it
+# locally with `discover-topics.js --mock fixtures/websearch-response.json
+# --dry-run`, or run the unit tests (`npm test`) — never by dispatching this.
+#
+# `record` (default on, and free — it's the same calls you're already paying
+# for) saves every raw API response as a workflow artifact. Download it,
+# review the responses, and copy whichever ones are worth keeping into
+# fixtures/ for permanent, free replay via --mock. That turns one real run
+# into fixtures you never have to pay to regenerate.
 
 on:
   workflow_dispatch:
@@ -23,9 +36,13 @@ on:
         default: '4'
         required: false
       dry_run:
-        description: Run discovery and generation without writing or opening an issue
+        description: Skip commit/issue — still calls the API for real, see COST NOTE above
         type: boolean
         default: false
+      record:
+        description: Save raw API responses as a downloadable artifact (free — same calls, extra file write)
+        type: boolean
+        default: true
 
   # schedule:
   #   - cron: '30 2 * * *'   # 08:00 IST
@@ -43,6 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       COUNTRY: ${{ inputs.country || 'IN' }}
+      RECORD_DIR: .pipeline/recorded
     steps:
       - uses: actions/checkout@v4
 
@@ -65,7 +83,8 @@ jobs:
           node scripts/pipeline/discover-topics.js \
             --country "$COUNTRY" \
             --per-category "${{ inputs.per_category || '2' }}" \
-            --out .pipeline/candidates.json
+            --out .pipeline/candidates.json \
+            ${{ inputs.record && '--record $RECORD_DIR' || '' }}
 
       - name: Generate topics
         env:
@@ -76,7 +95,19 @@ jobs:
             --in .pipeline/candidates.json \
             --count "${{ inputs.count || '4' }}" \
             --rationale .pipeline/rationale.json \
-            ${{ inputs.dry_run && '--dry-run' || '' }}
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.record && '--record $RECORD_DIR' || '' }}
+
+      # Uploaded regardless of what happens downstream — a failure after this
+      # point must not throw away API calls you already paid for.
+      - name: Upload recorded responses
+        if: ${{ inputs.record }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: recorded-api-responses-${{ github.run_id }}
+          path: .pipeline/recorded/
+          if-no-files-found: ignore
+          retention-days: 30
 
       - name: Verify source liveness
         if: ${{ !inputs.dry_run }}

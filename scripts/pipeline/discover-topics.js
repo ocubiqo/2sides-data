@@ -15,6 +15,15 @@
  *   node scripts/pipeline/discover-topics.js [--country IN] [--per-category 2]
  *                                            [--out .pipeline/candidates.json]
  *                                            [--mock <recorded-response.json>] [--dry-run]
+ *                                            [--record <dir>]
+ *
+ * --record <dir> saves the RAW response for every real API call (skipped
+ * entirely under --mock, which has nothing new to save) as
+ * <dir>/discover-<category>.json. This is what turns one real, paid run into
+ * a permanent, free fixture: commit the files you want to keep under
+ * fixtures/, and every future run against them via --mock costs nothing.
+ * Point it at .pipeline/recorded (gitignored) to inspect without committing,
+ * or straight at a fixtures/ path to keep it.
  */
 
 import fs from 'fs';
@@ -36,7 +45,7 @@ const CALL_SPACING_MS = 2000;
 function parseArgs(argv) {
   const args = {
     country: 'IN', perCategory: 2,
-    out: '.pipeline/candidates.json', mock: null, dryRun: false,
+    out: '.pipeline/candidates.json', mock: null, dryRun: false, record: null,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -45,6 +54,7 @@ function parseArgs(argv) {
     else if (a === '--out') args.out = argv[++i];
     else if (a === '--mock') args.mock = argv[++i];
     else if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--record') args.record = argv[++i];
   }
   return args;
 }
@@ -150,7 +160,7 @@ async function callForCategory(client, category, perCategory, avoid, mockMessage
 }
 
 async function main() {
-  const { country, perCategory, out, mock, dryRun } = parseArgs(process.argv.slice(2));
+  const { country, perCategory, out, mock, dryRun, record } = parseArgs(process.argv.slice(2));
 
   if (!mock && !process.env.ANTHROPIC_API_KEY) {
     console.error('✗ ANTHROPIC_API_KEY is required (or pass --mock <file> to replay a recorded response)');
@@ -187,6 +197,19 @@ async function main() {
     if (i > 0 && !mock) await sleep(CALL_SPACING_MS);
     try {
       const message = await callForCategory(client, category, perCategory, avoid, mockMessage);
+
+      // Save the real response before anything else touches it, so even a
+      // run that goes on to fail downstream still leaves a usable fixture —
+      // this is the raw material for --mock, at the cost of a paid call you
+      // were making anyway.
+      if (record && !mock) {
+        const recordDir = path.resolve(ROOT, record);
+        fs.mkdirSync(recordDir, { recursive: true });
+        fs.writeFileSync(
+          path.join(recordDir, `discover-${category.id}.json`),
+          JSON.stringify(message, null, 2) + '\n',
+        );
+      }
 
       const rawUrls = harvestSearchUrls(message);
       // No tool-result URLs means either the search never ran or the response
