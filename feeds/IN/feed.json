@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-24T13:10:57.330Z",
+  "generatedAt": "2026-09-24T13:15:00.675Z",
   "categories": [
     {
       "id": "politics",
@@ -283,6 +283,84 @@
       }
     },
     {
+      "id": "in-2026-09-ipl-impact-player-2027",
+      "category": "cricket",
+      "question": "Should the IPL scrap the Impact Player rule for 2027?",
+      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
+      "sides": {
+        "yes": "SCRAP IT",
+        "no": "KEEP IT"
+      },
+      "sources": [
+        {
+          "name": "Sunday Guardian Live",
+          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
+          "verified": true,
+          "publishedAt": "2026-06-02"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2026-10-01T13:12:47.412692Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 52070,
+        "no": 56409,
+        "total": 108479,
+        "pct": 48,
+        "asOf": "2026-09-24T13:15:00.587Z",
+        "velocity": 414.3,
+        "trend": [
+          {
+            "at": "2026-09-18T13:15:00.587Z",
+            "pct": 60
+          },
+          {
+            "at": "2026-09-19T13:15:00.587Z",
+            "pct": 58
+          },
+          {
+            "at": "2026-09-20T13:15:00.587Z",
+            "pct": 52
+          },
+          {
+            "at": "2026-09-21T13:15:00.587Z",
+            "pct": 53
+          },
+          {
+            "at": "2026-09-22T13:15:00.587Z",
+            "pct": 53
+          },
+          {
+            "at": "2026-09-23T13:15:00.587Z",
+            "pct": 51
+          },
+          {
+            "at": "2026-09-24T13:15:00.587Z",
+            "pct": 48
+          }
+        ],
+        "delta": "-12",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 48,
+            "votes": 108479
+          },
+          {
+            "label": "Jammu and Kashmir",
+            "pct": 44,
+            "votes": 8597
+          },
+          {
+            "label": "Delhi",
+            "pct": 57,
+            "votes": 6225
+          }
+        ]
+      }
+    },
+    {
       "id": "in-2026-09-employers-allowed-exclude-job-applicants",
       "category": "jobs",
       "question": "Should employers be allowed to exclude job applicants based on their state of origin?",
@@ -368,6 +446,162 @@
             "label": "Odisha",
             "pct": 60,
             "votes": 19074
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-cbse-three-language-mandatory",
+      "category": "education",
+      "question": "Should a third language be compulsory in CBSE schools from Class 6?",
+      "context": "CBSE is phasing in a compulsory third language from 2026-27, with two of three required to be Indian languages. Tamil Nadu calls it disguised Hindi imposition and declined ₹3,458 crore in incentives to keep two languages; the Centre frames it as promoting linguistic diversity.",
+      "sides": {
+        "yes": "KEEP IT COMPULSORY",
+        "no": "LEAVE IT OPTIONAL"
+      },
+      "sources": [
+        {
+          "name": "Careers360",
+          "url": "https://news.careers360.com/cbse-curriculum-2026-27-class-9-10-syllabus-3-language-formula-hindi-imposition-mk-staln-tamil-nadu-criticism-online-indian-languages",
+          "verified": true,
+          "publishedAt": "2026-04-04"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2026-10-01T13:12:47.412692Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 101308,
+        "no": 105442,
+        "total": 206750,
+        "pct": 49,
+        "asOf": "2026-09-24T13:15:00.521Z",
+        "velocity": 789.7,
+        "trend": [
+          {
+            "at": "2026-09-18T13:15:00.521Z",
+            "pct": 49
+          },
+          {
+            "at": "2026-09-19T13:15:00.521Z",
+            "pct": 53
+          },
+          {
+            "at": "2026-09-20T13:15:00.521Z",
+            "pct": 49
+          },
+          {
+            "at": "2026-09-21T13:15:00.521Z",
+            "pct": 48
+          },
+          {
+            "at": "2026-09-22T13:15:00.521Z",
+            "pct": 49
+          },
+          {
+            "at": "2026-09-23T13:15:00.521Z",
+            "pct": 47
+          },
+          {
+            "at": "2026-09-24T13:15:00.521Z",
+            "pct": 49
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 49,
+            "votes": 206750
+          },
+          {
+            "label": "Rajasthan",
+            "pct": 48,
+            "votes": 11052
+          },
+          {
+            "label": "Haryana",
+            "pct": 44,
+            "votes": 22363
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-social-media-3-hour-takedown",
+      "category": "tech",
+      "question": "Should platforms be legally required to remove flagged content within 3 hours?",
+      "context": "India's amended IT Rules cut the takedown window from 24-36 hours to 3, with more government bodies able to issue orders. The government frames it as user safety and accountability; critics call the compressed timeline and expanded self-regulatory-body powers a censorship risk with too little oversight.",
+      "sides": {
+        "yes": "3 HOURS IS RIGHT",
+        "no": "TOO RISKY"
+      },
+      "sources": [
+        {
+          "name": "WION",
+          "url": "https://www.wionews.com/india-news/india-new-digital-rules-2026-social-media-regulation-digital-authoritarianism-1775214164383/amp",
+          "verified": true,
+          "publishedAt": "2026-04-03"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2026-10-01T13:12:47.412692Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 180801,
+        "no": 384203,
+        "total": 565004,
+        "pct": 32,
+        "asOf": "2026-09-24T13:15:00.588Z",
+        "velocity": 2158,
+        "trend": [
+          {
+            "at": "2026-09-18T13:15:00.588Z",
+            "pct": 33
+          },
+          {
+            "at": "2026-09-19T13:15:00.588Z",
+            "pct": 33
+          },
+          {
+            "at": "2026-09-20T13:15:00.588Z",
+            "pct": 32
+          },
+          {
+            "at": "2026-09-21T13:15:00.588Z",
+            "pct": 32
+          },
+          {
+            "at": "2026-09-22T13:15:00.588Z",
+            "pct": 35
+          },
+          {
+            "at": "2026-09-23T13:15:00.588Z",
+            "pct": 32
+          },
+          {
+            "at": "2026-09-24T13:15:00.588Z",
+            "pct": 32
+          }
+        ],
+        "delta": "-1",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 32,
+            "votes": 565004
+          },
+          {
+            "label": "Punjab",
+            "pct": 38,
+            "votes": 32688
+          },
+          {
+            "label": "Andhra Pradesh",
+            "pct": 33,
+            "votes": 25212
           }
         ]
       }
@@ -541,5 +775,5 @@
       }
     }
   ],
-  "feedVersion": "2026-09-24T13:10:57.330Z-38765a"
+  "feedVersion": "2026-09-24T13:15:00.675Z-4b91fb"
 }

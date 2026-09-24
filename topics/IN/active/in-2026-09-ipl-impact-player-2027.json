@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-ipl-impact-player-2027",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "cricket",
+  "status": "published",
+  "question": "Should the IPL scrap the Impact Player rule for 2027?",
+  "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
+  "sides": {
+    "yes": "SCRAP IT",
+    "no": "KEEP IT"
+  },
+  "sources": [
+    {
+      "name": "Sunday Guardian Live",
+      "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
+      "verified": true,
+      "publishedAt": "2026-06-02"
+    }
+  ],
+  "tags": [],
+  "trendScore": 75,
+  "publishedAt": "2026-09-24T13:14:55.945Z",
+  "activeFrom": "2026-09-24T13:14:55.945Z",
+  "activeUntil": "2026-10-01T13:12:47.412692Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:14:55.945Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-2",
+    "generatedAt": "2026-09-24T13:12:47.412692Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

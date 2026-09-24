@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-social-media-3-hour-takedown",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "tech",
+  "status": "published",
+  "question": "Should platforms be legally required to remove flagged content within 3 hours?",
+  "context": "India's amended IT Rules cut the takedown window from 24-36 hours to 3, with more government bodies able to issue orders. The government frames it as user safety and accountability; critics call the compressed timeline and expanded self-regulatory-body powers a censorship risk with too little oversight.",
+  "sides": {
+    "yes": "3 HOURS IS RIGHT",
+    "no": "TOO RISKY"
+  },
+  "sources": [
+    {
+      "name": "WION",
+      "url": "https://www.wionews.com/india-news/india-new-digital-rules-2026-social-media-regulation-digital-authoritarianism-1775214164383/amp",
+      "verified": true,
+      "publishedAt": "2026-04-03"
+    }
+  ],
+  "tags": [],
+  "trendScore": 68,
+  "publishedAt": "2026-09-24T13:14:55.945Z",
+  "activeFrom": "2026-09-24T13:14:55.945Z",
+  "activeUntil": "2026-10-01T13:12:47.412692Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:14:55.945Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-2",
+    "generatedAt": "2026-09-24T13:12:47.412692Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

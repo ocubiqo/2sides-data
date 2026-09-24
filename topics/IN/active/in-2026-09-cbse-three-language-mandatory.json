@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-cbse-three-language-mandatory",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "education",
+  "status": "published",
+  "question": "Should a third language be compulsory in CBSE schools from Class 6?",
+  "context": "CBSE is phasing in a compulsory third language from 2026-27, with two of three required to be Indian languages. Tamil Nadu calls it disguised Hindi imposition and declined ₹3,458 crore in incentives to keep two languages; the Centre frames it as promoting linguistic diversity.",
+  "sides": {
+    "yes": "KEEP IT COMPULSORY",
+    "no": "LEAVE IT OPTIONAL"
+  },
+  "sources": [
+    {
+      "name": "Careers360",
+      "url": "https://news.careers360.com/cbse-curriculum-2026-27-class-9-10-syllabus-3-language-formula-hindi-imposition-mk-staln-tamil-nadu-criticism-online-indian-languages",
+      "verified": true,
+      "publishedAt": "2026-04-04"
+    }
+  ],
+  "tags": [],
+  "trendScore": 72,
+  "publishedAt": "2026-09-24T13:14:55.945Z",
+  "activeFrom": "2026-09-24T13:14:55.945Z",
+  "activeUntil": "2026-10-01T13:12:47.412692Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-24T13:14:55.945Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-2",
+    "generatedAt": "2026-09-24T13:12:47.412692Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

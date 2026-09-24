@@ -1,0 +1,69 @@
+{
+  "topicId": "in-2026-09-social-media-3-hour-takedown",
+  "schemaVersion": 1,
+  "synthetic": true,
+  "current": {
+    "yes": 180801,
+    "no": 384203,
+    "total": 565004,
+    "pct": 32,
+    "asOf": "2026-09-24T13:15:00.588Z",
+    "velocity": 2158
+  },
+  "history": [
+    {
+      "at": "2026-09-18T13:15:00.588Z",
+      "pct": 33,
+      "total": 254252
+    },
+    {
+      "at": "2026-09-19T13:15:00.588Z",
+      "pct": 33,
+      "total": 306044
+    },
+    {
+      "at": "2026-09-20T13:15:00.588Z",
+      "pct": 32,
+      "total": 357836
+    },
+    {
+      "at": "2026-09-21T13:15:00.588Z",
+      "pct": 32,
+      "total": 409628
+    },
+    {
+      "at": "2026-09-22T13:15:00.588Z",
+      "pct": 35,
+      "total": 461420
+    },
+    {
+      "at": "2026-09-23T13:15:00.588Z",
+      "pct": 32,
+      "total": 513212
+    },
+    {
+      "at": "2026-09-24T13:15:00.588Z",
+      "pct": 32,
+      "total": 565004
+    }
+  ],
+  "regions": [
+    {
+      "code": "IN-PB",
+      "label": "Punjab",
+      "pct": 38,
+      "votes": 32688
+    },
+    {
+      "code": "IN-AP",
+      "label": "Andhra Pradesh",
+      "pct": 33,
+      "votes": 25212
+    }
+  ],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}
