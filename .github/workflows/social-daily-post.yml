@@ -1,0 +1,34 @@
+name: Facebook / Instagram daily post
+
+# Posts one topic (image + caption) to the Facebook Page and/or Instagram
+# account — see web/functions/api/social/post-daily.ts (2sides repo, Phase
+# D7 of the multi-channel reach plan). Same pattern as
+# telegram-daily-post.yml: this workflow makes ONE authenticated HTTP call;
+# the Function owns picking which topic and calling the Graph API.
+#
+# Manual for now, schedule commented out — Meta app review for
+# pages_manage_posts + instagram_content_publish has to be approved first
+# (see MULTI_CHANNEL_REACH_PLAN.md in the 2sides repo), which is a wall-clock
+# wait, not something this workflow can shortcut. Safe to leave enabled
+# before that's done: VOTE_API_BASE/VOTE_API_ADMIN_TOKEN unset is a no-op.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 4 * * *'   # ~9:30am IST
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post today's topic to Facebook/Instagram
+        env:
+          VOTE_API_BASE: ${{ secrets.VOTE_API_BASE }}
+          VOTE_API_ADMIN_TOKEN: ${{ secrets.VOTE_API_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$VOTE_API_BASE" ] || [ -z "$VOTE_API_ADMIN_TOKEN" ]; then
+            echo "· VOTE_API_BASE/VOTE_API_ADMIN_TOKEN unset — nothing to post to yet"
+            exit 0
+          fi
+          curl -fsS -X POST "$VOTE_API_BASE/api/social/post-daily" \
+            -H "authorization: Bearer $VOTE_API_ADMIN_TOKEN"
