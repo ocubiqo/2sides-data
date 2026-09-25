@@ -1,0 +1,35 @@
+name: Telegram daily poll
+
+# Posts one topic as a native Telegram poll to the configured chat/channel —
+# see web/functions/api/telegram/post-daily.ts (2sides repo, Phase D6 of the
+# multi-channel reach plan). This workflow is deliberately thin: it makes
+# ONE authenticated HTTP call. Everything about WHICH topic to post, calling
+# the Telegram API, and recording the poll lives in that Function, not here
+# — so the decision isn't duplicated in two places.
+#
+# Manual for now, same caution as daily-batch.yml: the schedule below is
+# commented out until a real Telegram bot + channel exist (see
+# MULTI_CHANNEL_REACH_PLAN.md in the 2sides repo for the setup checklist).
+# Dispatching this with VOTE_API_BASE/VOTE_API_ADMIN_TOKEN unset is a no-op
+# (see below), so it's safe to leave enabled even before that setup is done.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '30 3 * * *'   # ~9am IST
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post today's poll
+        env:
+          VOTE_API_BASE: ${{ secrets.VOTE_API_BASE }}
+          VOTE_API_ADMIN_TOKEN: ${{ secrets.VOTE_API_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$VOTE_API_BASE" ] || [ -z "$VOTE_API_ADMIN_TOKEN" ]; then
+            echo "· VOTE_API_BASE/VOTE_API_ADMIN_TOKEN unset — nothing to post to yet"
+            exit 0
+          fi
+          curl -fsS -X POST "$VOTE_API_BASE/api/telegram/post-daily" \
+            -H "authorization: Bearer $VOTE_API_ADMIN_TOKEN"
