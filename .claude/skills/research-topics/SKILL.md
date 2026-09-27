@@ -113,7 +113,15 @@ downloads. Until then:
 6. **Review here in chat** — not a GitHub issue. Present each topic (question,
    context, both sides, source, category, tier, and tier-override reasoning if
    any) directly in the conversation and wait for explicit approval per batch.
-   Small batches (2–3 at a time) work better than one large batch.
+   - Batch size follows the material, not a fixed cap. 2–3 is fine when that's
+     all that's genuinely trending and two-sided; when research turns up more
+     — 5, 10, whatever the day's news actually supports — compose and present
+     all of it in one pass rather than artificially splitting into several
+     small batches or holding candidates back. The limiting factor is quality
+     (genuinely two-sided, currently trending, real sources) and validation
+     passing, never a target count.
+   - Don't pad a batch to hit a round number, and don't trim a strong batch
+     down to look conservative — report what the research actually found.
 
 7. **Publish the approved batch:**
    ```
