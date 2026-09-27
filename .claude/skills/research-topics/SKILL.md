@@ -1,6 +1,6 @@
 ---
 name: research-topics
-description: Hand-research and publish new 2 Sides voting topics using Claude Code's own WebSearch/WebFetch (zero Anthropic-API cost) instead of the paid discover-topics.js/generate-topics.js pipeline. Use when asked to add topics, find trending India news to vote on, or "research topics" for the app — especially while daily-batch.yml stays dormant pre-traction.
+description: Hand-research and publish new 2 Sides voting topics using Claude Code's own WebSearch/WebFetch (zero Anthropic-API cost) instead of the paid discover-topics.js/generate-topics.js pipeline. Use when asked to add topics, find trending India news to vote on, or "research topics" for the app — especially while daily-batch.yml stays dormant pre-traction. Sourcing spans domestic Indian coverage AND global coverage where India is a major point of discussion (trade/tariffs, foreign policy, UN/G20/BRICS, global tech/AI regulation citing India, etc.).
 ---
 
 # Research topics (cost-free, hand-curated)
@@ -21,9 +21,28 @@ downloads. Until then:
 ## Workflow
 
 1. **Research via WebSearch/WebFetch.** Look for genuinely two-sided, currently
-   contested Indian news — no forced category balance. Go by what's hot/trending;
-   the goal is maximum engagement, not even coverage across
-   politics/cricket/tech/jobs/bollywood/education.
+   contested news relevant to an Indian audience — no forced category balance. Go
+   by what's hot/trending; the goal is maximum engagement, not even coverage
+   across politics/cricket/tech/jobs/bollywood/education.
+   - **Two sourcing lanes, both in scope every run:**
+     - **Domestic** — Indian outlets, Indian politics/sport/entertainment/jobs
+       news, what's trending on Indian Twitter/Instagram/Facebook.
+     - **Global-with-India-angle** — international stories where India (the
+       country, its government, its companies, or its citizens) is a major
+       subject: US/EU trade or tariff disputes, India's UN Security Council
+       bid, foreign-policy rows, G20/BRICS/Quad positioning, global AI/tech
+       regulation that names India, India-Pakistan or India-China friction as
+       covered by international press, global rankings/reports where India's
+       standing is the story. Search international outlets (Reuters, AP,
+       Al Jazeera, BBC, etc.), not only `.in` domains, for this lane — a
+       purely domestic search misses these by construction.
+     Run at least one search pass for each lane per batch; don't let the
+     global lane silently drop back to domestic-only just because it's listed
+     second.
+   - `country` stays `"IN"` for every topic regardless of which lane it came
+     from — this widens *sourcing*, not the app's country scope. The question
+     must still be framed around what it means for India/Indians, not as a
+     neutral global explainer.
    - Prefer real article URLs. Reject/avoid hub pages: `WebSearch`/`WebFetch` results
      that end in a category/tag/section/topic/author/archive listing page rather
      than a specific story. See `scripts/pipeline/lib/websearch.js` →
@@ -71,6 +90,11 @@ downloads. Until then:
    government censorship power, press freedom, or similarly sensitive framing
    even if dressed as sport/tech/entertainment. Add a one-line comment in the
    compose script explaining the override.
+   - Global-lane topics get the same scrutiny, not less: a trade/tariff dispute
+     or foreign-policy row filed under `politics` already defaults to
+     `review_required`, but a global story dressed as `tech`/`jobs`/`bollywood`
+     (e.g. a foreign company's India layoffs, a global platform's India-specific
+     regulation) still needs the same override judgment as a domestic one.
 
 4. **Allowlist judgment.** Sources merely need a plausible, real, live URL — they
    don't need to be on `config/source-allowlist.json` to publish (unverified
