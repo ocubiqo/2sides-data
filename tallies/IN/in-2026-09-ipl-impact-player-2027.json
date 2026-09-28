@@ -3,17 +3,22 @@
   "schemaVersion": 1,
   "current": {
     "yes": 2,
-    "no": 0,
-    "total": 2,
-    "pct": 100,
-    "asOf": "2026-09-28T15:16:27.894Z",
-    "velocity": 0
+    "no": 1,
+    "total": 3,
+    "pct": 67,
+    "asOf": "2026-09-28T22:42:17.484Z",
+    "velocity": 0.1
   },
   "history": [
     {
       "at": "2026-09-28T15:16:27.894Z",
       "pct": 100,
       "total": 2
+    },
+    {
+      "at": "2026-09-28T22:42:17.484Z",
+      "pct": 67,
+      "total": 3
     }
   ],
   "regions": [],
