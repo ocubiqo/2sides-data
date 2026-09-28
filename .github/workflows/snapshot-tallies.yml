@@ -80,16 +80,63 @@ jobs:
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
-      # Cross-repo trigger — the website only rebuilds when this fires. See
-      # the multi-channel reach plan, Phase D4/trap T4. No-ops (curl skipped)
-      # until CLOUDFLARE_PAGES_DEPLOY_HOOK is set, so this is inert today.
-      - name: Trigger Cloudflare Pages rebuild
+      # Rebuilds and redeploys the site — the website only picks up new vote
+      # data when this runs. See the multi-channel reach plan, Phase D4/trap
+      # T4. This is NOT a Cloudflare Pages "deploy hook" (that only works for
+      # a git-connected Pages project, which web/ isn't — it's deployed via
+      # `wrangler pages deploy` from a built dist/, so there is nothing on
+      # Cloudflare's side for a hook to rebuild from). Instead this checks
+      # out the site's own repo (private — ocubiqo/2sides, separate from
+      # this public ocubiqo/2sides-data repo the cron lives in) and runs the
+      # exact same build + deploy a human would run locally.
+      #
+      # Two secrets this needs that VOTE_API_BASE/VOTE_API_ADMIN_TOKEN don't
+      # cover, both currently unset (no-ops until set — see the `if` guards):
+      #   - REPO_2SIDES_READ_TOKEN: a GitHub PAT (fine-grained, read-only,
+      #     scoped to ONLY ocubiqo/2sides "Contents") — needed because the
+      #     default GITHUB_TOKEN this workflow gets only has access to the
+      #     repo it runs in (2sides-data), not a separate private repo.
+      #   - CLOUDFLARE_API_TOKEN: a Cloudflare API token scoped to
+      #     "Cloudflare Pages:Edit" on this account only — wrangler reads it
+      #     non-interactively via this env var, no `wrangler login` needed.
+      - name: Checkout website repo
+        id: checkout-site
         if: steps.commit.outputs.pushed == 'true'
-        env:
-          HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
         run: |
-          if [ -z "$HOOK" ]; then
-            echo "· CLOUDFLARE_PAGES_DEPLOY_HOOK unset — feed changed but the site won't rebuild yet"
+          if [ -z "${{ secrets.REPO_2SIDES_READ_TOKEN }}" ]; then
+            echo "· REPO_2SIDES_READ_TOKEN unset — feed changed but the site won't rebuild yet"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          curl -fsS -X POST "$HOOK"
+          echo "ok=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.checkout-site.outputs.ok == 'true'
+        with:
+          repository: ocubiqo/2sides
+          token: ${{ secrets.REPO_2SIDES_READ_TOKEN }}
+          path: site
+          # web/ alone is NOT enough to build — web/tsconfig.json maps
+          # `@app/*` to `../WarSimMobile/src/*` (the shared-contract rule:
+          # tokens/types/perspective imported directly, never duplicated —
+          # see Phase D0). Both dirs must come down together.
+          sparse-checkout: |
+            web
+            WarSimMobile/src
+          sparse-checkout-cone-mode: false
+
+      - name: Build + deploy website
+        if: steps.checkout-site.outputs.ok == 'true'
+        working-directory: site/web
+        env:
+          SITE_ENV: production
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: a78eb34288c255044ad926717937d038
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "· CLOUDFLARE_API_TOKEN unset — feed changed but the site won't rebuild yet"
+            exit 0
+          fi
+          npm ci
+          npm run build
+          npx wrangler pages deploy dist --project-name=2sides-web --branch=main --commit-dirty=true
