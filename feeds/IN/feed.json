@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-28T14:51:25.147Z",
+  "generatedAt": "2026-09-28T15:06:52.718Z",
   "categories": [
     {
       "id": "politics",
@@ -63,19 +63,58 @@
       "activeUntil": "2026-10-01T13:06:56.739110Z",
       "contentVersion": 1,
       "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
-        "velocity": 0,
+        "yes": 2,
+        "no": 1,
+        "total": 3,
+        "pct": 67,
+        "asOf": "2026-09-28T15:06:52.595Z",
+        "velocity": 10.1,
         "trend": [],
         "delta": "0",
         "regions": [
           {
             "label": "India",
-            "pct": 0,
-            "votes": 0
+            "pct": 67,
+            "votes": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-ipl-impact-player-2027",
+      "category": "cricket",
+      "question": "Should the IPL scrap the Impact Player rule for 2027?",
+      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
+      "sides": {
+        "yes": "SCRAP IT",
+        "no": "KEEP IT"
+      },
+      "sources": [
+        {
+          "name": "Sunday Guardian Live",
+          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
+          "verified": true,
+          "publishedAt": "2026-06-02"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2026-10-01T13:12:47.412692Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 2,
+        "no": 0,
+        "total": 2,
+        "pct": 100,
+        "asOf": "2026-09-28T15:06:52.595Z",
+        "velocity": 6.7,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 2
           }
         ]
       }
@@ -103,18 +142,57 @@
       "contentVersion": 1,
       "tally": {
         "yes": 0,
-        "no": 0,
-        "total": 0,
+        "no": 1,
+        "total": 1,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
-        "velocity": 0,
+        "asOf": "2026-09-28T15:06:52.595Z",
+        "velocity": 3.4,
         "trend": [],
         "delta": "0",
         "regions": [
           {
             "label": "India",
             "pct": 0,
-            "votes": 0
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-wfh-patriotic-duty",
+      "category": "jobs",
+      "question": "Should employees work from home to help conserve fuel, as PM Modi urged?",
+      "context": "PM Modi asked Indians to revive work-from-home to cut commuting and fuel use amid the West Asia crisis, calling it a patriotic duty. The appeal reopened a settled fight: 72% of IT firms mandate in-office presence, arguing physical offices remain essential for productivity.",
+      "sides": {
+        "yes": "WFH FOR THE CAUSE",
+        "no": "OFFICE MATTERS"
+      },
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news/pm-modi-work-from-home-india-inc-return-office-debate-126051100654_1.html",
+          "verified": true,
+          "publishedAt": "2026-05-11"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:18:14.597Z",
+      "activeUntil": "2026-10-01T13:16:26.452486Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 0,
+        "total": 1,
+        "pct": 100,
+        "asOf": "2026-09-28T15:06:52.595Z",
+        "velocity": 3.4,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 1
           }
         ]
       }
@@ -157,85 +235,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
-        "velocity": 0,
-        "trend": [],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-ipl-impact-player-2027",
-      "category": "cricket",
-      "question": "Should the IPL scrap the Impact Player rule for 2027?",
-      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
-      "sides": {
-        "yes": "SCRAP IT",
-        "no": "KEEP IT"
-      },
-      "sources": [
-        {
-          "name": "Sunday Guardian Live",
-          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
-          "verified": true,
-          "publishedAt": "2026-06-02"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-24T13:14:55.945Z",
-      "activeUntil": "2026-10-01T13:12:47.412692Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
-        "velocity": 0,
-        "trend": [],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-wfh-patriotic-duty",
-      "category": "jobs",
-      "question": "Should employees work from home to help conserve fuel, as PM Modi urged?",
-      "context": "PM Modi asked Indians to revive work-from-home to cut commuting and fuel use amid the West Asia crisis, calling it a patriotic duty. The appeal reopened a settled fight: 72% of IT firms mandate in-office presence, arguing physical offices remain essential for productivity.",
-      "sides": {
-        "yes": "WFH FOR THE CAUSE",
-        "no": "OFFICE MATTERS"
-      },
-      "sources": [
-        {
-          "name": "Business Standard",
-          "url": "https://www.business-standard.com/companies/news/pm-modi-work-from-home-india-inc-return-office-debate-126051100654_1.html",
-          "verified": true,
-          "publishedAt": "2026-05-11"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-24T13:18:14.597Z",
-      "activeUntil": "2026-10-01T13:16:26.452486Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -274,7 +274,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -325,7 +325,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -364,7 +364,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -403,7 +403,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -454,7 +454,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -493,7 +493,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-09-28T14:49:00.626Z",
+        "asOf": "2026-09-28T15:06:52.595Z",
         "velocity": 0,
         "trend": [],
         "delta": "0",
@@ -507,5 +507,5 @@
       }
     }
   ],
-  "feedVersion": "2026-09-28T14:51:25.147Z-49054a"
+  "feedVersion": "2026-09-28T15:06:52.718Z-9f14a0"
 }
