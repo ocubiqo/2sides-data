@@ -14,6 +14,7 @@ import path from 'path';
 import crypto from 'crypto';
 
 import { fileURLToPath } from 'url';
+import { rank } from './lib/ranking.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const ROOT = path.resolve(__dirname, '../..');
@@ -60,15 +61,6 @@ function deltaLabel(series) {
   if (series.length < 2) return '0';
   const d = series[series.length - 1] - series[0];
   return d > 0 ? `+${d}` : String(d);
-}
-
-function rank(topic, tally) {
-  const hours = (Date.now() - new Date(topic.publishedAt).getTime()) / 3_600_000;
-  const recency = Math.pow(0.5, hours / 36);
-  const trend = (topic.trendScore || 50) / 100;
-  // A topic nobody has voted on yet should still surface, so the floor is 1.
-  const engagement = Math.log10(Math.max(1, tally.current.total)) / 6;
-  return trend * recency * (1 + engagement);
 }
 
 /** Down-weights a third-or-later consecutive topic from the same category. */
