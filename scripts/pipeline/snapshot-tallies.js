@@ -174,6 +174,17 @@ async function main() {
     const next = {
       topicId: id,
       schemaVersion: 1,
+      // Carried forward as-is, never invented or cleared here — this script's
+      // job is to append a tally point, not to decide whether a topic's
+      // numbers are real. BUG FIXED: this field used to be silently dropped
+      // on every run (the object below was built from scratch each time),
+      // which meant every 6-hourly cron tick quietly defeated
+      // validate-data.js's synthetic-tally interlock for any topic it
+      // touched — a flip to dataMode "live" would not have caught fake
+      // numbers seeded before this fix. Only seed-sample-tallies.js (which
+      // never overwrites a real tally, see its `synthetic !== true` guard)
+      // and manual deletion should ever change this field.
+      ...(existing.synthetic === true ? { synthetic: true } : {}),
       current: { yes, no, total, pct: point.pct, asOf: nowIso, velocity },
       history,
       regions: counts ? buildRegions(counts.regions, country) : existing.regions || [],
