@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-oracle-india-layoffs-restructuring",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "published",
+  "question": "Are Oracle's India layoffs fair restructuring or exploitative?",
+  "context": "Oracle cut ~3,000 more India jobs in Sept, after ~12,000 earlier in 2026, while posting record profit and $55.7B in AI/cloud spend. A union calls it illegal retrenchment under labour law with too-short notice; Oracle frames it as shifting resources to AI/cloud.",
+  "sides": {
+    "yes": "NEEDED SHIFT",
+    "no": "PROFIT ABUSE"
+  },
+  "sources": [
+    {
+      "name": "American Bazaar",
+      "url": "https://americanbazaaronline.com/2026/09/01/oracle-layoffs-in-india-today-3000-job-cuts-beyond-us-487356/",
+      "verified": false,
+      "publishedAt": "2026-09-01"
+    }
+  ],
+  "tags": [],
+  "trendScore": 60,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:34:26.992Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:34:26.992Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

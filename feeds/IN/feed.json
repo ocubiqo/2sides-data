@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-09-28T14:51:25.147Z",
+  "generatedAt": "2026-09-28T15:07:17.069Z",
   "categories": [
     {
       "id": "politics",
@@ -41,6 +41,240 @@
     }
   ],
   "topics": [
+    {
+      "id": "in-2026-09-rohit-kohli-odi-future",
+      "category": "cricket",
+      "question": "Should Rohit Sharma and Virat Kohli keep their ODI spots for 2027?",
+      "context": "Ravi Shastri warned selectors to 'watch their chairs' if they drop Rohit and Kohli from ODIs, calling them 'giants of the white-ball game' eyeing the 2027 World Cup. Critics point to younger options like Shubman Gill and question succession planning.",
+      "sides": {
+        "yes": "KEEP THEM",
+        "no": "MAKE WAY"
+      },
+      "sources": [
+        {
+          "name": "CricketAddictor",
+          "url": "https://cricketaddictor.com/cricket-news/watch-their-chairs-ravi-shastri-sends-warning-to-those-targeting-rohit-sharma-virat-kohli-464329/",
+          "verified": false,
+          "publishedAt": "2026-09-27"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:44:47.661Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-h1b-visa-crisis-india-response",
+      "category": "jobs",
+      "question": "Should India take a tougher line with the US over the H-1B crisis?",
+      "context": "All 5 Indian consulates show zero H-1B stamping slots through 2026, stranding thousands after the US narrowed dropbox renewals, added social-media vetting, and ended third-country stamping. MEA says it has only 'flagged concerns' diplomatically; Nasscom pegs the cost near $120M/month.",
+      "sides": {
+        "yes": "PUSH HARDER",
+        "no": "STAY DIPLOMATIC"
+      },
+      "sources": [
+        {
+          "name": "Deccan Chronicle",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/india-conveys-concern-to-us-over-cancellation-of-h-1b-visa-interviews-1926426",
+          "verified": false,
+          "publishedAt": "2025-12-26"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:44:47.661Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-oracle-india-layoffs-restructuring",
+      "category": "jobs",
+      "question": "Are Oracle's India layoffs fair restructuring or exploitative?",
+      "context": "Oracle cut ~3,000 more India jobs in Sept, after ~12,000 earlier in 2026, while posting record profit and $55.7B in AI/cloud spend. A union calls it illegal retrenchment under labour law with too-short notice; Oracle frames it as shifting resources to AI/cloud.",
+      "sides": {
+        "yes": "NEEDED SHIFT",
+        "no": "PROFIT ABUSE"
+      },
+      "sources": [
+        {
+          "name": "American Bazaar",
+          "url": "https://americanbazaaronline.com/2026/09/01/oracle-layoffs-in-india-today-3000-job-cuts-beyond-us-487356/",
+          "verified": false,
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-india-japan-umpire-pressure",
+      "category": "cricket",
+      "question": "Did India pressure umpires to overturn a wide call vs Japan?",
+      "context": "In a rain-shortened T20 on Sep 22, umpire Chris Thurgate called a wide in the final over; after India's captain and bowler protested, umpires reversed it without review, costing Japan the extra ball they needed. Critics call it bullying; India has not addressed it directly.",
+      "sides": {
+        "yes": "UMPIRES CAVED",
+        "no": "FAIR APPEAL"
+      },
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match",
+          "verified": false,
+          "publishedAt": "2026-09-22"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-karnataka-social-media-under-16-ban",
+      "category": "tech",
+      "question": "Should states be allowed to ban social media for under-16s?",
+      "context": "Karnataka's Siddaramaiah announced barring under-16s from social media, citing addiction and mental-health harm. Critics question state constitutional authority, cite weak age-verification, shared-device workarounds, and risk of restricting girls' access further.",
+      "sides": {
+        "yes": "PROTECT KIDS",
+        "no": "STATE OVERREACH"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/06/indias-karnataka-signals-intent-to-ban-social-media-for-under-16s/",
+          "verified": false,
+          "publishedAt": "2026-03-06"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-unsc-seat-without-veto",
+      "category": "politics",
+      "question": "Should India accept a UN Security Council seat without veto power?",
+      "context": "India has ruled out joining an expanded UNSC without full veto rights, calling any two-tier arrangement discriminatory, even as Russia, the V4 nations, Portugal and Mauritius back its bid. China alone withholds support, and Charter reform needs all P5 to ratify.",
+      "sides": {
+        "yes": "TAKE THE SEAT",
+        "no": "HOLD OUT"
+      },
+      "sources": [
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/27/russia-backs-indias-unsc-seat.html",
+          "verified": false,
+          "publishedAt": "2026-09-27"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:44:47.661Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-09-28T15:07:17.069Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
     {
       "id": "in-2026-09-trophy-protest-politics",
       "category": "cricket",
@@ -507,5 +741,5 @@
       }
     }
   ],
-  "feedVersion": "2026-09-28T14:51:25.147Z-49054a"
+  "feedVersion": "2026-09-28T15:07:17.069Z-f792b9"
 }

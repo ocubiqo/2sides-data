@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-india-japan-umpire-pressure",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "cricket",
+  "status": "published",
+  "question": "Did India pressure umpires to overturn a wide call vs Japan?",
+  "context": "In a rain-shortened T20 on Sep 22, umpire Chris Thurgate called a wide in the final over; after India's captain and bowler protested, umpires reversed it without review, costing Japan the extra ball they needed. Critics call it bullying; India has not addressed it directly.",
+  "sides": {
+    "yes": "UMPIRES CAVED",
+    "no": "FAIR APPEAL"
+  },
+  "sources": [
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match",
+      "verified": false,
+      "publishedAt": "2026-09-22"
+    }
+  ],
+  "tags": [],
+  "trendScore": 58,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:34:26.992Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:34:26.992Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

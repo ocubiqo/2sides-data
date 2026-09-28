@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-unsc-seat-without-veto",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "published",
+  "question": "Should India accept a UN Security Council seat without veto power?",
+  "context": "India has ruled out joining an expanded UNSC without full veto rights, calling any two-tier arrangement discriminatory, even as Russia, the V4 nations, Portugal and Mauritius back its bid. China alone withholds support, and Charter reform needs all P5 to ratify.",
+  "sides": {
+    "yes": "TAKE THE SEAT",
+    "no": "HOLD OUT"
+  },
+  "sources": [
+    {
+      "name": "The Week",
+      "url": "https://www.theweek.in/news/india/2026/09/27/russia-backs-indias-unsc-seat.html",
+      "verified": false,
+      "publishedAt": "2026-09-27"
+    }
+  ],
+  "tags": [],
+  "trendScore": 52,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:44:47.661Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:44:47.661Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

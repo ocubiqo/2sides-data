@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-rohit-kohli-odi-future",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "cricket",
+  "status": "published",
+  "question": "Should Rohit Sharma and Virat Kohli keep their ODI spots for 2027?",
+  "context": "Ravi Shastri warned selectors to 'watch their chairs' if they drop Rohit and Kohli from ODIs, calling them 'giants of the white-ball game' eyeing the 2027 World Cup. Critics point to younger options like Shubman Gill and question succession planning.",
+  "sides": {
+    "yes": "KEEP THEM",
+    "no": "MAKE WAY"
+  },
+  "sources": [
+    {
+      "name": "CricketAddictor",
+      "url": "https://cricketaddictor.com/cricket-news/watch-their-chairs-ravi-shastri-sends-warning-to-those-targeting-rohit-sharma-virat-kohli-464329/",
+      "verified": false,
+      "publishedAt": "2026-09-27"
+    }
+  ],
+  "tags": [],
+  "trendScore": 70,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:44:47.661Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:44:47.661Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

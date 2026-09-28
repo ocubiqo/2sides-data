@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-karnataka-social-media-under-16-ban",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "tech",
+  "status": "published",
+  "question": "Should states be allowed to ban social media for under-16s?",
+  "context": "Karnataka's Siddaramaiah announced barring under-16s from social media, citing addiction and mental-health harm. Critics question state constitutional authority, cite weak age-verification, shared-device workarounds, and risk of restricting girls' access further.",
+  "sides": {
+    "yes": "PROTECT KIDS",
+    "no": "STATE OVERREACH"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/indias-karnataka-signals-intent-to-ban-social-media-for-under-16s/",
+      "verified": false,
+      "publishedAt": "2026-03-06"
+    }
+  ],
+  "tags": [],
+  "trendScore": 55,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:34:26.992Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:34:26.992Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

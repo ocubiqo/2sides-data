@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-09-h1b-visa-crisis-india-response",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "published",
+  "question": "Should India take a tougher line with the US over the H-1B crisis?",
+  "context": "All 5 Indian consulates show zero H-1B stamping slots through 2026, stranding thousands after the US narrowed dropbox renewals, added social-media vetting, and ended third-country stamping. MEA says it has only 'flagged concerns' diplomatically; Nasscom pegs the cost near $120M/month.",
+  "sides": {
+    "yes": "PUSH HARDER",
+    "no": "STAY DIPLOMATIC"
+  },
+  "sources": [
+    {
+      "name": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/nation/current-affairs/india-conveys-concern-to-us-over-cancellation-of-h-1b-visa-interviews-1926426",
+      "verified": false,
+      "publishedAt": "2025-12-26"
+    }
+  ],
+  "tags": [],
+  "trendScore": 64,
+  "publishedAt": "2026-09-28T15:07:05.152Z",
+  "activeFrom": "2026-09-28T15:07:05.152Z",
+  "activeUntil": "2026-10-04T14:44:47.661Z",
+  "review": {
+    "tier": "review_required",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-09-28T15:07:05.152Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-4",
+    "generatedAt": "2026-09-27T14:44:47.661Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}
