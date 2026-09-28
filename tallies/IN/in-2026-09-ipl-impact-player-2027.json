@@ -1,0 +1,25 @@
+{
+  "topicId": "in-2026-09-ipl-impact-player-2027",
+  "schemaVersion": 1,
+  "current": {
+    "yes": 0,
+    "no": 0,
+    "total": 0,
+    "pct": 0,
+    "asOf": "2026-09-28T14:49:00.626Z",
+    "velocity": 0
+  },
+  "history": [
+    {
+      "at": "2026-09-28T14:49:00.626Z",
+      "pct": 0,
+      "total": 0
+    }
+  ],
+  "regions": [],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}
