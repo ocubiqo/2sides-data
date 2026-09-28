@@ -2,18 +2,18 @@
   "topicId": "in-2026-09-trophy-protest-politics",
   "schemaVersion": 1,
   "current": {
-    "yes": 0,
-    "no": 0,
-    "total": 0,
-    "pct": 0,
-    "asOf": "2026-09-28T14:49:00.626Z",
-    "velocity": 0
+    "yes": 2,
+    "no": 1,
+    "total": 3,
+    "pct": 67,
+    "asOf": "2026-09-28T15:06:52.595Z",
+    "velocity": 10.1
   },
   "history": [
     {
-      "at": "2026-09-28T14:49:00.626Z",
-      "pct": 0,
-      "total": 0
+      "at": "2026-09-28T15:06:52.595Z",
+      "pct": 67,
+      "total": 3
     }
   ],
   "regions": [],
