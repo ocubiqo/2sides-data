@@ -110,20 +110,30 @@ jobs:
           fi
           echo "ok=true" >> "$GITHUB_OUTPUT"
 
+      # Full checkout, not sparse — web/ alone is NOT enough to build anyway
+      # (web/tsconfig.json maps `@app/*` to `../WarSimMobile/src/*`, the
+      # shared-contract rule: tokens/types/perspective imported directly,
+      # never duplicated — see Phase D0), so sparse-checkout was only ever
+      # saving partial clone time, not avoiding a real dependency. Kept
+      # simple and robust over that modest saving: a first attempt at
+      # sparse-checkout here reported success but did not actually produce
+      # the expected directory (non-cone-mode pattern matching didn't behave
+      # as expected, and this workflow can't be interactively debugged), so
+      # a plain full checkout removes that whole failure class.
       - uses: actions/checkout@v4
         if: steps.checkout-site.outputs.ok == 'true'
         with:
           repository: ocubiqo/2sides
           token: ${{ secrets.REPO_2SIDES_READ_TOKEN }}
+          ref: main
           path: site
-          # web/ alone is NOT enough to build — web/tsconfig.json maps
-          # `@app/*` to `../WarSimMobile/src/*` (the shared-contract rule:
-          # tokens/types/perspective imported directly, never duplicated —
-          # see Phase D0). Both dirs must come down together.
-          sparse-checkout: |
-            web
-            WarSimMobile/src
-          sparse-checkout-cone-mode: false
+
+      - name: Confirm expected layout before building
+        if: steps.checkout-site.outputs.ok == 'true'
+        run: |
+          test -d site/web || { echo "✗ site/web missing after checkout — repo layout assumption is wrong"; ls -la site; exit 1; }
+          test -d site/WarSimMobile/src || { echo "✗ site/WarSimMobile/src missing — @app/* imports will fail"; ls -la site; exit 1; }
+          echo "✓ site/web and site/WarSimMobile/src both present"
 
       - name: Build + deploy website
         if: steps.checkout-site.outputs.ok == 'true'
