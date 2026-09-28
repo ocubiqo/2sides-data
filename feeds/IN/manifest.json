@@ -1,8 +1,8 @@
 {
-  "feedVersion": "2026-09-28T14:49:00.701Z-49054a",
+  "feedVersion": "2026-09-28T14:51:25.147Z-49054a",
   "topicCount": 11,
-  "generatedAt": "2026-09-28T14:49:00.701Z",
-  "dataMode": "sample",
+  "generatedAt": "2026-09-28T14:51:25.147Z",
+  "dataMode": "live",
   "minAppVersion": "2.3.0",
   "ads": {
     "enabled": true,

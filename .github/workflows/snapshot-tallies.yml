@@ -56,8 +56,18 @@ jobs:
           VOTE_API_ADMIN_TOKEN: ${{ secrets.VOTE_API_ADMIN_TOKEN }}
         run: node scripts/pipeline/snapshot-tallies.js --country "${{ inputs.country || 'IN' }}"
 
+      # BUG FIXED: this step never set DATA_MODE, so build-feed.js's own
+      # `process.env.DATA_MODE ?? 'sample'` default meant every single cron
+      # run silently reverted the manifest back to dataMode "sample" —
+      # undoing a manual flip to live a few hours later, with no error and
+      # no visible sign anything had changed. vars.DATA_MODE is a plain
+      # (non-secret) repo variable — Settings → Secrets and variables →
+      # Actions → Variables — so flipping back to sample (e.g. to onboard a
+      # new country that isn't live yet) never again requires an edit here.
       - name: Rebuild feed
         if: steps.check.outputs.count != '0'
+        env:
+          DATA_MODE: ${{ vars.DATA_MODE || 'live' }}
         run: node scripts/pipeline/build-feed.js --country "${{ inputs.country || 'IN' }}"
 
       - name: Validate before committing
