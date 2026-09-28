@@ -1,19 +1,19 @@
 {
-  "topicId": "in-2026-09-trophy-protest-politics",
+  "topicId": "in-2026-09-rohit-kohli-odi-future",
   "schemaVersion": 1,
   "current": {
-    "yes": 2,
-    "no": 1,
-    "total": 3,
-    "pct": 67,
+    "yes": 0,
+    "no": 0,
+    "total": 0,
+    "pct": 0,
     "asOf": "2026-09-28T15:16:27.894Z",
     "velocity": 0
   },
   "history": [
     {
       "at": "2026-09-28T15:16:27.894Z",
-      "pct": 67,
-      "total": 3
+      "pct": 0,
+      "total": 0
     }
   ],
   "regions": [],
