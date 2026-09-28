@@ -82,18 +82,24 @@ downloads. Until then:
    common validation failure across every past batch. Don't wait for
    `validate-data.js` to catch it.
 
-3. **`review.tier` — category default, then override by judgment.**
-   Category defaults live in `config/review-tiers.json`
-   (cricket/tech/bollywood → `auto_publish`; politics/jobs/education →
-   `review_required`). Override to `review_required` by hand, regardless of
-   category default, whenever a topic is really about India-Pakistan tension,
-   government censorship power, press freedom, or similarly sensitive framing
-   even if dressed as sport/tech/entertainment. Add a one-line comment in the
+3. **`review.tier` — escalation keywords, then override by judgment.**
+   As of 2026-09-28, every category auto-publishes by default
+   (`config/review-tiers.json`'s `auto_publish` list covers all six —
+   politics included). Review is governed purely by `escalation_keywords`
+   (religion, caste, communal, court, verdict, arrest, allegation, death,
+   riot, election, boycott, ban — matched case-insensitively against the
+   question too, see `vet-topic.js`) — a match promotes a topic to
+   `review_required` regardless of category. Override to `review_required`
+   by hand on top of that, regardless of what the keyword scan found,
+   whenever a topic is really about India-Pakistan tension, government
+   censorship power, press freedom, or similarly sensitive framing even if
+   dressed as sport/tech/entertainment. Add a one-line comment in the
    compose script explaining the override.
-   - Global-lane topics get the same scrutiny, not less: a trade/tariff dispute
-     or foreign-policy row filed under `politics` already defaults to
-     `review_required`, but a global story dressed as `tech`/`jobs`/`bollywood`
-     (e.g. a foreign company's India layoffs, a global platform's India-specific
+   - Global-lane topics get the same scrutiny, not less: a trade/tariff
+     dispute or foreign-policy row can read as routine `politics` but still
+     deserves a by-hand look, and a global story dressed as
+     `tech`/`jobs`/`bollywood` (e.g. a foreign company's India layoffs, a
+     global platform's India-specific
      regulation) still needs the same override judgment as a domestic one.
 
 4. **Allowlist judgment.** Sources merely need a plausible, real, live URL — they
@@ -127,17 +133,30 @@ downloads. Until then:
    ```
    git pull --ff-only origin main
    node scripts/pipeline/promote-topics.js --print-hashes
-   # build a decisions file approving the agreed ids, then:
+   # build a decisions file approving the agreed ids (.pipeline/ is
+   # gitignored — fine to leave the decisions file there), then:
    node scripts/pipeline/promote-topics.js --decisions <file> --approver <github-login>
-   node scripts/pipeline/seed-sample-tallies.js --only-missing
-   node scripts/pipeline/build-feed.js
+   DATA_MODE=live node scripts/pipeline/build-feed.js
    npm run check      # tests + fixtures + validate — must be all green
    git add -A && git commit -m "content: publish batch N — hand-researched via Claude Code"
    git push origin main
    ```
-   If push is rejected (non-fast-forward — `review-decision.yml` or manual GitHub
-   edits can land commits concurrently): `git pull --ff-only origin main` and retry;
-   git's rename detection cleanly resolves content-vs-move conflicts.
+   **Do NOT run `seed-sample-tallies.js`** — `dataMode` is `"live"` (see the
+   constraints section below); a freshly-promoted topic having no tally file
+   yet is correct, not something to seed fake numbers into.
+
+   If push is rejected (non-fast-forward — the 6-hourly `snapshot-tallies.yml`
+   cron is the most likely cause, not just `review-decision.yml` or manual
+   GitHub edits): `git fetch origin main`, then `git merge origin/main`. This
+   is very likely a REAL conflict, not a clean rename — both sides typically
+   touched the same derived `feeds/IN/feed.json` / `manifest.json` (the cron
+   ran a routine tally snapshot while you were publishing). Resolve by
+   keeping your own `topics/` changes as-is, letting `git rm` win any
+   tally-file delete/modify conflict if one comes up, then **regenerating
+   the feed files from scratch** rather than hand-editing the conflict
+   markers: `DATA_MODE=live node scripts/pipeline/build-feed.js`, then
+   `git add feeds/IN/feed.json feeds/IN/manifest.json`, `npm run check`,
+   `git commit`, `git push` again.
 
 ## Constraints this skill must always respect
 
@@ -148,8 +167,18 @@ downloads. Until then:
   writing, not after.
 - No forced category balance — chase what's trending.
 - Chat-based review and approval, not GitHub issue checkboxes.
-- Hand-override `review.tier` to `review_required` for politically-sensitive
-  content regardless of category default.
-- `dataMode` stays `"sample"` until Phase C (Firebase) ships — every hand-published
-  topic still needs a seeded synthetic tally (`seed-sample-tallies.js`), never skip
-  that step.
+- Hand-override `review.tier` to `review_required` — on top of whatever the
+  escalation-keyword scan found — for religious/communal, India-Pakistan
+  tension, government censorship power, press freedom, or similarly
+  sensitive content, regardless of category.
+- `dataMode` is `"live"` as of 2026-09-28 (flipped from sample — see
+  git history around that date for the full pipeline this required: the
+  synthetic-flag-carry bug fix in snapshot-tallies.js, the DATA_MODE
+  fallback fix in the cron workflow, and deleting every synthetic tally).
+  **Never run `seed-sample-tallies.js` against real published topics again**
+  — it refuses outright when `DATA_MODE=live` is set in its own process
+  env, but nothing stops someone from running it locally without that env
+  var set and quietly reintroducing fake numbers. A freshly-promoted topic
+  with no tally file is correct and expected: build-feed.js's empty-tally
+  fallback renders it as an honest 0-vote cold start, not a bug to seed
+  away.
