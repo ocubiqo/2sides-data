@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-10-01T22:15:15.638Z",
+  "generatedAt": "2026-10-02T02:53:36.106Z",
   "categories": [
     {
       "id": "politics",
@@ -63,12 +63,12 @@
       "activeUntil": "2026-10-04T14:44:47.661Z",
       "contentVersion": 1,
       "tally": {
-        "yes": 0,
+        "yes": 2,
         "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
+        "total": 2,
+        "pct": 100,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.4,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -96,15 +96,15 @@
           },
           {
             "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
+            "pct": 100
           }
         ],
-        "delta": "0",
+        "delta": "+100",
         "regions": [
           {
             "label": "India",
-            "pct": 0,
-            "votes": 0
+            "pct": 100,
+            "votes": 2
           }
         ]
       }
@@ -132,283 +132,11 @@
       "contentVersion": 1,
       "tally": {
         "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-09-28T15:16:27.894Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-28T22:42:17.484Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T03:03:27.630Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T11:42:59.533Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T17:09:40.059Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T21:36:00.478Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-oracle-india-layoffs-restructuring",
-      "category": "jobs",
-      "question": "Are Oracle's India layoffs fair restructuring or exploitative?",
-      "context": "Oracle cut ~3,000 more India jobs in Sept, after ~12,000 earlier in 2026, while posting record profit and $55.7B in AI/cloud spend. A union calls it illegal retrenchment under labour law with too-short notice; Oracle frames it as shifting resources to AI/cloud.",
-      "sides": {
-        "yes": "NEEDED SHIFT",
-        "no": "PROFIT ABUSE"
-      },
-      "sources": [
-        {
-          "name": "American Bazaar",
-          "url": "https://americanbazaaronline.com/2026/09/01/oracle-layoffs-in-india-today-3000-job-cuts-beyond-us-487356/",
-          "verified": false,
-          "publishedAt": "2026-09-01"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-28T15:07:05.152Z",
-      "activeUntil": "2026-10-04T14:34:26.992Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-09-28T15:16:27.894Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-28T22:42:17.484Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T03:03:27.630Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T11:42:59.533Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T17:09:40.059Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T21:36:00.478Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-india-japan-umpire-pressure",
-      "category": "cricket",
-      "question": "Did India pressure umpires to overturn a wide call vs Japan?",
-      "context": "In a rain-shortened T20 on Sep 22, umpire Chris Thurgate called a wide in the final over; after India's captain and bowler protested, umpires reversed it without review, costing Japan the extra ball they needed. Critics call it bullying; India has not addressed it directly.",
-      "sides": {
-        "yes": "UMPIRES CAVED",
-        "no": "FAIR APPEAL"
-      },
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match",
-          "verified": false,
-          "publishedAt": "2026-09-22"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-28T15:07:05.152Z",
-      "activeUntil": "2026-10-04T14:34:26.992Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-09-28T15:16:27.894Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-28T22:42:17.484Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T03:03:27.630Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T11:42:59.533Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T17:09:40.059Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T21:36:00.478Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-karnataka-social-media-under-16-ban",
-      "category": "tech",
-      "question": "Should states be allowed to ban social media for under-16s?",
-      "context": "Karnataka's Siddaramaiah announced barring under-16s from social media, citing addiction and mental-health harm. Critics question state constitutional authority, cite weak age-verification, shared-device workarounds, and risk of restricting girls' access further.",
-      "sides": {
-        "yes": "PROTECT KIDS",
-        "no": "STATE OVERREACH"
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/06/indias-karnataka-signals-intent-to-ban-social-media-for-under-16s/",
-          "verified": false,
-          "publishedAt": "2026-03-06"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-28T15:07:05.152Z",
-      "activeUntil": "2026-10-04T14:34:26.992Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-09-28T15:16:27.894Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-28T22:42:17.484Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T03:03:27.630Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T11:42:59.533Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T17:09:40.059Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-29T21:36:00.478Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "in-2026-09-unsc-seat-without-veto",
-      "category": "politics",
-      "question": "Should India accept a UN Security Council seat without veto power?",
-      "context": "India has ruled out joining an expanded UNSC without full veto rights, calling any two-tier arrangement discriminatory, even as Russia, the V4 nations, Portugal and Mauritius back its bid. China alone withholds support, and Charter reform needs all P5 to ratify.",
-      "sides": {
-        "yes": "TAKE THE SEAT",
-        "no": "HOLD OUT"
-      },
-      "sources": [
-        {
-          "name": "The Week",
-          "url": "https://www.theweek.in/news/india/2026/09/27/russia-backs-indias-unsc-seat.html",
-          "verified": false,
-          "publishedAt": "2026-09-27"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-09-28T15:07:05.152Z",
-      "activeUntil": "2026-10-04T14:44:47.661Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
         "no": 1,
         "total": 1,
         "pct": 0,
-        "asOf": "2026-10-01T22:15:15.524Z",
-        "velocity": 0,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.2,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -448,7 +176,279 @@
           }
         ]
       }
+    },
+    {
+      "id": "in-2026-09-oracle-india-layoffs-restructuring",
+      "category": "jobs",
+      "question": "Are Oracle's India layoffs fair restructuring or exploitative?",
+      "context": "Oracle cut ~3,000 more India jobs in Sept, after ~12,000 earlier in 2026, while posting record profit and $55.7B in AI/cloud spend. A union calls it illegal retrenchment under labour law with too-short notice; Oracle frames it as shifting resources to AI/cloud.",
+      "sides": {
+        "yes": "NEEDED SHIFT",
+        "no": "PROFIT ABUSE"
+      },
+      "sources": [
+        {
+          "name": "American Bazaar",
+          "url": "https://americanbazaaronline.com/2026/09/01/oracle-layoffs-in-india-today-3000-job-cuts-beyond-us-487356/",
+          "verified": false,
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 0,
+        "total": 1,
+        "pct": 100,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.2,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 100
+          }
+        ],
+        "delta": "+100",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-india-japan-umpire-pressure",
+      "category": "cricket",
+      "question": "Did India pressure umpires to overturn a wide call vs Japan?",
+      "context": "In a rain-shortened T20 on Sep 22, umpire Chris Thurgate called a wide in the final over; after India's captain and bowler protested, umpires reversed it without review, costing Japan the extra ball they needed. Critics call it bullying; India has not addressed it directly.",
+      "sides": {
+        "yes": "UMPIRES CAVED",
+        "no": "FAIR APPEAL"
+      },
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match",
+          "verified": false,
+          "publishedAt": "2026-09-22"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 1,
+        "total": 1,
+        "pct": 0,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.2,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-karnataka-social-media-under-16-ban",
+      "category": "tech",
+      "question": "Should states be allowed to ban social media for under-16s?",
+      "context": "Karnataka's Siddaramaiah announced barring under-16s from social media, citing addiction and mental-health harm. Critics question state constitutional authority, cite weak age-verification, shared-device workarounds, and risk of restricting girls' access further.",
+      "sides": {
+        "yes": "PROTECT KIDS",
+        "no": "STATE OVERREACH"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/06/indias-karnataka-signals-intent-to-ban-social-media-for-under-16s/",
+          "verified": false,
+          "publishedAt": "2026-03-06"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:34:26.992Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 0,
+        "total": 1,
+        "pct": 100,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.2,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 100
+          }
+        ],
+        "delta": "+100",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-unsc-seat-without-veto",
+      "category": "politics",
+      "question": "Should India accept a UN Security Council seat without veto power?",
+      "context": "India has ruled out joining an expanded UNSC without full veto rights, calling any two-tier arrangement discriminatory, even as Russia, the V4 nations, Portugal and Mauritius back its bid. China alone withholds support, and Charter reform needs all P5 to ratify.",
+      "sides": {
+        "yes": "TAKE THE SEAT",
+        "no": "HOLD OUT"
+      },
+      "sources": [
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/27/russia-backs-indias-unsc-seat.html",
+          "verified": false,
+          "publishedAt": "2026-09-27"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2026-10-04T14:44:47.661Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 2,
+        "total": 2,
+        "pct": 0,
+        "asOf": "2026-10-02T02:53:35.971Z",
+        "velocity": 0.2,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 2
+          }
+        ]
+      }
     }
   ],
-  "feedVersion": "2026-10-01T22:15:15.638Z-85c04d"
+  "feedVersion": "2026-10-02T02:53:36.106Z-b748e5"
 }

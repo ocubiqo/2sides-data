@@ -2,12 +2,12 @@
   "topicId": "in-2026-09-rohit-kohli-odi-future",
   "schemaVersion": 1,
   "current": {
-    "yes": 0,
+    "yes": 2,
     "no": 0,
-    "total": 0,
-    "pct": 0,
-    "asOf": "2026-10-01T22:15:15.524Z",
-    "velocity": 0
+    "total": 2,
+    "pct": 100,
+    "asOf": "2026-10-02T02:53:35.971Z",
+    "velocity": 0.4
   },
   "history": [
     {
@@ -79,6 +79,11 @@
       "at": "2026-10-01T22:15:15.524Z",
       "pct": 0,
       "total": 0
+    },
+    {
+      "at": "2026-10-02T02:53:35.971Z",
+      "pct": 100,
+      "total": 2
     }
   ],
   "regions": [],

@@ -3,11 +3,11 @@
   "schemaVersion": 1,
   "current": {
     "yes": 0,
-    "no": 1,
-    "total": 1,
+    "no": 2,
+    "total": 2,
     "pct": 0,
-    "asOf": "2026-10-01T22:15:15.524Z",
-    "velocity": 0
+    "asOf": "2026-10-02T02:53:35.971Z",
+    "velocity": 0.2
   },
   "history": [
     {
@@ -79,6 +79,11 @@
       "at": "2026-10-01T22:15:15.524Z",
       "pct": 0,
       "total": 1
+    },
+    {
+      "at": "2026-10-02T02:53:35.971Z",
+      "pct": 0,
+      "total": 2
     }
   ],
   "regions": [],
