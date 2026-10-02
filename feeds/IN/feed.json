@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-10-02T02:53:36.106Z",
+  "generatedAt": "2026-10-02T11:29:31.841Z",
   "categories": [
     {
       "id": "politics",
@@ -67,8 +67,8 @@
         "no": 0,
         "total": 2,
         "pct": 100,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.4,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -131,12 +131,12 @@
       "activeUntil": "2026-10-04T14:44:47.661Z",
       "contentVersion": 1,
       "tally": {
-        "yes": 0,
+        "yes": 1,
         "no": 1,
-        "total": 1,
-        "pct": 0,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.2,
+        "total": 2,
+        "pct": 50,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0.1,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -164,15 +164,15 @@
           },
           {
             "at": "2026-09-30T02:45:08.159Z",
-            "pct": 0
+            "pct": 50
           }
         ],
-        "delta": "0",
+        "delta": "+50",
         "regions": [
           {
             "label": "India",
-            "pct": 0,
-            "votes": 1
+            "pct": 50,
+            "votes": 2
           }
         ]
       }
@@ -200,11 +200,11 @@
       "contentVersion": 1,
       "tally": {
         "yes": 1,
-        "no": 0,
-        "total": 1,
-        "pct": 100,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.2,
+        "no": 1,
+        "total": 2,
+        "pct": 50,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0.1,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -232,15 +232,15 @@
           },
           {
             "at": "2026-09-30T02:45:08.159Z",
-            "pct": 100
+            "pct": 50
           }
         ],
-        "delta": "+100",
+        "delta": "+50",
         "regions": [
           {
             "label": "India",
-            "pct": 100,
-            "votes": 1
+            "pct": 50,
+            "votes": 2
           }
         ]
       }
@@ -268,11 +268,11 @@
       "contentVersion": 1,
       "tally": {
         "yes": 0,
-        "no": 1,
-        "total": 1,
+        "no": 2,
+        "total": 2,
         "pct": 0,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.2,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0.1,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -308,7 +308,7 @@
           {
             "label": "India",
             "pct": 0,
-            "votes": 1
+            "votes": 2
           }
         ]
       }
@@ -335,12 +335,12 @@
       "activeUntil": "2026-10-04T14:34:26.992Z",
       "contentVersion": 1,
       "tally": {
-        "yes": 1,
+        "yes": 2,
         "no": 0,
-        "total": 1,
+        "total": 2,
         "pct": 100,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.2,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0.1,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -376,7 +376,7 @@
           {
             "label": "India",
             "pct": 100,
-            "votes": 1
+            "votes": 2
           }
         ]
       }
@@ -407,8 +407,8 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-10-02T02:53:35.971Z",
-        "velocity": 0.2,
+        "asOf": "2026-10-02T11:29:31.720Z",
+        "velocity": 0,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
@@ -450,5 +450,5 @@
       }
     }
   ],
-  "feedVersion": "2026-10-02T02:53:36.106Z-b748e5"
+  "feedVersion": "2026-10-02T11:29:31.841Z-ca1b65"
 }

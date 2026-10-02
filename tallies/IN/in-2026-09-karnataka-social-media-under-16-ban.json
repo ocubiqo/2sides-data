@@ -2,12 +2,12 @@
   "topicId": "in-2026-09-karnataka-social-media-under-16-ban",
   "schemaVersion": 1,
   "current": {
-    "yes": 1,
+    "yes": 2,
     "no": 0,
-    "total": 1,
+    "total": 2,
     "pct": 100,
-    "asOf": "2026-10-02T02:53:35.971Z",
-    "velocity": 0.2
+    "asOf": "2026-10-02T11:29:31.720Z",
+    "velocity": 0.1
   },
   "history": [
     {
@@ -84,6 +84,11 @@
       "at": "2026-10-02T02:53:35.971Z",
       "pct": 100,
       "total": 1
+    },
+    {
+      "at": "2026-10-02T11:29:31.720Z",
+      "pct": 100,
+      "total": 2
     }
   ],
   "regions": [],
