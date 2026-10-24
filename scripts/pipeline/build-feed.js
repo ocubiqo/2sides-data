@@ -15,6 +15,7 @@ import crypto from 'crypto';
 
 import { fileURLToPath } from 'url';
 import { rank } from './lib/ranking.js';
+import { heatScore, resolveFeatured } from './lib/featured.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const ROOT = path.resolve(__dirname, '../..');
@@ -144,12 +145,29 @@ function main() {
         },
       },
       score: rank(topic, tally.current ? tally : emptyTally),
+      // Reads the RAW topic (trendScore is not part of the emitted feed shape).
+      heat: heatScore(topic, tally.current ? tally : emptyTally, now),
     };
   });
 
-  const topics = interleave(
-    enriched.sort((a, b) => b.score - a.score).slice(0, limit).map(e => e.topic),
-  );
+  // "Topic of the day": one per IST day, sticky across the 6-hourly rebuilds,
+  // optionally pinned by an admin via config/featured.json. See lib/featured.js.
+  const featuredPath = path.join(ROOT, 'feeds', country, 'featured.json');
+  const featured = resolveFeatured({
+    candidates: enriched.map(e => ({ id: e.topic.id, heat: e.heat, publishedAt: e.topic.publishedAt })),
+    stored: readJson(featuredPath),
+    pin: readJson(path.join(ROOT, 'config', 'featured.json'), {}).pin ?? null,
+    now,
+  });
+
+  const ranked = enriched.sort((a, b) => b.score - a.score);
+  // Featured goes first (the web home page uses the first topic as its hero)
+  // and is ALWAYS in the feed, even if ranking alone would have capped it out.
+  const featuredEntry = featured ? ranked.find(e => e.topic.id === featured.topicId) : null;
+  const rest = interleave(
+    ranked.slice(0, limit).filter(e => e !== featuredEntry).map(e => e.topic),
+  ).slice(0, featuredEntry ? limit - 1 : limit);
+  const topics = featuredEntry ? [{ ...featuredEntry.topic, featured: true }, ...rest] : rest;
 
   // Publishing an empty feed is a silent outage: every user gets "no topics"
   // and the cause looks like a network problem. An empty active/ is almost
@@ -169,7 +187,19 @@ function main() {
     process.exit(1);
   }
 
-  const body = { schemaVersion: 1, country, generatedAt: nowIso, categories: categories.categories, topics };
+  // Persist only when the pick actually changed, so a routine rebuild doesn't
+  // dirty the repo; this file is what makes today's pick sticky.
+  if (featured) {
+    const prev = readJson(featuredPath);
+    if (!prev || prev.date !== featured.date || prev.topicId !== featured.topicId || prev.source !== featured.source) {
+      writeJson(featuredPath, featured);
+    }
+  }
+
+  const body = {
+    schemaVersion: 1, country, generatedAt: nowIso, categories: categories.categories,
+    featuredTopicId: featured ? featured.topicId : null, topics,
+  };
   const feedVersion = `${nowIso}-${crypto.createHash('sha1')
     .update(JSON.stringify(topics)).digest('hex').slice(0, 6)}`;
 

@@ -1,0 +1,4 @@
+{
+  "note": "Optional editorial override for the 'Topic of the day' tag. Set pin to { \"topicId\": \"<id>\", \"date\": \"YYYY-MM-DD\" } (date is the IST day) to force a specific topic for THAT day only; any other date is ignored, so a stale pin can never get stuck. Leave pin null to let the heat score choose automatically (see scripts/pipeline/lib/featured.js).",
+  "pin": null
+}
