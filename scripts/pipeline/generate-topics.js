@@ -34,12 +34,13 @@ import { fileURLToPath } from 'url';
 import Anthropic from '@anthropic-ai/sdk';
 import { extractJsonFromMessage, sleep } from './lib/websearch.js';
 import { vetTopic, resolveTier, SPLIT_MIN, SPLIT_MAX } from './lib/vet-topic.js';
+import { makeId, existingIds } from './lib/topic-id.js';
+import { openEndedUntil } from './lib/topic-lifetime.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '../..');
 
 const MODEL = 'claude-haiku-4-5-20251001';
-const ACTIVE_DAYS = 7;
 const CALL_SPACING_MS = 2000;
 
 function parseArgs(argv) {
@@ -63,47 +64,6 @@ function parseArgs(argv) {
 const readJson = (f, fallback = null) => {
   try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return fallback; }
 };
-
-function slugify(question) {
-  return question
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .split(/\s+/)
-    .filter(w => w && !['should', 'india', 'the', 'a', 'an', 'be', 'to', 'of', 'in', 'is', 'for', 'do'].includes(w))
-    .slice(0, 5)
-    .join('-')
-    .slice(0, 40)
-    .replace(/-+$/, '');
-}
-
-/** in-YYYY-MM-<slug>, suffixed on collision with anything already on disk. */
-function makeId(country, question, taken) {
-  const now = new Date();
-  const prefix = `${country.toLowerCase()}-${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}`;
-  const base = `${prefix}-${slugify(question) || 'topic'}`;
-  let id = base;
-  let n = 2;
-  while (taken.has(id)) id = `${base}-${n++}`;
-  taken.add(id);
-  return id;
-}
-
-function existingIds(country) {
-  const ids = new Set();
-  for (const sub of ['active', 'pending', 'rejected', 'archive']) {
-    const dir = path.join(ROOT, 'topics', country, sub);
-    if (!fs.existsSync(dir)) continue;
-    const walk = d => {
-      for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-        const full = path.join(d, e.name);
-        if (e.isDirectory()) walk(full);
-        else if (e.name.endsWith('.json')) ids.add(e.name.replace(/\.json$/, ''));
-      }
-    };
-    walk(dir);
-  }
-  return ids;
-}
 
 function buildPrompt(candidate) {
   const urlList = candidate.allowedUrls.map(u => `- ${u.url}${u.title ? `  (${u.title})` : ''}`).join('\n');
@@ -158,7 +118,7 @@ async function main() {
 
   const tiers = readJson(path.join(ROOT, 'config/review-tiers.json'), {});
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  const taken = existingIds(country);
+  const taken = existingIds(ROOT, country);
   const pipelineRun = process.env.GITHUB_RUN_ID || new Date().toISOString();
 
   // Strongest first, so if we hit `count` early we kept the best ones.
@@ -225,7 +185,7 @@ async function main() {
         trendScore: result.topic.trendScore,
         publishedAt: now.toISOString(),
         activeFrom: now.toISOString(),
-        activeUntil: new Date(now.getTime() + ACTIVE_DAYS * 86_400_000).toISOString(),
+        activeUntil: openEndedUntil(now.getTime()),
         review: { tier, state: 'pending', reviewedBy: null, reviewedAt: null, reason: null },
         generation: {
           model: MODEL,

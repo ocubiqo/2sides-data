@@ -1,0 +1,1396 @@
+{
+  "schemaVersion": 1,
+  "country": "IN",
+  "generatedAt": "2026-10-24T05:16:39.793Z",
+  "categories": [
+    {
+      "id": "politics",
+      "label": "Politics",
+      "emoji": "🏛️",
+      "accent": "#0A1A3D"
+    },
+    {
+      "id": "cricket",
+      "label": "Cricket",
+      "emoji": "🏏",
+      "accent": "#1E3A8A"
+    },
+    {
+      "id": "tech",
+      "label": "Tech",
+      "emoji": "💻",
+      "accent": "#1E3A8A"
+    },
+    {
+      "id": "jobs",
+      "label": "Jobs",
+      "emoji": "💼",
+      "accent": "#0A1A3D"
+    },
+    {
+      "id": "bollywood",
+      "label": "Bollywood",
+      "emoji": "🎬",
+      "accent": "#C26A45"
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "emoji": "🎓",
+      "accent": "#0A1A3D"
+    }
+  ],
+  "featuredTopicId": "in-2026-10-us-tariff-standoff-hold-firm",
+  "topics": [
+    {
+      "id": "in-2026-10-us-tariff-standoff-hold-firm",
+      "category": "politics",
+      "question": "Should India hold firm on trade talks despite the US tariff standoff?",
+      "context": "FM Sitharaman says tariffs have been 'weaponised' as talks hit a plateau after Commerce Minister Goyal's Oct 5 US visit ended without a deal. India wants an EU-style pact opening 92.5% of tariff lines; the US presses on the trade imbalance.",
+      "sides": {
+        "yes": "HOLD FIRM",
+        "no": "MAKE A DEAL"
+      },
+      "sources": [
+        {
+          "name": "Forbes India",
+          "url": "https://www.forbesindia.com/amp/article/news/india-us-trade-talks-hit-a-plateau-as-fm-flags-tough-road-ahead/2999049/1",
+          "verified": false,
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-24T05:16:39.793Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      },
+      "featured": true
+    },
+    {
+      "id": "in-2026-10-ai-layoffs-it-justified",
+      "category": "jobs",
+      "question": "Are AI-driven layoffs at Indian IT firms justified cost-cutting?",
+      "context": "Oracle began a fresh round cutting 1,000+ more India jobs, after TCS cut 19,000 in a single quarter and Amazon trimmed Bengaluru/Chennai/Hyderabad teams. India ranks second-worst hit globally in 2026 tech layoffs tied to AI adoption.",
+      "sides": {
+        "yes": "JUSTIFIED",
+        "no": "CORPORATE EXCUSE"
+      },
+      "sources": [
+        {
+          "name": "Deccan Herald",
+          "url": "https://www.deccanherald.com/business/companies/oracle-begins-fresh-round-of-layoffs-over-1000-indian-employees-set-to-lose-jobs-4147165",
+          "verified": false,
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-24T05:16:39.793Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-10-ai-regulation-now-or-later",
+      "category": "tech",
+      "question": "Should India regulate AI now, even if it risks slowing growth?",
+      "context": "IT minister Vaishnaw announced on Oct 8 a consultation paper on AI due within 30 days, covering deepfakes, risk tiers for foundation models, and data localization. Industry groups warn early rules could slow India's push for 10,000 GPUs.",
+      "sides": {
+        "yes": "REGULATE NOW",
+        "no": "LET IT GROW"
+      },
+      "sources": [
+        {
+          "name": "India.com",
+          "url": "https://www.india.com/technology/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw-8534081/",
+          "verified": false,
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-24T05:16:39.793Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-10-rest-stars-for-icc-events",
+      "category": "cricket",
+      "question": "Should India rest stars like Bumrah for bilateral series?",
+      "context": "Bumrah was left out of the whole West Indies T20I series (Oct 6-17) since it starts just 3 days after the Asian Games final, with selectors citing scheduling management. Mayank Yadav and Kuldeep Yadav filled the pace/spin gap.",
+      "sides": {
+        "yes": "PRIORITIZE ICC",
+        "no": "PLAY EVERY SERIES"
+      },
+      "sources": [
+        {
+          "name": "CricTracker",
+          "url": "https://www.crictracker.com/cricket-appeal/india-vs-west-indies-why-jasprit-bumrah-was-left-out-of-t20i-squad-9638/",
+          "verified": false,
+          "publishedAt": "2026-09-17"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-24T05:16:39.793Z",
+        "velocity": 0,
+        "trend": [],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-rohit-kohli-odi-future",
+      "category": "cricket",
+      "question": "Should Rohit Sharma and Virat Kohli keep their ODI spots for 2027?",
+      "context": "Ravi Shastri warned selectors to 'watch their chairs' if they drop Rohit and Kohli from ODIs, calling them 'giants of the white-ball game' eyeing the 2027 World Cup. Critics point to younger options like Shubman Gill and question succession planning.",
+      "sides": {
+        "yes": "KEEP THEM",
+        "no": "MAKE WAY"
+      },
+      "sources": [
+        {
+          "name": "CricketAddictor",
+          "url": "https://cricketaddictor.com/cricket-news/watch-their-chairs-ravi-shastri-sends-warning-to-those-targeting-rohit-sharma-virat-kohli-464329/",
+          "verified": false,
+          "publishedAt": "2026-09-27"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 2,
+        "no": 0,
+        "total": 2,
+        "pct": 100,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 100
+          }
+        ],
+        "delta": "+100",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-h1b-visa-crisis-india-response",
+      "category": "jobs",
+      "question": "Should India take a tougher line with the US over the H-1B crisis?",
+      "context": "All 5 Indian consulates show zero H-1B stamping slots through 2026, stranding thousands after the US narrowed dropbox renewals, added social-media vetting, and ended third-country stamping. MEA says it has only 'flagged concerns' diplomatically; Nasscom pegs the cost near $120M/month.",
+      "sides": {
+        "yes": "PUSH HARDER",
+        "no": "STAY DIPLOMATIC"
+      },
+      "sources": [
+        {
+          "name": "Deccan Chronicle",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/india-conveys-concern-to-us-over-cancellation-of-h-1b-visa-interviews-1926426",
+          "verified": false,
+          "publishedAt": "2025-12-26"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 1,
+        "total": 2,
+        "pct": 50,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 50
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 50
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 50
+          }
+        ],
+        "delta": "+50",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 50,
+            "votes": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-oracle-india-layoffs-restructuring",
+      "category": "jobs",
+      "question": "Are Oracle's India layoffs fair restructuring or exploitative?",
+      "context": "Oracle cut ~3,000 more India jobs in Sept, after ~12,000 earlier in 2026, while posting record profit and $55.7B in AI/cloud spend. A union calls it illegal retrenchment under labour law with too-short notice; Oracle frames it as shifting resources to AI/cloud.",
+      "sides": {
+        "yes": "NEEDED SHIFT",
+        "no": "PROFIT ABUSE"
+      },
+      "sources": [
+        {
+          "name": "American Bazaar",
+          "url": "https://americanbazaaronline.com/2026/09/01/oracle-layoffs-in-india-today-3000-job-cuts-beyond-us-487356/",
+          "verified": false,
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 1,
+        "total": 2,
+        "pct": 50,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 50
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 50
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 50
+          }
+        ],
+        "delta": "+50",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 50,
+            "votes": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-india-japan-umpire-pressure",
+      "category": "cricket",
+      "question": "Did India pressure umpires to overturn a wide call vs Japan?",
+      "context": "In a rain-shortened T20 on Sep 22, umpire Chris Thurgate called a wide in the final over; after India's captain and bowler protested, umpires reversed it without review, costing Japan the extra ball they needed. Critics call it bullying; India has not addressed it directly.",
+      "sides": {
+        "yes": "UMPIRES CAVED",
+        "no": "FAIR APPEAL"
+      },
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match",
+          "verified": false,
+          "publishedAt": "2026-09-22"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 2,
+        "total": 2,
+        "pct": 0,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-karnataka-social-media-under-16-ban",
+      "category": "tech",
+      "question": "Should states be allowed to ban social media for under-16s?",
+      "context": "Karnataka's Siddaramaiah announced barring under-16s from social media, citing addiction and mental-health harm. Critics question state constitutional authority, cite weak age-verification, shared-device workarounds, and risk of restricting girls' access further.",
+      "sides": {
+        "yes": "PROTECT KIDS",
+        "no": "STATE OVERREACH"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/06/indias-karnataka-signals-intent-to-ban-social-media-for-under-16s/",
+          "verified": false,
+          "publishedAt": "2026-03-06"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 3,
+        "no": 0,
+        "total": 3,
+        "pct": 100,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 100
+          }
+        ],
+        "delta": "+100",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-unsc-seat-without-veto",
+      "category": "politics",
+      "question": "Should India accept a UN Security Council seat without veto power?",
+      "context": "India has ruled out joining an expanded UNSC without full veto rights, calling any two-tier arrangement discriminatory, even as Russia, the V4 nations, Portugal and Mauritius back its bid. China alone withholds support, and Charter reform needs all P5 to ratify.",
+      "sides": {
+        "yes": "TAKE THE SEAT",
+        "no": "HOLD OUT"
+      },
+      "sources": [
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/27/russia-backs-indias-unsc-seat.html",
+          "verified": false,
+          "publishedAt": "2026-09-27"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-28T15:07:05.152Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 2,
+        "total": 2,
+        "pct": 0,
+        "asOf": "2026-10-04T11:26:35.987Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-trophy-protest-politics",
+      "category": "cricket",
+      "question": "Should Indian teams decline trophy presentations over political tensions?",
+      "context": "India's women's cricket team declined the Asia Cup trophy from Asian Cricket Council president Mohsin Naqvi after beating Sri Lanka, citing India-Pakistan tensions. BCCI says the stance reflects public sentiment; critics say sport should stay separate from diplomacy.",
+      "sides": {
+        "yes": "TAKE A STAND",
+        "no": "KEEP SEPARATE"
+      },
+      "sources": [
+        {
+          "name": "Outlook India",
+          "url": "https://www.outlookindia.com/sports/cricket/india-vs-sri-lanka-womens-asia-cup-2026-mohsin-naqvi-trophy-controversy-explained-amol-muzumdar",
+          "verified": true,
+          "publishedAt": "2026-09-14"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:10:53.004Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 2,
+        "no": 1,
+        "total": 3,
+        "pct": 67,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 67
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 67,
+            "votes": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-ipl-impact-player-2027",
+      "category": "cricket",
+      "question": "Should the IPL scrap the Impact Player rule for 2027?",
+      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
+      "sides": {
+        "yes": "SCRAP IT",
+        "no": "KEEP IT"
+      },
+      "sources": [
+        {
+          "name": "Sunday Guardian Live",
+          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
+          "verified": true,
+          "publishedAt": "2026-06-02"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 2,
+        "no": 1,
+        "total": 3,
+        "pct": 67,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 67
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 67
+          }
+        ],
+        "delta": "-33",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 67,
+            "votes": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-gdp-methodology-trust",
+      "category": "politics",
+      "question": "Should India's GDP growth figures be trusted despite the new methodology?",
+      "context": "MoSPI's revised GDP series, with a 2022-23 base year and updated deflators, showed 7.8% growth for Q1 FY27 — above the RBI's own 7% estimate. Critics say the changes make headline growth look stronger than it is; MoSPI and outside reviewers say the comparisons are apples-to-oranges with the old series.",
+      "sides": {
+        "yes": "TRUST IT",
+        "no": "QUESTION IT"
+      },
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/latest/economy/story/at-davos-2026-gita-gopinath-was-asked-about-indias-gdp-data-methodology-her-response-553267-2026-09-03",
+          "verified": true,
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:10:53.004Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 1,
+        "total": 1,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-election-commissions-special-intensive-r",
+      "category": "politics",
+      "question": "Should the Election Commission's Special Intensive Review of electoral rolls proceed?",
+      "context": "The Election Commission is conducting a mass review to remove illegal migrants from voter lists. Supporters say it ensures electoral integrity. Critics argue it disproportionately targets opposition voters and was timed to advantage the ruling party.",
+      "sides": {
+        "yes": "PROCEED",
+        "no": "HALT/REVIEW"
+      },
+      "sources": [
+        {
+          "name": "Oneindia News",
+          "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "Tribune India",
+          "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:51:08.120Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-wfh-patriotic-duty",
+      "category": "jobs",
+      "question": "Should employees work from home to help conserve fuel, as PM Modi urged?",
+      "context": "PM Modi asked Indians to revive work-from-home to cut commuting and fuel use amid the West Asia crisis, calling it a patriotic duty. The appeal reopened a settled fight: 72% of IT firms mandate in-office presence, arguing physical offices remain essential for productivity.",
+      "sides": {
+        "yes": "WFH FOR THE CAUSE",
+        "no": "OFFICE MATTERS"
+      },
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news/pm-modi-work-from-home-india-inc-return-office-debate-126051100654_1.html",
+          "verified": true,
+          "publishedAt": "2026-05-11"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:18:14.597Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 0,
+        "total": 1,
+        "pct": 100,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 100
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-cbse-three-language-mandatory",
+      "category": "education",
+      "question": "Should a third language be compulsory in CBSE schools from Class 6?",
+      "context": "CBSE is phasing in a compulsory third language from 2026-27, with two of three required to be Indian languages. Tamil Nadu calls it disguised Hindi imposition and declined ₹3,458 crore in incentives to keep two languages; the Centre frames it as promoting linguistic diversity.",
+      "sides": {
+        "yes": "KEEP IT COMPULSORY",
+        "no": "LEAVE IT OPTIONAL"
+      },
+      "sources": [
+        {
+          "name": "Careers360",
+          "url": "https://news.careers360.com/cbse-curriculum-2026-27-class-9-10-syllabus-3-language-formula-hindi-imposition-mk-staln-tamil-nadu-criticism-online-indian-languages",
+          "verified": true,
+          "publishedAt": "2026-04-04"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-employers-allowed-exclude-job-applicants",
+      "category": "jobs",
+      "question": "Should employers be allowed to exclude job applicants based on their state of origin?",
+      "context": "A tech company announced it will not hire male candidates from four northern states, citing safety and workplace culture concerns. Supporters argue employment decisions can reflect genuine risk data; opponents contend this violates anti-discrimination law regardless of stated rationale.",
+      "sides": {
+        "yes": "Allow it",
+        "no": "Prohibit it"
+      },
+      "sources": [
+        {
+          "name": "People Matters",
+          "url": "https://www.peoplematters.in/news/recruiting-and-onboarding/bengaluru-ceo-says-he-wont-hire-men-from-up-bihar-rajasthan-mp-faces-backlash-52277",
+          "verified": true,
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "name": "India Policy Hub",
+          "url": "https://indiapolicyhub.in/2026/02/27/india-new-labour-codes-2026-50-percent-wage-rule-gig-workers/",
+          "verified": false,
+          "publishedAt": "2026-02-27"
+        },
+        {
+          "name": "Ministry of Labour & Employment",
+          "url": "https://www.labour.gov.in/static/uploads/2026/06/4b7ec0e8206aa4860576d6f75b432e97.pdf",
+          "verified": true,
+          "publishedAt": "2026-06-01"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:51:08.120Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-ott-cbfc-certification",
+      "category": "bollywood",
+      "question": "Should films released directly on streaming platforms need CBFC certification?",
+      "context": "The government is weighing mandatory film-board certification for OTT releases after a platform pulled a political thriller over national security concerns. Industry warns unpredictable approvals push early self-censorship; supporters say certification gives consistent content standards streaming lacks.",
+      "sides": {
+        "yes": "REQUIRE IT",
+        "no": "SELF-REGULATE"
+      },
+      "sources": [
+        {
+          "name": "Storyboard18",
+          "url": "https://www.storyboard18.com/media-and-entertainment/india-eyes-mandatory-cbfc-for-ott-films-ws-l-104557.htm",
+          "verified": true,
+          "publishedAt": "2026-07-17"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:18:14.597Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-social-media-3-hour-takedown",
+      "category": "tech",
+      "question": "Should platforms be legally required to remove flagged content within 3 hours?",
+      "context": "India's amended IT Rules cut the takedown window from 24-36 hours to 3, with more government bodies able to issue orders. The government frames it as user safety and accountability; critics call the compressed timeline and expanded self-regulatory-body powers a censorship risk with too little oversight.",
+      "sides": {
+        "yes": "3 HOURS IS RIGHT",
+        "no": "TOO RISKY"
+      },
+      "sources": [
+        {
+          "name": "WION",
+          "url": "https://www.wionews.com/india-news/india-new-digital-rules-2026-social-media-regulation-digital-authoritarianism-1775214164383/amp",
+          "verified": true,
+          "publishedAt": "2026-04-03"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-election-commission-publish-details-inte",
+      "category": "politics",
+      "question": "Should the Election Commission publish details of internal objections to leadership decisions?",
+      "context": "The Election Commission faced 14 formal objections over 10 months regarding electoral roll decisions. One side argues transparency on internal dissent strengthens democratic accountability. The other contends that publishing internal disagreements undermines institutional unity and may be misused politically.",
+      "sides": {
+        "yes": "PUBLISH DETAILS",
+        "no": "KEEP INTERNAL"
+      },
+      "sources": [
+        {
+          "name": "Oneindia News",
+          "url": "https://www.oneindia.com/india/eci-gyanesh-kumar-row-timeline-of-10-months-of-internal-objections-sir-and-electoral-roll-disputes-8214773.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/09/23/eci-denies-one-man-autocracy-allegations-states-all-decisions-unanimous.html",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "name": "Tribune India",
+          "url": "https://www.tribuneindia.com/news/india/rahul-to-lead-high-stakes-debate-on-electoral-reforms-in-lok-sabha-today-amid-sir-row",
+          "verified": true,
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T12:33:22.959Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "in-2026-09-bollywood-8-hour-day",
+      "category": "bollywood",
+      "question": "Should Bollywood adopt a mandatory 8-hour shooting day?",
+      "context": "Actors including Suniel Shetty, Kajol and filmmaker Shekhar Kapur back capping shifts, arguing schedules disproportionately burden women. Ali Fazal and Chitrangda Singh say rigid hours ignore weather and equipment delays crews cannot control.",
+      "sides": {
+        "yes": "CAP HOURS",
+        "no": "KEEP FLEXIBLE"
+      },
+      "sources": [
+        {
+          "name": "The Star",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/02/bollywood-divided-over-bid-to-cap-punishing-work-hours",
+          "verified": false,
+          "publishedAt": "2026-06-02"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-09-24T13:10:53.004Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-01T11:58:14.975Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-09-28T15:16:27.894Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-28T22:42:17.484Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T03:03:27.630Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T11:42:59.533Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T17:09:40.059Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-29T21:36:00.478Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-09-30T02:45:08.159Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
+      }
+    }
+  ],
+  "feedVersion": "2026-10-24T05:16:39.793Z-50028d"
+}

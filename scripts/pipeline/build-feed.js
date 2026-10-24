@@ -18,7 +18,8 @@ import { rank } from './lib/ranking.js';
 import { heatScore, resolveFeatured } from './lib/featured.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const ROOT = path.resolve(__dirname, '../..');
+// FEED_ROOT lets the test suite run this script against a throwaway tree.
+const ROOT = process.env.FEED_ROOT ? path.resolve(process.env.FEED_ROOT) : path.resolve(__dirname, '../..');
 /** Points in the emitted series. 7 = one per day over the chart's week window. */
 const TREND_POINTS = 7;
 
@@ -169,6 +170,14 @@ function main() {
   ).slice(0, featuredEntry ? limit - 1 : limit);
   const topics = featuredEntry ? [{ ...featuredEntry.topic, featured: true }, ...rest] : rest;
 
+  // The full catalogue: every open topic, no cap. feed.json (above) is what the
+  // APP downloads, so it stays bounded; but the website must keep a page — and
+  // keep accepting votes — for every open topic, or a shared link silently
+  // dies once newer topics push it past the cap (ranking halves recency every
+  // 36h, so an old topic sinks fast). Same shape, same ordering rules.
+  const restAll = interleave(ranked.filter(e => e !== featuredEntry).map(e => e.topic));
+  const allTopics = featuredEntry ? [{ ...featuredEntry.topic, featured: true }, ...restAll] : restAll;
+
   // Publishing an empty feed is a silent outage: every user gets "no topics"
   // and the cause looks like a network problem. An empty active/ is almost
   // always a mistake, so it has to be asked for explicitly.
@@ -204,9 +213,14 @@ function main() {
     .update(JSON.stringify(topics)).digest('hex').slice(0, 6)}`;
 
   writeJson(path.join(ROOT, 'feeds', country, 'feed.json'), { ...body, feedVersion });
+
+  const allVersion = `${nowIso}-${crypto.createHash('sha1')
+    .update(JSON.stringify(allTopics)).digest('hex').slice(0, 6)}`;
+  writeJson(path.join(ROOT, 'feeds', country, 'feed-all.json'), { ...body, topics: allTopics, feedVersion: allVersion });
   writeJson(path.join(ROOT, 'feeds', country, 'manifest.json'), {
     feedVersion,
     topicCount: topics.length,
+    catalogueCount: allTopics.length,
     generatedAt: nowIso,
     dataMode,
     // Must stay <= the shipped app.json version or the client-side gate this
@@ -223,7 +237,7 @@ function main() {
   });
 
   const withTrend = topics.filter(t => t.tally.trend.length > 0).length;
-  console.log(`✓ feed: ${topics.length} topic(s), ${withTrend} with a trend series · dataMode=${dataMode}`);
+  console.log(`✓ feed: ${topics.length} topic(s) (catalogue: ${allTopics.length}), ${withTrend} with a trend series · dataMode=${dataMode}`);
   console.log(`  feedVersion ${feedVersion}`);
 }
 

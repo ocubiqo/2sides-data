@@ -1,0 +1,11 @@
+{
+  "note": "Single source of the limits for admin-created polls, shared by scripts/pipeline/manage-topics.js (CI validation) and the website's /admin form (inline hints), so the two cannot drift. The numbers mirror schemas/topic.schema.json — lib/manual-topic.test.js fails if they diverge. Categories are NOT duplicated here: they come from config/categories.json.",
+  "question": { "min": 15, "max": 120, "mustEndWith": "?" },
+  "context": { "min": 60, "max": 320 },
+  "sideLabel": { "min": 2, "max": 18 },
+  "sources": { "min": 1, "max": 4 },
+  "sourceName": { "min": 2, "max": 40 },
+  "tags": { "max": 6, "maxLength": 24 },
+  "trendScore": { "min": 0, "max": 100, "default": 50 },
+  "openDays": { "min": 0, "max": 3650, "note": "0 (or empty) = open-ended; the poll stays open until retired" }
+}
