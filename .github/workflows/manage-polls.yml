@@ -1,0 +1,174 @@
+name: Manage polls
+
+# The poll engine: create, reopen or retire voting topics, then rebuild the
+# feed and kick off a site deploy. Three ways in, one code path:
+#   - the GitHub "Run workflow" form (this file's inputs)
+#   - the /admin backoffice on the website (dispatches this workflow by API)
+#   - the REST API:  POST /repos/ocubiqo/2sides-data/actions/workflows/manage-polls.yml/dispatches
+# Admin-created polls skip pending/ and go straight to topics/IN/active/.
+# See scripts/pipeline/manage-topics.js for the rules each action enforces.
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: What to do
+        type: choice
+        options: [create, reopen, retire]
+        default: create
+      question:
+        description: "create: the question (15-120 chars, ends with ?)"
+        required: false
+      yes_label:
+        description: "create: label for the YES side (max 18 chars)"
+        required: false
+      no_label:
+        description: "create: label for the NO side (max 18 chars)"
+        required: false
+      context:
+        description: "create: 1-2 neutral sentences of background (60-320 chars)"
+        required: false
+      category:
+        description: "create: category"
+        type: choice
+        options: [politics, cricket, tech, jobs, bollywood, education]
+        default: politics
+      source_name:
+        description: "create: source name, e.g. The Hindu"
+        required: false
+      source_url:
+        description: "create: link to a real article (https)"
+        required: false
+      extra_source_urls:
+        description: "create: more source links, comma separated (max 3)"
+        required: false
+      open_days:
+        description: "create: days to keep open; 0 = stays open until retired"
+        default: '0'
+        required: false
+      trend_score:
+        description: "create: 0-100 how big this story is (drives Topic of the day)"
+        default: '50'
+        required: false
+      tags:
+        description: "create: tags, comma separated"
+        required: false
+      topics_json:
+        description: "create (bulk): JSON array of polls instead of the fields above (max 20)"
+        required: false
+      topic_ids:
+        description: "reopen/retire: ids, comma separated (reopen also accepts: expired)"
+        required: false
+      reason:
+        description: "retire: why"
+        required: false
+      requested_by:
+        description: Who is asking (defaults to the GitHub user running this)
+        required: false
+      dry_run:
+        description: Validate and show the result, but change nothing
+        type: boolean
+        default: false
+      country:
+        description: Country code
+        default: IN
+        required: false
+
+# Same group as the 6-hourly snapshot so the two never race on feeds/.
+concurrency:
+  group: tallies
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ACTOR: ${{ github.actor }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Publishing here reaches every user, so only repo admins/maintainers.
+      - name: Check the actor may publish
+        run: |
+          LEVEL=$(gh api "repos/${{ github.repository }}/collaborators/$ACTOR/permission" \
+                    --jq '.permission' 2>/dev/null || echo "none")
+          echo "$ACTOR has $LEVEL permission"
+          if [ "$LEVEL" != "admin" ] && [ "$LEVEL" != "maintain" ]; then
+            echo "::error::$ACTOR (permission: $LEVEL) may not manage polls — admin or maintain required"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci --omit=optional || npm install
+
+      # Every free-text input reaches the script through env: only, never
+      # interpolated into the shell with ${{ inputs.* }} (script injection).
+      - name: Apply
+        env:
+          POLL_QUESTION: ${{ inputs.question }}
+          POLL_YES_LABEL: ${{ inputs.yes_label }}
+          POLL_NO_LABEL: ${{ inputs.no_label }}
+          POLL_CONTEXT: ${{ inputs.context }}
+          POLL_CATEGORY: ${{ inputs.category }}
+          POLL_SOURCE_NAME: ${{ inputs.source_name }}
+          POLL_SOURCE_URL: ${{ inputs.source_url }}
+          POLL_EXTRA_SOURCE_URLS: ${{ inputs.extra_source_urls }}
+          POLL_OPEN_DAYS: ${{ inputs.open_days }}
+          POLL_TREND_SCORE: ${{ inputs.trend_score }}
+          POLL_TAGS: ${{ inputs.tags }}
+          POLL_TOPICS_JSON: ${{ inputs.topics_json }}
+          POLL_TOPIC_IDS: ${{ inputs.topic_ids }}
+          POLL_REASON: ${{ inputs.reason }}
+          POLL_REQUESTED_BY: ${{ inputs.requested_by || github.actor }}
+          POLL_COUNTRY: ${{ inputs.country }}
+          POLL_DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          ACTION: ${{ inputs.action }}
+        run: POLL_SUMMARY_FILE="$GITHUB_STEP_SUMMARY" node scripts/pipeline/manage-topics.js "$ACTION"
+
+      - name: Rebuild feed
+        if: ${{ !inputs.dry_run }}
+        env:
+          DATA_MODE: ${{ vars.DATA_MODE || 'live' }}
+          COUNTRY: ${{ inputs.country || 'IN' }}
+        run: node scripts/pipeline/build-feed.js --country "$COUNTRY"
+
+      - name: Validate before committing
+        if: ${{ !inputs.dry_run }}
+        run: node scripts/pipeline/validate-data.js
+
+      - name: Commit and push
+        id: commit
+        if: ${{ !inputs.dry_run }}
+        env:
+          ACTION: ${{ inputs.action }}
+          WHO: ${{ inputs.requested_by || github.actor }}
+        run: |
+          git config user.name  "2sides-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add topics feeds
+          if git diff --staged --quiet; then
+            echo "no change"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "content: $ACTION poll(s) via manage-polls (by $WHO)"
+          # The snapshot cron shares the concurrency group, but a human push can still land first.
+          git pull --rebase
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # snapshot-tallies rebuilds the feed and runs the website build + deploy,
+      # so triggering it is what publishes the change (~3-4 minutes).
+      - name: Deploy the site
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          gh workflow run snapshot-tallies.yml --ref "${{ github.ref_name }}"
+          echo "Site deploy started — the poll is live in about 4 minutes." >> "$GITHUB_STEP_SUMMARY"
