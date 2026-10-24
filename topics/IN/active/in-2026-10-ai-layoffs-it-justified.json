@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-10-ai-layoffs-it-justified",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "jobs",
+  "status": "published",
+  "question": "Are AI-driven layoffs at Indian IT firms justified cost-cutting?",
+  "context": "Oracle began a fresh round cutting 1,000+ more India jobs, after TCS cut 19,000 in a single quarter and Amazon trimmed Bengaluru/Chennai/Hyderabad teams. India ranks second-worst hit globally in 2026 tech layoffs tied to AI adoption.",
+  "sides": {
+    "yes": "JUSTIFIED",
+    "no": "CORPORATE EXCUSE"
+  },
+  "sources": [
+    {
+      "name": "Deccan Herald",
+      "url": "https://www.deccanherald.com/business/companies/oracle-begins-fresh-round-of-layoffs-over-1000-indian-employees-set-to-lose-jobs-4147165",
+      "verified": false,
+      "publishedAt": "2026-10-09"
+    }
+  ],
+  "tags": [],
+  "trendScore": 66,
+  "publishedAt": "2026-10-24T03:42:54.609Z",
+  "activeFrom": "2026-10-24T03:42:54.609Z",
+  "activeUntil": "2036-10-23T15:42:48.322Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-10-24T03:42:54.609Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-5",
+    "generatedAt": "2026-10-10T05:21:32.287Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

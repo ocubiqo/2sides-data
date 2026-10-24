@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-10-us-tariff-standoff-hold-firm",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "politics",
+  "status": "published",
+  "question": "Should India hold firm on trade talks despite the US tariff standoff?",
+  "context": "FM Sitharaman says tariffs have been 'weaponised' as talks hit a plateau after Commerce Minister Goyal's Oct 5 US visit ended without a deal. India wants an EU-style pact opening 92.5% of tariff lines; the US presses on the trade imbalance.",
+  "sides": {
+    "yes": "HOLD FIRM",
+    "no": "MAKE A DEAL"
+  },
+  "sources": [
+    {
+      "name": "Forbes India",
+      "url": "https://www.forbesindia.com/amp/article/news/india-us-trade-talks-hit-a-plateau-as-fm-flags-tough-road-ahead/2999049/1",
+      "verified": false,
+      "publishedAt": "2026-10-05"
+    }
+  ],
+  "tags": [],
+  "trendScore": 68,
+  "publishedAt": "2026-10-24T03:42:54.609Z",
+  "activeFrom": "2026-10-24T03:42:54.609Z",
+  "activeUntil": "2036-10-23T15:42:48.322Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-10-24T03:42:54.609Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-5",
+    "generatedAt": "2026-10-10T05:21:32.287Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

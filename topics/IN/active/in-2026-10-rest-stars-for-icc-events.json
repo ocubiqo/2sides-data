@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-10-rest-stars-for-icc-events",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "cricket",
+  "status": "published",
+  "question": "Should India rest stars like Bumrah for bilateral series?",
+  "context": "Bumrah was left out of the whole West Indies T20I series (Oct 6-17) since it starts just 3 days after the Asian Games final, with selectors citing scheduling management. Mayank Yadav and Kuldeep Yadav filled the pace/spin gap.",
+  "sides": {
+    "yes": "PRIORITIZE ICC",
+    "no": "PLAY EVERY SERIES"
+  },
+  "sources": [
+    {
+      "name": "CricTracker",
+      "url": "https://www.crictracker.com/cricket-appeal/india-vs-west-indies-why-jasprit-bumrah-was-left-out-of-t20i-squad-9638/",
+      "verified": false,
+      "publishedAt": "2026-09-17"
+    }
+  ],
+  "tags": [],
+  "trendScore": 60,
+  "publishedAt": "2026-10-24T03:42:54.609Z",
+  "activeFrom": "2026-10-24T03:42:54.609Z",
+  "activeUntil": "2036-10-23T15:42:48.322Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-10-24T03:42:54.609Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-5",
+    "generatedAt": "2026-10-10T05:21:32.287Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}

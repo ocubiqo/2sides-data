@@ -1,0 +1,41 @@
+{
+  "id": "in-2026-10-ai-regulation-now-or-later",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "country": "IN",
+  "category": "tech",
+  "status": "published",
+  "question": "Should India regulate AI now, even if it risks slowing growth?",
+  "context": "IT minister Vaishnaw announced on Oct 8 a consultation paper on AI due within 30 days, covering deepfakes, risk tiers for foundation models, and data localization. Industry groups warn early rules could slow India's push for 10,000 GPUs.",
+  "sides": {
+    "yes": "REGULATE NOW",
+    "no": "LET IT GROW"
+  },
+  "sources": [
+    {
+      "name": "India.com",
+      "url": "https://www.india.com/technology/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw-8534081/",
+      "verified": false,
+      "publishedAt": "2026-10-08"
+    }
+  ],
+  "tags": [],
+  "trendScore": 64,
+  "publishedAt": "2026-10-24T03:42:54.609Z",
+  "activeFrom": "2026-10-24T03:42:54.609Z",
+  "activeUntil": "2036-10-23T15:42:48.322Z",
+  "review": {
+    "tier": "auto_publish",
+    "state": "approved",
+    "reviewedBy": "ocubiqo",
+    "reviewedAt": "2026-10-24T03:42:54.609Z",
+    "reason": null
+  },
+  "generation": {
+    "model": "claude-code-manual-research",
+    "pipelineRun": "manual-batch-5",
+    "generatedAt": "2026-10-10T05:21:32.287Z",
+    "sourceCount": 1
+  },
+  "bookmarks": 0
+}
