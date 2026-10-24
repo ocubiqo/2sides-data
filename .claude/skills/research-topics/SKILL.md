@@ -63,7 +63,11 @@ downloads. Until then:
      sides: { yes, no },      // ⚠️ MAX 18 CHARS EACH — plain nouns/short phrases, not sentences
      sources: [{ name, url, verified: false, publishedAt }],
      tags: [],
-     trendScore,               // 0–100, your judgment of how hot it is
+     trendScore,               // 0–100, your judgment of how significant/famous/high-impact it is.
+                               // This is the dominant input to the daily "Topic of the day" pick
+                               // (lib/featured.js) — score a genuinely national, high-impact story
+                               // 80+, routine ones 40–60. Admin can force a day's pick via
+                               // config/featured.json { pin: { topicId, date } }.
      publishedAt, activeFrom,  // now
      activeUntil,               // now + 7 days for hand-curated batches
      review: { tier, state: "pending", reviewedBy: null, reviewedAt: null, reason: null },
