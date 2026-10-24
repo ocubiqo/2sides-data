@@ -1,0 +1,25 @@
+{
+  "topicId": "in-2026-10-ai-layoffs-it-justified",
+  "schemaVersion": 1,
+  "current": {
+    "yes": 0,
+    "no": 0,
+    "total": 0,
+    "pct": 0,
+    "asOf": "2026-10-24T09:56:03.997Z",
+    "velocity": 0
+  },
+  "history": [
+    {
+      "at": "2026-10-24T09:56:03.997Z",
+      "pct": 0,
+      "total": 0
+    }
+  ],
+  "regions": [],
+  "suspect": {
+    "yes": 0,
+    "no": 0,
+    "total": 0
+  }
+}
