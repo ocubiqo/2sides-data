@@ -94,12 +94,11 @@ jobs:
             --decisions .pipeline/decisions.json \
             --approver "$ACTOR"
 
-      - name: Seed sample tallies for newly published topics
-        if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
-        run: node scripts/pipeline/seed-sample-tallies.js --country "$COUNTRY" --only-missing
-
       - name: Rebuild feed
         if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
+        env:
+          # Without this build-feed defaults to "sample" and flips the manifest.
+          DATA_MODE: ${{ vars.DATA_MODE || 'live' }}
         run: node scripts/pipeline/build-feed.js --country "$COUNTRY" --allow-empty
 
       - name: Validate before committing
@@ -112,7 +111,7 @@ jobs:
         run: |
           git config user.name  "2sides-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add topics tallies feeds
+          git add topics feeds
           if git diff --staged --quiet; then
             echo "nothing changed"
             echo "pushed=false" >> "$GITHUB_OUTPUT"
@@ -122,18 +121,12 @@ jobs:
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
-      # Cross-repo trigger — see snapshot-tallies.yml's matching step and the
-      # plan's Phase D4/trap T4. Inert until CLOUDFLARE_PAGES_DEPLOY_HOOK is set.
-      - name: Trigger Cloudflare Pages rebuild
+      # snapshot-tallies rebuilds the feed and builds + deploys the website.
+      - name: Deploy the site
         if: steps.commit.outputs.pushed == 'true'
         env:
-          HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
-        run: |
-          if [ -z "$HOOK" ]; then
-            echo "· CLOUDFLARE_PAGES_DEPLOY_HOOK unset — feed changed but the site won't rebuild yet"
-            exit 0
-          fi
-          curl -fsS -X POST "$HOOK"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run snapshot-tallies.yml --ref "${{ github.ref_name }}"
 
       - name: Report back and close when nothing is left
         if: steps.perm.outputs.allowed == 'true' && steps.parse.outputs.count != '0'
