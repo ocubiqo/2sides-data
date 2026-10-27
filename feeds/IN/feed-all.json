@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-10-27T16:57:30.463Z",
+  "generatedAt": "2026-10-27T21:32:45.862Z",
   "categories": [
     {
       "id": "politics",
@@ -40,77 +40,8 @@
       "accent": "#0A1A3D"
     }
   ],
-  "featuredTopicId": "in-2026-10-ai-layoffs-it-justified",
+  "featuredTopicId": "in-2026-10-us-tariff-standoff-hold-firm",
   "topics": [
-    {
-      "id": "in-2026-10-ai-layoffs-it-justified",
-      "category": "jobs",
-      "question": "Are AI-driven layoffs at Indian IT firms justified cost-cutting?",
-      "context": "Oracle began a fresh round cutting 1,000+ more India jobs, after TCS cut 19,000 in a single quarter and Amazon trimmed Bengaluru/Chennai/Hyderabad teams. India ranks second-worst hit globally in 2026 tech layoffs tied to AI adoption.",
-      "sides": {
-        "yes": "JUSTIFIED",
-        "no": "CORPORATE EXCUSE"
-      },
-      "sources": [
-        {
-          "name": "Deccan Herald",
-          "url": "https://www.deccanherald.com/business/companies/oracle-begins-fresh-round-of-layoffs-over-1000-indian-employees-set-to-lose-jobs-4147165",
-          "verified": false,
-          "publishedAt": "2026-10-09"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-10-24T03:42:54.609Z",
-      "activeUntil": "2036-10-23T15:42:48.322Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 0,
-        "no": 0,
-        "total": 0,
-        "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-10-24T09:56:03.997Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-24T14:58:43.891Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-24T19:55:16.222Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-25T02:03:14.233Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-25T10:18:02.812Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-25T15:09:49.504Z",
-            "pct": 0
-          },
-          {
-            "at": "2026-10-25T20:05:26.164Z",
-            "pct": 0
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 0,
-            "votes": 0
-          }
-        ]
-      },
-      "featured": true
-    },
     {
       "id": "in-2026-10-us-tariff-standoff-hold-firm",
       "category": "politics",
@@ -137,7 +68,7 @@
         "no": 0,
         "total": 1,
         "pct": 100,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -177,6 +108,75 @@
             "votes": 1
           }
         ]
+      },
+      "featured": true
+    },
+    {
+      "id": "in-2026-10-ai-layoffs-it-justified",
+      "category": "jobs",
+      "question": "Are AI-driven layoffs at Indian IT firms justified cost-cutting?",
+      "context": "Oracle began a fresh round cutting 1,000+ more India jobs, after TCS cut 19,000 in a single quarter and Amazon trimmed Bengaluru/Chennai/Hyderabad teams. India ranks second-worst hit globally in 2026 tech layoffs tied to AI adoption.",
+      "sides": {
+        "yes": "JUSTIFIED",
+        "no": "CORPORATE EXCUSE"
+      },
+      "sources": [
+        {
+          "name": "Deccan Herald",
+          "url": "https://www.deccanherald.com/business/companies/oracle-begins-fresh-round-of-layoffs-over-1000-indian-employees-set-to-lose-jobs-4147165",
+          "verified": false,
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 0,
+        "no": 0,
+        "total": 0,
+        "pct": 0,
+        "asOf": "2026-10-27T21:32:45.746Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-10-24T09:56:03.997Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-24T14:58:43.891Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-24T19:55:16.222Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-25T02:03:14.233Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-25T10:18:02.812Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-25T15:09:49.504Z",
+            "pct": 0
+          },
+          {
+            "at": "2026-10-25T20:05:26.164Z",
+            "pct": 0
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 0,
+            "votes": 0
+          }
+        ]
       }
     },
     {
@@ -205,7 +205,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -273,7 +273,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -341,7 +341,7 @@
         "no": 0,
         "total": 2,
         "pct": 100,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -409,7 +409,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -477,7 +477,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -545,7 +545,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -613,7 +613,7 @@
         "no": 0,
         "total": 3,
         "pct": 100,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -681,7 +681,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -749,7 +749,7 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -817,7 +817,7 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -885,7 +885,7 @@
         "no": 1,
         "total": 1,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -965,7 +965,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1033,7 +1033,7 @@
         "no": 0,
         "total": 1,
         "pct": 100,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1101,7 +1101,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1181,7 +1181,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1249,7 +1249,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1317,7 +1317,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1397,7 +1397,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1465,7 +1465,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-27T16:57:30.311Z",
+        "asOf": "2026-10-27T21:32:45.746Z",
         "velocity": 0,
         "trend": [
           {
@@ -1508,5 +1508,5 @@
       }
     }
   ],
-  "feedVersion": "2026-10-27T16:57:30.463Z-daabcd"
+  "feedVersion": "2026-10-27T21:32:45.862Z-1c5333"
 }
