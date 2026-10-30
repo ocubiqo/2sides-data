@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-10-30T17:22:23.622Z",
+  "generatedAt": "2026-10-30T21:44:56.089Z",
   "categories": [
     {
       "id": "politics",
@@ -40,77 +40,8 @@
       "accent": "#0A1A3D"
     }
   ],
-  "featuredTopicId": "in-2026-10-us-tariff-standoff-hold-firm",
+  "featuredTopicId": "in-2026-10-ai-layoffs-it-justified",
   "topics": [
-    {
-      "id": "in-2026-10-us-tariff-standoff-hold-firm",
-      "category": "politics",
-      "question": "Should India hold firm on trade talks despite the US tariff standoff?",
-      "context": "FM Sitharaman says tariffs have been 'weaponised' as talks hit a plateau after Commerce Minister Goyal's Oct 5 US visit ended without a deal. India wants an EU-style pact opening 92.5% of tariff lines; the US presses on the trade imbalance.",
-      "sides": {
-        "yes": "HOLD FIRM",
-        "no": "MAKE A DEAL"
-      },
-      "sources": [
-        {
-          "name": "Forbes India",
-          "url": "https://www.forbesindia.com/amp/article/news/india-us-trade-talks-hit-a-plateau-as-fm-flags-tough-road-ahead/2999049/1",
-          "verified": false,
-          "publishedAt": "2026-10-05"
-        }
-      ],
-      "bookmarks": 0,
-      "publishedAt": "2026-10-24T03:42:54.609Z",
-      "activeUntil": "2036-10-23T15:42:48.322Z",
-      "contentVersion": 1,
-      "tally": {
-        "yes": 1,
-        "no": 0,
-        "total": 1,
-        "pct": 100,
-        "asOf": "2026-10-30T17:22:23.545Z",
-        "velocity": 0,
-        "trend": [
-          {
-            "at": "2026-10-24T09:56:03.997Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-24T14:58:43.891Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-24T19:55:16.222Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-25T02:03:14.233Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-25T10:18:02.812Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-25T15:09:49.504Z",
-            "pct": 100
-          },
-          {
-            "at": "2026-10-25T20:05:26.164Z",
-            "pct": 100
-          }
-        ],
-        "delta": "0",
-        "regions": [
-          {
-            "label": "India",
-            "pct": 100,
-            "votes": 1
-          }
-        ]
-      },
-      "featured": true
-    },
     {
       "id": "in-2026-10-ai-layoffs-it-justified",
       "category": "jobs",
@@ -137,7 +68,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -177,6 +108,75 @@
             "votes": 0
           }
         ]
+      },
+      "featured": true
+    },
+    {
+      "id": "in-2026-10-us-tariff-standoff-hold-firm",
+      "category": "politics",
+      "question": "Should India hold firm on trade talks despite the US tariff standoff?",
+      "context": "FM Sitharaman says tariffs have been 'weaponised' as talks hit a plateau after Commerce Minister Goyal's Oct 5 US visit ended without a deal. India wants an EU-style pact opening 92.5% of tariff lines; the US presses on the trade imbalance.",
+      "sides": {
+        "yes": "HOLD FIRM",
+        "no": "MAKE A DEAL"
+      },
+      "sources": [
+        {
+          "name": "Forbes India",
+          "url": "https://www.forbesindia.com/amp/article/news/india-us-trade-talks-hit-a-plateau-as-fm-flags-tough-road-ahead/2999049/1",
+          "verified": false,
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "bookmarks": 0,
+      "publishedAt": "2026-10-24T03:42:54.609Z",
+      "activeUntil": "2036-10-23T15:42:48.322Z",
+      "contentVersion": 1,
+      "tally": {
+        "yes": 1,
+        "no": 0,
+        "total": 1,
+        "pct": 100,
+        "asOf": "2026-10-30T21:44:55.974Z",
+        "velocity": 0,
+        "trend": [
+          {
+            "at": "2026-10-24T09:56:03.997Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-24T14:58:43.891Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-24T19:55:16.222Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-25T02:03:14.233Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-25T10:18:02.812Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-25T15:09:49.504Z",
+            "pct": 100
+          },
+          {
+            "at": "2026-10-25T20:05:26.164Z",
+            "pct": 100
+          }
+        ],
+        "delta": "0",
+        "regions": [
+          {
+            "label": "India",
+            "pct": 100,
+            "votes": 1
+          }
+        ]
       }
     },
     {
@@ -205,7 +205,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -273,7 +273,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -341,7 +341,7 @@
         "no": 0,
         "total": 2,
         "pct": 100,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -409,7 +409,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -477,7 +477,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -545,7 +545,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -613,7 +613,7 @@
         "no": 0,
         "total": 3,
         "pct": 100,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -681,7 +681,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -749,7 +749,7 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -817,7 +817,7 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -885,7 +885,7 @@
         "no": 1,
         "total": 1,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -965,7 +965,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1033,7 +1033,7 @@
         "no": 0,
         "total": 1,
         "pct": 100,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1101,7 +1101,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1181,7 +1181,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1249,7 +1249,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1317,7 +1317,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1397,7 +1397,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1465,7 +1465,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-10-30T17:22:23.545Z",
+        "asOf": "2026-10-30T21:44:55.974Z",
         "velocity": 0,
         "trend": [
           {
@@ -1508,5 +1508,5 @@
       }
     }
   ],
-  "feedVersion": "2026-10-30T17:22:23.622Z-1cd94c"
+  "feedVersion": "2026-10-30T21:44:56.089Z-6144d5"
 }
