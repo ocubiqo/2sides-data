@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IN",
-  "generatedAt": "2026-11-13T13:32:07.046Z",
+  "generatedAt": "2026-11-13T22:58:15.337Z",
   "categories": [
     {
       "id": "politics",
@@ -40,27 +40,27 @@
       "accent": "#0A1A3D"
     }
   ],
-  "featuredTopicId": "in-2026-09-ipl-impact-player-2027",
+  "featuredTopicId": "in-2026-09-trophy-protest-politics",
   "topics": [
     {
-      "id": "in-2026-09-ipl-impact-player-2027",
+      "id": "in-2026-09-trophy-protest-politics",
       "category": "cricket",
-      "question": "Should the IPL scrap the Impact Player rule for 2027?",
-      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
+      "question": "Should Indian teams decline trophy presentations over political tensions?",
+      "context": "India's women's cricket team declined the Asia Cup trophy from Asian Cricket Council president Mohsin Naqvi after beating Sri Lanka, citing India-Pakistan tensions. BCCI says the stance reflects public sentiment; critics say sport should stay separate from diplomacy.",
       "sides": {
-        "yes": "SCRAP IT",
-        "no": "KEEP IT"
+        "yes": "TAKE A STAND",
+        "no": "KEEP SEPARATE"
       },
       "sources": [
         {
-          "name": "Sunday Guardian Live",
-          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
+          "name": "Outlook India",
+          "url": "https://www.outlookindia.com/sports/cricket/india-vs-sri-lanka-womens-asia-cup-2026-mohsin-naqvi-trophy-controversy-explained-amol-muzumdar",
           "verified": true,
-          "publishedAt": "2026-06-02"
+          "publishedAt": "2026-09-14"
         }
       ],
       "bookmarks": 0,
-      "publishedAt": "2026-09-24T13:14:55.945Z",
+      "publishedAt": "2026-09-24T13:10:53.004Z",
       "activeUntil": "2036-10-23T15:42:48.322Z",
       "contentVersion": 1,
       "tally": {
@@ -68,12 +68,12 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
-            "pct": 100
+            "pct": 67
           },
           {
             "at": "2026-09-28T22:42:17.484Z",
@@ -100,7 +100,7 @@
             "pct": 67
           }
         ],
-        "delta": "-33",
+        "delta": "0",
         "regions": [
           {
             "label": "India",
@@ -137,7 +137,7 @@
         "no": 0,
         "total": 1,
         "pct": 100,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -205,7 +205,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -273,7 +273,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -341,7 +341,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -409,7 +409,7 @@
         "no": 0,
         "total": 2,
         "pct": 100,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -477,7 +477,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -545,7 +545,7 @@
         "no": 1,
         "total": 2,
         "pct": 50,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -613,7 +613,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -681,7 +681,7 @@
         "no": 0,
         "total": 3,
         "pct": 100,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -749,7 +749,7 @@
         "no": 2,
         "total": 2,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -792,24 +792,24 @@
       }
     },
     {
-      "id": "in-2026-09-trophy-protest-politics",
+      "id": "in-2026-09-ipl-impact-player-2027",
       "category": "cricket",
-      "question": "Should Indian teams decline trophy presentations over political tensions?",
-      "context": "India's women's cricket team declined the Asia Cup trophy from Asian Cricket Council president Mohsin Naqvi after beating Sri Lanka, citing India-Pakistan tensions. BCCI says the stance reflects public sentiment; critics say sport should stay separate from diplomacy.",
+      "question": "Should the IPL scrap the Impact Player rule for 2027?",
+      "context": "The rule lets teams swap in a substitute batter without touching the bowling lineup. Sachin Tendulkar has called for it to go, saying it sidelines genuine all-rounders; supporters — including most franchises polled by the BCCI — say it adds tactical depth and boosts scoring.",
       "sides": {
-        "yes": "TAKE A STAND",
-        "no": "KEEP SEPARATE"
+        "yes": "SCRAP IT",
+        "no": "KEEP IT"
       },
       "sources": [
         {
-          "name": "Outlook India",
-          "url": "https://www.outlookindia.com/sports/cricket/india-vs-sri-lanka-womens-asia-cup-2026-mohsin-naqvi-trophy-controversy-explained-amol-muzumdar",
+          "name": "Sunday Guardian Live",
+          "url": "https://sundayguardianlive.com/sports/ipl-2027-impact-player-rule-under-review-as-bcci-and-franchise-owners-revisit-controversial-rule-after-sachin-tendulkars-criticism-200076/",
           "verified": true,
-          "publishedAt": "2026-09-14"
+          "publishedAt": "2026-06-02"
         }
       ],
       "bookmarks": 0,
-      "publishedAt": "2026-09-24T13:10:53.004Z",
+      "publishedAt": "2026-09-24T13:14:55.945Z",
       "activeUntil": "2036-10-23T15:42:48.322Z",
       "contentVersion": 1,
       "tally": {
@@ -817,12 +817,12 @@
         "no": 1,
         "total": 3,
         "pct": 67,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
             "at": "2026-09-28T15:16:27.894Z",
-            "pct": 67
+            "pct": 100
           },
           {
             "at": "2026-09-28T22:42:17.484Z",
@@ -849,7 +849,7 @@
             "pct": 67
           }
         ],
-        "delta": "0",
+        "delta": "-33",
         "regions": [
           {
             "label": "India",
@@ -885,7 +885,7 @@
         "no": 1,
         "total": 1,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -965,7 +965,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1033,7 +1033,7 @@
         "no": 0,
         "total": 1,
         "pct": 100,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1101,7 +1101,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1181,7 +1181,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1249,7 +1249,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1317,7 +1317,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1397,7 +1397,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1465,7 +1465,7 @@
         "no": 0,
         "total": 0,
         "pct": 0,
-        "asOf": "2026-11-13T13:32:06.947Z",
+        "asOf": "2026-11-13T22:58:15.215Z",
         "velocity": 0,
         "trend": [
           {
@@ -1508,5 +1508,5 @@
       }
     }
   ],
-  "feedVersion": "2026-11-13T13:32:07.046Z-1bb31e"
+  "feedVersion": "2026-11-13T22:58:15.337Z-7a2c01"
 }
