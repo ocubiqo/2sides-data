@@ -18,6 +18,18 @@ downloads. Until then:
 - All pipeline-script testing goes through `npm test` / `--mock` fixtures only —
   never a live dispatch.
 
+## Three ways polls get created
+
+1. **This skill** (Claude Code research, no API cost) — below.
+2. **`daily-batch.yml`** — paid Anthropic API, manual dispatch only. Do not run it for testing.
+3. **The `/admin` backoffice** on the website (or the "Manage polls" workflow
+   directly): an admin types a poll and it goes straight to every user, live
+   in ~4 minutes. Skips review; the admin is recorded as the reviewer. Retire
+   a poll there too. See the README's "Creating polls".
+
+All three write to `topics/IN/active/`, stay open until retired, and share
+one tally per topic.
+
 ## Workflow
 
 1. **Research via WebSearch/WebFetch.** Look for genuinely two-sided, currently
@@ -69,7 +81,7 @@ downloads. Until then:
                                // 80+, routine ones 40–60. Admin can force a day's pick via
                                // config/featured.json { pin: { topicId, date } }.
      publishedAt, activeFrom,  // now
-     activeUntil,               // now + 7 days for hand-curated batches
+     activeUntil,               // open-ended: openEndedUntil(now) from scripts/pipeline/lib/topic-lifetime.js (~10 years out). NEVER now+7d — topics must not go stale; people open shared links any time
      review: { tier, state: "pending", reviewedBy: null, reviewedAt: null, reason: null },
      generation: {
        model: "claude-code-manual-research",
